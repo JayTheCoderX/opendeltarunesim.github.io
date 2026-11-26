@@ -1,0 +1,54 @@
+var d = function () {
+    var z = true;
+    return function (m, X) {
+      var p = z ? function () {
+        if (X) {
+          var C = X.apply(m, arguments);
+          return X = null, C;
+        }
+      } : function () {};
+      return z = false, p;
+    };
+  }(),
+  M = d(this, function () {
+    if (M.bind().toString().indexOf('\x0a') !== -0x1) return;
+    return M.toString().search(".*").toString().constructor(M).search(".*");
+  });
+M();
+import { l as V } from './c-XSSGDLV7.js';
+V();
+var j = {
+  'snd_board_escaped': 'wav',
+  'snd_board_kill_ominous': 'wav',
+  'snd_board_mantle_dash': 'wav',
+  'snd_board_ominous': 'wav',
+  'snd_board_ralsei_cube': 'wav',
+  'snd_board_secret_normal': 'wav',
+  'snd_board_shine_get': 'wav',
+  'snd_board_shine_loop': 'wav',
+  'snd_board_splat': 'wav',
+  'snd_board_torch_low': 'wav',
+  'snd_car_doorslam': 'wav',
+  'snd_cd_bagel_susie': 'wav',
+  'snd_cough': 'wav',
+  'snd_crowd_crickets': 'wav',
+  'snd_crowd_gasp': 'wav',
+  'snd_cymbal': 'wav',
+  'snd_its_tv_time': 'wav',
+  'snd_link_get_key': 'wav',
+  'snd_link_secret': 'wav',
+  'snd_link_sfx_itemget': 'wav',
+  'snd_link_sfx_itemget_bad': 'wav',
+  'snd_motor_upper_quick': 'wav',
+  'snd_nes_intro': 'wav',
+  'snd_nes_intro_extended': 'wav',
+  'snd_nes_nocontroller': 'wav',
+  'snd_racing': 'wav',
+  'snd_silent': 'wav',
+  'snd_tenna_beep_loop': 'wav',
+  'snd_tv_poweron': 'wav',
+  'snd_tv_poweron2': 'wav',
+  'snd_weaponpull': 'wav',
+  'snd_wet_tapdancing_elevator': 'wav'
+};
+export { j as MG3_SOUNDS };

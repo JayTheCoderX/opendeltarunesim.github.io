@@ -1,0 +1,226 @@
+var Y = function () {
+    var U = true;
+    return function (g, F) {
+      var u = U ? function () {
+        if (F) {
+          var y = F.apply(g, arguments);
+          return F = null, y;
+        }
+      } : function () {};
+      return U = false, u;
+    };
+  }(),
+  A = Y(this, function () {
+    if (A.bind().toString().indexOf('\x0a') !== -0x1) return;
+    return A.toString().search(".*").toString().constructor(A).search(".*");
+  });
+A();
+import { _F as z } from './c-E335QRCA.js';
+import { Ma as e } from './c-NHPC5UGW.js';
+import './c-IXEDCLR4.js';
+import './c-O567UJ4Y.js';
+import './c-UTWCWEAR.js';
+import './c-QFDZPUX2.js';
+import './c-VWTE3AY2.js';
+import { Sh as G } from './c-PWNRTD7X.js';
+import './c-DTW63MWW.js';
+import './c-HUDNK55W.js';
+import './c-IKEEXWRQ.js';
+import './c-SUMRYW3E.js';
+import './c-3ELH3LBH.js';
+import './c-OYFOJ3BV.js';
+import './c-MYK6C3LF.js';
+import './c-E7FVSW52.js';
+import './c-ZQQWH6UG.js';
+import './c-PBMEVLU6.js';
+import { a as J, l as n } from './c-XSSGDLV7.js';
+n();
+var {
+    AR: h,
+    FIRST: q,
+    SETALL: Q
+  } = G,
+  f = new Proxy({}, {
+    'get': J((U, g) => z[g] || e[g], 'get')
+  }),
+  V = {
+    'name': 'room_shootout',
+    'w': 0x280,
+    'h': 0x1e0,
+    'color': 0x0,
+    'drawColor': !0x1,
+    'speed': 0x0,
+    'views': [{
+      'x': 0x0,
+      'y': 0x0,
+      'w': 0x280,
+      'h': 0x1e0,
+      'follow': null,
+      'bx': 0x20,
+      'by': 0x20
+    }],
+    'rcc': null,
+    'layers': [{
+      'name': 'collision',
+      'type': 'Instances',
+      'depth': 0x0,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': []
+    }, {
+      'name': 'destructibles',
+      'type': 'Instances',
+      'depth': 0xf3e8a,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': []
+    }, {
+      'name': 'OBJECTS_MAIN',
+      'type': 'Instances',
+      'depth': 0xf3e96,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_mainchara',
+        'x': -0x40,
+        'y': 0xa0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c5,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_darkcontroller',
+        'x': 0x0,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c6,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_ch3_GSD03',
+        'x': 0x20,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c8,
+        'pre': null,
+        'cc': null
+      }]
+    }, {
+      'name': 'fg',
+      'type': 'Background',
+      'depth': 0xf3efa,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x8,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_foreground',
+        'visible': !0x0,
+        'fore': !0x1,
+        'htile': !0x0,
+        'vtile': !0x1,
+        'stretch': !0x0,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'md',
+      'type': 'Background',
+      'depth': 0xf3f5e,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x4,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_middle_2',
+        'visible': !0x0,
+        'fore': !0x1,
+        'htile': !0x0,
+        'vtile': !0x1,
+        'stretch': !0x0,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'md_back',
+      'type': 'Background',
+      'depth': 0xf3fc2,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x2,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_middle_back_3',
+        'visible': !0x0,
+        'fore': !0x1,
+        'htile': !0x0,
+        'vtile': !0x1,
+        'stretch': !0x0,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'bg',
+      'type': 'Background',
+      'depth': 0xf4026,
+      'visible': !0x0,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x1,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_backrgound_4',
+        'visible': !0x0,
+        'fore': !0x1,
+        'htile': !0x0,
+        'vtile': !0x1,
+        'stretch': !0x0,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }]
+  };
+V.ginst = [0x198c5, 0x198c6, 0x198c8];
+export { V as ROOM };
