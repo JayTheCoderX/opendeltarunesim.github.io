@@ -578,7 +578,7 @@ var u = {
       htile: false,
       vtile: false,
       stretch: false,
-      color: 6710886,
+      color: 6710886, // TODO: Convert all of these back into hex (One thing the automatic deobfuscator actually made worse)
       alpha: 1,
       frame: 0,
       speed: 15
