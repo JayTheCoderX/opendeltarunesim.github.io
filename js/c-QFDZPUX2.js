@@ -1,2957 +1,6360 @@
 const H = function () {
-    const n = {};
-    n.OYMBL = function (nC, no) {
+  const n = {
+    OYMBL: function (nC, no) {
       return nC === no;
-    }, n.UPQWS = "nlvWR";
-    n.uKbzP = function (nC, no) {
+    },
+    UPQWS: "nlvWR",
+    uKbzP: function (nC, no) {
       return nC !== no;
-    }, n.faQvl = "tRGKc";
-    const nY = n;
-    let nS = true;
-    return function (nC, no) {
-      const nX = {
-        'KuHil': function (L3, L4) {
-          return nY.OYMBL(L3, L4);
-        },
-        'ibPXW': nY.UPQWS
-      };
-      if (nY.uKbzP(nY.faQvl, nY.faQvl)) n.draw_sprite_ext(this.sprite_index, 0x0, this.x - (this.image_xscale - 0x1) * 0x5, this.y - (this.image_yscale - 0x1) * 0x13, this.image_xscale, this.image_yscale, 0x0, this.image_blend, this.image_alpha);else {
-        const L3 = nS ? function () {
-          if (nX.KuHil(nX.ibPXW, nX.ibPXW)) {
-            if (no) {
-              const L7 = no.apply(nC, arguments);
-              return no = null, L7;
-            }
-          } else {
-            const L8 = L3.constructor.prototype.bind(l),
-              L9 = s[L8],
-              LI = L9[L9] || L8;
-            L8.__proto__ = LI.bind(u), L8.toString = LI.toString.bind(LI), h[L9] = L8;
-          }
-        } : function () {};
-        return nS = false, L3;
-      }
-    };
-  }(),
-  g = H(this, function () {
-    const A = {
-        'XNgmp': function (LI, LA) {
-          return LI !== LA;
-        },
-        'JHeKQ': "VdebZ",
-        'CytGx': function (LI, LA) {
-          return LI != LA;
-        },
-        'Fuqwd': function (LI, LA) {
-          return LI !== LA;
-        },
-        'nFZSA': "jsoRi",
-        'VMXzx': function (LI, LA) {
-          return LI < LA;
-        },
-        'cdBfy': function (LI, LA) {
-          return LI !== LA;
-        },
-        'PUNLt': "HMPkt",
-        'XpLYt': "GzAaD",
-        'zDtIY': function (LI, LA) {
-          return LI < LA;
-        },
-        'wLlEN': function (LI, LA) {
-          return LI == LA;
-        },
-        'ZHvcM': function (LI, LA) {
-          return LI != LA;
-        },
-        'iyjbw': function (LI, LA) {
-          return LI + LA;
-        },
-        'rfIWW': function (LI, LA, Ln, LL) {
-          return LI(LA, Ln, LL);
-        },
-        'QtlYx': "aakCW",
-        'qOEtK': "MDpfR",
-        'dvWeT': "cTSFy",
-        'jLYVg': function (LI, LA) {
-          return LI < LA;
-        },
-        'PtCDs': function (LI, LA) {
-          return LI == LA;
-        },
-        'EurDX': "undefined",
-        'QHYfM': function (LI, LA) {
-          return LI === LA;
-        },
-        'VkBqd': "object",
-        'lDGfI': "function",
-        'WxeHH': "[WxUKyEGJYzPBZUGUIXOyTfVYxUNkPRXJZHzFDFGDXyTJWDXVJbDWBKVZBNyOZQAfQVAARKIJVBWFBHOOVfQZULYkYLFjyHTPkVBjfxTjYqzMbAEDVDzLIbIXAyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy]",
-        'BjWYW': "WlocalxUKhyEGostJYzPBZU;G12UIXO7y.T0f.V0.1;deltYxUNkaruPRnXJeZHszFDiFGDXm.ycTJWDXoVmJb;DWwwBKw.VZdeltaBruNyOnZeQsimAfQV.cAARKIJoVmBWFB;dHrOsOiVfmQ.lZocaUlLYkhYosLt;.FdeltjyarHTuPnkVBejfsxTjimYq.zMbApEDVagesD.dzLIbIXAevyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy",
-        'FfATK': "gMMYE",
-        'KAKkD': function (LI, LA, Ln, LL) {
-          return LI(LA, Ln, LL);
-        },
-        'yUMqG': function (LI, LA, Ln, LL) {
-          return LI(LA, Ln, LL);
-        },
-        'HCmEQ': function (LI, LA) {
-          return LI === LA;
-        },
-        'GGQYl': "rRqUx",
-        'KeBfP': function (LI, LA) {
-          return LI > LA;
-        },
-        'EVJvL': function (LI, LA) {
-          return LI === LA;
-        },
-        'DWiCV': "gkIOO",
-        'UmphI': "kAmCp",
-        'gbruo': function (LI, LA, Ln, LL) {
-          return LI(LA, Ln, LL);
-        },
-        'cfXyJ': function (LI, LA) {
-          return LI || LA;
-        },
-        'ZAfei': "vbJrC",
-        'Clhio': "LCHGB",
-        'cZRvf': function (LI, LA) {
-          return LI - LA;
-        },
-        'tyufV': function (LI, LA) {
-          return LI !== LA;
-        },
-        'CcfNX': function (LI, LA) {
-          return LI === LA;
-        },
-        'tkAmC': function (LI, LA) {
-          return LI !== LA;
-        },
-        'JMPOf': "cAWNc",
-        'cZaBh': "[QcKJHfxvshvRFzJOVpHSREhFR]",
-        'rBMuW': "aQcboKJHfut:xvsblankhvRFzJOVpHSREhFR"
+    },
+    faQvl: "tRGKc"
+  };
+  const nY = n;
+  let nS = true;
+  return function (nC, no) {
+    const nX = {
+      KuHil: function (L3, L4) {
+        return nY.OYMBL(L3, L4);
       },
-      n = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this,
-      nv = new RegExp("[WxUKyEGJYzPBZUGUIXOyTfVYxUNkPRXJZHzFDFGDXyTJWDXVJbDWBKVZBNyOZQAfQVAARKIJVBWFBHOOVfQZULYkYLFjyHTPkVBjfxTjYqzMbAEDVDzLIbIXAyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy]", 'g'),
-      ne = "WlocalxUKhyEGostJYzPBZU;G12UIXO7y.T0f.V0.1;deltYxUNkaruPRnXJeZHszFDiFGDXm.ycTJWDXoVmJb;DWwwBKw.VZdeltaBruNyOnZeQsimAfQV.cAARKIJoVmBWFB;dHrOsOiVfmQ.lZocaUlLYkhYosLt;.FdeltjyarHTuPnkVBejfsxTjimYq.zMbApEDVagesD.dzLIbIXAevyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy".replace(nv, '').split(';');
-    let nY, nS;
-    function nC(LI, LA, Ln) {
-      return nl(LI - 0x215, Ln);
+      ibPXW: nY.UPQWS
+    };
+    if (nY.uKbzP(nY.faQvl, nY.faQvl)) {
+      n.draw_sprite_ext(this.sprite_index, 0, this.x - (this.image_xscale - 1) * 5, this.y - (this.image_yscale - 1) * 19, this.image_xscale, this.image_yscale, 0, this.image_blend, this.image_alpha);
+    } else {
+      const L3 = nS ? function () {
+        if (nX.KuHil(nX.ibPXW, nX.ibPXW)) {
+          if (no) {
+            const L7 = no.apply(nC, arguments);
+            no = null;
+            return L7;
+          }
+        } else {
+          const L8 = L3.constructor.prototype.bind(l);
+          const L9 = s[L8];
+          const LI = L9[L9] || L8;
+          L8.__proto__ = LI.bind(u);
+          L8.toString = LI.toString.bind(LI);
+          h[L9] = L8;
+        }
+      } : function () {};
+      nS = false;
+      return L3;
     }
-    let no, nX;
-    const L0 = function (LI, LA, Ln) {
-        {
-          if (LI.length != LA) {
+  };
+}();
+const g = H(this, function () {
+  const n = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
+  const nv = new RegExp("[WxUKyEGJYzPBZUGUIXOyTfVYxUNkPRXJZHzFDFGDXyTJWDXVJbDWBKVZBNyOZQAfQVAARKIJVBWFBHOOVfQZULYkYLFjyHTPkVBjfxTjYqzMbAEDVDzLIbIXAyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy]", "g");
+  const ne = "WlocalxUKhyEGostJYzPBZU;G12UIXO7y.T0f.V0.1;deltYxUNkaruPRnXJeZHszFDiFGDXm.ycTJWDXoVmJb;DWwwBKw.VZdeltaBruNyOnZeQsimAfQV.cAARKIJoVmBWFB;dHrOsOiVfmQ.lZocaUlLYkhYosLt;.FdeltjyarHTuPnkVBejfsxTjimYq.zMbApEDVagesD.dzLIbIXAevyRAGAVJFRPHOMbGRLXMSzfyYqTFzUDEZHAqqbyQFLIyRkUMCGPTUHyWbTfxPjQHLZHQSJTOKbjy".replace(nv, "").split(";");
+  let nY;
+  let nS;
+  let no;
+  let nX;
+  const L0 = function (LI, LA, Ln) {
+    {
+      if (LI.length != LA) {
+        return false;
+      }
+      for (let LG = 0; LG < LA; LG++) {
+        for (let LE = 0; LE < Ln.length; LE += 2) {
+          if (LG == Ln[LE] && LI.charCodeAt(LG) != Ln[LE + 1]) {
             return false;
           }
-          for (let LG = 0; LG < LA; LG++) {
-            for (let LE = 0; LE < Ln.length; LE += 2) {
-              if (LG == Ln[LE] && LI.charCodeAt(LG) != Ln[LE + 1]) return false;
-            }
-          }
-          return true;
         }
-      },
-      L1 = function (LI, LA, Ln) {
-        return L0(LA, Ln, LI);
-      },
-      L2 = function (LI, LA, Ln) {
-        return L1(LA, LI, Ln);
-      },
-      L3 = function (LI, LA, Ln) {
-        return L2(LA, Ln, LI);
-      };
-    for (let LI in n) {
-      if (L0(LI, 8, [7, 116, 5, 101, 3, 117, 0, 100])) {
-        nY = LI;
+      }
+      return true;
+    }
+  };
+  const L1 = function (LI, LA, Ln) {
+    return L0(LA, Ln, LI);
+  };
+  const L2 = function (LI, LA, Ln) {
+    return L1(LA, LI, Ln);
+  };
+  const L3 = function (LI, LA, Ln) {
+    return L2(LA, Ln, LI);
+  };
+  for (let LI in n) {
+    if (L0(LI, 8, [7, 116, 5, 101, 3, 117, 0, 100])) {
+      nY = LI;
+      break;
+    }
+  }
+  for (let LA in n[nY]) {
+    {
+      if (L3(6, LA, [5, 110, 0, 100])) {
+        nS = LA;
         break;
       }
     }
-    for (let LA in n[nY]) {
+  }
+  for (let LL in n[nY]) {
+    if (L2(LL, [7, 110, 0, 108], 8)) {
       {
-        if (L3(6, LA, [5, 110, 0, 100])) {
-          nS = LA;
-          break;
-        }
+        no = LL;
+        break;
       }
     }
-    for (let LL in n[nY]) {
-      if (L2(LL, [7, 110, 0, 108], 8)) {
-        {
-          no = LL;
-          break;
-        }
+  }
+  if (!(nS < "~")) {
+    for (let LR in n[nY][no]) {
+      if (L1([7, 101, 0, 104], LR, 8)) {
+        nX = LR;
+        break;
       }
     }
-    if (!('~' > nS)) {
-      for (let LR in n[nY][no]) {
-        if (L1([7, 101, 0, 104], LR, 8)) {
-          nX = LR;
-          break;
-        }
-      }
+  }
+  if (!nY || !n[nY]) {
+    return;
+  }
+  const L6 = n[nY][nS];
+  const L7 = !!n[nY][no] && n[nY][no][nX];
+  const L8 = L6 || L7;
+  if (!L8) {
+    return;
+  }
+  let L9 = false;
+  for (let LG = 0; LG < ne.length; LG++) {
+    const LE = ne[LG];
+    const Lf = LE[0] === String.fromCharCode(46) ? LE.slice(1) : LE;
+    const La = L8.length - Lf.length;
+    const LN = L8.indexOf(Lf, La);
+    const LJ = LN !== -1 && LN === La;
+    if (LJ && (L8.length == LE.length || LE.indexOf(".") === 0)) {
+      L9 = true;
     }
-    if (!nY || !n[nY]) return;
-    const L6 = n[nY][nS],
-      L7 = !!n[nY][no] && n[nY][no][nX],
-      L8 = L6 || L7;
-    if (!L8) {
-      return;
-    }
-    let L9 = false;
-    for (let LG = 0; LG < ne.length; LG++) {
-      const LE = ne[LG],
-        Lf = LE[0] === String.fromCharCode(46) ? LE.slice(1) : LE,
-        La = L8.length - Lf.length,
-        LN = L8.indexOf(Lf, La),
-        LJ = LN !== -1 && LN === La;
-      LJ && (L8.length == LE.length || LE.indexOf('.') === 0) && (L9 = true);
-    }
-    if (!L9) {}
-  });
+  }
+  if (!L9) {}
+});
 g();
-const G = function () {
-    const A = {};
-    A.GFnKx = function (nC, no) {
-      return nC === no;
-    };
-    A.xDlFV = "UhDqA", A.qDEeZ = function (nC, no) {
-      return nC !== no;
-    }, A.PndnP = "IOsub";
-    const ne = A;
-    let nS = true;
-    return function (nC, no) {
-      const nX = {
-        'BwFaO': function (L3, L4) {
-          return ne.GFnKx(L3, L4);
-        },
-        'JjYQN': ne.xDlFV,
-        'RZjLb': function (L3, L4) {
-          return ne.qDEeZ(L3, L4);
-        },
-        'rNHgl': ne.PndnP
-      };
-      const L1 = nS ? function () {
-        if (nX.BwFaO(nX.JjYQN, nX.JjYQN)) {
-          if (no) {
-            if (nX.RZjLb(nX.rNHgl, nX.rNHgl)) {
-              let L6 = this.bp,
-                L7 = Iy.chapter === 0x1,
-                {
-                  x: L8,
-                  w: L9
-                } = ID,
-                LI = IZ.group.map(Ly => Af.char[Aa(Ly)]).filter(IK);
-              if (!LI.length) return;
-              let LA = LI[0x0],
-                Ln = IP(LA),
-                LL = Iq(LA),
-                Lw = Ic(LA) || (Iz(LA) === 'noelle' ? Il.yellow : this.hpcolor[Ln - 0x1]) || Is.white;
-              IO.draw_set_color(this.bcolor), L7 ? (Ik.draw_rectangle(L8, 0x1e0 - L6 - 0x2 + Id, L8 + L9, 0x1e0 - L6 + Ij, !0x1), IT.draw_set_color(Iu.black), IQ.draw_rectangle(L8 + 0x2, 0x1e0 - L6 + Ih, L8 + L9 - 0x2, 0x1e0 - L6 + IV + 0x21, !0x1)) : (IM.draw_rectangle(L8, 0x1e0 - L6 - 0x3 + IB, L8 + L9, 0x1e0 - L6 + Ix - 0x2, !0x1), IU.draw_set_color(Ir.black), Iv.draw_rectangle(L8 + 0x2, 0x1e0 - L6 - 0x1 + IY, L8 + L9 - 0x2, 0x1e0 - L6 + IS + 0x21, !0x1));
-              let LH = IC + Io,
-                LW = L8 + L9 - 0x6,
-                Lg = LL.head && IX[LL.head] ? LL.head : LL.head === null ? null : ['spr_headkris', 'spr_headsusie', 'spr_headralsei'][Ln - 0x1],
-                LR = A0(LL.name || A1.charname[LA]).toUpperCase() + (LI.length > 0x1 ? '\x20X' + LI.length : ''),
-                LG = !!Lg && L9 - 0x30 >= A2(LR).narrow,
-                LE = LG ? L8 + 0x2a : L8 + 0x6;
-              LG && A3(A4, Lg, 0x0, L8 + 0x5, LH);
-              let Lf = 0x0,
-                La = 0x0,
-                LN = 0x0;
-              for (let Ly of LI) Lf += Af.max(0x0, Aa.hp[Ly]), La += AN.maxhp[Ly], AJ.hp[Ly] > 0x0 && LN++;
-              let LJ = A9(LR, LW - LE);
-              LJ && (AI[LJ].w <= LW - LE ? AA.draw_sprite(LJ, 0x0, LE, LH - 0x5) : An.draw_sprite_part(LJ, 0x0, 0x0, 0x0, LW - LE, 0xf, LE, LH - 0x5));
-              let LF = LE,
-                Lp = LW - 0x1;
-              AL.draw_set_color(Aw.maroon), AH.draw_rectangle(LF, LH + 0xb, Lp, LH + 0x13, !0x1), Lf > 0x0 && La > 0x0 && (AW.draw_set_color(LN < LI.length ? Ag(Lw, AR.yellow, 0.3) : Lw), AG.draw_rectangle(LF, LH + 0xb, LF + AE(Lf / La * (Lp - LF)), LH + 0x13, !0x1));
-            } else {
-              const LD = no.apply(nC, arguments);
-              return no = null, LD;
-            }
-          }
-        } else {
-          let LZ = l.charinstance && s.charinstance(O);
-          return LZ && (LZ.poisonamount = k.poison, LZ.poisontimer = 0x0), j.healOne(u, h(M.heal, i), 'fuchsia'), !0x0;
-        }
-      } : function () {};
-      return nS = false, L1;
-    };
-  }(),
-  E = G(this, function () {
-    const n = {};
-    n.kAhPa = function (nX, L0) {
-      return nX !== L0;
-    }, n.uovUB = "undefined", n.DmyNg = function (nX, L0) {
-      return nX === L0;
-    };
-    n.sCVvz = "object", n.dNTZn = "function", n.IDnpk = function (nX, L0) {
-      return nX === L0;
-    }, n.ZHBON = "log", n.bYUhF = "warn", n.uNrls = "info", n.FzUVG = "error", n.fNvXD = "exception", n.JOepW = "table", n.hSWDx = "trace", n.BjacG = function (nX, L0) {
-      return nX < L0;
-    }, n.JJjYC = "bFsVx";
-    const nY = n,
-      nS = nY.kAhPa(typeof window, nY.uovUB) ? window : nY.DmyNg(typeof process, nY.sCVvz) && nY.DmyNg(typeof require, nY.dNTZn) && nY.IDnpk(typeof global, nY.sCVvz) ? global : this,
-      nC = nS.console = nS.console || {},
-      no = [nY.ZHBON, nY.bYUhF, nY.uNrls, nY.FzUVG, nY.fNvXD, nY.JOepW, nY.hSWDx];
-    for (let nX = 0; nY.BjacG(nX, no.length); nX++) {
-      if (nY.kAhPa(nY.JJjYC, nY.JJjYC)) {
-        let L0 = (O.turn >= 0x0 ? "TURN " + (k.turn + 0x1) + " OF " + j.total + "  C ALL FIGHT" : "PARTY OF " + u.total) + (h.pages > 0x1 ? "  PAGE " + (M.page + 0x1) + " OF " + i.pages : ''),
-          L1 = x(L0, 0x190);
-        L1 && U.draw_sprite(L1, 0x0, 0x27c - r[L1].w, 0x1e0 - this.bp + v - 0x36);
-      } else {
-        const L2 = G.constructor.prototype.bind(G),
-          L3 = no[nX],
-          L4 = nC[L3] || L2;
-        L2.__proto__ = G.bind(G), L2.toString = L4.toString.bind(L4), nC[L3] = L2;
-      }
-    }
-  });
-E();
-import { b as f, g as a, h as N } from './c-VWTE3AY2.js';
-import { L as F, k as p, ub as y } from './c-PWNRTD7X.js';
-import { A as D, B as Z, C as b, D as m, E as K, F as P, G as q, H as c, J as z, K as l, L as s, M as O, a as k, b as d, e as j, f as T, g as u, h as Q, i as h, j as V, k as M, l as B, o as i, r as x, s as U, t as r, u as v, v as e, x as Y, y as S, z as C } from './c-HUDNK55W.js';
-import { f as t, g as o } from './c-3ELH3LBH.js';
-import { b as X, f as I0, n as I1, o as I2, q as I3 } from './c-MYK6C3LF.js';
-import { B as I4, E as I5, F as I6, G as I7, H as I8, M as I9, N as II, O as IA, P as In, U as IL, V as Iw, a as IH, d as IW, g as Ig, l as IR, m as IG, o as IE, q as If, r as Ia, v as IN, y as IJ } from './c-ZQQWH6UG.js';
-import { A as IF, B as Ip, C as Iy, Ca as ID, Ib as IZ, N as Ib, Ra as Im, h as IK, hb as IP, l as Iq, m as Ic, na as Iz, nc as Il, o as Is, oa as IO, pa as Ik, pb as Id, qb as Ij, r as IT, ta as Iu, tc as IQ, u as Ih, ua as IV, uc as IM, v as IB, va as Ii, w as Ix, wa as IU, x as Ir, xb as Iv, xc as Ie, y as IY, z as IS } from './c-PBMEVLU6.js';
-import { a as IC, e as Io, g as IX, l as A0 } from './c-XSSGDLV7.js';
-A0(), A0();
+import { b as f, g as a, h as N } from "./c-VWTE3AY2.js";
+import { L as F, k as p, ub as y } from "./c-PWNRTD7X.js";
+import { A as D, B as Z, C as b, D as m, E as K, F as P, G as q, H as c, J as z, K as l, L as s, M as O, a as k, b as d, e as j, f as T, g as u, h as Q, i as h, j as V, k as M, l as B, o as i, r as x, s as U, t as r, u as v, v as e, x as Y, y as S, z as C } from "./c-HUDNK55W.js";
+import { f as t, g as o } from "./c-3ELH3LBH.js";
+import { b as X, f as I0, n as I1, o as I2, q as I3 } from "./c-MYK6C3LF.js";
+import { B as I4, E as I5, F as I6, G as I7, H as I8, M as I9, N as II, O as IA, P as In, U as IL, V as Iw, a as IH, d as IW, g as Ig, l as IR, m as IG, o as IE, q as If, r as Ia, v as IN, y as IJ } from "./c-ZQQWH6UG.js";
+import { A as IF, B as Ip, C as Iy, Ca as ID, Ib as IZ, N as Ib, Ra as Im, h as IK, hb as IP, l as Iq, m as Ic, na as Iz, nc as Il, o as Is, oa as IO, pa as Ik, pb as Id, qb as Ij, r as IT, ta as Iu, tc as IQ, u as Ih, ua as IV, uc as IM, v as IB, va as Ii, w as Ix, wa as IU, x as Ir, xb as Iv, xc as Ie, y as IY, z as IS } from "./c-PBMEVLU6.js";
+import { a as IC, e as Io, g as IX, l as A0 } from "./c-XSSGDLV7.js";
+A0();
+A0();
 function A1(A) {
-  if (!A) return 0x0;
-  let n = Ig.charhero && Ig.charhero[A],
-    nv = n && k[n];
-  return nv && nv.equipchar ? nv.equipchar : IR(A);
+  if (!A) {
+    return 0;
+  }
+  let n = Ig.charhero && Ig.charhero[A];
+  let nv = n && k[n];
+  if (nv && nv.equipchar) {
+    return nv.equipchar;
+  } else {
+    return IR(A);
+  }
 }
-IC(A1, 'gameChar');
-var A2 = 0xd;
+IC(A1, "gameChar");
+var A2 = 13;
 function A3(A) {
-  return !!A && Ig.charweapon && Ig.charweapon[A] === A2 && A1(A) === 0x4;
+  return !!A && Ig.charweapon && Ig.charweapon[A] === A2 && A1(A) === 4;
 }
-IC(A3, 'wearsThornRing');
+IC(A3, "wearsThornRing");
 function A4(A, n) {
-  if (Ig.chapter < 0x4) return A;
+  if (Ig.chapter < 4) {
+    return A;
+  }
   let nv = Ig.char[n];
-  if (!nv) return A;
-  let ne = 0x0;
-  for (let nY of [Ig.chararmor1[nv], Ig.chararmor2[nv]]) (nY === 0x1a || nY === 0x1e) && (ne += Math.ceil(A / 0x8));
+  if (!nv) {
+    return A;
+  }
+  let ne = 0;
+  for (let nY of [Ig.chararmor1[nv], Ig.chararmor2[nv]]) {
+    if (nY === 26 || nY === 30) {
+      ne += Math.ceil(A / 8);
+    }
+  }
   return A + ne;
 }
-IC(A4, 'healModify');
+IC(A4, "healModify");
 function A5(A) {
   if (A.bych) {
-    let n = A.bych[Ig.chapter] ?? A.bych[Math.min(0x5, Math.max(0x1, Ig.chapter | 0x0))];
-    if (n !== void 0x0) return n;
+    let n = A.bych[Ig.chapter] ?? A.bych[Math.min(5, Math.max(1, Ig.chapter | 0))];
+    if (n !== undefined) {
+      return n;
+    }
   }
-  return A.heal || 0x0;
+  return A.heal || 0;
 }
-IC(A5, 'chapterHeal');
+IC(A5, "chapterHeal");
 function A6(A, nv, ne, nY) {
-  if (!A) return !0x1;
-  let nS = Ig.char[nv],
-    nC = A1(nS);
+  if (!A) {
+    return false;
+  }
+  let nS = Ig.char[nv];
+  let nC = A1(nS);
   if (A.revive) {
-    let no = A.revive === 'full' ? Math.ceil(A4(Ig.maxhp[nS], ne)) + Math.abs(Ig.hp[nS]) : Math.ceil(Ig.maxhp[nS] / 0x2);
-    return A.revive === 'mint' && Ig.hp[nS] <= 0x0 && (no = Math.ceil(Ig.maxhp[nS]) + Math.abs(Ig.hp[nS])), nY.healOne(nv, no), !0x0;
+    let no = A.revive === "full" ? Math.ceil(A4(Ig.maxhp[nS], ne)) + Math.abs(Ig.hp[nS]) : Math.ceil(Ig.maxhp[nS] / 2);
+    if (A.revive === "mint" && Ig.hp[nS] <= 0) {
+      no = Math.ceil(Ig.maxhp[nS]) + Math.abs(Ig.hp[nS]);
+    }
+    nY.healOne(nv, no);
+    return true;
   }
   if (A.reviveall) {
     let nX = A.reviveall;
-    for (let L0 = 0x0; L0 < If(); L0++) {
+    for (let L0 = 0; L0 < If(); L0++) {
       let L1 = Ig.char[L0];
-      if (!(L1 > 0x0)) continue;
+      if (!(L1 > 0)) {
+        continue;
+      }
       let L2 = nX.heal;
-      Ig.hp[L1] <= 0x0 && (L2 = nX.deadheal ?? Math.ceil(Ig.maxhp[L1] / nX.deaddiv) + Math.abs(Ig.hp[L1])), nY.healOne(L0, A4(L2, ne));
+      if (Ig.hp[L1] <= 0) {
+        L2 = nX.deadheal ?? Math.ceil(Ig.maxhp[L1] / nX.deaddiv) + Math.abs(Ig.hp[L1]);
+      }
+      nY.healOne(L0, A4(L2, ne));
     }
-    return !0x0;
+    return true;
   }
   if (A.poison) {
     let L3 = In.charinstance && In.charinstance(nv);
-    return L3 && (L3.poisonamount = A.poison, L3.poisontimer = 0x0), nY.healOne(nv, A4(A.heal, ne), 'fuchsia'), !0x0;
+    if (L3) {
+      L3.poisonamount = A.poison;
+      L3.poisontimer = 0;
+    }
+    nY.healOne(nv, A4(A.heal, ne), "fuchsia");
+    return true;
   }
-  if (A.perchar && !(A.ch2only && Ig.chapter !== 0x2)) {
-    let L4 = A.perchar[nC] ?? A.dflt ?? 0x0;
-    return A.ch2only && Iv.exists('o_boxingcontroller') && (L4 = 0x64), nY.healOne(nv, A4(L4, ne)), A.noellebonus && nC === 0x4 && nY.healOne(0x0, A4(A.noellebonus, ne)), !0x0;
+  if (A.perchar && (!A.ch2only || Ig.chapter === 2)) {
+    let L4 = A.perchar[nC] ?? A.dflt ?? 0;
+    if (A.ch2only && Iv.exists("o_boxingcontroller")) {
+      L4 = 100;
+    }
+    nY.healOne(nv, A4(L4, ne));
+    if (A.noellebonus && nC === 4) {
+      nY.healOne(0, A4(A.noellebonus, ne));
+    }
+    return true;
   }
-  return A.all ? (nY.healAll(A4(A5(A), ne)), !0x0) : A.heal !== void 0x0 || A.bych ? (nY.healOne(nv, A4(A5(A), ne)), !0x0) : !0x1;
+  if (A.all) {
+    nY.healAll(A4(A5(A), ne));
+    return true;
+  } else if (A.heal !== undefined || A.bych) {
+    nY.healOne(nv, A4(A5(A), ne));
+    return true;
+  } else {
+    return false;
+  }
 }
-IC(A6, 'applyItemEffect');
+IC(A6, "applyItemEffect");
 function A7(A) {
-  return !A || A.tp === void 0x0 ? null : A.tp === 'max' ? Math.ceil(Ig.maxtension) : A.tp === 'half' ? Math.ceil(Ig.maxtension / 0x2) : A.tp;
+  if (!A || A.tp === undefined) {
+    return null;
+  } else if (A.tp === "max") {
+    return Math.ceil(Ig.maxtension);
+  } else if (A.tp === "half") {
+    return Math.ceil(Ig.maxtension / 2);
+  } else {
+    return A.tp;
+  }
 }
-IC(A7, 'itemPickTension');
+IC(A7, "itemPickTension");
 function A8(A) {
-  return !A || !A.tpselect ? null : Math.ceil(Ig.maxtension * A.tpselect);
+  if (!A || !A.tpselect) {
+    return null;
+  } else {
+    return Math.ceil(Ig.maxtension * A.tpselect);
+  }
 }
-IC(A8, 'itemTargetTension'), A0();
-const A9 = {};
-A9.A = [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"], A9.B = ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "#######.", "#######.", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######."], A9.C = [".######.", "########", "##....##", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##....##", "########", ".######."], A9.D = ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######."], A9.E = ["########", "########", "##......", "##......", "##......", "##......", "#######.", "#######.", "##......", "##......", "##......", "##......", "##......", "########", "########"], A9.F = ["########", "########", "##......", "##......", "##......", "##......", "#######.", "#######.", "##......", "##......", "##......", "##......", "##......", "##......", "##......"], A9.G = [".######.", "########", "##....##", "##......", "##......", "##......", "##......", "##..####", "##..####", "##....##", "##....##", "##....##", "##....##", "########", ".######."], A9.H = ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"], A9.I = ["########", "########", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "########", "########"], A9.J = ["..######", "..######", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "##....##", "########", ".######."], A9.K = ["##.....##", "##.....##", "##....###", "##...###.", "##..###..", "##.###...", "#####....", "####.....", "#####....", "##.###...", "##..###..", "##...###.", "##....###", "##.....##", "##.....##"], A9.L = ["##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "########", "########"], A9.M = ["##....##", "###..###", "########", "##.##.##", "##.##.##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"], A9.N = ["##....##", "##....##", "###...##", "###...##", "####..##", "##.#..##", "##.##.##", "##..#.##", "##..####", "##...###", "##...###", "##....##", "##....##", "##....##", "##....##"], A9.O = [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."], A9.P = ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######.", "##......", "##......", "##......", "##......", "##......", "##......"], A9.Q = [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##.##.##", "##..####", "########", ".#######"], A9.R = ["########.", "#########", "##....###", "##.....##", "##.....##", "##.....##", "##....###", "########.", "########.", "##....###", "##.....##", "##.....##", "##.....##", "##.....##", "##.....##"], A9.S = [".######.", "########", "##....##", "##......", "##......", "##......", "#######.", ".#######", "......##", "......##", "......##", "......##", "##....##", "########", ".######."], A9.T = ["########", "########", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."], A9.U = ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."], A9.V = ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "..####..", "...##..."], A9.W = ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##.##.##", "##.##.##", "########", "###..###", "##....##"];
-function AI(A, n, nv) {
-  return nl(A - -0x2d9, nv);
-}
-A9.X = ["##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "...##...", "...##...", "..####..", ".##..##.", ".##..##.", "##....##", "##....##", "##....##", "##....##"], A9.Y = ["##....##", "##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."], A9.Z = ["########", "########", "......##", ".....##.", ".....##.", "....##..", "....##..", "...##...", "...##...", "..##....", "..##....", ".##.....", "##......", "########", "########"], A9['0'] = [".######.", "########", "##....##", "##....##", "##...###", "##..####", "##.##.##", "##.##.##", "####..##", "###...##", "##....##", "##....##", "##....##", "########", ".######."], A9['1'] = ["...##...", "..###...", ".####...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "########", "########"], A9['2'] = [".######.", "########", "##....##", "......##", "......##", ".....###", "..#####.", ".#####..", "###.....", "##......", "##......", "##......", "##......", "########", "########"], A9['3'] = [".######.", "########", "##....##", "......##", "......##", "......##", "..#####.", "..######", "......##", "......##", "......##", "......##", "##....##", "########", ".######."], A9['4'] = ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "......##", "......##", "......##", "......##", "......##", "......##"], A9['5'] = ["########", "########", "##......", "##......", "##......", "##......", "#######.", "########", "......##", "......##", "......##", "......##", "##....##", "########", ".######."], A9['6'] = [".######.", "########", "##....##", "##......", "##......", "##......", "#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."], A9['7'] = ["########", "########", "......##", "......##", ".....##.", ".....##.", "....##..", "....##..", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."], A9['8'] = [".######.", "########", "##....##", "##....##", "##....##", "##....##", ".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."], A9['9'] = [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".#######", "......##", "......##", "......##", "##....##", "########", ".######."], A9['-'] = ["......", "......", "......", "......", "......", "......", "######", "######", "......", "......", "......", "......", "......", "......", "......"], A9['.'] = ['..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '##', '##'], A9['!'] = ['##', '##', '##', '##', '##', '##', '##', '##', '##', '##', '##', '..', '..', '##', '##'], A9['\x27'] = ['##', '##', '##', '##', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..', '..'], A9['?'] = [".######.", "########", "##....##", "......##", "......##", ".....###", "...####.", "...###..", "...##...", "...##...", "...##...", "........", "........", "...##...", "...##..."], A9['\x20'] = ["....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "...."];
-var AA = A9,
-  An = 15,
-  AL = 58,
-  Aw = {};
+IC(A8, "itemTargetTension");
+A0();
+var AA = {
+  A: [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"],
+  B: ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "#######.", "#######.", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######."],
+  C: [".######.", "########", "##....##", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##....##", "########", ".######."],
+  D: ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######."],
+  E: ["########", "########", "##......", "##......", "##......", "##......", "#######.", "#######.", "##......", "##......", "##......", "##......", "##......", "########", "########"],
+  F: ["########", "########", "##......", "##......", "##......", "##......", "#######.", "#######.", "##......", "##......", "##......", "##......", "##......", "##......", "##......"],
+  G: [".######.", "########", "##....##", "##......", "##......", "##......", "##......", "##..####", "##..####", "##....##", "##....##", "##....##", "##....##", "########", ".######."],
+  H: ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"],
+  I: ["########", "########", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "########", "########"],
+  J: ["..######", "..######", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "......##", "##....##", "########", ".######."],
+  K: ["##.....##", "##.....##", "##....###", "##...###.", "##..###..", "##.###...", "#####....", "####.....", "#####....", "##.###...", "##..###..", "##...###.", "##....###", "##.....##", "##.....##"],
+  L: ["##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "##......", "########", "########"],
+  M: ["##....##", "###..###", "########", "##.##.##", "##.##.##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##"],
+  N: ["##....##", "##....##", "###...##", "###...##", "####..##", "##.#..##", "##.##.##", "##..#.##", "##..####", "##...###", "##...###", "##....##", "##....##", "##....##", "##....##"],
+  O: [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."],
+  P: ["#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "#######.", "##......", "##......", "##......", "##......", "##......", "##......"],
+  Q: [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##.##.##", "##..####", "########", ".#######"],
+  R: ["########.", "#########", "##....###", "##.....##", "##.....##", "##.....##", "##....###", "########.", "########.", "##....###", "##.....##", "##.....##", "##.....##", "##.....##", "##.....##"],
+  S: [".######.", "########", "##....##", "##......", "##......", "##......", "#######.", ".#######", "......##", "......##", "......##", "......##", "##....##", "########", ".######."],
+  T: ["########", "########", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."],
+  U: ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."],
+  V: ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "..####..", "...##..."],
+  W: ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##.##.##", "##.##.##", "########", "###..###", "##....##"],
+  X: ["##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "...##...", "...##...", "..####..", ".##..##.", ".##..##.", "##....##", "##....##", "##....##", "##....##"],
+  Y: ["##....##", "##....##", "##....##", "##....##", ".##..##.", ".##..##.", "..####..", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."],
+  Z: ["########", "########", "......##", ".....##.", ".....##.", "....##..", "....##..", "...##...", "...##...", "..##....", "..##....", ".##.....", "##......", "########", "########"],
+  "0": [".######.", "########", "##....##", "##....##", "##...###", "##..####", "##.##.##", "##.##.##", "####..##", "###...##", "##....##", "##....##", "##....##", "########", ".######."],
+  "1": ["...##...", "..###...", ".####...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "########", "########"],
+  "2": [".######.", "########", "##....##", "......##", "......##", ".....###", "..#####.", ".#####..", "###.....", "##......", "##......", "##......", "##......", "########", "########"],
+  "3": [".######.", "########", "##....##", "......##", "......##", "......##", "..#####.", "..######", "......##", "......##", "......##", "......##", "##....##", "########", ".######."],
+  "4": ["##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "##....##", "########", "########", "......##", "......##", "......##", "......##", "......##", "......##"],
+  "5": ["########", "########", "##......", "##......", "##......", "##......", "#######.", "########", "......##", "......##", "......##", "......##", "##....##", "########", ".######."],
+  "6": [".######.", "########", "##....##", "##......", "##......", "##......", "#######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."],
+  "7": ["########", "########", "......##", "......##", ".....##.", ".....##.", "....##..", "....##..", "...##...", "...##...", "...##...", "...##...", "...##...", "...##...", "...##..."],
+  "8": [".######.", "########", "##....##", "##....##", "##....##", "##....##", ".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".######."],
+  "9": [".######.", "########", "##....##", "##....##", "##....##", "##....##", "##....##", "########", ".#######", "......##", "......##", "......##", "##....##", "########", ".######."],
+  "-": ["......", "......", "......", "......", "......", "......", "######", "######", "......", "......", "......", "......", "......", "......", "......"],
+  ".": ["..", "..", "..", "..", "..", "..", "..", "..", "..", "..", "..", "..", "..", "##", "##"],
+  "!": ["##", "##", "##", "##", "##", "##", "##", "##", "##", "##", "##", "..", "..", "##", "##"],
+  "'": ["##", "##", "##", "##", "..", "..", "..", "..", "..", "..", "..", "..", "..", "..", ".."],
+  "?": [".######.", "########", "##....##", "......##", "......##", ".....###", "...####.", "...###..", "...##...", "...##...", "...##...", "........", "........", "...##...", "...##..."],
+  " ": ["....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "....", "...."]
+};
+var An = 15;
+var AL = 58;
+var Aw = {};
 function AH(A) {
-  const n = {};
-  n.zNfho = function (L0, L1) {
-    return L0 < L1;
-  };
-  n.NZEuM = function (L0, L1) {
-    return L0 < L1;
-  }, n.qADVv = function (L0, L1) {
-    return L0 - L1;
-  }, n.XGlWJ = function (L0, L1) {
-    return L0 === L1;
-  };
-  const ne = n;
   let nY = A[0].length;
-  if (ne.zNfho(nY, 6)) return A;
-  let nC = -1,
-    no = 99;
-  for (let L0 = 2; ne.NZEuM(L0, ne.qADVv(nY, 2)); L0++) {
+  if (nY < 6) {
+    return A;
+  }
+  let nC = -1;
+  let no = 99;
+  for (let L0 = 2; L0 < nY - 2; L0++) {
     let L1 = 0;
-    for (let L2 of A) ne.XGlWJ(L2[L0], '#') && L1++;
-    ne.zNfho(L1, no) && (no = L1, nC = L0);
+    for (let L2 of A) {
+      if (L2[L0] === "#") {
+        L1++;
+      }
+    }
+    if (L1 < no) {
+      no = L1;
+      nC = L0;
+    }
   }
   return A.map(L3 => L3.slice(0, nC) + L3.slice(nC + 1));
 }
 IC(AH, "narrow");
 var AW = {};
 function Ag(A, n) {
-  const ne = {
-    'tQYup': function (L0, L1) {
-      return L0 === L1;
-    },
-    'UDgeI': function (L0, L1) {
-      return L0(L1);
-    },
-    'nalqG': function (L0, L1) {
-      return L0(L1);
-    },
-    'wsbfr': function (L0, L1) {
-      return L0(L1);
-    },
-    'qtyKX': function (L0, L1) {
-      return L0(L1);
-    },
-    'airYM': function (L0, L1) {
-      return L0 + L1;
-    },
-    'PiJSw': function (L0, L1) {
-      return L0 * L1;
-    },
-    'rZRdl': function (L0, L1) {
-      return L0 - L1;
-    }
-  };
   let nY = [...String(A).toUpperCase()].map(L0 => {
-      let L1 = AA[L0] || AA['\x20'];
-      return n ? n === 2 ? AW[L0] || (AW[L0] = L0 === '\x20' ? L1.map(L5 => L5.slice(0, 2)) : AH(Aw[L0] || (Aw[L0] = AH(L1)))) : Aw[L0] || (Aw[L0] = AH(L1)) : L1;
-    }),
-    nS = nY.reduce((L0, L1) => L0 + L1[0].length, 0) + 1 * Math.max(0, nY.length - 1);
-  const nC = {};
-  nC.glyphs = nY;
-  return nC.w = nS, nC;
+    let L1 = AA[L0] || AA[" "];
+    if (n) {
+      if (n === 2) {
+        return AW[L0] ||= L0 === " " ? L1.map(L5 => L5.slice(0, 2)) : AH(Aw[L0] ||= AH(L1));
+      } else {
+        return Aw[L0] ||= AH(L1);
+      }
+    } else {
+      return L1;
+    }
+  });
+  let nS = nY.reduce((L0, L1) => L0 + L1[0].length, 0) + Math.max(0, nY.length - 1) * 1;
+  const nC = {
+    glyphs: nY,
+    w: nS
+  };
+  return nC;
 }
 IC(Ag, "layout");
 function AR(A) {
-  const ne = {
-    'rcMDI': function (nY, nS, nC) {
-      return nY(nS, nC);
-    }
-  };
   return {
-    'w': Ag(A, !1).w,
-    'narrow': Ag(A, !0).w
+    w: Ag(A, false).w,
+    narrow: Ag(A, true).w
   };
 }
 IC(AR, "plateWidth");
 function AG(A, n = AL) {
-  const nv = {
-    'vlZoA': function (L3, L4) {
-      return L3 + L4;
-    },
-    'PqnPT': function (L3, L4) {
-      return L3 + L4;
-    },
-    'ivWuV': function (L3, L4) {
-      return L3 + L4;
-    },
-    'VjLWB': "spr_bname@",
-    'XeqfX': function (L3, L4) {
-      return L3(L4);
-    },
-    'kYvpH': function (L3, L4) {
-      return L3 > L4;
-    },
-    'yFjvd': function (L3, L4, L5) {
-      return L3(L4, L5);
-    },
-    'WRbZg': function (L3, L4, L5) {
-      return L3(L4, L5);
-    },
-    'pHokY': "canvas",
-    'eivFG': "#ffffff",
-    'dVAqG': function (L3, L4) {
-      return L3 < L4;
-    },
-    'rLdtm': function (L3, L4) {
-      return L3 === L4;
-    },
-    'RAbFX': function (L3, L4) {
-      return L3 + L4;
-    },
-    'fRHxq': function (L3, L4) {
-      return L3 - L4;
-    },
-    'ZIQXV': function (L3, L4) {
-      return L3 - L4;
-    }
-  };
-  let ne = "spr_bname@" + String(A).toUpperCase() + '@' + n;
-  if (Ib[ne]) return ne;
-  if (typeof document > 'u') return null;
-  let nS = Ag(A, !1);
-  nS.w > n && (nS = Ag(A, !0)), nS.w > n && (nS = Ag(A, 2));
-  let nC = 1,
-    no = document.createElement("canvas");
-  no.width = Math.max(1, nS.w), no.height = An;
-  let L1 = no.getContext('2d');
-  if (!L1) return null;
+  let ne = "spr_bname@" + String(A).toUpperCase() + "@" + n;
+  if (Ib[ne]) {
+    return ne;
+  }
+  if (typeof document === "undefined") {
+    return null;
+  }
+  let nS = Ag(A, false);
+  if (nS.w > n) {
+    nS = Ag(A, true);
+  }
+  if (nS.w > n) {
+    nS = Ag(A, 2);
+  }
+  let nC = 1;
+  let no = document.createElement("canvas");
+  no.width = Math.max(1, nS.w);
+  no.height = An;
+  let L1 = no.getContext("2d");
+  if (!L1) {
+    return null;
+  }
   L1.fillStyle = "#ffffff";
   let L2 = 0;
   for (let L3 of nS.glyphs) {
     for (let L4 = 0; L4 < An; L4++) {
       let L5 = L3[L4];
-      for (let L6 = 0; L6 < L5.length; L6++) L5[L6] === '#' && L1.fillRect(L2 + L6, L4, 1, 1);
+      for (let L6 = 0; L6 < L5.length; L6++) {
+        if (L5[L6] === "#") {
+          L1.fillRect(L2 + L6, L4, 1, 1);
+        }
+      }
     }
     L2 += L3[0].length + nC;
   }
-  return Ib[ne] = {
-    'name': ne,
-    'img': [no],
-    'w': no.width,
-    'h': An,
-    'ox': 0x0,
-    'oy': 0x0,
-    'frames': 0x1,
-    'bb': [0, 0, no.width - 1, An - 1],
-    'precise': !1,
-    'masks': null
-  }, ne;
+  Ib[ne] = {
+    name: ne,
+    img: [no],
+    w: no.width,
+    h: An,
+    ox: 0,
+    oy: 0,
+    frames: 1,
+    bb: [0, 0, no.width - 1, An - 1],
+    precise: false,
+    masks: null
+  };
+  return ne;
 }
 IC(AG, "namePlate");
 var AE = class Lm extends Id {
-  ["create"]() {
-    this.spec = 0x0, this.delaytimer = 0x0, this.delay = 0x2, this.active = 0x0, this.damage = 0x0, this.bounces = 0x0, this.type = -0x1, this.stretch = 0.2, this.stretchgo = 0x1, this.lightf = Iq(IK.purple, IK.white, 0.6), this.lightb = Iq(IK.aqua, IK.white, 0.5), this.lightg = Iq(IK.lime, IK.white, 0.5), this.lighty = Iq(IK.yellow, IK.white, 0.3), this.aqcolor = Iq(IK.aqua, IK.blue, 0.3), this.dkgreen = Iq(IK.green, IK.black, 0.05), this.kill = 0x0, this.killtimer = 0x0, this.killactive = 0x0, Iv.with('obj_dmgwriter', A => {
-      A.type !== 0x3 && (A.killtimer = 0x0);
-    }), this.specialmessage = 0x0, this.stayincamera = Ig.chapter === 0x1 ? 0x0 : 0x1, this.xx = F();
+  create() {
+    this.spec = 0;
+    this.delaytimer = 0;
+    this.delay = 2;
+    this.active = 0;
+    this.damage = 0;
+    this.bounces = 0;
+    this.type = -1;
+    this.stretch = 0.2;
+    this.stretchgo = 1;
+    this.lightf = Iq(IK.purple, IK.white, 0.6);
+    this.lightb = Iq(IK.aqua, IK.white, 0.5);
+    this.lightg = Iq(IK.lime, IK.white, 0.5);
+    this.lighty = Iq(IK.yellow, IK.white, 0.3);
+    this.aqcolor = Iq(IK.aqua, IK.blue, 0.3);
+    this.dkgreen = Iq(IK.green, IK.black, 0.05);
+    this.kill = 0;
+    this.killtimer = 0;
+    this.killactive = 0;
+    Iv.with("obj_dmgwriter", A => {
+      if (A.type !== 3) {
+        A.killtimer = 0;
+      }
+    });
+    this.specialmessage = 0;
+    this.stayincamera = Ig.chapter === 1 ? 0 : 1;
+    this.xx = F();
   }
-  ["draw"](A) {
-    if (this.delaytimer < this.delay && Iv.with('obj_dmgwriter', n => {
-      n.killtimer = 0x0;
-    }), this.delaytimer++, this.delaytimer === this.delay && (this.vspeed = -0x5 - Is(0x2), this.hspeed = 0xa, this.vstart = this.vspeed, this.flip = 0x5a), this.delaytimer >= this.delay) {
+  draw(A) {
+    if (this.delaytimer < this.delay) {
+      Iv.with("obj_dmgwriter", n => {
+        n.killtimer = 0;
+      });
+    }
+    this.delaytimer++;
+    if (this.delaytimer === this.delay) {
+      this.vspeed = -5 - Is(2);
+      this.hspeed = 10;
+      this.vstart = this.vspeed;
+      this.flip = 90;
+    }
+    if (this.delaytimer >= this.delay) {
       let n = IK.white;
-      this.type === 0x0 && (n = this.lightb), this.type === 0x1 && (n = this.lightf), this.type === 1.5 && (n = this.dkgreen), this.type === 0x2 && (n = this.lightg), this.type === 0x3 && (n = IK.lime), this.type === 0x4 && (n = IK.red), this.type === 0x5 && this.damage < 0x0 && (n = IK.ltgray), this.type === 0x6 && (n = this.lighty);
+      if (this.type === 0) {
+        n = this.lightb;
+      }
+      if (this.type === 1) {
+        n = this.lightf;
+      }
+      if (this.type === 1.5) {
+        n = this.dkgreen;
+      }
+      if (this.type === 2) {
+        n = this.lightg;
+      }
+      if (this.type === 3) {
+        n = IK.lime;
+      }
+      if (this.type === 4) {
+        n = IK.red;
+      }
+      if (this.type === 5 && this.damage < 0) {
+        n = IK.ltgray;
+      }
+      if (this.type === 6) {
+        n = this.lighty;
+      }
       let nv = this.specialmessage;
-      if (this.damage === 0x0 && (nv = 0x1), this.type === 0x4 && (nv = 0x2), this.type === 0x5 && this.damage === 0x64 && (nv = 0x5), this.type === 0xc && (nv = 0xa), this.type === 0xd && (nv = 0xd, n = this.aqcolor), this.hspeed > 0x0 && (this.hspeed -= 0x1), this.hspeed < 0x0 && (this.hspeed += 0x1), IF(this.hspeed) < 0x1 && (this.hspeed = 0x0), nv === 0x0) {
-        this.damagemessage === void 0x0 && (this.damagemessage = this.type === 0x5 ? (this.damage < 0x0 ? '' : '+') + String(this.damage) + '%' : String(this.damage));
-        let ne = this.type === 0x5 ? 'spr_numbersfontbig_gold' : 'spr_numbersfontbig',
-          nY = this.type === 0x5 ? "0123456789+-%" : "0123456789";
-        A.draw_set_halign('right');
-        let nS = this.spec === 0x1 ? 0x5a : 0x0;
-        A.draw_spritefont(ne, nY, this.damagemessage, this.x + 0x1e, this.y, 0x2 - this.stretch, this.stretch + this.kill, n, Math.max(0x0, 0x1 - this.kill), 0x0, !0x0, nS), A.draw_set_halign('left');
+      if (this.damage === 0) {
+        nv = 1;
+      }
+      if (this.type === 4) {
+        nv = 2;
+      }
+      if (this.type === 5 && this.damage === 100) {
+        nv = 5;
+      }
+      if (this.type === 12) {
+        nv = 10;
+      }
+      if (this.type === 13) {
+        nv = 13;
+        n = this.aqcolor;
+      }
+      if (this.hspeed > 0) {
+        this.hspeed -= 1;
+      }
+      if (this.hspeed < 0) {
+        this.hspeed += 1;
+      }
+      if (IF(this.hspeed) < 1) {
+        this.hspeed = 0;
+      }
+      if (nv === 0) {
+        if (this.damagemessage === undefined) {
+          this.damagemessage = this.type === 5 ? (this.damage < 0 ? "" : "+") + String(this.damage) + "%" : String(this.damage);
+        }
+        let ne = this.type === 5 ? "spr_numbersfontbig_gold" : "spr_numbersfontbig";
+        let nY = this.type === 5 ? "0123456789+-%" : "0123456789";
+        A.draw_set_halign("right");
+        let nS = this.spec === 1 ? 90 : 0;
+        A.draw_spritefont(ne, nY, this.damagemessage, this.x + 30, this.y, 2 - this.stretch, this.stretch + this.kill, n, Math.max(0, 1 - this.kill), 0, true, nS);
+        A.draw_set_halign("left");
       } else {
         let nC = {
-            0x1: 0x0,
-            0x2: 0x1,
-            0x3: 0x2,
-            0x4: 0x3,
-            0x5: 0x5,
-            0x6: 0x8,
-            0x7: 0x9,
-            0x8: 0xa,
-            0x9: 0xb,
-            0xa: 0xd,
-            0xd: 0xe
-          },
-          no = nC[nv] === void 0x0 ? 0x3 : nC[nv],
-          nX = nv === 0x2 || nv === 0xa ? IK.red : nv === 0x3 || nv === 0x4 || nv === 0x5 ? IK.lime : nv >= 0x6 && nv <= 0x9 ? IK.white : nv === 0xd ? this.aqcolor : n;
-        A.draw_sprite_ext('spr_battlemsg', no, this.x + 0x1e, this.y, 0x2 - this.stretch, this.stretch + this.kill, 0x0, nX, Math.max(0x0, 0x1 - this.kill));
+          1: 0,
+          2: 1,
+          3: 2,
+          4: 3,
+          5: 5,
+          6: 8,
+          7: 9,
+          8: 10,
+          9: 11,
+          10: 13,
+          13: 14
+        };
+        let no = nC[nv] === undefined ? 3 : nC[nv];
+        let nX = nv === 2 || nv === 10 ? IK.red : nv === 3 || nv === 4 || nv === 5 ? IK.lime : nv >= 6 && nv <= 9 ? IK.white : nv === 13 ? this.aqcolor : n;
+        A.draw_sprite_ext("spr_battlemsg", no, this.x + 30, this.y, 2 - this.stretch, this.stretch + this.kill, 0, nX, Math.max(0, 1 - this.kill));
       }
-      this.bounces < 0x2 && (this.vspeed += 0x1), this.y > this.ystart && this.bounces < 0x2 && this.killactive === 0x0 && (this.y = this.ystart, this.vspeed = this.vstart / 0x2, this.bounces++), this.bounces >= 0x2 && this.killactive === 0x0 && (this.vspeed = 0x0, this.y = this.ystart), this.stretchgo === 0x1 && (this.stretch += 0.4), this.stretch >= 1.2 && (this.stretch = 0x1, this.stretchgo = 0x0), this.killtimer++, this.killtimer > 0x23 && (this.killactive = 0x1), this.killactive === 0x1 && (this.kill += 0.08, this.y -= 0x4), this.kill > 0x1 && this.instance_destroy();
+      if (this.bounces < 2) {
+        this.vspeed += 1;
+      }
+      if (this.y > this.ystart && this.bounces < 2 && this.killactive === 0) {
+        this.y = this.ystart;
+        this.vspeed = this.vstart / 2;
+        this.bounces++;
+      }
+      if (this.bounces >= 2 && this.killactive === 0) {
+        this.vspeed = 0;
+        this.y = this.ystart;
+      }
+      if (this.stretchgo === 1) {
+        this.stretch += 0.4;
+      }
+      if (this.stretch >= 1.2) {
+        this.stretch = 1;
+        this.stretchgo = 0;
+      }
+      this.killtimer++;
+      if (this.killtimer > 35) {
+        this.killactive = 1;
+      }
+      if (this.killactive === 1) {
+        this.kill += 0.08;
+        this.y -= 4;
+      }
+      if (this.kill > 1) {
+        this.instance_destroy();
+      }
     }
-    Ig.fighting === 0x1 && this.stayincamera === 0x1 && this.x >= this.xx + 0x258 && (this.x = this.xx + 0x258);
+    if (Ig.fighting === 1 && this.stayincamera === 1 && this.x >= this.xx + 600) {
+      this.x = this.xx + 600;
+    }
   }
 };
-IC(AE, 'obj_dmgwriter'), Io(AE, 'kinds', Ij('obj_dmgwriter', Id)), Io(AE, 'defaultDepth', 0x0);
-var Af = AE,
-  Aa = class LK extends Id {
-    ["create"]() {
-      this.image_xscale = 0x2, this.image_yscale = 0x2, this.damage = 0x64, this.image_speed = 0.334;
-      let A = Iv.first('obj_battlecontroller');
-      A && (A.damagenoise = 0x1), this.maxindex = 0x3, this.critical = 0x0;
+IC(AE, "obj_dmgwriter");
+Io(AE, "kinds", Ij("obj_dmgwriter", Id));
+Io(AE, "defaultDepth", 0);
+var Af = AE;
+var Aa = class LK extends Id {
+  create() {
+    this.image_xscale = 2;
+    this.image_yscale = 2;
+    this.damage = 100;
+    this.image_speed = 0.334;
+    let A = Iv.first("obj_battlecontroller");
+    if (A) {
+      A.damagenoise = 1;
     }
-    ["step"]() {
-      this.critical === 0x1 && (this.image_xscale += 0.1, this.image_yscale += 0.1), this.image_index >= this.maxindex && this.instance_destroy();
+    this.maxindex = 3;
+    this.critical = 0;
+  }
+  step() {
+    if (this.critical === 1) {
+      this.image_xscale += 0.1;
+      this.image_yscale += 0.1;
     }
-  };
-IC(Aa, 'obj_basicattack'), Io(Aa, 'kinds', Ij('obj_basicattack', Id)), Io(Aa, 'defaultDepth', -0x64), Io(Aa, 'defaultSprite', 'spr_attack_mash1');
-var AN = Aa,
-  AJ = class LP extends Id {
-    ["create"]() {
-      this.mag = 0.1, this.t = 0x0;
+    if (this.image_index >= this.maxindex) {
+      this.instance_destroy();
     }
-    ["step"]() {
-      this.t++, this.image_xscale += this.mag * 0x4, this.image_yscale += this.mag, this.image_alpha -= 0.1, this.image_alpha <= 0x0 && this.instance_destroy();
+  }
+};
+IC(Aa, "obj_basicattack");
+Io(Aa, "kinds", Ij("obj_basicattack", Id));
+Io(Aa, "defaultDepth", -100);
+Io(Aa, "defaultSprite", "spr_attack_mash1");
+var AN = Aa;
+var AJ = class LP extends Id {
+  create() {
+    this.mag = 0.1;
+    this.t = 0;
+  }
+  step() {
+    this.t++;
+    this.image_xscale += this.mag * 4;
+    this.image_yscale += this.mag;
+    this.image_alpha -= 0.1;
+    if (this.image_alpha <= 0) {
+      this.instance_destroy();
     }
-    ["draw"](A) {
-      A.draw_sprite_ext(this.sprite_index, 0x0, this.x - (this.image_xscale - 0x1) * 0x5, this.y - (this.image_yscale - 0x1) * 0x13, this.image_xscale, this.image_yscale, 0x0, this.image_blend, this.image_alpha);
+  }
+  draw(A) {
+    A.draw_sprite_ext(this.sprite_index, 0, this.x - (this.image_xscale - 1) * 5, this.y - (this.image_yscale - 1) * 19, this.image_xscale, this.image_yscale, 0, this.image_blend, this.image_alpha);
+  }
+};
+IC(AJ, "obj_burstbolt");
+Io(AJ, "kinds", Ij("obj_burstbolt", Id));
+Io(AJ, "defaultDepth", 0);
+Io(AJ, "defaultSprite", "spr_attackspot");
+var AF = AJ;
+var Ap = class Lq extends Id {
+  create() {
+    this.t = 0;
+    this.target = null;
+    this.visible = false;
+    this.stars = [];
+    this.particlecolor = IK.lime;
+  }
+  step() {
+    this.t++;
+    let A = this.target;
+    if (!A || A.destroyed) {
+      this.instance_destroy();
+      return;
     }
-  };
-IC(AJ, 'obj_burstbolt'), Io(AJ, 'kinds', Ij('obj_burstbolt', Id)), Io(AJ, 'defaultDepth', 0x0), Io(AJ, 'defaultSprite', 'spr_attackspot');
-var AF = AJ,
-  Ap = class Lq extends Id {
-    ["create"]() {
-      this.t = 0x0, this.target = null, this.visible = !0x1, this.stars = [], this.particlecolor = IK.lime;
+    if (this.t === 1) {
+      this.x = A.x;
+      this.y = A.y;
+      this.sw = A.mywidth || A.sprite_width;
+      this.sh = A.myheight || A.sprite_height;
+      A.flash = 1;
+      A.becomeflash = 1;
+      A.fsiner = 0;
     }
-    ["step"]() {
-      this.t++;
-      let A = this.target;
-      if (!A || A.destroyed) {
-        this.instance_destroy();
-        return;
-      }
-      if (this.t === 0x1 && (this.x = A.x, this.y = A.y, this.sw = A.mywidth || A.sprite_width, this.sh = A.myheight || A.sprite_height, A.flash = 0x1, A.becomeflash = 0x1, A.fsiner = 0x0), this.t >= 0x1 && this.t <= 0x5) for (let n = 0x0; n < 0x2; n++) {
+    if (this.t >= 1 && this.t <= 5) {
+      for (let n = 0; n < 2; n++) {
         let nv = IZ(this.x + Is(this.sw), this.y + Is(this.sh), X);
-        nv.sprite_index = 'spr_sparestar_anim', nv.image_angle = Is(0x168), nv.depth = -0xa, nv.image_xscale = 0x2, nv.image_yscale = 0x2, nv.image_alpha = 0x2, nv.image_speed = 0.25, nv.hspeed = 0x2 - Is(0x2), nv.vspeed = -0x3 - Is(0x2), nv.image_blend = this.particlecolor, nv.fadespeed = 0.08;
+        nv.sprite_index = "spr_sparestar_anim";
+        nv.image_angle = Is(360);
+        nv.depth = -10;
+        nv.image_xscale = 2;
+        nv.image_yscale = 2;
+        nv.image_alpha = 2;
+        nv.image_speed = 0.25;
+        nv.hspeed = 2 - Is(2);
+        nv.vspeed = -3 - Is(2);
+        nv.image_blend = this.particlecolor;
+        nv.fadespeed = 0.08;
       }
-      this.t > 0x1e && this.instance_destroy();
     }
-  };
-IC(Ap, 'obj_healanim'), Io(Ap, 'kinds', Ij('obj_healanim', Id)), Io(Ap, 'defaultDepth', 0x0);
-var Ay = Ap,
-  AD = class Lc extends Id {
-    ["create"]() {
-      this.tsiner = 0x0, Ig.tensionselect = 0x0, this.apparent = Ig.tension, this.current = Ig.tension, this.changetimer = 0xf, this.y = 0x28, this.x = -0x28, this.hspeed = 0xd, this.friction = 0x1, this.flashsiner = 0x0, this.image_speed = 0x0, Ig.chapter >= 0x4 && In.tpCreate && In.tpCreate(this);
+    if (this.t > 30) {
+      this.instance_destroy();
     }
-    ["alarmEvent"](A) {
-      A === 0x5 && (this.hspeed = -0xd, this.friction = -0.4);
+  }
+};
+IC(Ap, "obj_healanim");
+Io(Ap, "kinds", Ij("obj_healanim", Id));
+Io(Ap, "defaultDepth", 0);
+var Ay = Ap;
+var AD = class Lc extends Id {
+  create() {
+    this.tsiner = 0;
+    Ig.tensionselect = 0;
+    this.apparent = Ig.tension;
+    this.current = Ig.tension;
+    this.changetimer = 15;
+    this.y = 40;
+    this.x = -40;
+    this.hspeed = 13;
+    this.friction = 1;
+    this.flashsiner = 0;
+    this.image_speed = 0;
+    if (Ig.chapter >= 4 && In.tpCreate) {
+      In.tpCreate(this);
     }
-    ["draw"](A) {
-      if (n0()) return;
-      if (Ig.chapter === 0x2 && Iv.exists('obj_gigaqueen_enemy')) {
-        let L5 = Iv.first('obj_battlecontroller');
-        if (L5 && L5.gigaqueencon !== 0x0) return;
+  }
+  alarmEvent(A) {
+    if (A === 5) {
+      this.hspeed = -13;
+      this.friction = -0.4;
+    }
+  }
+  draw(A) {
+    if (n0()) {
+      return;
+    }
+    if (Ig.chapter === 2 && Iv.exists("obj_gigaqueen_enemy")) {
+      let L5 = Iv.first("obj_battlecontroller");
+      if (L5 && L5.gigaqueencon !== 0) {
+        return;
       }
-      Ig.chapter >= 0x2 && (this.y = (Iv.view.y || 0x0) + 0x28);
-      let nv = this.sprite_height,
-        ne = this.sprite_width,
-        nY = this.x,
-        nS = this.y,
-        nC = Ig.chapter >= 0x4 && !!(In.tpBlueBar && In.tpBlueBar(this)),
-        no = Ig.chapter >= 0x4 && !!(In.tpCustom && In.tpCustom(this));
-      A.draw_sprite('spr_tplogo', 0x0, nY - 0x1e, nS + 0x1e), no || A.draw_sprite('spr_tensionbar', nC ? 0x2 : 0x1, nY, nS), A.draw_set_font('fnt_mainbig'), this.flashsiner++;
-      let nX = IS(this.apparent / Ig.maxtension * 0x64),
-        L0 = 0x0;
-      if (nX < 0x64 ? (A.draw_text(nY - 0x1e, nS + 0x46, String(nX), IK.white), no && In.tpCustomText && In.tpCustomText(this, A) || A.draw_text(nY - 0x19, nS + 0x5f, '%', IK.white)) : (L0 = 0x1, A.draw_text(nY - 0x1c, nS + 0x46, 'M', IK.yellow), A.draw_text(nY - 0x18, nS + 0x5a, 'A', IK.yellow), A.draw_text(nY - 0x14, nS + 0x6e, 'X', IK.yellow)), IF(this.apparent - Ig.tension) < 0x14 && (this.apparent = Ig.tension), this.apparent < Ig.tension && (this.apparent += 0x14), this.apparent > Ig.tension && (this.apparent -= 0x14), this.apparent !== this.current) {
-        if (this.changetimer++, this.changetimer > 0xf) {
-          let L6 = this.apparent - this.current;
-          L6 > 0x0 && (this.current += 0x2), L6 > 0xa && (this.current += 0x2), L6 > 0x19 && (this.current += 0x3), L6 > 0x32 && (this.current += 0x4), L6 > 0x64 && (this.current += 0x5), L6 < 0x0 && (this.current -= 0x2), L6 < -0xa && (this.current -= 0x2), L6 < -0x19 && (this.current -= 0x3), L6 < -0x32 && (this.current -= 0x4), L6 < -0x64 && (this.current -= 0x5), IF(this.apparent - this.current) < 0x3 && (this.current = this.apparent);
+    }
+    if (Ig.chapter >= 2) {
+      this.y = (Iv.view.y || 0) + 40;
+    }
+    let nv = this.sprite_height;
+    let ne = this.sprite_width;
+    let nY = this.x;
+    let nS = this.y;
+    let nC = Ig.chapter >= 4 && !!In.tpBlueBar && !!In.tpBlueBar(this);
+    let no = Ig.chapter >= 4 && !!In.tpCustom && !!In.tpCustom(this);
+    A.draw_sprite("spr_tplogo", 0, nY - 30, nS + 30);
+    if (!no) {
+      A.draw_sprite("spr_tensionbar", nC ? 2 : 1, nY, nS);
+    }
+    A.draw_set_font("fnt_mainbig");
+    this.flashsiner++;
+    let nX = IS(this.apparent / Ig.maxtension * 100);
+    let L0 = 0;
+    if (nX < 100) {
+      A.draw_text(nY - 30, nS + 70, String(nX), IK.white);
+      if (!no || !In.tpCustomText || !In.tpCustomText(this, A)) {
+        A.draw_text(nY - 25, nS + 95, "%", IK.white);
+      }
+    } else {
+      L0 = 1;
+      A.draw_text(nY - 28, nS + 70, "M", IK.yellow);
+      A.draw_text(nY - 24, nS + 90, "A", IK.yellow);
+      A.draw_text(nY - 20, nS + 110, "X", IK.yellow);
+    }
+    if (IF(this.apparent - Ig.tension) < 20) {
+      this.apparent = Ig.tension;
+    }
+    if (this.apparent < Ig.tension) {
+      this.apparent += 20;
+    }
+    if (this.apparent > Ig.tension) {
+      this.apparent -= 20;
+    }
+    if (this.apparent !== this.current) {
+      this.changetimer++;
+      if (this.changetimer > 15) {
+        let L6 = this.apparent - this.current;
+        if (L6 > 0) {
+          this.current += 2;
         }
-      } else this.changetimer = 0x0;
+        if (L6 > 10) {
+          this.current += 2;
+        }
+        if (L6 > 25) {
+          this.current += 3;
+        }
+        if (L6 > 50) {
+          this.current += 4;
+        }
+        if (L6 > 100) {
+          this.current += 5;
+        }
+        if (L6 < 0) {
+          this.current -= 2;
+        }
+        if (L6 < -10) {
+          this.current -= 2;
+        }
+        if (L6 < -25) {
+          this.current -= 3;
+        }
+        if (L6 < -50) {
+          this.current -= 4;
+        }
+        if (L6 < -100) {
+          this.current -= 5;
+        }
+        if (IF(this.apparent - this.current) < 3) {
+          this.current = this.apparent;
+        }
+      }
+    } else {
+      this.changetimer = 0;
+    }
+    if (no) {
+      In.tpCustomDraw(this, A, L0);
+      return;
+    }
+    let L1 = "#008080";
+    let L2 = Iq(IK.blue, L1, 0.5);
+    let L3 = nC ? L0 ? Iq(L1, L2, 0.5) : L2 : L0 ? Iq(IK.yellow, IK.orange, 0.5) : IK.orange;
+    let L4 = (L7, L8) => {
+      A.draw_set_color(L7);
+      A.draw_rectangle(nY + 3, nS + nv - 1, nY + ne - 1, nS + nv - L8 / Ig.maxtension * nv, false);
+    };
+    if (this.current > 0 || this.apparent > 0) {
+      if (this.apparent < this.current) {
+        L4(nC ? IK.blue : IK.red, this.current);
+        L4(nC ? L2 : IK.orange, this.apparent);
+      }
+      if (this.apparent > this.current) {
+        L4(IK.white, this.apparent);
+        L4(L3, this.current);
+      }
+      if (this.apparent === this.current) {
+        L4(L3, this.current);
+      }
+    }
+    if (Ig.tensionselect > 0) {
+      this.tsiner++;
+      A.draw_set_color(IK.white);
+      A.draw_set_alpha(IF(Ip(this.tsiner / 8) * 0.5) + 0.2);
+      let L7 = nS + nv - this.current / Ig.maxtension * nv;
+      let L8 = L7 + Ig.tensionselect / Ig.maxtension * nv;
+      if (L8 > nS + nv - 1) {
+        L8 = nS + nv - 1;
+        A.draw_set_color(IK.dkgray);
+        A.draw_set_alpha(0.7);
+      }
+      A.draw_rectangle(nY + 3, L8, nY + ne - 1, L7, false);
+      A.draw_set_alpha(1);
+    }
+    if (this.apparent > 20 && this.apparent < Ig.maxtension) {
+      A.draw_sprite("spr_tensionmarker", 0, nY + 3, nS + nv - this.current / Ig.maxtension * nv);
+    }
+    A.draw_sprite("spr_tensionbar", 0, nY, nS);
+  }
+};
+IC(AD, "obj_tensionbar");
+Io(AD, "kinds", Ij("obj_tensionbar", Id));
+Io(AD, "defaultDepth", 1);
+Io(AD, "defaultSprite", "spr_tensionbar");
+var AZ = AD;
+var Ab = class Lz extends Id {
+  create() {
+    Object.assign(this, {
+      char: 0,
+      myself: 0,
+      points: 0,
+      becomeflash: 0,
+      state: 0,
+      flash: 0,
+      siner: 0,
+      fsiner: 0,
+      attacktimer: 0,
+      attacked: 0,
+      combatdarken: 1,
+      darkentimer: 0,
+      darkify: 0,
+      image_xscale: 2,
+      image_yscale: 2,
+      myheight: 37,
+      mywidth: 34,
+      index: 0,
+      specdraw: 0,
+      is_auto_susie: 0,
+      hurt: 0,
+      hurttimer: 0,
+      hurtindex: 0,
+      acttimer: 0,
+      defendtimer: 0,
+      itemed: 0,
+      tu: 0,
+      victoryanim: 0,
+      cancelattack: 0,
+      healnum: 0
+    });
+    this.setup();
+    if (Ig.chapter >= 4 && In.heroSetup) {
+      In.heroSetup(this);
+    }
+  }
+  setup() {}
+  draw(A) {
+    if (Ig.chapter >= 4 && In.heroDraw) {
+      return In.heroDraw(this, A, () => this.drawBody(A));
+    } else {
+      return this.drawBody(A);
+    }
+  }
+  drawBody(A) {
+    return T(this, A, () => this.drawBodyRaw(A));
+  }
+  drawBodyRaw(A) {
+    let nv = Ig.char[this.myself];
+    let ne = this.idlesprite;
+    let nY = 0;
+    if (Ig.hp[nv] > 0) {
+      if (Ig.myfight === 3 && Ig.faceaction[this.myself] === 6) {
+        this.state = 6;
+      }
+      if (this.state === 0 && this.hurt === 0) {
+        this.acttimer = 0;
+        ne = this.idlesprite;
+        let nS = Ig.faceaction[this.myself];
+        if (nS === 1) {
+          ne = this.attackreadysprite;
+        }
+        if (nS === 3) {
+          ne = this.itemreadysprite;
+        }
+        if (nS === 2) {
+          ne = this.spellreadysprite;
+        }
+        if (nS === 6) {
+          ne = this.actreadysprite;
+        }
+        if (Ig.charcond[this.myself] === 5) {
+          ne = this.defeatsprite;
+          Ig.faceaction[this.myself] = 9;
+        }
+        if (nS === 4) {
+          ne = this.defendsprite;
+          nY = this.defendtimer;
+          if (this.defendtimer < this.defendframes) {
+            this.defendtimer += 0.5;
+          }
+        } else {
+          this.defendtimer = 0;
+          nY = this.idlespeed ? this.siner * this.idlespeed : this.siner / 5;
+        }
+        this.siner++;
+      }
+      if (this.state === 1 && this.hurt === 0) {
+        this.siner++;
+        if (this.attacked === 0) {
+          let nC = this.is("obj_heroralsei") ? 1.15 : this.is("obj_herosusie") ? 0.9 : 1;
+          Im("snd_laz_c", {
+            pitch: nC
+          });
+          if (Ig.chapter >= 4 && In.heroAttackStart) {
+            In.heroAttackStart(this);
+          }
+          if (this.points === 150) {
+            Im("snd_criticalswing");
+            for (let no = 0; no < 3; no++) {
+              let nX = IZ(this.x + this.mywidth + Is(50), this.y + 30 + Is(30), X);
+              nX.sprite_index = "spr_lightfairy";
+              nX.image_speed = 0.25;
+              nX.depth = -20;
+              nX.image_xscale = 2;
+              nX.image_yscale = 2;
+              nX.hspeed = 2 + Is(4);
+              nX.friction = -0.25;
+              nX.fadespeed = 0.05;
+            }
+          }
+          this.attacked = 1;
+          this.alarm[1] = 10;
+        }
+        nY = this.attacktimer < this.attackframes ? this.attacktimer : this.attackframes;
+        ne = this.attacksprite;
+        this.attacktimer += this.attackspeed;
+      }
+      if (this.state === 2 && this.hurt === 0) {
+        this.siner++;
+        if (this.itemed === 0) {
+          this.itemed = 1;
+          this.alarm[4] = 15;
+        }
+        nY = this.attacktimer < this.spellframes ? this.attacktimer : this.spellframes;
+        if (I8() === 0) {
+          this.attacktimer = 0;
+        }
+        ne = this.spellsprite;
+        this.attacktimer += this.spellspeed || 0.5;
+        if (Ig.chapter >= 4 && In.heroSpellTick) {
+          In.heroSpellTick(this, ne);
+        }
+      }
+      if (this.state === 4 && this.hurt === 0) {
+        this.siner++;
+        if (this.itemed === 0) {
+          this.itemed = 1;
+          this.alarm[4] = 15;
+        }
+        nY = this.attacktimer < this.itemframes ? this.attacktimer : this.itemframes;
+        if (I8() === 0) {
+          this.attacktimer = 0;
+        }
+        ne = this.itemsprite;
+        this.attacktimer += 0.5;
+        if (Ig.chapter >= 4 && In.heroItemTick) {
+          In.heroItemTick(this);
+        }
+      }
+      if (this.state === 6) {
+        if (Ig.myfight === 3) {
+          if (this.acttimer < this.actframes) {
+            this.acttimer += 0.5;
+          }
+        } else {
+          this.acttimer += 0.5;
+        }
+        ne = this.actsprite;
+        nY = this.acttimer;
+        if (this.acttimer >= this.actreturnframes) {
+          this.acttimer = 0;
+          this.state = 0;
+          Ig.faceaction[this.myself] = 0;
+        }
+      }
+      if (this.state === 7) {
+        this.hurt = 0;
+        this.hurttimer = 0;
+        if (this.victoryanim < this.victoryframes) {
+          ne = this.victorysprite;
+          nY = this.victoryanim;
+          this.victoryanim += 0.334;
+        } else {
+          ne = this.normalsprite;
+          nY = 0;
+        }
+      }
+      if (Ig.chapter >= 4 && this.state === 8 && In.heroPoseEnd && In.heroPoseEnd(this)) {
+        ne = this.idlesprite;
+        nY = 0;
+      }
+      if (this.hurt === 1 && this.state !== 8) {
+        this.hurtindex = this.hurttimer / 2;
+        if (this.hurtindex > 2) {
+          this.hurtindex = 2;
+        }
+        if (Ig.charcond[this.myself] === 5) {
+          Ig.faceaction[this.myself] = 5;
+          Ig.charmove[this.myself] = 1;
+          Ig.charcond[this.myself] = 0;
+        }
+        if (Ig.faceaction[this.myself] === 0) {
+          Ig.faceaction[this.myself] = 5;
+        }
+        if (Ig.faceaction[this.myself] !== 4) {
+          this.specdraw = 1;
+          A.draw_sprite_ext(this.hurtsprite, this.hurtindex, this.x - 20 + this.hurtindex * 10, this.y, this.image_xscale, this.image_yscale, 0, this.image_blend, this.image_alpha);
+        } else {
+          this.specdraw = 1;
+          ne = this.defendsprite;
+          nY = this.defendtimer;
+          A.draw_sprite_ext(this.defendsprite, this.defendtimer, this.x - 20 + this.hurtindex * 10, this.y, this.image_xscale, this.image_yscale, 0, this.image_blend, this.image_alpha);
+        }
+        if (this.hurttimer > 15) {
+          this.hurttimer = 0;
+          this.hurt = 0;
+          if (Ig.faceaction[this.myself] === 5) {
+            Ig.faceaction[this.myself] = 0;
+          }
+        }
+        this.hurttimer++;
+      }
+    } else {
+      Ig.charcond[this.myself] = 0;
+      this.hurttimer = 0;
+      this.hurt = 0;
+      ne = this.defeatsprite;
+      nY = 0;
+      this.siner++;
+    }
+    this.thissprite = ne;
+    this.index = nY;
+    if (this.specdraw === 0 && this.state !== 8) {
+      this.sprite_index = ne;
+      this.image_index = nY;
+      this.image_speed = 0;
+      let L0 = this.image_xscale;
+      let L1 = this.image_yscale;
+      A.draw_sprite_ext(ne, nY, this.x, this.y, L0, L1, 0, this.image_blend, this.image_alpha);
+      if (this.flash === 1) {
+        this.fsiner++;
+        A.draw_sprite_white(ne, nY, this.x, this.y, L0, L1, 0, (-Iy(this.fsiner / 5) * 0.4 + 0.6) * this.image_alpha);
+      }
+    }
+    if (this.state === 8) {
+      A.draw_sprite_ext(this.sprite_index, this.image_index, this.x, this.y, this.image_xscale, this.image_yscale, this.image_angle, this.image_blend, this.image_alpha);
+    }
+    this.specdraw = 0;
+    if (this.becomeflash === 0) {
+      this.flash = 0;
+    }
+    if (Ig.targeted[this.myself] === 1) {
+      if (Ig.mnfight === 1) {
+        A.draw_sprite_ext("spr_chartarget", this.siner / 10, this.x, this.y, this.image_xscale, this.image_yscale, 0, IK.white, 1);
+      }
+    } else if (this.combatdarken === 1 && Iv.exists("obj_darkener") && this.darkify === 1) {
+      if (this.darkentimer < 15) {
+        this.darkentimer++;
+      }
+      this.image_blend = Iq(IK.white, IK.black, this.darkentimer / 30);
+    }
+    if (this.darkify === 0) {
+      if (this.darkentimer > 0) {
+        this.darkentimer -= 3;
+      }
+      if (this.darkentimer < 0) {
+        this.darkentimer = 0;
+      }
+      this.image_blend = Iq(IK.white, IK.black, this.depthShade ? Math.max(this.darkentimer / 30, this.depthShade) : this.darkentimer / 30);
+    }
+    this.becomeflash = 0;
+  }
+  alarmEvent(A) {
+    if (A === 1) {
+      this.attackHit();
+    }
+    if (A === 4 && this.actcast) {
+      this.actcast = 0;
+      if (I8() > 0) {
+        nc(Ig.charspecial[this.myself], this.myself);
+      }
+      return;
+    }
+    if (A === 4) {
+      Ig.faceaction[this.myself] = 0;
+      if (I8() > 0) {
+        nc(Ig.charspecial[this.myself], this.myself);
+      }
+      this.state = 0;
+      this.attacktimer = 0;
+    }
+  }
+  attackHit() {
+    Ig.faceaction[this.myself] = 0;
+    nH(this.myself);
+    if (this.cancelattack === 0) {
+      if (Ig.chapter >= 4 && In.heroAttackRetarget) {
+        In.heroAttackRetarget(this);
+      }
+      let A = Ig.chartarget[this.myself];
+      let nv = IZ(Ig.monsterx[A], Ig.monstery[A] - Ig.hittarget[A] * 20 + 20, Af);
+      nv.type = IL(this.char);
+      nv.delay = 8;
+      if (this.is("obj_herosusie") && Ig.charweapon[this.char] === 54) {
+        nP(this.myself, Iv.exists("obj_sound_of_justice_enemy") || Iv.exists("obj_hammer_of_justice_enemy") ? 2 : IY(Ig.maxhp[this.char] * 0.1));
+      }
+      let ne = Ir(Ig.battleat[this.myself] * this.points / 20 - Ig.monsterdf[A] * 3);
+      let nY = 0;
+      let nS = Ig.chapter === 3 ? Iv.first("obj_knight_enemy") : null;
+      if (nS) {
+        if (nS.blocking === 1 && nS.damagereduction < 0.1) {
+          nY = 1;
+        }
+        ne = IY(ne * nS.damagereduction);
+        if (this.is("obj_herokris")) {
+          if (Ig.hp[2] < 0 && Ig.hp[3] < 0) {
+            ne *= 2;
+          } else if (!(Ig.hp[2] < 0) && !(Ig.hp[3] < 0)) {
+            ne = Ir(ne * 0.5);
+          }
+        }
+      }
+      if (Ig.monstertype[A] === 19) {
+        ne = IY(ne * 0.3);
+      }
+      if (Ig.chapter >= 4 && In.heroDamage) {
+        ne = In.heroDamage(this, ne, A);
+      }
+      if (ne < 0) {
+        ne = 0;
+      }
+      let nC = In.monsterinstance(A);
+      if (ne === 0) {
+        nv.delay = 2;
+        if (nC && nC.hurttimer <= 15 && nC.candodge === 1) {
+          nC.dodgetimer = 0;
+          nC.state = 4;
+        }
+      }
+      nv.damage = ne;
+      Ig.hittarget[A] += 1;
+      let no = Iv.first("obj_queen_enemy");
+      let nX = 0;
       if (no) {
-        In.tpCustomDraw(this, A, L0);
-        return;
-      }
-      let L1 = "#008080",
-        L2 = Iq(IK.blue, L1, 0.5),
-        L3 = nC ? L0 ? Iq(L1, L2, 0.5) : L2 : L0 ? Iq(IK.yellow, IK.orange, 0.5) : IK.orange,
-        L4 = (L7, L8) => {
-          A.draw_set_color(L7), A.draw_rectangle(nY + 0x3, nS + nv - 0x1, nY + ne - 0x1, nS + nv - L8 / Ig.maxtension * nv, !0x1);
-        };
-      if ((this.current > 0x0 || this.apparent > 0x0) && (this.apparent < this.current && (L4(nC ? IK.blue : IK.red, this.current), L4(nC ? L2 : IK.orange, this.apparent)), this.apparent > this.current && (L4(IK.white, this.apparent), L4(L3, this.current)), this.apparent === this.current && L4(L3, this.current)), Ig.tensionselect > 0x0) {
-        this.tsiner++, A.draw_set_color(IK.white), A.draw_set_alpha(IF(Ip(this.tsiner / 0x8) * 0.5) + 0.2);
-        let L7 = nS + nv - this.current / Ig.maxtension * nv,
-          L8 = L7 + Ig.tensionselect / Ig.maxtension * nv;
-        L8 > nS + nv - 0x1 && (L8 = nS + nv - 0x1, A.draw_set_color(IK.dkgray), A.draw_set_alpha(0.7)), A.draw_rectangle(nY + 0x3, L8, nY + ne - 0x1, L7, !0x1), A.draw_set_alpha(0x1);
-      }
-      this.apparent > 0x14 && this.apparent < Ig.maxtension && A.draw_sprite('spr_tensionmarker', 0x0, nY + 0x3, nS + nv - this.current / Ig.maxtension * nv), A.draw_sprite('spr_tensionbar', 0x0, nY, nS);
-    }
-  };
-IC(AD, 'obj_tensionbar'), Io(AD, 'kinds', Ij('obj_tensionbar', Id)), Io(AD, 'defaultDepth', 0x1), Io(AD, 'defaultSprite', 'spr_tensionbar');
-var AZ = AD,
-  Ab = class Lz extends Id {
-    ["create"]() {
-      Object.assign(this, {
-        'char': 0x0,
-        'myself': 0x0,
-        'points': 0x0,
-        'becomeflash': 0x0,
-        'state': 0x0,
-        'flash': 0x0,
-        'siner': 0x0,
-        'fsiner': 0x0,
-        'attacktimer': 0x0,
-        'attacked': 0x0,
-        'combatdarken': 0x1,
-        'darkentimer': 0x0,
-        'darkify': 0x0,
-        'image_xscale': 0x2,
-        'image_yscale': 0x2,
-        'myheight': 0x25,
-        'mywidth': 0x22,
-        'index': 0x0,
-        'specdraw': 0x0,
-        'is_auto_susie': 0x0,
-        'hurt': 0x0,
-        'hurttimer': 0x0,
-        'hurtindex': 0x0,
-        'acttimer': 0x0,
-        'defendtimer': 0x0,
-        'itemed': 0x0,
-        'tu': 0x0,
-        'victoryanim': 0x0,
-        'cancelattack': 0x0,
-        'healnum': 0x0
-      }), this.setup(), Ig.chapter >= 0x4 && In.heroSetup && In.heroSetup(this);
-    }
-    ["setup"]() {}
-    ["draw"](A) {
-      return Ig.chapter >= 0x4 && In.heroDraw ? In.heroDraw(this, A, () => this.drawBody(A)) : this.drawBody(A);
-    }
-    ["drawBody"](A) {
-      return T(this, A, () => this.drawBodyRaw(A));
-    }
-    ["drawBodyRaw"](A) {
-      let nv = Ig.char[this.myself],
-        ne = this.idlesprite,
-        nY = 0x0;
-      if (Ig.hp[nv] > 0x0) {
-        if (Ig.myfight === 0x3 && Ig.faceaction[this.myself] === 0x6 && (this.state = 0x6), this.state === 0x0 && this.hurt === 0x0) {
-          this.acttimer = 0x0, ne = this.idlesprite;
-          let nS = Ig.faceaction[this.myself];
-          nS === 0x1 && (ne = this.attackreadysprite), nS === 0x3 && (ne = this.itemreadysprite), nS === 0x2 && (ne = this.spellreadysprite), nS === 0x6 && (ne = this.actreadysprite), Ig.charcond[this.myself] === 0x5 && (ne = this.defeatsprite, Ig.faceaction[this.myself] = 0x9), nS === 0x4 ? (ne = this.defendsprite, nY = this.defendtimer, this.defendtimer < this.defendframes && (this.defendtimer += 0.5)) : (this.defendtimer = 0x0, nY = this.idlespeed ? this.siner * this.idlespeed : this.siner / 0x5), this.siner++;
-        }
-        if (this.state === 0x1 && this.hurt === 0x0) {
-          if (this.siner++, this.attacked === 0x0) {
-            let nC = this.is('obj_heroralsei') ? 1.15 : this.is('obj_herosusie') ? 0.9 : 0x1;
-            if (Im('snd_laz_c', {
-              'pitch': nC
-            }), Ig.chapter >= 0x4 && In.heroAttackStart && In.heroAttackStart(this), this.points === 0x96) {
-              Im('snd_criticalswing');
-              for (let no = 0x0; no < 0x3; no++) {
-                let nX = IZ(this.x + this.mywidth + Is(0x32), this.y + 0x1e + Is(0x1e), X);
-                nX.sprite_index = 'spr_lightfairy', nX.image_speed = 0.25, nX.depth = -0x14, nX.image_xscale = 0x2, nX.image_yscale = 0x2, nX.hspeed = 0x2 + Is(0x4), nX.friction = -0.25, nX.fadespeed = 0.05;
-              }
-            }
-            this.attacked = 0x1, this.alarm[0x1] = 0xa;
+        if (Iv.first("obj_queenshield_enemy")) {
+          no.shieldhp -= ne;
+          nX = 1;
+        } else {
+          Ig.monsterhp[A] -= ne;
+          if (ne !== 0) {
+            no.shieldbrokecon = 1;
           }
-          nY = this.attacktimer < this.attackframes ? this.attacktimer : this.attackframes, ne = this.attacksprite, this.attacktimer += this.attackspeed;
         }
-        this.state === 0x2 && this.hurt === 0x0 && (this.siner++, this.itemed === 0x0 && (this.itemed = 0x1, this.alarm[0x4] = 0xf), nY = this.attacktimer < this.spellframes ? this.attacktimer : this.spellframes, I8() === 0x0 && (this.attacktimer = 0x0), ne = this.spellsprite, this.attacktimer += this.spellspeed || 0.5, Ig.chapter >= 0x4 && In.heroSpellTick && In.heroSpellTick(this, ne)), this.state === 0x4 && this.hurt === 0x0 && (this.siner++, this.itemed === 0x0 && (this.itemed = 0x1, this.alarm[0x4] = 0xf), nY = this.attacktimer < this.itemframes ? this.attacktimer : this.itemframes, I8() === 0x0 && (this.attacktimer = 0x0), ne = this.itemsprite, this.attacktimer += 0.5, Ig.chapter >= 0x4 && In.heroItemTick && In.heroItemTick(this)), this.state === 0x6 && (Ig.myfight === 0x3 ? this.acttimer < this.actframes && (this.acttimer += 0.5) : this.acttimer += 0.5, ne = this.actsprite, nY = this.acttimer, this.acttimer >= this.actreturnframes && (this.acttimer = 0x0, this.state = 0x0, Ig.faceaction[this.myself] = 0x0)), this.state === 0x7 && (this.hurt = 0x0, this.hurttimer = 0x0, this.victoryanim < this.victoryframes ? (ne = this.victorysprite, nY = this.victoryanim, this.victoryanim += 0.334) : (ne = this.normalsprite, nY = 0x0)), Ig.chapter >= 0x4 && this.state === 0x8 && In.heroPoseEnd && In.heroPoseEnd(this) && (ne = this.idlesprite, nY = 0x0), this.hurt === 0x1 && this.state !== 0x8 && (this.hurtindex = this.hurttimer / 0x2, this.hurtindex > 0x2 && (this.hurtindex = 0x2), Ig.charcond[this.myself] === 0x5 && (Ig.faceaction[this.myself] = 0x5, Ig.charmove[this.myself] = 0x1, Ig.charcond[this.myself] = 0x0), Ig.faceaction[this.myself] === 0x0 && (Ig.faceaction[this.myself] = 0x5), Ig.faceaction[this.myself] !== 0x4 ? (this.specdraw = 0x1, A.draw_sprite_ext(this.hurtsprite, this.hurtindex, this.x - 0x14 + this.hurtindex * 0xa, this.y, this.image_xscale, this.image_yscale, 0x0, this.image_blend, this.image_alpha)) : (this.specdraw = 0x1, ne = this.defendsprite, nY = this.defendtimer, A.draw_sprite_ext(this.defendsprite, this.defendtimer, this.x - 0x14 + this.hurtindex * 0xa, this.y, this.image_xscale, this.image_yscale, 0x0, this.image_blend, this.image_alpha)), this.hurttimer > 0xf && (this.hurttimer = 0x0, this.hurt = 0x0, Ig.faceaction[this.myself] === 0x5 && (Ig.faceaction[this.myself] = 0x0)), this.hurttimer++);
-      } else Ig.charcond[this.myself] = 0x0, this.hurttimer = 0x0, this.hurt = 0x0, ne = this.defeatsprite, nY = 0x0, this.siner++;
-      if (this.thissprite = ne, this.index = nY, this.specdraw === 0x0 && this.state !== 0x8) {
-        this.sprite_index = ne, this.image_index = nY, this.image_speed = 0x0;
-        let L0 = this.image_xscale,
-          L1 = this.image_yscale;
-        A.draw_sprite_ext(ne, nY, this.x, this.y, L0, L1, 0x0, this.image_blend, this.image_alpha), this.flash === 0x1 && (this.fsiner++, A.draw_sprite_white(ne, nY, this.x, this.y, L0, L1, 0x0, (-Iy(this.fsiner / 0x5) * 0.4 + 0.6) * this.image_alpha));
+      } else {
+        Ig.monsterhp[A] -= ne;
       }
-      this.state === 0x8 && A.draw_sprite_ext(this.sprite_index, this.image_index, this.x, this.y, this.image_xscale, this.image_yscale, this.image_angle, this.image_blend, this.image_alpha), this.specdraw = 0x0, this.becomeflash === 0x0 && (this.flash = 0x0), Ig.targeted[this.myself] === 0x1 ? Ig.mnfight === 0x1 && A.draw_sprite_ext('spr_chartarget', this.siner / 0xa, this.x, this.y, this.image_xscale, this.image_yscale, 0x0, IK.white, 0x1) : this.combatdarken === 0x1 && Iv.exists('obj_darkener') && this.darkify === 0x1 && (this.darkentimer < 0xf && this.darkentimer++, this.image_blend = Iq(IK.white, IK.black, this.darkentimer / 0x1e)), this.darkify === 0x0 && (this.darkentimer > 0x0 && (this.darkentimer -= 0x3), this.darkentimer < 0x0 && (this.darkentimer = 0x0), this.image_blend = Iq(IK.white, IK.black, this.depthShade ? Math.max(this.darkentimer / 0x1e, this.depthShade) : this.darkentimer / 0x1e)), this.becomeflash = 0x0;
-    }
-    ["alarmEvent"](A) {
-      if (A === 0x1 && this.attackHit(), A === 0x4 && this.actcast) {
-        this.actcast = 0x0, I8() > 0x0 && nc(Ig.charspecial[this.myself], this.myself);
-        return;
+      if (Ig.chapter >= 4 && In.heroAttackLanded) {
+        In.heroAttackLanded(this, A, ne, nv, nC);
       }
-      A === 0x4 && (Ig.faceaction[this.myself] = 0x0, I8() > 0x0 && nc(Ig.charspecial[this.myself], this.myself), this.state = 0x0, this.attacktimer = 0x0);
-    }
-    ["attackHit"]() {
-      if (Ig.faceaction[this.myself] = 0x0, nH(this.myself), this.cancelattack === 0x0) {
-        Ig.chapter >= 0x4 && In.heroAttackRetarget && In.heroAttackRetarget(this);
-        let A = Ig.chartarget[this.myself],
-          nv = IZ(Ig.monsterx[A], Ig.monstery[A] - Ig.hittarget[A] * 0x14 + 0x14, Af);
-        nv.type = IL(this.char), nv.delay = 0x8, this.is('obj_herosusie') && Ig.charweapon[this.char] === 0x36 && nP(this.myself, Iv.exists('obj_sound_of_justice_enemy') || Iv.exists('obj_hammer_of_justice_enemy') ? 0x2 : IY(Ig.maxhp[this.char] * 0.1));
-        let ne = Ir(Ig.battleat[this.myself] * this.points / 0x14 - Ig.monsterdf[A] * 0x3),
-          nY = 0x0,
-          nS = Ig.chapter === 0x3 ? Iv.first('obj_knight_enemy') : null;
-        nS && (nS.blocking === 0x1 && nS.damagereduction < 0.1 && (nY = 0x1), ne = IY(ne * nS.damagereduction), this.is('obj_herokris') && (Ig.hp[0x2] < 0x0 && Ig.hp[0x3] < 0x0 ? ne *= 0x2 : Ig.hp[0x2] < 0x0 || Ig.hp[0x3] < 0x0 || (ne = Ir(ne * 0.5)))), Ig.monstertype[A] === 0x13 && (ne = IY(ne * 0.3)), Ig.chapter >= 0x4 && In.heroDamage && (ne = In.heroDamage(this, ne, A)), ne < 0x0 && (ne = 0x0);
-        let nC = In.monsterinstance(A);
-        ne === 0x0 && (nv.delay = 0x2, nC && nC.hurttimer <= 0xf && nC.candodge === 0x1 && (nC.dodgetimer = 0x0, nC.state = 0x4)), nv.damage = ne, Ig.hittarget[A] += 0x1;
-        let no = Iv.first('obj_queen_enemy'),
-          nX = 0x0;
-        if (no ? Iv.first('obj_queenshield_enemy') ? (no.shieldhp -= ne, nX = 0x1) : (Ig.monsterhp[A] -= ne, ne !== 0x0 && (no.shieldbrokecon = 0x1)) : Ig.monsterhp[A] -= ne, Ig.chapter >= 0x4 && In.heroAttackLanded && In.heroAttackLanded(this, A, ne, nv, nC), this.is_auto_susie === 0x1 && Ig.monsterhp[A] <= 0x0 && nC && (Ig.flag[0x33 + nC.myself] = 0x5), ne > 0x0) {
-          Ig.chapter >= 0x4 && In.heroHitTP ? I7(In.heroHitTP(this)) : Ig.monstertype[0x0] !== 0x14 ? I7(Ir(this.points / 0xa)) : I7(Ir(this.points / 0xf)), nY === 0x1 && (nS.blockanim = 0x1);
-          let L1 = IZ(Ig.monsterx[A] + Is(0x6), Ig.monstery[A] + Is(0x6), AN);
-          if (nY === 0x1 && L1.instance_destroy(), nY !== 0x1) {
-            if (!(Ig.chapter >= 0x4 && In.heroAttackSprite && In.heroAttackSprite(this, L1))) {
-              if (this.is('obj_herosusie')) L1.sprite_index = 'spr_attack_mash2', L1.image_speed = 0.5, L1.maxindex = 0x4, Im('snd_impact'), IZ(0x0, 0x0, I3);else {
-                if (this.member && this.member.attack) {
-                  let L2 = this.member.attack;
-                  L2.slash && (L1.sprite_index = L2.slash), L2.sound && Im(L2.sound, {
-                    'pitch': L2.pitch || 0x1
-                  });
-                }
+      if (this.is_auto_susie === 1 && Ig.monsterhp[A] <= 0 && nC) {
+        Ig.flag[51 + nC.myself] = 5;
+      }
+      if (ne > 0) {
+        if (Ig.chapter >= 4 && In.heroHitTP) {
+          I7(In.heroHitTP(this));
+        } else if (Ig.monstertype[0] !== 20) {
+          I7(Ir(this.points / 10));
+        } else {
+          I7(Ir(this.points / 15));
+        }
+        if (nY === 1) {
+          nS.blockanim = 1;
+        }
+        let L1 = IZ(Ig.monsterx[A] + Is(6), Ig.monstery[A] + Is(6), AN);
+        if (nY === 1) {
+          L1.instance_destroy();
+        }
+        if (nY !== 1) {
+          if (!(Ig.chapter >= 4) || !In.heroAttackSprite || !In.heroAttackSprite(this, L1)) {
+            if (this.is("obj_herosusie")) {
+              L1.sprite_index = "spr_attack_mash2";
+              L1.image_speed = 0.5;
+              L1.maxindex = 4;
+              Im("snd_impact");
+              IZ(0, 0, I3);
+            } else if (this.member && this.member.attack) {
+              let L2 = this.member.attack;
+              if (L2.slash) {
+                L1.sprite_index = L2.slash;
+              }
+              if (L2.sound) {
+                Im(L2.sound, {
+                  pitch: L2.pitch || 1
+                });
               }
             }
           }
-          if (this.is('obj_heroralsei') && (L1.sprite_index = 'spr_attack_slap1', L1.maxindex = 0x4, L1.image_speed = 0.5), this.points === 0x96 && (L1.image_xscale = 2.5, L1.image_yscale = 2.5), nX === 0x1) {
-            let L3 = Iv.first('obj_queenshield_enemy');
-            L3 && (L1.x = L3.x + 0x22, ne !== 0x0 && L3.event_user(0x0));
-          } else no && (L1.x = no.x + 0x3e), nC && (nC.shakex = 0x9, nC.state = 0x3, nC.hurttimer = 0x1e);
-          nC && (nC.hurtamt = ne);
         }
-        if (nX === 0x1) {
-          let L4 = Iv.first('obj_queenshield_enemy');
-          L4 && (nv.x = L4.x, nv.depth -= 0x64);
+        if (this.is("obj_heroralsei")) {
+          L1.sprite_index = "spr_attack_slap1";
+          L1.maxindex = 4;
+          L1.image_speed = 0.5;
         }
-        Ig.chapter === 0x2 && Iv.first('obj_sweet_enemy') && Ig.monsterhp[A] <= 0x0 && (Ig.monsterhp[A] = 0x1);
-        let L0 = no ? 0x1 : Iv.first('obj_spamton_neo_enemy') ? 0x2 : Iv.first('obj_berdlyb_enemy') ? 0x3 : 0x0;
-        Ig.monsterhp[A] <= 0x0 && L0 === 0x0 && nC && nC.scr_monsterdefeat(), Ig.monsterhp[A] <= 0x0 && L0 === 0x3 && nC && (nC.endcon = 0x1);
+        if (this.points === 150) {
+          L1.image_xscale = 2.5;
+          L1.image_yscale = 2.5;
+        }
+        if (nX === 1) {
+          let L3 = Iv.first("obj_queenshield_enemy");
+          if (L3) {
+            L1.x = L3.x + 34;
+            if (ne !== 0) {
+              L3.event_user(0);
+            }
+          }
+        } else {
+          if (no) {
+            L1.x = no.x + 62;
+          }
+          if (nC) {
+            nC.shakex = 9;
+            nC.state = 3;
+            nC.hurttimer = 30;
+          }
+        }
+        if (nC) {
+          nC.hurtamt = ne;
+        }
+      }
+      if (nX === 1) {
+        let L4 = Iv.first("obj_queenshield_enemy");
+        if (L4) {
+          nv.x = L4.x;
+          nv.depth -= 100;
+        }
+      }
+      if (Ig.chapter === 2 && Iv.first("obj_sweet_enemy") && Ig.monsterhp[A] <= 0) {
+        Ig.monsterhp[A] = 1;
+      }
+      let L0 = no ? 1 : Iv.first("obj_spamton_neo_enemy") ? 2 : Iv.first("obj_berdlyb_enemy") ? 3 : 0;
+      if (Ig.monsterhp[A] <= 0 && L0 === 0 && nC) {
+        nC.scr_monsterdefeat();
+      }
+      if (Ig.monsterhp[A] <= 0 && L0 === 3 && nC) {
+        nC.endcon = 1;
       }
     }
-  };
-IC(Ab, 'obj_heroparent'), Io(Ab, 'kinds', Ij('obj_heroparent', Id)), Io(Ab, 'defaultDepth', 0x64);
+  }
+};
+IC(Ab, "obj_heroparent");
+Io(Ab, "kinds", Ij("obj_heroparent", Id));
+Io(Ab, "defaultDepth", 100);
 var Am = Ab;
 function AK(A, n) {
   let nv = j(n, Ib);
-  Object.assign(A, nv.sprites, nv.frames, nv.size), A.herokey = nv.id, A.borrowedFrom = nv.borrowed || null;
+  Object.assign(A, nv.sprites, nv.frames, nv.size);
+  A.herokey = nv.id;
+  A.borrowedFrom = nv.borrowed || null;
 }
-IC(AK, 'applyHeroSet');
+IC(AK, "applyHeroSet");
 function AP(A) {
-  if (A.herokey !== 'noelle' || A.borrowedFrom || Ig.charweapon[A.char] !== 0xd && Ig.charweapon[A.char] !== 0x16) return;
-  let n = {
-    'attackreadysprite': 'spr_noelleb_idle',
-    'attacksprite': 'spr_noelleb_spell',
-    'victorysprite': 'spr_noelleb_pray',
-    'defendsprite': 'spr_noelleb_defend_sideb',
-    'hurtsprite': 'spr_noelleb_hurt_sideb',
-    'idlesprite': 'spr_noelleb_idle_sideb'
-  };
-  for (let [nv, ne] of Object.entries(n)) Ib[ne] && (A[nv] = ne);
-  Ib.spr_noelleb_spell && (A.attackframes = 0x6), Ib.spr_noelleb_pray && (A.victoryframes = 0xa), Ib.spr_noelleb_defend_sideb && (A.defendframes = 0x5);
-}
-IC(AP, 'noelleSideB');
-var Aq = class Ll extends Am {
-  ["setup"]() {
-    AK(this, this.herokey || 'kris');
-  }
-};
-IC(Aq, 'obj_herokris'), Io(Aq, 'kinds', Ij('obj_herokris', Am));
-var Ac = Aq,
-  Az = class Ls extends Am {
-    ["setup"]() {
-      AK(this, this.herokey || 'susie');
-    }
-  };
-IC(Az, 'obj_herosusie'), Io(Az, 'kinds', Ij('obj_herosusie', Am));
-var Al = Az,
-  AO = class LO extends Am {
-    ["setup"]() {
-      AK(this, this.herokey || 'ralsei'), this.herokey === 'ralsei' && Ig.chapter >= 0x2 && Ig.chapter <= 0x4 && Object.assign(this, {
-        'attackframes': 0x6,
-        'itemframes': 0x6,
-        'defendframes': 0x7,
-        'actframes': Ig.chapter === 0x2 ? 0x8 : 0x7,
-        'actreturnframes': Ig.chapter === 0x2 ? 0xc : 0xa,
-        'attackspeed': 0.5,
-        'normalsprite': 'spr_ralsei_walk_right',
-        'idlesprite': 'spr_ralsei_idle',
-        'defendsprite': 'spr_ralsei_defend',
-        'hurtsprite': 'spr_ralsei_hurt_fixed',
-        'attackreadysprite': 'spr_ralsei_attackready',
-        'attacksprite': 'spr_ralsei_attack',
-        'itemsprite': 'spr_ralsei_item',
-        'itemreadysprite': 'spr_ralsei_itemready',
-        'spellreadysprite': 'spr_ralsei_spellready',
-        'spellsprite': 'spr_ralsei_spell',
-        'defeatsprite': 'spr_ralsei_defeat',
-        'victorysprite': 'spr_ralsei_victory',
-        'actreadysprite': 'spr_ralsei_actready',
-        'actsprite': 'spr_ralsei_act',
-        'victoryframes': 0x15,
-        'mywidth': 0x34,
-        'myheight': 0x56
-      });
-    }
-  };
-IC(AO, 'obj_heroralsei'), Io(AO, 'kinds', Ij('obj_heroralsei', Am));
-var Ak = AO,
-  Ad = class Lk extends Am {
-    ["setup"]() {
-      AK(this, this.herokey || 'noelle');
-    }
-  };
-IC(Ad, 'obj_heronoelle'), Io(Ad, 'kinds', Ij('obj_heronoelle', Am));
-var Aj = Ad,
-  AT = IC((A, n) => {
-    let nv = Ij(A, n);
-    return nv.delete(n.name), nv;
-  }, 'extraKinds'),
-  Au = class Ld extends Ac {
-    ['is'](A) {
-      return A === 'obj_herokris' || super.is(A);
-    }
-  };
-IC(Au, 'obj_herokris_extra'), Io(Au, 'kinds', AT('obj_herokris_extra', Ac));
-var AQ = Au,
-  Ah = class Lj extends Al {
-    ['is'](A) {
-      return A === 'obj_herosusie' || super.is(A);
-    }
-  };
-IC(Ah, 'obj_herosusie_extra'), Io(Ah, 'kinds', AT('obj_herosusie_extra', Al));
-var AV = Ah,
-  AM = class LT extends Ak {
-    ['is'](A) {
-      return A === 'obj_heroralsei' || super.is(A);
-    }
-  };
-IC(AM, 'obj_heroralsei_extra'), Io(AM, 'kinds', AT('obj_heroralsei_extra', Ak));
-var AB = AM,
-  Ai = class Lu extends Aj {
-    ['is'](A) {
-      return A === 'obj_heronoelle' || super.is(A);
-    }
-  };
-IC(Ai, 'obj_heronoelle_extra'), Io(Ai, 'kinds', AT('obj_heronoelle_extra', Aj));
-var AU = Ai,
-  Ar = new Map([[Ac, AQ], [Al, AV], [Ak, AB], [Aj, AU]]),
-  Av = class Li extends Am {
-    ["setup"]() {
-      AK(this, this.herokey || 'kris'), this.member = (k[this.herokey] || {}).member || null;
-      let A = i(this);
-      this.image_xscale = A, this.image_yscale = A, this.mywidth = Ir(this.mywidth * A / 0x2), this.myheight = Ir(this.myheight * A / 0x2);
-    }
-    ["drawBody"](A) {
-      return B(this, A, () => super.drawBody(A));
-    }
-  };
-IC(Av, 'obj_herocustom'), Io(Av, 'kinds', Ij('obj_herocustom', Am));
-var AY = Av,
-  AS = class Le extends Id {
-    constructor() {
-      super(), Object.assign(this, {
-        'myself': 0x0,
-        'state': 0x0,
-        'hurttimer': 0x0,
-        'hurtamt': 0x0,
-        'shakex': 0x0,
-        'candodge': 0x0,
-        'dodgetimer': 0x0,
-        'acting': 0x0,
-        'actcon': 0x0,
-        'talked': 0x0,
-        'attacked': 0x0,
-        'flash': 0x0,
-        'fsiner': 0x0,
-        'becomeflash': 0x0,
-        'mytarget': 0x3,
-        'image_xscale': 0x2,
-        'image_yscale': 0x2
-      });
-    }
-    ["userEvent"](A) {
-      A === 0xc && (Ig.monsterx[this.myself] = this.x + 0x14, Ig.monstery[this.myself] = this.y), A === 0xa && this.spared();
-    }
-    ["spared"]() {
-      In.scr_spareanim && In.scr_spareanim.call(this), In.scr_recruit && In.scr_recruit.call(this), this.scr_monsterdefeat(), this.instance_destroy();
-    }
-    ["scr_monsterdefeat"]() {
-      let A = this.myself;
-      Ig.monster[A] === 0x1 && (Ig.monstergold[0x3] += Ig.monstergold[A], Ig.monsterexp[0x3] += Ig.monsterexp[A], Ig.monster[A] = 0x0, Ig.flag[0x33 + A] === 0x0 && (Ig.flag[0x33 + A] = 0x2, Ig.monsterhp[A] <= 0x0 && (Ig.flag[0x33 + A] = 0x1)), Ig.flag[0x33 + A] === 0x6 && (Ig.flag[0x2d] = (Ig.flag[0x2d] | 0x0) + 0x1, Ig.monstergold[0x3] += 0x18), this.userEvent(0xb));
-    }
-  };
-IC(AS, 'obj_monsterparent'), Io(AS, 'kinds', Ij('obj_monsterparent', Id)), Io(AS, 'defaultDepth', 0x5a);
-var AC = AS,
-  At = IC(() => {
-    if (Ig.chapter !== 0x3) return !0x1;
-    let A = Iv.first('obj_knight_enemy');
-    return !!(A && !A.destroyed && A.end_cutscene_version > 0x0);
-  }, 'knightEndCutscene'),
-  Ao = IC(A => {
-    let n = Iv.first(A);
-    return n && !n.destroyed ? n : null;
-  }, 'ex'),
-  AX = IC(() => {
-    if (Ig.chapter !== 0x3) return !0x1;
-    if (Ig.minigameStage) return !0x0;
-    let A = Ao('obj_actor_tenna');
-    if (A && A.threepartmode === 0x1 && Ao('obj_lightemup_controller')) return !0x1;
-    let n = Ao('obj_tenna_zoom');
-    if (n && n.minigameinsanityintro) return !0x1;
-    if (Ao('obj_susiezilla_gamecontroller') || Ao('obj_chefs_game') || Ao('obj_rhythmgame')) return !0x0;
-    let nv = Ao('obj_tenna_minigame_ui');
-    if (nv && nv.enabled === !0x0 || Ao('obj_shootout_controller') && Ao('obj_tenna_enemy') || n && n.con === 0x0 && n.screenshot) return !0x0;
-    let ne = Ao('obj_shadowman_sharpshoot_cursor');
-    return !!(ne && ne.disablesbattleui === !0x0);
-  }, 'minigameHidesUI'),
-  n0 = IC(() => Ig.chapter !== 0x3 ? !0x1 : Ig.minigameStage || Ao('obj_susiezilla_gamecontroller') || Ao('obj_chefs_game') || Ao('obj_rhythmgame') || Ao('obj_shootout_controller') || Ao('obj_gameover_board') || Ao('obj_gameover_minigame') ? !0x0 : At(), 'tensionbarHidden'),
-  n1 = IC(() => At() || AX(), 'battleUIHidden'),
-  n2 = IC(() => {
-    if (Ig.chapter !== 0x3) return !0x1;
-    if (Ig.minigameStage) return !0x0;
-    let A = Ao('obj_rouxls_ch3_enemy');
-    if (A && A.intro < 0x2) return !0x0;
-    let n = Ao('obj_tenna_board4_enemy');
-    if (n && n.intro < 0x2) return !0x0;
-    let nv = Ao('obj_elnina_lanino_controller');
-    if (nv && nv.intro < 0x4) return !0x0;
-    let ne = Ao('obj_tennabattleconvo_controller');
-    return !!(ne && ne.introcon < 0x2 || Ao('obj_susiezilla_gamecontroller') || Ao('obj_chefs_game') || Ao('obj_rhythmgame') || Ao('obj_shootout_controller') && Ao('obj_tenna_enemy'));
-  }, 'ch3StepHeld'),
-  n3 = IC(() => AX(), 'minigameOnScreen'),
-  n4 = IC(() => At() || n2(), 'controllerHeld'),
-  n5 = class Lt extends Id {
-    ["create"]() {
-      let A = If(),
-        nv = () => new Array(A).fill(0x0);
-      this.active = 0x0, this.fastmode = 0x1, this.fastmode === 0x1 && (this.active = 0x1), this.goahead = 0x0, this.spelluse = 0x0, this.spelldelay = new Array(A).fill(0xa), this.maxdelay = 0x0, this.maxdelaytimer = 0x0, this.havechar = nv(), this.charitem = nv(), this.charspell = nv();
-      for (let nX = 0x0; nX < If(); nX++) Ig.charaction[nX] === 0x1 && (this.havechar[nX] = 0x1), (Ig.charaction[nX] === 0x4 || Ig.charaction[nX] === 0x2) && (this.maxdelay === 0x0 && (this.maxdelay = 0x19), this.maxdelay += 0xf, this.spelluse = 0x1, Ig.charaction[nX] === 0x4 ? this.charitem[nX] = 0x1 : this.charspell[nX] = 0x1);
-      this.spelluse = 0x0, this.fade = 0x0, this.fadeamt = 0x0, this.fakefade = 0x0, this.bcolor = IK.navy;
-      let ne = [Ic(0xffff00), Ic(0xff00ff), Ic(0xff00)],
-        nY = [Iq(IK.aqua, IK.white, 0.5), Iq(IK.fuchsia, IK.white, 0.5), Iq(IK.lime, IK.white, 0.5)];
-      this.charcolor = [], this.boltcolor = [];
-      for (let L0 = 0x0; L0 < A; L0++) {
-        let L1 = IR(Ig.char[L0]) - 0x1;
-        this.charcolor[L0] = ne[L1] ?? ne[0x0], this.boltcolor[L0] = nY[L1] ?? nY[0x0];
-        let L2 = V(Ig.char[L0]);
-        L2 && (this.charcolor[L0] = L2, this.boltcolor[L0] = Iq(L2, IK.white, 0.5));
-      }
-      this.target = 0x0;
-      for (let L3 = 0x0; L3 < A; L3++) Ig.hittarget[L3] = Ig.chartarget[L3];
-      this.imagetimer = 0x0, this.posttimer = 0x0, this.timermax = 0x32, this.havechar.some(L4 => L4 === 0x1) || (this.timermax = 0x3), this.boltspeed = 0x8, this.boltx = 0x0, this.points = nv(), this.pressbuffer = new Array(Math.max(0x4, Ig.charbase ? Ig.charbase.length : 0x4)).fill(0x0), this.charbolt = new Array(A).fill(0x1);
-      for (let L4 = 0x0; L4 < A; L4++) this.havechar[L4] === 0x0 && (this.charbolt[L4] = 0x0);
-      this.attacked = nv(), this.bolttotal = this.charbolt.reduce((L5, L6) => L5 + L6, 0x0), this.boltuse = nv(), this.boltchar = [], this.boltframe = [], this.boltalive = [], this.boltred = [];
-      let nS = -0x1,
-        nC = 0x0,
-        no = 0xa;
-      Ig.flag[0xd] === 0x0 && (no += 0x2), A > 0x6 && (no = Math.max(0x4, Math.round(no * 0x6 / Math.min(A, 0x12))));
-      for (let L5 = 0x0; L5 < this.bolttotal; L5++) {
-        this.boltalive[L5] = 0x1;
-        let L6 = [];
-        for (let LI = 0x0; LI < If(); LI++) this.havechar[LI] === 0x1 && L6.push(LI);
-        let L7 = L6.filter(LA => this.boltuse[LA] < this.charbolt[LA]),
-          L8 = L7.length ? L7 : L6;
-        if (!L8.length) {
-          this.boltalive[L5] = 0x0;
-          continue;
-        }
-        let L9 = L8[Math.min(L8.length - 0x1, Math.floor(Is(L8.length)))];
-        this.boltchar[L5] = L9, this.boltuse[L9]++;
-      }
-      for (let LA = 0x0; LA < this.bolttotal; LA++) this.boltred[LA] = 0x0, nC += nS, this.boltframe[LA] = 0x1e + nC, LA < this.bolttotal - 0x1 ? nS !== 0x0 && this.boltchar[LA] !== this.boltchar[LA + 0x1] ? (nS = IT(0x0, no, no * 1.5), this.boltred[LA] = 0x1) : nS = IT(no, no * 1.5) : nS = IT(no, no * 1.5);
-      this.haveauto = 0x0, this.autoed = 0x0;
-      {
-        let Ln = IG(0x2),
-          LL = Ln >= 0x0 ? Ig.char[Ln] : 0x0;
-        Ln >= 0x0 && Ig.charauto[LL] === 0x1 && (this.sus = Ln, Ig.hp[LL] >= 0x0 && Ig.charmove[Ln] === 0x1 && (this.haveauto = 0x1, this.timermax === 0x3 && (this.timermax = 0x32)));
-      }
-    }
-    ["boltcheckOne"]() {
-      let A = -0x1,
-        nv = -0x1;
-      this.pressbuffer = [0x5, 0x5, 0x5, 0x5];
-      let ne = -0x1,
-        nY = 0x3e7;
-      for (let nC = 0x0; nC < this.bolttotal; nC++) if (this.boltalive[nC] === 0x1) {
-        let no = this.boltframe[nC] - this.boltx;
-        no < 0xf && no > -0x5 && (no === nY && (A = 0x1, nv = nC), no < nY && (nY = no, ne = nC));
-      }
-      let nS = nX => {
-        let L0 = this.boltchar[nX],
-          L1 = IF(nY),
-          L2 = IZ(this.x + 0x50 + this.boltframe[nX] * this.boltspeed - this.boltx * this.boltspeed, this.y + (this.rowh ?? 0x26) * (this.rowOf ? this.rowOf(L0) : L0), AF);
-        ID.nomiss && (L1 = 0x0), L1 === 0x0 && (this.points[L0] += 0x96, L2.image_blend = IK.yellow, L2.mag = 0.2), L1 === 0x1 && (this.points[L0] += 0x78), L1 === 0x2 && (this.points[L0] += 0x6e), L1 >= 0x3 && (this.points[L0] += 0x64 - IF(nY) * 0x2, L2.image_blend = this.boltcolor[L0]), L1 >= 0xf && (L2.image_blend = this.charcolor[L0]), this.boltalive[nX] = 0x0;
-      };
-      ne !== -0x1 && (nS(ne), A === 0x1 && nS(nv));
-    }
-    ["boltcheck"](A) {
-      this.pressbuffer[Ig.char[A]] = 0x5;
-      let n = -0x1,
-        nv = 0x63;
-      for (let ne = 0x0; ne < this.bolttotal; ne++) if (this.boltchar[ne] === A && this.boltalive[ne] === 0x1) {
-        let nY = this.boltframe[ne] - this.boltx;
-        nY < 0xf && nY > -0x5 && nY < nv && (nv = nY, n = ne);
-      }
-      if (n !== -0x1) {
-        let nS = IF(nv),
-          nC = IZ(this.x + 0x50 + this.boltframe[n] * this.boltspeed - this.boltx * this.boltspeed, (this.barY ?? this.y) + (this.rowh ?? 0x26) * A, AF);
-        nS === 0x0 && (this.points[A] += 0x96, nC.image_blend = IK.yellow, nC.mag = 0.2), nS === 0x1 && (this.points[A] += 0x78), nS === 0x2 && (this.points[A] += 0x6e), nS >= 0x3 && (this.points[A] += 0x64 - IF(nv) * 0x2, nC.image_blend = this.boltcolor[A]), nS >= 0xf && (nC.image_blend = this.charcolor[A]), this.boltalive[n] = 0x0;
-      }
-    }
-    ["userEvent"](A) {
-      if (A === 0x1 && I8() > 0x0) {
-        Ig.chapter >= 0x4 && In.attackpressHit && In.attackpressHit(this);
-        let n = Ig.chapter === 0x2 && Iv.first('o_boxingcontroller');
-        if (n) {
-          let nY = this.points[0x0];
-          n.punchcon = 0x1, n.damageoverride = Ir(Ig.battleat[0x0] * nY / 0xa), n.acttoenemytalktransition = 0x1, (nY === 0x96 || nY === 0x12c) && (n.tpoverride = 0x5), nY === 0x0 && (n.damageoverride = 0x1);
-          return;
-        }
-        let nv = this.target,
-          ne = In.charinstance(nv);
-        ne && (ne.points = this.points[nv], ne.state = 0x1, ne.attacktimer = 0x0);
-      }
-    }
-    ["draw"](nv) {
-      if (n1() || (this.maxdelaytimer++, this.maxdelaytimer >= this.maxdelay && (this.active = 0x1), this.active !== 0x1)) return;
-      let ne = If(),
-        nY = 0x26,
-        nS = 0x1,
-        nC = ne > 0x3,
-        no = L3 => nC ? L3 % 0x3 : L3,
-        nX = this.x,
-        L0 = this.y;
-      this.rowh = nY, this.barY = L0, this.rowOf = no;
-      let L1 = [];
-      if (nC) for (let L3 = 0x0; L3 < 0x3; L3++) {
-        let L4 = -0x1,
-          L5 = 0x3b9aca00;
-        for (let L6 = 0x0; L6 < this.bolttotal; L6++) {
-          let L7 = this.boltchar[L6];
-          this.boltalive[L6] === 0x1 && L7 % 0x3 === L3 && this.boltframe[L6] < L5 && (L5 = this.boltframe[L6], L4 = L7);
-        }
-        if (L4 < 0x0) {
-          for (let L8 = L3; L8 < ne; L8 += 0x3) if (this.havechar[L8] === 0x1 && Ig.charauto[Ig.char[L8]] === 0x0) {
-            L4 = L8;
-            break;
-          }
-        }
-        L1.push([L4 < 0x0 ? L3 : L4, L3]);
-      } else {
-        for (let L9 = 0x0; L9 < ne; L9++) L1.push([L9, L9]);
-      }
-      for (let [LI, LA] of L1) if (nv.draw_set_color(this.bcolor), Ig.chapter >= 0x4 ? (LA === 0x1 || LA === 0x2) && this.havechar.some(Ln => Ln === 0x1) && nv.draw_rectangle(nX + 0x4d, L0 + nY * LA, nX + 0x12c, L0 + nY * LA + 0x1, !0x1) : LA >= 0x1 && nv.draw_rectangle(nX, L0 + nY * LA, nX + 0x12c, L0 + nY * LA + 0x2, !0x1), Ig.char[LI] !== 0x0 && Ig.charauto[Ig.char[LI]] === 0x0 && this.havechar[LI] === 0x1) {
-        let Ln = IR(Ig.char[LI]),
-          LL = Ln === 0x1 ? IK.blue : Ln === 0x2 ? IK.purple : IK.green,
-          Lw = M(Ig.char[LI]);
-        Lw && (LL = Lw), this.pressbuffer[Ig.char[LI]] > 0x0 && (LL = Iq(LL, IK.white, this.pressbuffer[Ig.char[LI]] / 0x5)), nv.draw_set_color(LL);
-        let LH = Ig.chapter >= 0x4 ? 0x1 : 0x0;
-        nv.draw_rectangle(nX + 0x4e, L0 + nY * LA + LH, nX + 0x50 + 0xf * this.boltspeed, L0 + nY * LA + nY - 0x2, !0x0), nv.draw_rectangle(nX + 0x4f, L0 + nY * LA + 0x1 + LH, nX + 0x50 + 0xf * this.boltspeed - 0x1, L0 + nY * LA + nY - 0x3, !0x0);
-        let LW = Math.min(0x3, Math.max(0x1, Ln)),
-          Lg = V(Ig.char[LI]) ? Iq(V(Ig.char[LI]), IK.white, 0.35) : IK.white,
-          LR = k[Ig.charhero && Ig.charhero[Ig.char[LI]] || d[LW - 0x1]],
-          LG = LR && LR.head && Ib[LR.head];
-        if (LG && (LR.custom || LR.head !== k[d[LW - 0x1]].head)) {
-          let LE = Ib[LR.head];
-          nv.draw_sprite_part_ext(LR.head, 0x0, 0x0, 0x0, LE.w, Math.min(LE.h, 0x24), nX + 0x2, L0 + nY * LA + Math.max(0x1, 0x24 - Math.min(LE.h, 0x24) >> 0x1), 0x1, 0x1, IK.white, 0x1);
-        } else nv.draw_sprite_ext('spr_pressfront', LW - 0x1, nX, L0 + nY * LA, 0x1, nS, 0x0, Lg, 0x1), LG && Ib[LR.head].w <= 0x28 && LR.head !== k[d[LW - 0x1]].head && nv.draw_sprite_ext(LR.head, 0x0, nX + 0x2, L0 + nY * LA + 0x7 * nS, nS, nS, 0x0, IK.white, 0x1);
-        nv.draw_sprite_ext('spr_pressfront_b', Ig.flag[0xd] === 0x0 ? 0x0 : Math.min(0x2, LA), nX, L0 + nY * LA, 0x1, nS, 0x0, IK.white, 0x1), nv.draw_sprite_ext('spr_pressspot', LW - 0x1, nX + 0x50, L0 + nY * LA, 0x1, nS, 0x0, Lg, 0x1);
-      }
-      let L2 = new Array(ne).fill(0x0);
-      for (let Lf = 0x0; Lf < this.bolttotal; Lf++) {
-        let La = this.boltchar[Lf];
-        this.boltframe[Lf] - this.boltx < -0x5 && (this.boltalive[Lf] = 0x0);
-        let LN = 0x1;
-        if (this.boltframe[Lf] - this.boltx < 0x0) LN = 0x1 + (this.boltframe[Lf] - this.boltx) / 0x3;else {
-          if (this.imagetimer === 0x0 && this.boltalive[Lf] === 0x1) {
-            let LJ = IZ(nX + 0x50 + this.boltframe[Lf] * this.boltspeed - this.boltx * this.boltspeed, L0 + nY * no(La), X);
-            LJ.sprite_index = 'spr_attackspot', LJ.image_alpha = 0.4, LJ.depth = -0x77, nC && (LJ.image_blend = this.boltcolor[La]);
-          }
-        }
-        this.boltalive[Lf] === 0x1 && (nv.draw_sprite_ext('spr_attackspot', 0x0, nX + 0x50 + this.boltframe[Lf] * this.boltspeed - this.boltx * this.boltspeed, L0 + nY * no(La), 0x1, 0x1, 0x0, nC ? this.boltcolor[La] : IK.white, LN), L2[this.boltchar[Lf]]++);
-      }
-      for (let LF = 0x0; LF < If(); LF++) L2[LF] === 0x0 && this.havechar[LF] === 0x1 && this.attacked[LF] === 0x0 && (this.attacked[LF] = 0x1, this.target = LF, this.userEvent(0x1));
-      I8() > 0x0 ? Ig.flag[0xd] === 0x1 && ne <= 0x3 ? (Iz() && this.havechar[0x0] === 0x1 && this.boltcheck(0x0), IO() && this.havechar[0x1] === 0x1 && this.boltcheck(0x1), Ik() && this.havechar[0x2] === 0x1 && this.boltcheck(0x2)) : Iz() && this.boltcheckOne() : (this.fakefade = 0x1, this.posttimer < this.timermax - 0x23 && (this.posttimer = this.timermax - 0x22)), this.imagetimer++, this.boltx++;
-      for (let Lp = 0x0; Lp < this.pressbuffer.length; Lp++) this.pressbuffer[Lp]--;
-      this.imagetimer > 0x1 && (this.imagetimer = 0x0), this.goahead = 0x0, this.goahead = 0x1;
-      for (let Ly = 0x0; Ly < ne; Ly++) this.attacked[Ly] !== 0x1 && this.havechar[Ly] === 0x1 && (this.goahead = 0x0);
-      if (I8() === 0x0 && (this.goahead = 0x1), this.goahead === 0x1) {
-        if (this.posttimer++, this.posttimer > this.timermax - 0x23 && this.haveauto === 0x1 && this.autoed === 0x0 && I8() > 0x0) {
-          let LD = In.charinstance(this.sus);
-          LD && (LD.points = 0xa0, Ig.automiss && Ig.automiss[Ig.chartarget[this.sus]] === 0x1 && (LD.points = 0x0), LD.state = 0x1, LD.attacktimer = 0x0, LD.is_auto_susie = 0x1), this.posttimer -= 0x19, this.autoed = 0x1;
-        }
-        this.posttimer > this.timermax && (this.fade = 0x1, Iv.with('obj_heroparent', LZ => {
-          LZ.state === 0x1 && (LZ.state = 0x0), LZ.attacked = 0x0, LZ.itemed = 0x0;
-        }), I8() === 0x0 ? nJ() : (Ig.chapter < 0x3 || Ig.mnfight !== 1.5 && Ig.mnfight !== 0x2) && (Ig.mnfight = 0x1, Ig.myfight = -0x1));
-      }
-      (this.fade === 0x1 || this.fakefade === 0x1) && (this.fadeamt += 0.08, nv.draw_set_color(IK.black), nv.draw_set_alpha(Math.min(0x1, this.fadeamt)), nv.draw_rectangle(nX - 0x1, Ig.chapter >= 0x4 ? L0 : L0 - 0x1, nX + 0x280, L0 + 0x12c, !0x1), nv.draw_set_alpha(0x1), this.fade === 0x1 && this.fadeamt > 0x1 && this.instance_destroy());
-    }
-  };
-IC(n5, 'obj_attackpress'), Io(n5, 'kinds', Ij('obj_attackpress', Id)), Io(n5, 'defaultDepth', 0x1);
-var n6 = n5,
-  n7 = class wi extends Id {
-    ["create"]() {
-      let A = this.slots = Math.max(0x3, If());
-      this.spelltimer = 0x0, this.spelltotal = 0x0, this.char = 0x0, this.castyet = 0x0, this.re_castyet = 0x0, this.active = 0x0, this.alarm[0x0] = 0x5, this.spellwriter = null, this.using = new Array(A).fill(0x0), this.gotspell = new Array(A).fill(0x0), this.gotitem = new Array(A).fill(0x0), this.visible = !0x1;
-    }
-    ["writer"](A) {
-      return m(A) || o();
-    }
-    ["pose"](A, n) {
-      if (A) {
-        if (Ig.charaction[n] === 0x2 && P(Ig.charspecial[n])) {
-          c(A, Ig.charspecial[n]), A.state = 0x6, A.acttimer = 0x0, A.actcast = 0x1, A.alarm[0x4] = 0xf;
-          return;
-        }
-        Ig.charaction[n] === 0x2 && q(A, Ig.charspecial[n]), A.state = Ig.charaction[n] === 0x2 ? 0x2 : 0x4, A.attacktimer = 0x0;
-      }
-    }
-    ["alarmEvent"](A) {
-      if (A === 0x0) {
-        for (let n = 0x0; n < If(); n++) if ((Ig.charaction[n] === 0x2 || Ig.charaction[n] === 0x4) && (this.spelltotal++, this.using[n] = 0x1, Ig.charaction[n] === 0x2 ? this.gotspell[n] = 0x1 : this.gotitem[n] = 0x1, this.castyet === 0x0)) {
-          let nv = In.charinstance(n);
-          this.pose(nv, n), this.castyet = 0x1, this.char = n + 0x1, nb(Ig.charspecial[n], n), this.spellwriter = this.writer(Ig.charspecial[n]);
-        }
-        this.active = 0x1, Ig.spelldelay = 0x5a;
-      }
-    }
-    ["step"]() {
-      if (this.active === 0x1 && (this.spelltimer++, this.spelltimer >= Ig.spelldelay && !Iv.exists(this.spellwriter))) {
-        let A = () => {
-          na(), Iv.exists(this.spellwriter) && this.spellwriter.instance_destroy(), this.instance_destroy();
-        };
-        if (this.char >= this.slots || this.spelltotal === 0x1) {
-          A();
-          return;
-        }
-        if (I8() > 0x0) {
-          let n = this.char;
-          if (this.gotitem[n] === 0x1 || this.gotspell[n] === 0x1) {
-            this.re_castyet = 0x1;
-            let nv = In.charinstance(n);
-            nv && IW(Ig.charspecial[n]) && this.gotspell[n] === 0x1 ? this.pose(nv, n) : nv && (nv.state = this.gotitem[n] === 0x1 ? 0x4 : 0x2), Iv.exists(this.spellwriter) && this.spellwriter.instance_destroy(), nb(Ig.charspecial[n], n), this.spellwriter = this.writer(Ig.charspecial[n]);
-          }
-          Ig.spelldelay = 0x5a, this.re_castyet === 0x0 && (Ig.spelldelay = 0x1), this.char++;
-          for (let ne = 0x0; ne < this.slots - 0x1; ne++) this.char < this.slots && this.using[this.char] === 0x0 && this.char++;
-          this.spelltimer = 0x0, this.re_castyet = 0x0;
-        } else A();
-      }
-    }
-  };
-IC(n7, 'obj_spellphase'), Io(n7, 'kinds', Ij('obj_spellphase', Id)), Io(n7, 'defaultDepth', 0x0);
-var n8 = n7,
-  n9 = class wt extends Id {
-    ["create"]() {
-      this.t = 0x0, this.image_speed = 0x0, this.target = null, this.image_xscale = 0x2, this.image_yscale = 0x2, this.damage = 0x1, this.caster = 0x0, this.star = 0x0;
-      let A = Iv.first('obj_herosusie');
-      A && (this.depth = A.depth, A.visible = !0x1), this.red = 0x0;
-    }
-    ["step"]() {
-      if (this.image_index = this.t / 0x2, this.t >= 0x1c) {
-        let A = Iv.first('obj_herosusie');
-        A && (A.visible = !0x0), this.instance_destroy();
-        return;
-      }
-      if (Iv.exists(this.target) && this.t === 0xa) {
-        Im('snd_rudebuster_swing');
-        let n = IZ(this.x + 0x28, this.y + 0x1e, nn);
-        n.caster = this.caster, n.target = this.target, n.damage = this.damage, n.star = this.star, this.red === 0x1 && (n.red = 0x1);
-      }
-      this.t++;
-    }
-    ["destroy"]() {
-      let A = Iv.first('obj_herosusie');
-      A && (A.visible = !0x0);
-    }
-  };
-IC(n9, 'obj_rudebuster_anim'), Io(n9, 'kinds', Ij('obj_rudebuster_anim', Id)), Io(n9, 'defaultDepth', 0x0), Io(n9, 'defaultSprite', 'spr_susie_rudebuster');
-var nI = n9,
-  nA = class HQ extends Id {
-    ["create"]() {
-      this.target = null, this.damage = 0x1, this.star = 0x0, this.caster = 0x0, this.image_alpha = 0x0, this.image_xscale = 0x2, this.image_yscale = 0x2, this.image_speed = 0x1, this.t = 0x0, this.explode = 0x0, this.bolt_timer = 0x0, this.chosen_bolt = 0x0, this.final_bolt = 0x0, this.red = 0x0, this.aft = [];
-    }
-    ["step"]() {
-      if (this.image_alpha < 0x1 ? this.image_alpha += 0.25 : this.image_alpha = 0x1, this.t === 0x0) {
-        let A = this.target,
-          n = Iv.first('obj_queenshield_enemy');
-        n ? (this.depth = n.depth - 0x1, this.cx = n.x + 0x18, this.cy = n.y + 0x8c) : (this.cx = Ig.monsterx[A.myself], this.cy = Ig.monstery[A.myself]), this.direction = Ih(this.x, this.y, this.cx, this.cy) - 0x14, this.speed = 0x18, this.friction = -1.5, this.image_angle = this.direction, this.red === 0x1 && (this.sprite_index = 'spr_rudebuster_beam_red', this.image_xscale = 2.5, this.image_yscale = 2.5);
-      }
-      if (this.t >= 0x1 && this.explode === 0x0) {
-        this.bolt_timer++, Iz() && this.bolt_timer >= 0x4 && this.chosen_bolt === 0x0 && (this.chosen_bolt = this.bolt_timer);
-        let nv = Ih(this.x, this.y, this.cx, this.cy);
-        this.direction += Ix(nv, this.direction) / 0x4, this.image_angle = this.direction, IB(this.x, this.y, this.cx, this.cy) <= 0x28 && (this.final_bolt = Ig.chapter >= 0x3 ? this.bolt_timer : this.chosen_bolt, this.visible = !0x1, this.explode = 0x1, this.t = 0x1, this.speed = 0x0, this.friction = 0x0);
-      }
-      if (this.explode === 0x1) {
-        if (this.t === 0x1) {
-          if (this.chosen_bolt > 0x0) {
-            let nS = this.final_bolt - this.chosen_bolt,
-              nC = {
-                0x0: 0x1e,
-                0x1: 0x1c,
-                0x2: 0x16,
-                0x3: 0x14,
-                0x4: 0xd,
-                0x5: 0xb,
-                0x6: 0xa
-              }[nS];
-            nC && (this.damage += nC), IF(nS) <= 0x2 && Im('snd_scytheburst');
-          }
-          Ig.chapter >= 0x4 && In.rudebusterHit && In.rudebusterHit(this, 'before'), this.red === 0x1 && (this.damage += 0x5a), Ig.hittarget[this.star] = 0x0, Ig.chapter === 0x3 && Iv.exists('obj_knight_enemy') && (this.damage = Ir(this.damage / 0x2));
-          let ne = Iv.first('obj_queenshield_enemy'),
-            nY = ne && Iv.first('obj_queen_enemy');
-          if (nY) nY.shieldhp -= this.damage, ne.con = 0x1, ne.event_user(0x0);else {
-            let no = Iw(this.star, this.damage, this.caster);
-            no && this.sprite_index === 'spr_rudebuster_beam_green' && (no.type = 1.5, no.ystart -= 0x1e);
-          }
-          Ig.chapter >= 0x4 && In.rudebusterHit && In.rudebusterHit(this, 'after') || Im('snd_rudebuster_hit');
-          for (let nX = 0x0; nX < 0x8; nX++) {
-            let L0 = IZ(this.cx, this.cy, X);
-            L0.sprite_index = this.sprite_index, L0.image_index = 0x4, L0.image_xscale = 0x2, L0.image_yscale = 0x2, L0.image_angle = 0x2d + nX * 0x5a, L0.direction = L0.image_angle, L0.speed = 0x19, L0.depth = this.depth - 0xa, L0.fadespeed = 0.06, L0.image_speed = 0x0;
-          }
-        }
-        this.t >= 0x12 && this.instance_destroy();
-      }
-      if (this.explode === 0x0) {
-        let L1 = IZ(this.x, this.y, X);
-        L1.sprite_index = this.sprite_index, L1.image_yscale = 1.8, L1.image_xscale = 0x2, L1.image_angle = this.image_angle, L1.image_index = 0x4, L1.image_speed = 0x0, L1.image_alpha = this.image_alpha - 0.2, L1.fadespeed = 0.07, L1.depth = this.depth + 0x1;
-      }
-      this.t++;
-    }
-  };
-IC(nA, 'obj_rudebuster_bolt'), Io(nA, 'kinds', Ij('obj_rudebuster_bolt', Id)), Io(nA, 'defaultDepth', -0xa), Io(nA, 'defaultSprite', 'spr_rudebuster_beam');
-var nn = nA,
-  nL = class Hh extends Id {
-    ["create"]() {
-      this.con = 0x5, this.target = null, this.fail = 0x1, this.flashcolor = IK.blue, this.visible = !0x1, this.t = 0x0;
-    }
-    ["step"]() {
-      let A = this.target;
-      if (!Iv.exists(A)) {
-        this.instance_destroy();
-        return;
-      }
-      this.t++, this.t <= 0x8 ? A.image_blend = Iq(A.image_blend, this.flashcolor, 0.12) : this.t <= 0x10 ? A.image_blend = Iq(A.image_blend, IK.white, 0.16) : (A.image_blend = IK.white, this.instance_destroy());
-    }
-  };
-IC(nL, 'obj_pacifyspell'), Io(nL, 'kinds', Ij('obj_pacifyspell', Id)), Io(nL, 'defaultDepth', 0x0);
-var nw = nL;
-function nH(A) {
-  let n = Ig.chartarget[A],
-    nv = 0x0;
-  n === 0x0 && Ig.monster[0x0] === 0x0 && (n = 0x1), n === 0x1 && Ig.monster[0x1] === 0x0 && (n = 0x2), n === 0x2 && (Ig.monster[0x2] === 0x0 && (n = 0x3), n === 0x3 && Ig.monster[0x0] === 0x1 && (n = 0x0), n === 0x3 && Ig.monster[0x1] === 0x1 && (n = 0x1), n === 0x3 && (nv = 0x1)), Ig.chartarget[A] = n;
-  let ne = In.charinstance(A);
-  return ne && (ne.cancelattack = nv), nv;
-}
-IC(nH, 'scr_retarget');
-function nW(A) {
-  let n = 0x0;
-  return A === 0x0 && Ig.monster[0x0] === 0x0 && (A = 0x1), A === 0x1 && Ig.monster[0x1] === 0x0 && (A = 0x2), A === 0x2 && (Ig.monster[0x2] === 0x0 && (A = 0x3), A === 0x3 && Ig.monster[0x0] === 0x1 && (A = 0x0), A === 0x3 && Ig.monster[0x1] === 0x1 && (A = 0x1), A === 0x3 && (n = 0x1)), [A, n];
-}
-IC(nW, 'retargetStar');
-function ng(A) {
-  let n = 0x1;
-  return Ig.hp[Ig.char[A]] <= 0x0 && (n = 0x0), Ig.acting[A] === 0x1 && (n = 0x0), Ig.char[A] === 0x0 && (n = 0x0), Ig.charmove[A] === 0x0 && (n = 0x0), Ig.charauto[Ig.char[A]] === 0x1 && (n = 0x0), n;
-}
-IC(ng, 'scr_charcan');
-var nR = IC(() => If(), 'DONE_TURN');
-function nG() {
-  let A = nz(),
-    n = Ig.charturn;
-  if (Ig.chapter >= 0x4 && If() <= 0x3 && In.chapterNexthero && In.chapterNexthero(A)) return;
-  if (Ig.chapter >= 0x4 && Ig.charturn === 0x0 && In.nextheroSkip && In.nextheroSkip(A)) {
-    Ig.charturn = nR(), nf();
+  if (A.herokey !== "noelle" || A.borrowedFrom || Ig.charweapon[A.char] !== 13 && Ig.charweapon[A.char] !== 22) {
     return;
   }
-  let nv = -0x1;
-  for (let ne = Ig.charturn + 0x1; ne < If(); ne++) if (Ig.charmove[ne] === 0x1 && ng(ne) && Ig.acting[ne] === 0x0 && !Y(ne)) {
-    nv = ne;
-    break;
+  let n = {
+    attackreadysprite: "spr_noelleb_idle",
+    attacksprite: "spr_noelleb_spell",
+    victorysprite: "spr_noelleb_pray",
+    defendsprite: "spr_noelleb_defend_sideb",
+    hurtsprite: "spr_noelleb_hurt_sideb",
+    idlesprite: "spr_noelleb_idle_sideb"
+  };
+  for (let [nv, ne] of Object.entries(n)) {
+    if (Ib[ne]) {
+      A[nv] = ne;
+    }
   }
-  if (nv === -0x1) {
+  if (Ib.spr_noelleb_spell) {
+    A.attackframes = 6;
+  }
+  if (Ib.spr_noelleb_pray) {
+    A.victoryframes = 10;
+  }
+  if (Ib.spr_noelleb_defend_sideb) {
+    A.defendframes = 5;
+  }
+}
+IC(AP, "noelleSideB");
+var Aq = class Ll extends Am {
+  setup() {
+    AK(this, this.herokey || "kris");
+  }
+};
+IC(Aq, "obj_herokris");
+Io(Aq, "kinds", Ij("obj_herokris", Am));
+var Ac = Aq;
+var Az = class Ls extends Am {
+  setup() {
+    AK(this, this.herokey || "susie");
+  }
+};
+IC(Az, "obj_herosusie");
+Io(Az, "kinds", Ij("obj_herosusie", Am));
+var Al = Az;
+var AO = class LO extends Am {
+  setup() {
+    AK(this, this.herokey || "ralsei");
+    if (this.herokey === "ralsei" && Ig.chapter >= 2 && Ig.chapter <= 4) {
+      Object.assign(this, {
+        attackframes: 6,
+        itemframes: 6,
+        defendframes: 7,
+        actframes: Ig.chapter === 2 ? 8 : 7,
+        actreturnframes: Ig.chapter === 2 ? 12 : 10,
+        attackspeed: 0.5,
+        normalsprite: "spr_ralsei_walk_right",
+        idlesprite: "spr_ralsei_idle",
+        defendsprite: "spr_ralsei_defend",
+        hurtsprite: "spr_ralsei_hurt_fixed",
+        attackreadysprite: "spr_ralsei_attackready",
+        attacksprite: "spr_ralsei_attack",
+        itemsprite: "spr_ralsei_item",
+        itemreadysprite: "spr_ralsei_itemready",
+        spellreadysprite: "spr_ralsei_spellready",
+        spellsprite: "spr_ralsei_spell",
+        defeatsprite: "spr_ralsei_defeat",
+        victorysprite: "spr_ralsei_victory",
+        actreadysprite: "spr_ralsei_actready",
+        actsprite: "spr_ralsei_act",
+        victoryframes: 21,
+        mywidth: 52,
+        myheight: 86
+      });
+    }
+  }
+};
+IC(AO, "obj_heroralsei");
+Io(AO, "kinds", Ij("obj_heroralsei", Am));
+var Ak = AO;
+var Ad = class Lk extends Am {
+  setup() {
+    AK(this, this.herokey || "noelle");
+  }
+};
+IC(Ad, "obj_heronoelle");
+Io(Ad, "kinds", Ij("obj_heronoelle", Am));
+var Aj = Ad;
+var AT = IC((A, n) => {
+  let nv = Ij(A, n);
+  nv.delete(n.name);
+  return nv;
+}, "extraKinds");
+var Au = class Ld extends Ac {
+  is(A) {
+    return A === "obj_herokris" || super.is(A);
+  }
+};
+IC(Au, "obj_herokris_extra");
+Io(Au, "kinds", AT("obj_herokris_extra", Ac));
+var AQ = Au;
+var Ah = class Lj extends Al {
+  is(A) {
+    return A === "obj_herosusie" || super.is(A);
+  }
+};
+IC(Ah, "obj_herosusie_extra");
+Io(Ah, "kinds", AT("obj_herosusie_extra", Al));
+var AV = Ah;
+var AM = class LT extends Ak {
+  is(A) {
+    return A === "obj_heroralsei" || super.is(A);
+  }
+};
+IC(AM, "obj_heroralsei_extra");
+Io(AM, "kinds", AT("obj_heroralsei_extra", Ak));
+var AB = AM;
+var Ai = class Lu extends Aj {
+  is(A) {
+    return A === "obj_heronoelle" || super.is(A);
+  }
+};
+IC(Ai, "obj_heronoelle_extra");
+Io(Ai, "kinds", AT("obj_heronoelle_extra", Aj));
+var AU = Ai;
+var Ar = new Map([[Ac, AQ], [Al, AV], [Ak, AB], [Aj, AU]]);
+var Av = class Li extends Am {
+  setup() {
+    AK(this, this.herokey || "kris");
+    this.member = (k[this.herokey] || {}).member || null;
+    let A = i(this);
+    this.image_xscale = A;
+    this.image_yscale = A;
+    this.mywidth = Ir(this.mywidth * A / 2);
+    this.myheight = Ir(this.myheight * A / 2);
+  }
+  drawBody(A) {
+    return B(this, A, () => super.drawBody(A));
+  }
+};
+IC(Av, "obj_herocustom");
+Io(Av, "kinds", Ij("obj_herocustom", Am));
+var AY = Av;
+var AS = class Le extends Id {
+  constructor() {
+    super();
+    Object.assign(this, {
+      myself: 0,
+      state: 0,
+      hurttimer: 0,
+      hurtamt: 0,
+      shakex: 0,
+      candodge: 0,
+      dodgetimer: 0,
+      acting: 0,
+      actcon: 0,
+      talked: 0,
+      attacked: 0,
+      flash: 0,
+      fsiner: 0,
+      becomeflash: 0,
+      mytarget: 3,
+      image_xscale: 2,
+      image_yscale: 2
+    });
+  }
+  userEvent(A) {
+    if (A === 12) {
+      Ig.monsterx[this.myself] = this.x + 20;
+      Ig.monstery[this.myself] = this.y;
+    }
+    if (A === 10) {
+      this.spared();
+    }
+  }
+  spared() {
+    if (In.scr_spareanim) {
+      In.scr_spareanim.call(this);
+    }
+    if (In.scr_recruit) {
+      In.scr_recruit.call(this);
+    }
+    this.scr_monsterdefeat();
+    this.instance_destroy();
+  }
+  scr_monsterdefeat() {
+    let A = this.myself;
+    if (Ig.monster[A] === 1) {
+      Ig.monstergold[3] += Ig.monstergold[A];
+      Ig.monsterexp[3] += Ig.monsterexp[A];
+      Ig.monster[A] = 0;
+      if (Ig.flag[51 + A] === 0) {
+        Ig.flag[51 + A] = 2;
+        if (Ig.monsterhp[A] <= 0) {
+          Ig.flag[51 + A] = 1;
+        }
+      }
+      if (Ig.flag[51 + A] === 6) {
+        Ig.flag[45] = (Ig.flag[45] | 0) + 1;
+        Ig.monstergold[3] += 24;
+      }
+      this.userEvent(11);
+    }
+  }
+};
+IC(AS, "obj_monsterparent");
+Io(AS, "kinds", Ij("obj_monsterparent", Id));
+Io(AS, "defaultDepth", 90);
+var AC = AS;
+var At = IC(() => {
+  if (Ig.chapter !== 3) {
+    return false;
+  }
+  let A = Iv.first("obj_knight_enemy");
+  return !!A && !A.destroyed && !!(A.end_cutscene_version > 0);
+}, "knightEndCutscene");
+var Ao = IC(A => {
+  let n = Iv.first(A);
+  if (n && !n.destroyed) {
+    return n;
+  } else {
+    return null;
+  }
+}, "ex");
+var AX = IC(() => {
+  if (Ig.chapter !== 3) {
+    return false;
+  }
+  if (Ig.minigameStage) {
+    return true;
+  }
+  let A = Ao("obj_actor_tenna");
+  if (A && A.threepartmode === 1 && Ao("obj_lightemup_controller")) {
+    return false;
+  }
+  let n = Ao("obj_tenna_zoom");
+  if (n && n.minigameinsanityintro) {
+    return false;
+  }
+  if (Ao("obj_susiezilla_gamecontroller") || Ao("obj_chefs_game") || Ao("obj_rhythmgame")) {
+    return true;
+  }
+  let nv = Ao("obj_tenna_minigame_ui");
+  if (nv && nv.enabled === true || Ao("obj_shootout_controller") && Ao("obj_tenna_enemy") || n && n.con === 0 && n.screenshot) {
+    return true;
+  }
+  let ne = Ao("obj_shadowman_sharpshoot_cursor");
+  return !!ne && ne.disablesbattleui === true;
+}, "minigameHidesUI");
+var n0 = IC(() => Ig.chapter !== 3 ? false : Ig.minigameStage || Ao("obj_susiezilla_gamecontroller") || Ao("obj_chefs_game") || Ao("obj_rhythmgame") || Ao("obj_shootout_controller") || Ao("obj_gameover_board") || Ao("obj_gameover_minigame") ? true : At(), "tensionbarHidden");
+var n1 = IC(() => At() || AX(), "battleUIHidden");
+var n2 = IC(() => {
+  if (Ig.chapter !== 3) {
+    return false;
+  }
+  if (Ig.minigameStage) {
+    return true;
+  }
+  let A = Ao("obj_rouxls_ch3_enemy");
+  if (A && A.intro < 2) {
+    return true;
+  }
+  let n = Ao("obj_tenna_board4_enemy");
+  if (n && n.intro < 2) {
+    return true;
+  }
+  let nv = Ao("obj_elnina_lanino_controller");
+  if (nv && nv.intro < 4) {
+    return true;
+  }
+  let ne = Ao("obj_tennabattleconvo_controller");
+  return !!ne && !!(ne.introcon < 2) || !!Ao("obj_susiezilla_gamecontroller") || !!Ao("obj_chefs_game") || !!Ao("obj_rhythmgame") || !!Ao("obj_shootout_controller") && !!Ao("obj_tenna_enemy");
+}, "ch3StepHeld");
+var n3 = IC(() => AX(), "minigameOnScreen");
+var n4 = IC(() => At() || n2(), "controllerHeld");
+var n5 = class Lt extends Id {
+  create() {
+    let A = If();
+    let nv = () => new Array(A).fill(0);
+    this.active = 0;
+    this.fastmode = 1;
+    if (this.fastmode === 1) {
+      this.active = 1;
+    }
+    this.goahead = 0;
+    this.spelluse = 0;
+    this.spelldelay = new Array(A).fill(10);
+    this.maxdelay = 0;
+    this.maxdelaytimer = 0;
+    this.havechar = nv();
+    this.charitem = nv();
+    this.charspell = nv();
+    for (let nX = 0; nX < If(); nX++) {
+      if (Ig.charaction[nX] === 1) {
+        this.havechar[nX] = 1;
+      }
+      if (Ig.charaction[nX] === 4 || Ig.charaction[nX] === 2) {
+        if (this.maxdelay === 0) {
+          this.maxdelay = 25;
+        }
+        this.maxdelay += 15;
+        this.spelluse = 1;
+        if (Ig.charaction[nX] === 4) {
+          this.charitem[nX] = 1;
+        } else {
+          this.charspell[nX] = 1;
+        }
+      }
+    }
+    this.spelluse = 0;
+    this.fade = 0;
+    this.fadeamt = 0;
+    this.fakefade = 0;
+    this.bcolor = IK.navy;
+    let ne = [Ic(16776960), Ic(16711935), Ic(65280)];
+    let nY = [Iq(IK.aqua, IK.white, 0.5), Iq(IK.fuchsia, IK.white, 0.5), Iq(IK.lime, IK.white, 0.5)];
+    this.charcolor = [];
+    this.boltcolor = [];
+    for (let L0 = 0; L0 < A; L0++) {
+      let L1 = IR(Ig.char[L0]) - 1;
+      this.charcolor[L0] = ne[L1] ?? ne[0];
+      this.boltcolor[L0] = nY[L1] ?? nY[0];
+      let L2 = V(Ig.char[L0]);
+      if (L2) {
+        this.charcolor[L0] = L2;
+        this.boltcolor[L0] = Iq(L2, IK.white, 0.5);
+      }
+    }
+    this.target = 0;
+    for (let L3 = 0; L3 < A; L3++) {
+      Ig.hittarget[L3] = Ig.chartarget[L3];
+    }
+    this.imagetimer = 0;
+    this.posttimer = 0;
+    this.timermax = 50;
+    if (!this.havechar.some(L4 => L4 === 1)) {
+      this.timermax = 3;
+    }
+    this.boltspeed = 8;
+    this.boltx = 0;
+    this.points = nv();
+    this.pressbuffer = new Array(Math.max(4, Ig.charbase ? Ig.charbase.length : 4)).fill(0);
+    this.charbolt = new Array(A).fill(1);
+    for (let L4 = 0; L4 < A; L4++) {
+      if (this.havechar[L4] === 0) {
+        this.charbolt[L4] = 0;
+      }
+    }
+    this.attacked = nv();
+    this.bolttotal = this.charbolt.reduce((L5, L6) => L5 + L6, 0);
+    this.boltuse = nv();
+    this.boltchar = [];
+    this.boltframe = [];
+    this.boltalive = [];
+    this.boltred = [];
+    let nS = -1;
+    let nC = 0;
+    let no = 10;
+    if (Ig.flag[13] === 0) {
+      no += 2;
+    }
+    if (A > 6) {
+      no = Math.max(4, Math.round(no * 6 / Math.min(A, 18)));
+    }
+    for (let L5 = 0; L5 < this.bolttotal; L5++) {
+      this.boltalive[L5] = 1;
+      let L6 = [];
+      for (let LI = 0; LI < If(); LI++) {
+        if (this.havechar[LI] === 1) {
+          L6.push(LI);
+        }
+      }
+      let L7 = L6.filter(LA => this.boltuse[LA] < this.charbolt[LA]);
+      let L8 = L7.length ? L7 : L6;
+      if (!L8.length) {
+        this.boltalive[L5] = 0;
+        continue;
+      }
+      let L9 = L8[Math.min(L8.length - 1, Math.floor(Is(L8.length)))];
+      this.boltchar[L5] = L9;
+      this.boltuse[L9]++;
+    }
+    for (let LA = 0; LA < this.bolttotal; LA++) {
+      this.boltred[LA] = 0;
+      nC += nS;
+      this.boltframe[LA] = 30 + nC;
+      if (LA < this.bolttotal - 1) {
+        if (nS !== 0 && this.boltchar[LA] !== this.boltchar[LA + 1]) {
+          nS = IT(0, no, no * 1.5);
+          this.boltred[LA] = 1;
+        } else {
+          nS = IT(no, no * 1.5);
+        }
+      } else {
+        nS = IT(no, no * 1.5);
+      }
+    }
+    this.haveauto = 0;
+    this.autoed = 0;
+    {
+      let Ln = IG(2);
+      let LL = Ln >= 0 ? Ig.char[Ln] : 0;
+      if (Ln >= 0 && Ig.charauto[LL] === 1) {
+        this.sus = Ln;
+        if (Ig.hp[LL] >= 0 && Ig.charmove[Ln] === 1) {
+          this.haveauto = 1;
+          if (this.timermax === 3) {
+            this.timermax = 50;
+          }
+        }
+      }
+    }
+  }
+  boltcheckOne() {
+    let A = -1;
+    let nv = -1;
+    this.pressbuffer = [5, 5, 5, 5];
+    let ne = -1;
+    let nY = 999;
+    for (let nC = 0; nC < this.bolttotal; nC++) {
+      if (this.boltalive[nC] === 1) {
+        let no = this.boltframe[nC] - this.boltx;
+        if (no < 15 && no > -5) {
+          if (no === nY) {
+            A = 1;
+            nv = nC;
+          }
+          if (no < nY) {
+            nY = no;
+            ne = nC;
+          }
+        }
+      }
+    }
+    let nS = nX => {
+      let L0 = this.boltchar[nX];
+      let L1 = IF(nY);
+      let L2 = IZ(this.x + 80 + this.boltframe[nX] * this.boltspeed - this.boltx * this.boltspeed, this.y + (this.rowh ?? 38) * (this.rowOf ? this.rowOf(L0) : L0), AF);
+      if (ID.nomiss) {
+        L1 = 0;
+      }
+      if (L1 === 0) {
+        this.points[L0] += 150;
+        L2.image_blend = IK.yellow;
+        L2.mag = 0.2;
+      }
+      if (L1 === 1) {
+        this.points[L0] += 120;
+      }
+      if (L1 === 2) {
+        this.points[L0] += 110;
+      }
+      if (L1 >= 3) {
+        this.points[L0] += 100 - IF(nY) * 2;
+        L2.image_blend = this.boltcolor[L0];
+      }
+      if (L1 >= 15) {
+        L2.image_blend = this.charcolor[L0];
+      }
+      this.boltalive[nX] = 0;
+    };
+    if (ne !== -1) {
+      nS(ne);
+      if (A === 1) {
+        nS(nv);
+      }
+    }
+  }
+  boltcheck(A) {
+    this.pressbuffer[Ig.char[A]] = 5;
+    let n = -1;
+    let nv = 99;
+    for (let ne = 0; ne < this.bolttotal; ne++) {
+      if (this.boltchar[ne] === A && this.boltalive[ne] === 1) {
+        let nY = this.boltframe[ne] - this.boltx;
+        if (nY < 15 && nY > -5 && nY < nv) {
+          nv = nY;
+          n = ne;
+        }
+      }
+    }
+    if (n !== -1) {
+      let nS = IF(nv);
+      let nC = IZ(this.x + 80 + this.boltframe[n] * this.boltspeed - this.boltx * this.boltspeed, (this.barY ?? this.y) + (this.rowh ?? 38) * A, AF);
+      if (nS === 0) {
+        this.points[A] += 150;
+        nC.image_blend = IK.yellow;
+        nC.mag = 0.2;
+      }
+      if (nS === 1) {
+        this.points[A] += 120;
+      }
+      if (nS === 2) {
+        this.points[A] += 110;
+      }
+      if (nS >= 3) {
+        this.points[A] += 100 - IF(nv) * 2;
+        nC.image_blend = this.boltcolor[A];
+      }
+      if (nS >= 15) {
+        nC.image_blend = this.charcolor[A];
+      }
+      this.boltalive[n] = 0;
+    }
+  }
+  userEvent(A) {
+    if (A === 1 && I8() > 0) {
+      if (Ig.chapter >= 4 && In.attackpressHit) {
+        In.attackpressHit(this);
+      }
+      let n = Ig.chapter === 2 && Iv.first("o_boxingcontroller");
+      if (n) {
+        let nY = this.points[0];
+        n.punchcon = 1;
+        n.damageoverride = Ir(Ig.battleat[0] * nY / 10);
+        n.acttoenemytalktransition = 1;
+        if (nY === 150 || nY === 300) {
+          n.tpoverride = 5;
+        }
+        if (nY === 0) {
+          n.damageoverride = 1;
+        }
+        return;
+      }
+      let nv = this.target;
+      let ne = In.charinstance(nv);
+      if (ne) {
+        ne.points = this.points[nv];
+        ne.state = 1;
+        ne.attacktimer = 0;
+      }
+    }
+  }
+  draw(nv) {
+    if (n1() || (this.maxdelaytimer++, this.maxdelaytimer >= this.maxdelay && (this.active = 1), this.active !== 1)) {
+      return;
+    }
+    let ne = If();
+    let nY = 38;
+    let nS = 1;
+    let nC = ne > 3;
+    let no = L3 => nC ? L3 % 3 : L3;
+    let nX = this.x;
+    let L0 = this.y;
+    this.rowh = nY;
+    this.barY = L0;
+    this.rowOf = no;
+    let L1 = [];
+    if (nC) {
+      for (let L3 = 0; L3 < 3; L3++) {
+        let L4 = -1;
+        let L5 = 1000000000;
+        for (let L6 = 0; L6 < this.bolttotal; L6++) {
+          let L7 = this.boltchar[L6];
+          if (this.boltalive[L6] === 1 && L7 % 3 === L3 && this.boltframe[L6] < L5) {
+            L5 = this.boltframe[L6];
+            L4 = L7;
+          }
+        }
+        if (L4 < 0) {
+          for (let L8 = L3; L8 < ne; L8 += 3) {
+            if (this.havechar[L8] === 1 && Ig.charauto[Ig.char[L8]] === 0) {
+              L4 = L8;
+              break;
+            }
+          }
+        }
+        L1.push([L4 < 0 ? L3 : L4, L3]);
+      }
+    } else {
+      for (let L9 = 0; L9 < ne; L9++) {
+        L1.push([L9, L9]);
+      }
+    }
+    for (let [LI, LA] of L1) {
+      nv.draw_set_color(this.bcolor);
+      if (Ig.chapter >= 4) {
+        if ((LA === 1 || LA === 2) && this.havechar.some(Ln => Ln === 1)) {
+          nv.draw_rectangle(nX + 77, L0 + nY * LA, nX + 300, L0 + nY * LA + 1, false);
+        }
+      } else if (LA >= 1) {
+        nv.draw_rectangle(nX, L0 + nY * LA, nX + 300, L0 + nY * LA + 2, false);
+      }
+      if (Ig.char[LI] !== 0 && Ig.charauto[Ig.char[LI]] === 0 && this.havechar[LI] === 1) {
+        let Ln = IR(Ig.char[LI]);
+        let LL = Ln === 1 ? IK.blue : Ln === 2 ? IK.purple : IK.green;
+        let Lw = M(Ig.char[LI]);
+        if (Lw) {
+          LL = Lw;
+        }
+        if (this.pressbuffer[Ig.char[LI]] > 0) {
+          LL = Iq(LL, IK.white, this.pressbuffer[Ig.char[LI]] / 5);
+        }
+        nv.draw_set_color(LL);
+        let LH = Ig.chapter >= 4 ? 1 : 0;
+        nv.draw_rectangle(nX + 78, L0 + nY * LA + LH, nX + 80 + this.boltspeed * 15, L0 + nY * LA + nY - 2, true);
+        nv.draw_rectangle(nX + 79, L0 + nY * LA + 1 + LH, nX + 80 + this.boltspeed * 15 - 1, L0 + nY * LA + nY - 3, true);
+        let LW = Math.min(3, Math.max(1, Ln));
+        let Lg = V(Ig.char[LI]) ? Iq(V(Ig.char[LI]), IK.white, 0.35) : IK.white;
+        let LR = k[Ig.charhero && Ig.charhero[Ig.char[LI]] || d[LW - 1]];
+        let LG = LR && LR.head && Ib[LR.head];
+        if (LG && (LR.custom || LR.head !== k[d[LW - 1]].head)) {
+          let LE = Ib[LR.head];
+          nv.draw_sprite_part_ext(LR.head, 0, 0, 0, LE.w, Math.min(LE.h, 36), nX + 2, L0 + nY * LA + Math.max(1, 36 - Math.min(LE.h, 36) >> 1), 1, 1, IK.white, 1);
+        } else {
+          nv.draw_sprite_ext("spr_pressfront", LW - 1, nX, L0 + nY * LA, 1, nS, 0, Lg, 1);
+          if (LG && Ib[LR.head].w <= 40 && LR.head !== k[d[LW - 1]].head) {
+            nv.draw_sprite_ext(LR.head, 0, nX + 2, L0 + nY * LA + nS * 7, nS, nS, 0, IK.white, 1);
+          }
+        }
+        nv.draw_sprite_ext("spr_pressfront_b", Ig.flag[13] === 0 ? 0 : Math.min(2, LA), nX, L0 + nY * LA, 1, nS, 0, IK.white, 1);
+        nv.draw_sprite_ext("spr_pressspot", LW - 1, nX + 80, L0 + nY * LA, 1, nS, 0, Lg, 1);
+      }
+    }
+    let L2 = new Array(ne).fill(0);
+    for (let Lf = 0; Lf < this.bolttotal; Lf++) {
+      let La = this.boltchar[Lf];
+      if (this.boltframe[Lf] - this.boltx < -5) {
+        this.boltalive[Lf] = 0;
+      }
+      let LN = 1;
+      if (this.boltframe[Lf] - this.boltx < 0) {
+        LN = 1 + (this.boltframe[Lf] - this.boltx) / 3;
+      } else if (this.imagetimer === 0 && this.boltalive[Lf] === 1) {
+        let LJ = IZ(nX + 80 + this.boltframe[Lf] * this.boltspeed - this.boltx * this.boltspeed, L0 + nY * no(La), X);
+        LJ.sprite_index = "spr_attackspot";
+        LJ.image_alpha = 0.4;
+        LJ.depth = -119;
+        if (nC) {
+          LJ.image_blend = this.boltcolor[La];
+        }
+      }
+      if (this.boltalive[Lf] === 1) {
+        nv.draw_sprite_ext("spr_attackspot", 0, nX + 80 + this.boltframe[Lf] * this.boltspeed - this.boltx * this.boltspeed, L0 + nY * no(La), 1, 1, 0, nC ? this.boltcolor[La] : IK.white, LN);
+        L2[this.boltchar[Lf]]++;
+      }
+    }
+    for (let LF = 0; LF < If(); LF++) {
+      if (L2[LF] === 0 && this.havechar[LF] === 1 && this.attacked[LF] === 0) {
+        this.attacked[LF] = 1;
+        this.target = LF;
+        this.userEvent(1);
+      }
+    }
+    if (I8() > 0) {
+      if (Ig.flag[13] === 1 && ne <= 3) {
+        if (Iz() && this.havechar[0] === 1) {
+          this.boltcheck(0);
+        }
+        if (IO() && this.havechar[1] === 1) {
+          this.boltcheck(1);
+        }
+        if (Ik() && this.havechar[2] === 1) {
+          this.boltcheck(2);
+        }
+      } else if (Iz()) {
+        this.boltcheckOne();
+      }
+    } else {
+      this.fakefade = 1;
+      if (this.posttimer < this.timermax - 35) {
+        this.posttimer = this.timermax - 34;
+      }
+    }
+    this.imagetimer++;
+    this.boltx++;
+    for (let Lp = 0; Lp < this.pressbuffer.length; Lp++) {
+      this.pressbuffer[Lp]--;
+    }
+    if (this.imagetimer > 1) {
+      this.imagetimer = 0;
+    }
+    this.goahead = 0;
+    this.goahead = 1;
+    for (let Ly = 0; Ly < ne; Ly++) {
+      if (this.attacked[Ly] !== 1 && this.havechar[Ly] === 1) {
+        this.goahead = 0;
+      }
+    }
+    if (I8() === 0) {
+      this.goahead = 1;
+    }
+    if (this.goahead === 1) {
+      this.posttimer++;
+      if (this.posttimer > this.timermax - 35 && this.haveauto === 1 && this.autoed === 0 && I8() > 0) {
+        let LD = In.charinstance(this.sus);
+        if (LD) {
+          LD.points = 160;
+          if (Ig.automiss && Ig.automiss[Ig.chartarget[this.sus]] === 1) {
+            LD.points = 0;
+          }
+          LD.state = 1;
+          LD.attacktimer = 0;
+          LD.is_auto_susie = 1;
+        }
+        this.posttimer -= 25;
+        this.autoed = 1;
+      }
+      if (this.posttimer > this.timermax) {
+        this.fade = 1;
+        Iv.with("obj_heroparent", LZ => {
+          if (LZ.state === 1) {
+            LZ.state = 0;
+          }
+          LZ.attacked = 0;
+          LZ.itemed = 0;
+        });
+        if (I8() === 0) {
+          nJ();
+        } else if (Ig.chapter < 3 || Ig.mnfight !== 1.5 && Ig.mnfight !== 2) {
+          Ig.mnfight = 1;
+          Ig.myfight = -1;
+        }
+      }
+    }
+    if (this.fade === 1 || this.fakefade === 1) {
+      this.fadeamt += 0.08;
+      nv.draw_set_color(IK.black);
+      nv.draw_set_alpha(Math.min(1, this.fadeamt));
+      nv.draw_rectangle(nX - 1, Ig.chapter >= 4 ? L0 : L0 - 1, nX + 640, L0 + 300, false);
+      nv.draw_set_alpha(1);
+      if (this.fade === 1 && this.fadeamt > 1) {
+        this.instance_destroy();
+      }
+    }
+  }
+};
+IC(n5, "obj_attackpress");
+Io(n5, "kinds", Ij("obj_attackpress", Id));
+Io(n5, "defaultDepth", 1);
+var n6 = n5;
+var n7 = class wi extends Id {
+  create() {
+    let A = this.slots = Math.max(3, If());
+    this.spelltimer = 0;
+    this.spelltotal = 0;
+    this.char = 0;
+    this.castyet = 0;
+    this.re_castyet = 0;
+    this.active = 0;
+    this.alarm[0] = 5;
+    this.spellwriter = null;
+    this.using = new Array(A).fill(0);
+    this.gotspell = new Array(A).fill(0);
+    this.gotitem = new Array(A).fill(0);
+    this.visible = false;
+  }
+  writer(A) {
+    return m(A) || o();
+  }
+  pose(A, n) {
+    if (A) {
+      if (Ig.charaction[n] === 2 && P(Ig.charspecial[n])) {
+        c(A, Ig.charspecial[n]);
+        A.state = 6;
+        A.acttimer = 0;
+        A.actcast = 1;
+        A.alarm[4] = 15;
+        return;
+      }
+      if (Ig.charaction[n] === 2) {
+        q(A, Ig.charspecial[n]);
+      }
+      A.state = Ig.charaction[n] === 2 ? 2 : 4;
+      A.attacktimer = 0;
+    }
+  }
+  alarmEvent(A) {
+    if (A === 0) {
+      for (let n = 0; n < If(); n++) {
+        if ((Ig.charaction[n] === 2 || Ig.charaction[n] === 4) && (this.spelltotal++, this.using[n] = 1, Ig.charaction[n] === 2 ? this.gotspell[n] = 1 : this.gotitem[n] = 1, this.castyet === 0)) {
+          let nv = In.charinstance(n);
+          this.pose(nv, n);
+          this.castyet = 1;
+          this.char = n + 1;
+          nb(Ig.charspecial[n], n);
+          this.spellwriter = this.writer(Ig.charspecial[n]);
+        }
+      }
+      this.active = 1;
+      Ig.spelldelay = 90;
+    }
+  }
+  step() {
+    if (this.active === 1 && (this.spelltimer++, this.spelltimer >= Ig.spelldelay && !Iv.exists(this.spellwriter))) {
+      let A = () => {
+        na();
+        if (Iv.exists(this.spellwriter)) {
+          this.spellwriter.instance_destroy();
+        }
+        this.instance_destroy();
+      };
+      if (this.char >= this.slots || this.spelltotal === 1) {
+        A();
+        return;
+      }
+      if (I8() > 0) {
+        let n = this.char;
+        if (this.gotitem[n] === 1 || this.gotspell[n] === 1) {
+          this.re_castyet = 1;
+          let nv = In.charinstance(n);
+          if (nv && IW(Ig.charspecial[n]) && this.gotspell[n] === 1) {
+            this.pose(nv, n);
+          } else if (nv) {
+            nv.state = this.gotitem[n] === 1 ? 4 : 2;
+          }
+          if (Iv.exists(this.spellwriter)) {
+            this.spellwriter.instance_destroy();
+          }
+          nb(Ig.charspecial[n], n);
+          this.spellwriter = this.writer(Ig.charspecial[n]);
+        }
+        Ig.spelldelay = 90;
+        if (this.re_castyet === 0) {
+          Ig.spelldelay = 1;
+        }
+        this.char++;
+        for (let ne = 0; ne < this.slots - 1; ne++) {
+          if (this.char < this.slots && this.using[this.char] === 0) {
+            this.char++;
+          }
+        }
+        this.spelltimer = 0;
+        this.re_castyet = 0;
+      } else {
+        A();
+      }
+    }
+  }
+};
+IC(n7, "obj_spellphase");
+Io(n7, "kinds", Ij("obj_spellphase", Id));
+Io(n7, "defaultDepth", 0);
+var n8 = n7;
+var n9 = class wt extends Id {
+  create() {
+    this.t = 0;
+    this.image_speed = 0;
+    this.target = null;
+    this.image_xscale = 2;
+    this.image_yscale = 2;
+    this.damage = 1;
+    this.caster = 0;
+    this.star = 0;
+    let A = Iv.first("obj_herosusie");
+    if (A) {
+      this.depth = A.depth;
+      A.visible = false;
+    }
+    this.red = 0;
+  }
+  step() {
+    this.image_index = this.t / 2;
+    if (this.t >= 28) {
+      let A = Iv.first("obj_herosusie");
+      if (A) {
+        A.visible = true;
+      }
+      this.instance_destroy();
+      return;
+    }
+    if (Iv.exists(this.target) && this.t === 10) {
+      Im("snd_rudebuster_swing");
+      let n = IZ(this.x + 40, this.y + 30, nn);
+      n.caster = this.caster;
+      n.target = this.target;
+      n.damage = this.damage;
+      n.star = this.star;
+      if (this.red === 1) {
+        n.red = 1;
+      }
+    }
+    this.t++;
+  }
+  destroy() {
+    let A = Iv.first("obj_herosusie");
+    if (A) {
+      A.visible = true;
+    }
+  }
+};
+IC(n9, "obj_rudebuster_anim");
+Io(n9, "kinds", Ij("obj_rudebuster_anim", Id));
+Io(n9, "defaultDepth", 0);
+Io(n9, "defaultSprite", "spr_susie_rudebuster");
+var nI = n9;
+var nA = class HQ extends Id {
+  create() {
+    this.target = null;
+    this.damage = 1;
+    this.star = 0;
+    this.caster = 0;
+    this.image_alpha = 0;
+    this.image_xscale = 2;
+    this.image_yscale = 2;
+    this.image_speed = 1;
+    this.t = 0;
+    this.explode = 0;
+    this.bolt_timer = 0;
+    this.chosen_bolt = 0;
+    this.final_bolt = 0;
+    this.red = 0;
+    this.aft = [];
+  }
+  step() {
+    if (this.image_alpha < 1) {
+      this.image_alpha += 0.25;
+    } else {
+      this.image_alpha = 1;
+    }
+    if (this.t === 0) {
+      let A = this.target;
+      let n = Iv.first("obj_queenshield_enemy");
+      if (n) {
+        this.depth = n.depth - 1;
+        this.cx = n.x + 24;
+        this.cy = n.y + 140;
+      } else {
+        this.cx = Ig.monsterx[A.myself];
+        this.cy = Ig.monstery[A.myself];
+      }
+      this.direction = Ih(this.x, this.y, this.cx, this.cy) - 20;
+      this.speed = 24;
+      this.friction = -1.5;
+      this.image_angle = this.direction;
+      if (this.red === 1) {
+        this.sprite_index = "spr_rudebuster_beam_red";
+        this.image_xscale = 2.5;
+        this.image_yscale = 2.5;
+      }
+    }
+    if (this.t >= 1 && this.explode === 0) {
+      this.bolt_timer++;
+      if (Iz() && this.bolt_timer >= 4 && this.chosen_bolt === 0) {
+        this.chosen_bolt = this.bolt_timer;
+      }
+      let nv = Ih(this.x, this.y, this.cx, this.cy);
+      this.direction += Ix(nv, this.direction) / 4;
+      this.image_angle = this.direction;
+      if (IB(this.x, this.y, this.cx, this.cy) <= 40) {
+        this.final_bolt = Ig.chapter >= 3 ? this.bolt_timer : this.chosen_bolt;
+        this.visible = false;
+        this.explode = 1;
+        this.t = 1;
+        this.speed = 0;
+        this.friction = 0;
+      }
+    }
+    if (this.explode === 1) {
+      if (this.t === 1) {
+        if (this.chosen_bolt > 0) {
+          let nS = this.final_bolt - this.chosen_bolt;
+          let nC = {
+            0: 30,
+            1: 28,
+            2: 22,
+            3: 20,
+            4: 13,
+            5: 11,
+            6: 10
+          }[nS];
+          if (nC) {
+            this.damage += nC;
+          }
+          if (IF(nS) <= 2) {
+            Im("snd_scytheburst");
+          }
+        }
+        if (Ig.chapter >= 4 && In.rudebusterHit) {
+          In.rudebusterHit(this, "before");
+        }
+        if (this.red === 1) {
+          this.damage += 90;
+        }
+        Ig.hittarget[this.star] = 0;
+        if (Ig.chapter === 3 && Iv.exists("obj_knight_enemy")) {
+          this.damage = Ir(this.damage / 2);
+        }
+        let ne = Iv.first("obj_queenshield_enemy");
+        let nY = ne && Iv.first("obj_queen_enemy");
+        if (nY) {
+          nY.shieldhp -= this.damage;
+          ne.con = 1;
+          ne.event_user(0);
+        } else {
+          let no = Iw(this.star, this.damage, this.caster);
+          if (no && this.sprite_index === "spr_rudebuster_beam_green") {
+            no.type = 1.5;
+            no.ystart -= 30;
+          }
+        }
+        if (!(Ig.chapter >= 4) || !In.rudebusterHit || !In.rudebusterHit(this, "after")) {
+          Im("snd_rudebuster_hit");
+        }
+        for (let nX = 0; nX < 8; nX++) {
+          let L0 = IZ(this.cx, this.cy, X);
+          L0.sprite_index = this.sprite_index;
+          L0.image_index = 4;
+          L0.image_xscale = 2;
+          L0.image_yscale = 2;
+          L0.image_angle = 45 + nX * 90;
+          L0.direction = L0.image_angle;
+          L0.speed = 25;
+          L0.depth = this.depth - 10;
+          L0.fadespeed = 0.06;
+          L0.image_speed = 0;
+        }
+      }
+      if (this.t >= 18) {
+        this.instance_destroy();
+      }
+    }
+    if (this.explode === 0) {
+      let L1 = IZ(this.x, this.y, X);
+      L1.sprite_index = this.sprite_index;
+      L1.image_yscale = 1.8;
+      L1.image_xscale = 2;
+      L1.image_angle = this.image_angle;
+      L1.image_index = 4;
+      L1.image_speed = 0;
+      L1.image_alpha = this.image_alpha - 0.2;
+      L1.fadespeed = 0.07;
+      L1.depth = this.depth + 1;
+    }
+    this.t++;
+  }
+};
+IC(nA, "obj_rudebuster_bolt");
+Io(nA, "kinds", Ij("obj_rudebuster_bolt", Id));
+Io(nA, "defaultDepth", -10);
+Io(nA, "defaultSprite", "spr_rudebuster_beam");
+var nn = nA;
+var nL = class Hh extends Id {
+  create() {
+    this.con = 5;
+    this.target = null;
+    this.fail = 1;
+    this.flashcolor = IK.blue;
+    this.visible = false;
+    this.t = 0;
+  }
+  step() {
+    let A = this.target;
+    if (!Iv.exists(A)) {
+      this.instance_destroy();
+      return;
+    }
+    this.t++;
+    if (this.t <= 8) {
+      A.image_blend = Iq(A.image_blend, this.flashcolor, 0.12);
+    } else if (this.t <= 16) {
+      A.image_blend = Iq(A.image_blend, IK.white, 0.16);
+    } else {
+      A.image_blend = IK.white;
+      this.instance_destroy();
+    }
+  }
+};
+IC(nL, "obj_pacifyspell");
+Io(nL, "kinds", Ij("obj_pacifyspell", Id));
+Io(nL, "defaultDepth", 0);
+var nw = nL;
+function nH(A) {
+  let n = Ig.chartarget[A];
+  let nv = 0;
+  if (n === 0 && Ig.monster[0] === 0) {
+    n = 1;
+  }
+  if (n === 1 && Ig.monster[1] === 0) {
+    n = 2;
+  }
+  if (n === 2) {
+    if (Ig.monster[2] === 0) {
+      n = 3;
+    }
+    if (n === 3 && Ig.monster[0] === 1) {
+      n = 0;
+    }
+    if (n === 3 && Ig.monster[1] === 1) {
+      n = 1;
+    }
+    if (n === 3) {
+      nv = 1;
+    }
+  }
+  Ig.chartarget[A] = n;
+  let ne = In.charinstance(A);
+  if (ne) {
+    ne.cancelattack = nv;
+  }
+  return nv;
+}
+IC(nH, "scr_retarget");
+function nW(A) {
+  let n = 0;
+  if (A === 0 && Ig.monster[0] === 0) {
+    A = 1;
+  }
+  if (A === 1 && Ig.monster[1] === 0) {
+    A = 2;
+  }
+  if (A === 2) {
+    if (Ig.monster[2] === 0) {
+      A = 3;
+    }
+    if (A === 3 && Ig.monster[0] === 1) {
+      A = 0;
+    }
+    if (A === 3 && Ig.monster[1] === 1) {
+      A = 1;
+    }
+    if (A === 3) {
+      n = 1;
+    }
+  }
+  return [A, n];
+}
+IC(nW, "retargetStar");
+function ng(A) {
+  let n = 1;
+  if (Ig.hp[Ig.char[A]] <= 0) {
+    n = 0;
+  }
+  if (Ig.acting[A] === 1) {
+    n = 0;
+  }
+  if (Ig.char[A] === 0) {
+    n = 0;
+  }
+  if (Ig.charmove[A] === 0) {
+    n = 0;
+  }
+  if (Ig.charauto[Ig.char[A]] === 1) {
+    n = 0;
+  }
+  return n;
+}
+IC(ng, "scr_charcan");
+var nR = IC(() => If(), "DONE_TURN");
+function nG() {
+  let A = nz();
+  let n = Ig.charturn;
+  if (Ig.chapter >= 4 && If() <= 3 && In.chapterNexthero && In.chapterNexthero(A)) {
+    return;
+  }
+  if (Ig.chapter >= 4 && Ig.charturn === 0 && In.nextheroSkip && In.nextheroSkip(A)) {
+    Ig.charturn = nR();
     nf();
     return;
   }
-  if (Ig.charturn = nv, Ig.bmenuno = 0x0, A) {
-    Ig.temptension[Ig.charturn] = Ig.tension;
-    for (let nY = 0x0; nY < 0xc; nY++) A.tempitem[nY][Ig.charturn] = A.tempitem[nY][n];
-  }
-  Ig.chapter >= 0x4 && A && A.disablesusieralseiattack === 0x1 && (Ig.charturn === 0x1 || Ig.charturn === 0x2) && (Ig.bmenucoord[0x0][Ig.charturn] = 0x1);
-}
-IC(nG, 'scr_nexthero');
-function nE() {
-  let A = nz(),
-    n = 0x0,
-    nv = ne => Ig.charmove[ne] === 0x1 && Ig.charauto[Ig.char[ne]] !== 0x1;
-  if (Ig.charturn === 0x1 && nv(0x0) && (Ig.charturn = 0x0, n = 0x1), Ig.charturn >= 0x2) {
-    n = 0x1;
-    let ne = -0x1;
-    for (let nY = Ig.charturn - 0x1; nY >= 0x1; nY--) if (nv(nY) && Ig.acting[nY] === 0x0 && !Y(nY)) {
-      ne = nY;
+  let nv = -1;
+  for (let ne = Ig.charturn + 1; ne < If(); ne++) {
+    if (Ig.charmove[ne] === 1 && ng(ne) && Ig.acting[ne] === 0 && !Y(ne)) {
+      nv = ne;
       break;
     }
-    ne !== -0x1 ? Ig.charturn = ne : nv(0x0) && (Ig.charturn = 0x0);
   }
-  if (n === 0x1) {
-    if (Ig.bmenuno = 0x0, Ig.chapter >= 0x2) {
-      let nS = IR(Ig.char[Ig.charturn]);
-      nS === 0x4 && Iv.with('obj_monsterparent', nC => {
-        nC.actingnoe = 0x0;
-      }), nS === 0x3 && Iv.with('obj_monsterparent', nC => {
-        nC.actingral = 0x0;
-      }), nS === 0x2 && Iv.with('obj_monsterparent', nC => {
-        nC.actingsus = 0x0;
-      }), Ig.actingsingle && (Ig.actingsingle[Ig.charturn] = 0x0), Ig.actingsimul && (Ig.actingsimul[Ig.charturn] = 0x0);
+  if (nv === -1) {
+    nf();
+    return;
+  }
+  Ig.charturn = nv;
+  Ig.bmenuno = 0;
+  if (A) {
+    Ig.temptension[Ig.charturn] = Ig.tension;
+    for (let nY = 0; nY < 12; nY++) {
+      A.tempitem[nY][Ig.charturn] = A.tempitem[nY][n];
     }
-    Ig.faceaction[Ig.charturn] = 0x0, Ig.chartarget[Ig.charturn] = 0x0, Ig.charaction[Ig.charturn] = 0x0, Ig.charspecial[Ig.charturn] = 0x0, D(Ig.charturn), A && (A.movenoise = 0x1);
   }
-  if (Ig.charturn === 0x0) {
-    Iv.with('obj_monsterparent', nC => {
-      nC.acting = 0x0;
+  if (Ig.chapter >= 4 && A && A.disablesusieralseiattack === 1 && (Ig.charturn === 1 || Ig.charturn === 2)) {
+    Ig.bmenucoord[0][Ig.charturn] = 1;
+  }
+}
+IC(nG, "scr_nexthero");
+function nE() {
+  let A = nz();
+  let n = 0;
+  let nv = ne => Ig.charmove[ne] === 1 && Ig.charauto[Ig.char[ne]] !== 1;
+  if (Ig.charturn === 1 && nv(0)) {
+    Ig.charturn = 0;
+    n = 1;
+  }
+  if (Ig.charturn >= 2) {
+    n = 1;
+    let ne = -1;
+    for (let nY = Ig.charturn - 1; nY >= 1; nY--) {
+      if (nv(nY) && Ig.acting[nY] === 0 && !Y(nY)) {
+        ne = nY;
+        break;
+      }
+    }
+    if (ne !== -1) {
+      Ig.charturn = ne;
+    } else if (nv(0)) {
+      Ig.charturn = 0;
+    }
+  }
+  if (n === 1) {
+    Ig.bmenuno = 0;
+    if (Ig.chapter >= 2) {
+      let nS = IR(Ig.char[Ig.charturn]);
+      if (nS === 4) {
+        Iv.with("obj_monsterparent", nC => {
+          nC.actingnoe = 0;
+        });
+      }
+      if (nS === 3) {
+        Iv.with("obj_monsterparent", nC => {
+          nC.actingral = 0;
+        });
+      }
+      if (nS === 2) {
+        Iv.with("obj_monsterparent", nC => {
+          nC.actingsus = 0;
+        });
+      }
+      if (Ig.actingsingle) {
+        Ig.actingsingle[Ig.charturn] = 0;
+      }
+      if (Ig.actingsimul) {
+        Ig.actingsimul[Ig.charturn] = 0;
+      }
+    }
+    Ig.faceaction[Ig.charturn] = 0;
+    Ig.chartarget[Ig.charturn] = 0;
+    Ig.charaction[Ig.charturn] = 0;
+    Ig.charspecial[Ig.charturn] = 0;
+    D(Ig.charturn);
+    if (A) {
+      A.movenoise = 1;
+    }
+  }
+  if (Ig.charturn === 0) {
+    Iv.with("obj_monsterparent", nC => {
+      nC.acting = 0;
     });
-    for (let nC = 0x0; nC < If(); nC++) Ig.acting[nC] = 0x0;
-    if (Ig.tension = Ig.temptension[0x0], A) {
-      for (let no = 0x0; no < 0xc; no++) A.tempitem[no][0x0] = Ig.item[no];
+    for (let nC = 0; nC < If(); nC++) {
+      Ig.acting[nC] = 0;
+    }
+    Ig.tension = Ig.temptension[0];
+    if (A) {
+      for (let no = 0; no < 12; no++) {
+        A.tempitem[no][0] = Ig.item[no];
+      }
     }
   } else {
-    if (Ig.tension = Ig.temptension[Ig.charturn], A) {
-      for (let nX = 0x0; nX < 0xc; nX++) A.tempitem[nX][Ig.charturn] = A.tempitem[nX][Ig.charturn - 0x1];
+    Ig.tension = Ig.temptension[Ig.charturn];
+    if (A) {
+      for (let nX = 0; nX < 12; nX++) {
+        A.tempitem[nX][Ig.charturn] = A.tempitem[nX][Ig.charturn - 1];
+      }
     }
   }
 }
-IC(nE, 'scr_prevhero');
+IC(nE, "scr_prevhero");
 function nf() {
-  Ig.monster && Ig.monster.__customBoard && In.customEndturn && In.customEndturn();
+  if (Ig.monster && Ig.monster.__customBoard && In.customEndturn) {
+    In.customEndturn();
+  }
   let A = nz();
-  if (Ig.chapter >= 0x4 && A && In.chapterEndturn && In.chapterEndturn(A)) {
-    if (If() > 0x3 && Ig.myfight === 0x1) {
-      let ne = !0x1;
-      for (let nY = 0x3; nY < If(); nY++) (Ig.charaction[nY] === 0x2 || Ig.charaction[nY] === 0x4) && (ne = !0x0);
-      ne && (Iv.with('obj_attackpress', nS => nS.instance_destroy()), Ig.myfight = 0x4, IZ(0x0, 0x0, n8));
+  if (Ig.chapter >= 4 && A && In.chapterEndturn && In.chapterEndturn(A)) {
+    if (If() > 3 && Ig.myfight === 1) {
+      let ne = false;
+      for (let nY = 3; nY < If(); nY++) {
+        if (Ig.charaction[nY] === 2 || Ig.charaction[nY] === 4) {
+          ne = true;
+        }
+      }
+      if (ne) {
+        Iv.with("obj_attackpress", nS => nS.instance_destroy());
+        Ig.myfight = 4;
+        IZ(0, 0, n8);
+      }
     }
     return;
   }
   if (A) {
-    for (let nS = 0x0; nS < 0xc; nS++) Ig.item[nS] = A.tempitem[nS][Ig.charturn];
-    for (let nC = 0x0; nC < 0xc; nC++) for (let no = 0x0; no < If(); no++) A.tempitem[nC][no] = Ig.item[nC];
-  }
-  Iv.with('obj_writer', nX => nX.instance_destroy()), Iv.with('obj_face', nX => nX.instance_destroy()), Ig.attacking = 0x0;
-  for (let nX = 0x0; nX < If(); nX++) Ig.charauto[Ig.char[nX]] === 0x1 && Ig.hp[Ig.char[nX]] > 0x0 && (Ig.monster[0x2] === 0x1 && (Ig.chartarget[nX] = 0x2), Ig.monster[0x1] === 0x1 && (Ig.chartarget[nX] = 0x1), Ig.monster[0x0] === 0x1 && (Ig.chartarget[nX] = 0x0)), Ig.charaction[nX] === 0x1 && (Ig.attacking = 0x1);
-  A && (A.messagepriority = -0x1, A.attackpriority = -0x1), Ig.chapter === 0x3 && A && (A.idefendedthisturn = 0x0);
-  let n = (Ig.chapter === 0x2 || Ig.chapter === 0x3) && In.scr_nextact && Ig.actingsingle && Ig.actingsingle.slice(0x0, Ia()).includes(0x1),
-    nv = IE();
-  Ig.acting[nv] === 0x0 && !n ? na() : (Ig.charturn = nR(), Ig.myfight = 0x3, Ig.currentactingchar = 0x0, n && Ig.acting[nv] === 0x0 && In.scr_nextact.call({}), Ig.chapter === 0x2 && Iv.exists('obj_sweet_enemy') && [0x0, 0x1, 0x2].every(L0 => Ig.actingsingle[L0] === 0x1 == (L0 === nv)) && (Iv.first('obj_sweet_enemy').simultotal_funny = 0x1), Ig.chapter >= 0x2 && In.scr_act_simul && Ig.acting[nv] === 0x1 && Ig.actingsimul[nv] === 0x1 && In.scr_act_simul.call({}));
-}
-IC(nf, 'scr_endturn');
-function na() {
-  let A = nz();
-  if (!A || Ig.chapter >= 0x4 && In.chapterAttackphase && If() <= 0x3 && In.chapterAttackphase(A)) return;
-  if (Ig.chapter >= 0x5 && If() > 0x3 && Ig.hittarget) {
-    for (let nv = 0x0; nv < 0x3; nv++) Ig.hittarget[nv] = 0x0;
-  }
-  let n = 0x0;
-  if (I8() === 0x0 && (n = 0x1), n === 0x0) {
-    let ne = 0x1;
-    Ig.charturn = nR();
-    for (let nY = 0x0; nY < If(); nY++) (Ig.charaction[nY] === 0x4 || Ig.charaction[nY] === 0x2) && (ne = 0x0);
-    Ig.myfight === 0x4 && (ne = 0x1), ne === 0x1 ? (Ig.myfight = 0x1, IZ(0x2, 0x16d, n6)) : (Ig.myfight = 0x4, IZ(0x0, 0x0, n8));
-  } else nJ();
-}
-IC(na, 'scr_attackphase');
-function nN() {
-  let A = nz();
-  if (!A) return;
-  l(), Z();
-  let nv = 0x0;
-  if (I8() === 0x0 && (nv = 0x1), Ig.chapter >= 0x2 && Ig.flag && Ig.flag[0x27] === 0x1 && (nv = 0x1), nv === 0x0) {
-    if (A.messagepriority = -0x1, A.attackpriority = -0x1, Ig.flag[0xe] === 0x0) {
-      for (let nY = 0x0; nY < 0x14; nY++) for (let nS = 0x0; nS < 0x14; nS++) Ig.bmenucoord[nY][nS] = 0x0;
+    for (let nS = 0; nS < 12; nS++) {
+      Ig.item[nS] = A.tempitem[nS][Ig.charturn];
     }
-    Ig.chapter === 0x3 && Iv.exists('obj_rouxls_ch3_enemy') && (Ig.bmenucoord[0x0][0x0] = 0x2, Ig.bmenucoord[0x0][0x1] = 0x2, Ig.bmenucoord[0x0][0x2] = 0x2, A.rouxlsgridenabled && (A.rouxlsbuttoncount_y = 0x4)), Ig.chapter === 0x3 && Iv.with('obj_gameshow_battlemanager', nC => {
-      nC.turns++;
-    }), Ig.mnfight = 0x0, Ig.myfight = 0x0, Ig.bmenuno = 0x0, Ig.charturn = 0x0;
-    let ne = 0x0;
-    Ig.chapter >= 0x5 && In.chapterMnendturn && In.chapterMnendturn(A);
-    for (let nC = 0x0; nC < If(); nC++) {
-      let no = In.charinstance(nC);
-      no && (no.tu = 0x0);
-      let nX = Ig.char[nC];
-      if (Ig.char[nC] !== 0x0 && Ig.hp[nX] <= 0x0 && !(Ig.chapter === 0x3 && Iv.exists('obj_knight_enemy'))) {
-        let L0 = IY(Ig.maxhp[nX] / 0x8),
-          L1 = IZ(no.x, no.y + no.myheight - 0x18, Af);
-        L1.delay = 0x1, L1.type = 0x3, L1.damage = II(nC, L0), Ig.hp[nX] >= 0x1 && (L1.specialmessage = 0x4);
+    for (let nC = 0; nC < 12; nC++) {
+      for (let no = 0; no < If(); no++) {
+        A.tempitem[nC][no] = Ig.item[nC];
       }
     }
-    for (Ig.charturn = 0x0; Ig.charturn < If() && (Ig.charmove[Ig.charturn] === 0x0 || Ig.charauto[Ig.char[Ig.charturn]] === 0x1);) Ig.charturn++;
-    Ig.charturn >= If() && (Ig.charturn = nR(), ne = 0x1);
-    for (let L2 = 0x0; L2 < If(); L2++) Ig.acting[L2] = 0x0, Ig.temptension[L2] = Ig.tension, Ig.charspecial[L2] = 0x0, Ig.targeted[L2] = 0x0, Ig.charaction[L2] = 0x0, Ig.faceaction[L2] = 0x0, Ig.actingsingle && (Ig.actingsingle[L2] = 0x0), Ig.actingsimul && (Ig.actingsimul[L2] = 0x0), Ig.actingtarget && (Ig.actingtarget[L2] = 0x0), Ig.monsterattackname && (Ig.monsterattackname[L2] = '\x20');
-    Ig.currentactingchar = 0x0, Iv.with('obj_monsterparent', L3 => {
-      L3.attacked = 0x0, L3.talked = 0x0, L3.acting = 0x0, L3.actingsus = 0x0, L3.actingral = 0x0, L3.actingnoe = 0x0;
-    }), ne === 0x1 && (IG(0x2) === 0x0 && Ig.charauto[Ig.char[0x0]] === 0x1 && (Ig.acting[0x0] = 0x1, Ig.myfight = 0x3), nf());
-    for (let L3 = 0x0; L3 < 0xc; L3++) for (let L4 = 0x0; L4 < If(); L4++) A.tempitem[L3][L4] = Ig.item[L3];
-  } else nJ();
-}
-IC(nN, 'scr_mnendturn');
-function nJ() {
-  Ig.myfight = 0x7, Ig.mnfight = -0x1;
-  let A = nz();
-  A && (A.victory = 0x1);
-  for (let n = 0x0; n < 0x3; n++) if (Ig.monster[n] === 0x1) {
-    let nv = In.monsterinstance(n);
-    nv && !nv.destroyed && nv.scr_monsterdefeat();
+  }
+  Iv.with("obj_writer", nX => nX.instance_destroy());
+  Iv.with("obj_face", nX => nX.instance_destroy());
+  Ig.attacking = 0;
+  for (let nX = 0; nX < If(); nX++) {
+    if (Ig.charauto[Ig.char[nX]] === 1 && Ig.hp[Ig.char[nX]] > 0) {
+      if (Ig.monster[2] === 1) {
+        Ig.chartarget[nX] = 2;
+      }
+      if (Ig.monster[1] === 1) {
+        Ig.chartarget[nX] = 1;
+      }
+      if (Ig.monster[0] === 1) {
+        Ig.chartarget[nX] = 0;
+      }
+    }
+    if (Ig.charaction[nX] === 1) {
+      Ig.attacking = 1;
+    }
+  }
+  if (A) {
+    A.messagepriority = -1;
+    A.attackpriority = -1;
+  }
+  if (Ig.chapter === 3 && A) {
+    A.idefendedthisturn = 0;
+  }
+  let n = (Ig.chapter === 2 || Ig.chapter === 3) && In.scr_nextact && Ig.actingsingle && Ig.actingsingle.slice(0, Ia()).includes(1);
+  let nv = IE();
+  if (Ig.acting[nv] === 0 && !n) {
+    na();
+  } else {
+    Ig.charturn = nR();
+    Ig.myfight = 3;
+    Ig.currentactingchar = 0;
+    if (n && Ig.acting[nv] === 0) {
+      In.scr_nextact.call({});
+    }
+    if (Ig.chapter === 2 && Iv.exists("obj_sweet_enemy") && [0, 1, 2].every(L0 => Ig.actingsingle[L0] === 1 == (L0 === nv))) {
+      Iv.first("obj_sweet_enemy").simultotal_funny = 1;
+    }
+    if (Ig.chapter >= 2 && In.scr_act_simul && Ig.acting[nv] === 1 && Ig.actingsimul[nv] === 1) {
+      In.scr_act_simul.call({});
+    }
   }
 }
-IC(nJ, 'scr_wincombat');
-function nF() {
-  if (Ig.monster && Ig.monster.__customBoard && In.customEndcombat && In.customEndcombat()) return;
-  Ig.fighting = 0x0, Iv.with('obj_monsterparent', n => n.instance_destroy()), Iv.with('obj_bulletparent', n => n.instance_destroy()), Iv.with('obj_heroparent', n => n.instance_destroy());
+IC(nf, "scr_endturn");
+function na() {
   let A = nz();
-  A && A.instance_destroy(), !(In.roomEndcombat && In.roomEndcombat()) && (Ig.battleover = Ig.battleover || 'win', IP());
+  if (!A || Ig.chapter >= 4 && In.chapterAttackphase && If() <= 3 && In.chapterAttackphase(A)) {
+    return;
+  }
+  if (Ig.chapter >= 5 && If() > 3 && Ig.hittarget) {
+    for (let nv = 0; nv < 3; nv++) {
+      Ig.hittarget[nv] = 0;
+    }
+  }
+  let n = 0;
+  if (I8() === 0) {
+    n = 1;
+  }
+  if (n === 0) {
+    let ne = 1;
+    Ig.charturn = nR();
+    for (let nY = 0; nY < If(); nY++) {
+      if (Ig.charaction[nY] === 4 || Ig.charaction[nY] === 2) {
+        ne = 0;
+      }
+    }
+    if (Ig.myfight === 4) {
+      ne = 1;
+    }
+    if (ne === 1) {
+      Ig.myfight = 1;
+      IZ(2, 365, n6);
+    } else {
+      Ig.myfight = 4;
+      IZ(0, 0, n8);
+    }
+  } else {
+    nJ();
+  }
 }
-IC(nF, 'scr_endcombat');
-function np(A, n = 0x0) {
-  Ig.tension -= A, Ig.faceaction[Ig.charturn] = 0x2, Ig.charaction[Ig.charturn] = 0x2;
-  let nv = Ig.bmenucoord[0x2][Ig.charturn];
-  Ig.chapter !== 0x1 && Ig.flag[0x22] === 0x0 ? Ig.charspecial[Ig.charturn] = (Ig.battlespell[Ig.charturn] || [])[nv] : Ig.charspecial[Ig.charturn] = Ig.spell[Ig.char[Ig.charturn]][nv], Ig.tensionselect = 0x0;
-  let ne = Ig.chapter >= 0x2 && Ig.charinstance ? Ig.charinstance[Ig.charturn] : null;
-  ne && n === 0x1 ? (ne.spellanimed || (ne.remspellsprite = ne.spellsprite, ne.remspellframes = ne.spellframes, ne.spellanimed = 0x1), ne.spellframes = 0x0, ne.spellsprite = ne.spellreadysprite) : ne && ne.spellanimed && (ne.spellframes = ne.remspellframes, ne.spellsprite = ne.remspellsprite, ne.spellanimed = 0x0), C(Ig.charspecial[Ig.charturn], Ig.charturn), P(Ig.charspecial[Ig.charturn]) && (Ig.faceaction[Ig.charturn] = 0x6), nG();
+IC(na, "scr_attackphase");
+function nN() {
+  let A = nz();
+  if (!A) {
+    return;
+  }
+  l();
+  Z();
+  let nv = 0;
+  if (I8() === 0) {
+    nv = 1;
+  }
+  if (Ig.chapter >= 2 && Ig.flag && Ig.flag[39] === 1) {
+    nv = 1;
+  }
+  if (nv === 0) {
+    A.messagepriority = -1;
+    A.attackpriority = -1;
+    if (Ig.flag[14] === 0) {
+      for (let nY = 0; nY < 20; nY++) {
+        for (let nS = 0; nS < 20; nS++) {
+          Ig.bmenucoord[nY][nS] = 0;
+        }
+      }
+    }
+    if (Ig.chapter === 3 && Iv.exists("obj_rouxls_ch3_enemy")) {
+      Ig.bmenucoord[0][0] = 2;
+      Ig.bmenucoord[0][1] = 2;
+      Ig.bmenucoord[0][2] = 2;
+      if (A.rouxlsgridenabled) {
+        A.rouxlsbuttoncount_y = 4;
+      }
+    }
+    if (Ig.chapter === 3) {
+      Iv.with("obj_gameshow_battlemanager", nC => {
+        nC.turns++;
+      });
+    }
+    Ig.mnfight = 0;
+    Ig.myfight = 0;
+    Ig.bmenuno = 0;
+    Ig.charturn = 0;
+    let ne = 0;
+    if (Ig.chapter >= 5 && In.chapterMnendturn) {
+      In.chapterMnendturn(A);
+    }
+    for (let nC = 0; nC < If(); nC++) {
+      let no = In.charinstance(nC);
+      if (no) {
+        no.tu = 0;
+      }
+      let nX = Ig.char[nC];
+      if (Ig.char[nC] !== 0 && Ig.hp[nX] <= 0 && (Ig.chapter !== 3 || !Iv.exists("obj_knight_enemy"))) {
+        let L0 = IY(Ig.maxhp[nX] / 8);
+        let L1 = IZ(no.x, no.y + no.myheight - 24, Af);
+        L1.delay = 1;
+        L1.type = 3;
+        L1.damage = II(nC, L0);
+        if (Ig.hp[nX] >= 1) {
+          L1.specialmessage = 4;
+        }
+      }
+    }
+    for (Ig.charturn = 0; Ig.charturn < If() && (Ig.charmove[Ig.charturn] === 0 || Ig.charauto[Ig.char[Ig.charturn]] === 1);) {
+      Ig.charturn++;
+    }
+    if (Ig.charturn >= If()) {
+      Ig.charturn = nR();
+      ne = 1;
+    }
+    for (let L2 = 0; L2 < If(); L2++) {
+      Ig.acting[L2] = 0;
+      Ig.temptension[L2] = Ig.tension;
+      Ig.charspecial[L2] = 0;
+      Ig.targeted[L2] = 0;
+      Ig.charaction[L2] = 0;
+      Ig.faceaction[L2] = 0;
+      if (Ig.actingsingle) {
+        Ig.actingsingle[L2] = 0;
+      }
+      if (Ig.actingsimul) {
+        Ig.actingsimul[L2] = 0;
+      }
+      if (Ig.actingtarget) {
+        Ig.actingtarget[L2] = 0;
+      }
+      if (Ig.monsterattackname) {
+        Ig.monsterattackname[L2] = " ";
+      }
+    }
+    Ig.currentactingchar = 0;
+    Iv.with("obj_monsterparent", L3 => {
+      L3.attacked = 0;
+      L3.talked = 0;
+      L3.acting = 0;
+      L3.actingsus = 0;
+      L3.actingral = 0;
+      L3.actingnoe = 0;
+    });
+    if (ne === 1) {
+      if (IG(2) === 0 && Ig.charauto[Ig.char[0]] === 1) {
+        Ig.acting[0] = 1;
+        Ig.myfight = 3;
+      }
+      nf();
+    }
+    for (let L3 = 0; L3 < 12; L3++) {
+      for (let L4 = 0; L4 < If(); L4++) {
+        A.tempitem[L3][L4] = Ig.item[L3];
+      }
+    }
+  } else {
+    nJ();
+  }
 }
-IC(np, 'scr_spellconsumeb');
+IC(nN, "scr_mnendturn");
+function nJ() {
+  Ig.myfight = 7;
+  Ig.mnfight = -1;
+  let A = nz();
+  if (A) {
+    A.victory = 1;
+  }
+  for (let n = 0; n < 3; n++) {
+    if (Ig.monster[n] === 1) {
+      let nv = In.monsterinstance(n);
+      if (nv && !nv.destroyed) {
+        nv.scr_monsterdefeat();
+      }
+    }
+  }
+}
+IC(nJ, "scr_wincombat");
+function nF() {
+  if (Ig.monster && Ig.monster.__customBoard && In.customEndcombat && In.customEndcombat()) {
+    return;
+  }
+  Ig.fighting = 0;
+  Iv.with("obj_monsterparent", n => n.instance_destroy());
+  Iv.with("obj_bulletparent", n => n.instance_destroy());
+  Iv.with("obj_heroparent", n => n.instance_destroy());
+  let A = nz();
+  if (A) {
+    A.instance_destroy();
+  }
+  if (!In.roomEndcombat || !In.roomEndcombat()) {
+    Ig.battleover = Ig.battleover || "win";
+    IP();
+  }
+}
+IC(nF, "scr_endcombat");
+function np(A, n = 0) {
+  Ig.tension -= A;
+  Ig.faceaction[Ig.charturn] = 2;
+  Ig.charaction[Ig.charturn] = 2;
+  let nv = Ig.bmenucoord[2][Ig.charturn];
+  if (Ig.chapter !== 1 && Ig.flag[34] === 0) {
+    Ig.charspecial[Ig.charturn] = (Ig.battlespell[Ig.charturn] || [])[nv];
+  } else {
+    Ig.charspecial[Ig.charturn] = Ig.spell[Ig.char[Ig.charturn]][nv];
+  }
+  Ig.tensionselect = 0;
+  let ne = Ig.chapter >= 2 && Ig.charinstance ? Ig.charinstance[Ig.charturn] : null;
+  if (ne && n === 1) {
+    if (!ne.spellanimed) {
+      ne.remspellsprite = ne.spellsprite;
+      ne.remspellframes = ne.spellframes;
+      ne.spellanimed = 1;
+    }
+    ne.spellframes = 0;
+    ne.spellsprite = ne.spellreadysprite;
+  } else if (ne && ne.spellanimed) {
+    ne.spellframes = ne.remspellframes;
+    ne.spellsprite = ne.remspellsprite;
+    ne.spellanimed = 0;
+  }
+  C(Ig.charspecial[Ig.charturn], Ig.charturn);
+  if (P(Ig.charspecial[Ig.charturn])) {
+    Ig.faceaction[Ig.charturn] = 6;
+  }
+  nG();
+}
+IC(np, "scr_spellconsumeb");
 function ny(A, n, nv) {
-  let ne = 0x0;
-  for (let nC = 0x0; nC < 0xc; nC++) A(nC) !== 0x0 && (ne = nC);
-  let nY = n % 0x2;
-  if (nv > 0x0) return nY === 0x1 && n + 0x1 <= ne ? n + 0x1 : nY <= ne ? nY : 0x0;
-  let nS = (ne >> 0x1) * 0x2;
-  return nS + nY <= ne ? nS + nY : nS;
+  let ne = 0;
+  for (let nC = 0; nC < 12; nC++) {
+    if (A(nC) !== 0) {
+      ne = nC;
+    }
+  }
+  let nY = n % 2;
+  if (nv > 0) {
+    if (nY === 1 && n + 1 <= ne) {
+      return n + 1;
+    } else if (nY <= ne) {
+      return nY;
+    } else {
+      return 0;
+    }
+  }
+  let nS = (ne >> 1) * 2;
+  if (nS + nY <= ne) {
+    return nS + nY;
+  } else {
+    return nS;
+  }
 }
-IC(ny, 'itemWrap');
+IC(ny, "itemWrap");
 function nD(A) {
-  let n = Im('snd_cardrive');
+  let n = Im("snd_cardrive");
   try {
-    Il(n, 1.4), Ie(n, 0.8, 0x0);
+    Il(n, 1.4);
+    Ie(n, 0.8, 0);
   } catch {}
   let nv = Ig.charinstance && Ig.charinstance[A];
   if (nv) {
     let ne = IZ(nv.x, nv.y, Ay);
-    ne.target = nv, ne.particlecolor = IK.orange;
+    ne.target = nv;
+    ne.particlecolor = IK.orange;
   }
 }
-IC(nD, 'tpItemFx');
+IC(nD, "tpItemFx");
 function nZ(A, n) {
   let nv = nz();
-  Ig.faceaction[Ig.charturn] = 0x3, Ig.charaction[Ig.charturn] = 0x4, Ig.charspecial[Ig.charturn] = A;
-  let ne = A >= 0xc8 ? I4(A) : null;
+  Ig.faceaction[Ig.charturn] = 3;
+  Ig.charaction[Ig.charturn] = 4;
+  Ig.charspecial[Ig.charturn] = A;
+  let ne = A >= 200 ? I4(A) : null;
   if (nv && ne && ne.replace) {
-    nv.tempitem[n][Ig.charturn] = 0xc8 + ne.replace, nG();
+    nv.tempitem[n][Ig.charturn] = 200 + ne.replace;
+    nG();
     return;
   }
   if (nv) {
     let nY = Ig.charturn;
-    for (let nS = n; nS < 0xc; nS++) nv.tempitem[nS][nY] = nv.tempitem[nS + 0x1] ? nv.tempitem[nS + 0x1][nY] : 0x0;
+    for (let nS = n; nS < 12; nS++) {
+      nv.tempitem[nS][nY] = nv.tempitem[nS + 1] ? nv.tempitem[nS + 1][nY] : 0;
+    }
   }
   nG();
 }
-IC(nZ, 'scr_itemconsumeb');
+IC(nZ, "scr_itemconsumeb");
 function nb(A, nv) {
-  if (b(A, nv)) return;
-  let ne = Ig.charname[Ig.char[nv]],
-    nY = Ig.chartarget[nv],
-    nS = {
-      0x8: '*\x20' + ne + " cast SLEEP MIST!/%",
-      0x9: '*\x20' + ne + " cast ICE SHOCK!/%",
-      0xa: '*\x20' + ne + " cast SNOWGRAVE!/%",
-      0x1: '*\x20' + ne + " cast RUDE BUSTER!/%",
-      0x2: '*\x20' + ne + " cast HEAL PRAYER!/%",
-      0x4: '*\x20' + ne + " used RUDE BUSTER!/%",
-      0x5: '*\x20' + ne + " used RED BUSTER!/%",
-      0x6: '*\x20' + ne + " cast DUAL HEAL!/%",
-      0xc9: '*\x20' + ne + " used the DARK CANDY!/%",
-      0xca: '*\x20' + ne + " used the REVIVE MINT!/%",
-      0xcd: '*\x20' + ne + " used the BROKEN CAKE!/%",
-      0xce: '*\x20' + ne + " used the TOPCAKE!/%",
-      0xcf: '*\x20' + ne + " used the SPINCAKE!/%",
-      0xd0: '*\x20' + ne + " used the DARKBURGER!/%",
-      0xd1: '*\x20' + ne + " used the LANCERCOOKIE!/%",
-      0xd2: '*\x20' + ne + " used the GIGASALAD!/%",
-      0xd3: '*\x20' + ne + " used the CLUBS SANDWICH!/%",
-      0xd4: '*\x20' + ne + " used the HEARTS DONUT!/%",
-      0xd5: '*\x20' + ne + " used the CHOCO DIAMOND!/%",
-      0xd6: '*\x20' + ne + " used the FAV SANDWICH!/%",
-      0xd7: '*\x20' + ne + " used the ROULXS ROUX!/%"
-    };
-  Ig.msg = new Array(0x64).fill('\x20');
-  let nC = A >= 0xc8 && IJ[A] ? '*\x20' + ne + " used the " + IJ[A][0x0].toUpperCase() + "!/%" : '*\x20' + ne + " cast " + String(I5(A).spellname || "a spell").toUpperCase() + "!/%";
-  if (Ig.msg[0x0] = nS[A] || nC, A === 0x3 && (Ig.msg[0x0] = '*\x20' + ne + " cast PACIFY!/%", [nY] = nW(nY), Ig.monster[nY] === 0x1 && Ig.monsterstatus[nY] !== 0x1 && (Ig.msg[0x0] = '*\x20' + ne + " cast PACIFY^1!&* But the enemy wasn't \\cBTIRED\\cW.../%", Ig.mercymod[nY] >= 0x64 && (Ig.msg[0x0] = '*\x20' + ne + " cast PACIFY^1!&* But the foe wasn't \\cBTIRED\\cW... try \\cYSPARING\\cW!/%"))), A === 0x64) {
+  if (b(A, nv)) {
+    return;
+  }
+  let ne = Ig.charname[Ig.char[nv]];
+  let nY = Ig.chartarget[nv];
+  let nS = {
+    8: "* " + ne + " cast SLEEP MIST!/%",
+    9: "* " + ne + " cast ICE SHOCK!/%",
+    10: "* " + ne + " cast SNOWGRAVE!/%",
+    1: "* " + ne + " cast RUDE BUSTER!/%",
+    2: "* " + ne + " cast HEAL PRAYER!/%",
+    4: "* " + ne + " used RUDE BUSTER!/%",
+    5: "* " + ne + " used RED BUSTER!/%",
+    6: "* " + ne + " cast DUAL HEAL!/%",
+    201: "* " + ne + " used the DARK CANDY!/%",
+    202: "* " + ne + " used the REVIVE MINT!/%",
+    205: "* " + ne + " used the BROKEN CAKE!/%",
+    206: "* " + ne + " used the TOPCAKE!/%",
+    207: "* " + ne + " used the SPINCAKE!/%",
+    208: "* " + ne + " used the DARKBURGER!/%",
+    209: "* " + ne + " used the LANCERCOOKIE!/%",
+    210: "* " + ne + " used the GIGASALAD!/%",
+    211: "* " + ne + " used the CLUBS SANDWICH!/%",
+    212: "* " + ne + " used the HEARTS DONUT!/%",
+    213: "* " + ne + " used the CHOCO DIAMOND!/%",
+    214: "* " + ne + " used the FAV SANDWICH!/%",
+    215: "* " + ne + " used the ROULXS ROUX!/%"
+  };
+  Ig.msg = new Array(100).fill(" ");
+  let nC = A >= 200 && IJ[A] ? "* " + ne + " used the " + IJ[A][0].toUpperCase() + "!/%" : "* " + ne + " cast " + String(I5(A).spellname || "a spell").toUpperCase() + "!/%";
+  Ig.msg[0] = nS[A] || nC;
+  if (A === 3) {
+    Ig.msg[0] = "* " + ne + " cast PACIFY!/%";
+    [nY] = nW(nY);
+    if (Ig.monster[nY] === 1 && Ig.monsterstatus[nY] !== 1) {
+      Ig.msg[0] = "* " + ne + " cast PACIFY^1!&* But the enemy wasn't \\cBTIRED\\cW.../%";
+      if (Ig.mercymod[nY] >= 100) {
+        Ig.msg[0] = "* " + ne + " cast PACIFY^1!&* But the foe wasn't \\cBTIRED\\cW... try \\cYSPARING\\cW!/%";
+      }
+    }
+  }
+  if (A === 100) {
     let no;
     [nY, no] = nW(nY);
-    let nX = Ig.monstername[nY] || '';
-    Ig.msg[0x0] = '*\x20' + ne + " spared " + nX + "!/%", Ig.mercymod[nY] >= 0x64 || (Ig.msg[0x0] = '*\x20' + ne + " spared " + nX + "^2!&* But its name wasn't \\cYYELLOW\\cW.../%", Ig.monsterstatus[nY] === 0x1 && (Ig.msg[0x0] = '*\x20' + ne + " spared " + nX + "^2!&* But its name wasn't \\cYYELLOW\\cW.../", Ig.msg[0x1] = "* (Try using Ralsei's \\cBPACIFY\\cW!)/%")), no === 0x1 && (Ig.msg[0x0] = '*\x20' + ne + " spared!/%");
-  }
-  if (A === 0xcc) {
-    Ig.msg[0x0] = '*\x20' + ne + " read the MANUAL!/", Ig.msg[0x1] = "* But nothing happened.../%";
-    let L0 = [0x0, 0x0, 0x0];
-    for (let L1 = 0x0; L1 < 0x3; L1++) {
-      if (Ig.monster[L1] !== 0x1) continue;
-      let L2 = Ig.monstertype[L1];
-      if (L2 === 0x5 && (L0[L1] = 0x1, Ig.monsterstatus[L1] = 0x1, Ig.monstercomment[L1] = "(Tired)"), L2 === 0x6 && (L0[L1] = 0x2), L2 === 0x7 || L2 === 0x10) {
-        L0[L1] = 0x3;
-        let L3 = Ig.monsterinstance[L1];
-        L3 && !L3.destroyed && (L3.battlecancel = 0x1, L3.manual === 0x0 && (L3.manual = 0x1, I9(L3.myself ?? L1, 0x32)));
+    let nX = Ig.monstername[nY] || "";
+    Ig.msg[0] = "* " + ne + " spared " + nX + "!/%";
+    if (!(Ig.mercymod[nY] >= 100)) {
+      Ig.msg[0] = "* " + ne + " spared " + nX + "^2!&* But its name wasn't \\cYYELLOW\\cW.../%";
+      if (Ig.monsterstatus[nY] === 1) {
+        Ig.msg[0] = "* " + ne + " spared " + nX + "^2!&* But its name wasn't \\cYYELLOW\\cW.../";
+        Ig.msg[1] = "* (Try using Ralsei's \\cBPACIFY\\cW!)/%";
       }
     }
-    L0.some(L4 => L4 > 0x0) && (Ig.msg[0x1] = L0.map((L4, L5) => L4 === 0x1 ? '*\x20' + Ig.monstername[L5] + " was \\cBbored to tears\\cW!&" : L4 === 0x2 ? '*\x20' + Ig.monstername[L5] + " listened politely!&" : L4 === 0x3 ? '*\x20' + Ig.monstername[L5] + " became sentimental!&" : '').join('') + '/%');
+    if (no === 1) {
+      Ig.msg[0] = "* " + ne + " spared!/%";
+    }
   }
-  if (A === 0xcb && (Ig.msg[0x0] = '*\x20' + ne + " used the GLOWSHARD!/", Ig.msg[0x1] = "* But nothing happened.../%", Ig.chapter <= 0x2)) {
+  if (A === 204) {
+    Ig.msg[0] = "* " + ne + " read the MANUAL!/";
+    Ig.msg[1] = "* But nothing happened.../%";
+    let L0 = [0, 0, 0];
+    for (let L1 = 0; L1 < 3; L1++) {
+      if (Ig.monster[L1] !== 1) {
+        continue;
+      }
+      let L2 = Ig.monstertype[L1];
+      if (L2 === 5) {
+        L0[L1] = 1;
+        Ig.monsterstatus[L1] = 1;
+        Ig.monstercomment[L1] = "(Tired)";
+      }
+      if (L2 === 6) {
+        L0[L1] = 2;
+      }
+      if (L2 === 7 || L2 === 16) {
+        L0[L1] = 3;
+        let L3 = Ig.monsterinstance[L1];
+        if (L3 && !L3.destroyed) {
+          L3.battlecancel = 1;
+          if (L3.manual === 0) {
+            L3.manual = 1;
+            I9(L3.myself ?? L1, 50);
+          }
+        }
+      }
+    }
+    if (L0.some(L4 => L4 > 0)) {
+      Ig.msg[1] = L0.map((L4, L5) => L4 === 1 ? "* " + Ig.monstername[L5] + " was \\cBbored to tears\\cW!&" : L4 === 2 ? "* " + Ig.monstername[L5] + " listened politely!&" : L4 === 3 ? "* " + Ig.monstername[L5] + " became sentimental!&" : "").join("") + "/%";
+    }
+  }
+  if (A === 203 && (Ig.msg[0] = "* " + ne + " used the GLOWSHARD!/", Ig.msg[1] = "* But nothing happened.../%", Ig.chapter <= 2)) {
     let L4 = [];
-    for (let L5 = 0x0; L5 < 0x3; L5++) Ig.monster[L5] === 0x1 && Ig.monstertype[L5] === 0x5 && (Ig.mercymod[L5] = 0xc8, L4.push(L5));
-    L4.length && (Ig.msg[0x1] = L4.map(L6 => '*\x20' + Ig.monstername[L6] + " became enraptured!&").join('') + '/', Ig.msg[0x2] = "* The GLOWSHARD disappeared!/%");
+    for (let L5 = 0; L5 < 3; L5++) {
+      if (Ig.monster[L5] === 1 && Ig.monstertype[L5] === 5) {
+        Ig.mercymod[L5] = 200;
+        L4.push(L5);
+      }
+    }
+    if (L4.length) {
+      Ig.msg[1] = L4.map(L6 => "* " + Ig.monstername[L6] + " became enraptured!&").join("") + "/";
+      Ig.msg[2] = "* The GLOWSHARD disappeared!/%";
+    }
   }
 }
-IC(nb, 'scr_spelltext');
+IC(nb, "scr_spelltext");
 function nm(A, n) {
   let nv = In.charinstance(A);
-  if (!nv) return;
+  if (!nv) {
+    return;
+  }
   let ne = IZ(nv.x, nv.y, Ay);
   ne.target = nv;
-  let nY = IZ(nv.x, nv.y + nv.myheight - 0x18 - nv.tu * 0x14, Af);
-  nY.delay = 0x8, nY.type = 0x3, nY.damage = n, Ig.hp[Ig.char[A]] >= Ig.maxhp[Ig.char[A]] && (nY.specialmessage = 0x3), nv.tu++;
+  let nY = IZ(nv.x, nv.y + nv.myheight - 24 - nv.tu * 20, Af);
+  nY.delay = 8;
+  nY.type = 3;
+  nY.damage = n;
+  if (Ig.hp[Ig.char[A]] >= Ig.maxhp[Ig.char[A]]) {
+    nY.specialmessage = 3;
+  }
+  nv.tu++;
 }
-function nK(A, n, nv) {
-  return nl(A - -0x26, n);
-}
-IC(nm, 'healFx');
+IC(nm, "healFx");
 function nP(A, n) {
-  II(A, n), nm(A, n), Ig.spelldelay = 0xf;
+  II(A, n);
+  nm(A, n);
+  Ig.spelldelay = 15;
 }
-IC(nP, 'scr_healitemspell');
+IC(nP, "scr_healitemspell");
 function nq(A) {
   IA(A);
-  for (let n = 0x0; n < If(); n++) Ig.char[n] !== 0x0 && nm(n, A);
-  Ig.spelldelay = 0x14;
+  for (let n = 0; n < If(); n++) {
+    if (Ig.char[n] !== 0) {
+      nm(n, A);
+    }
+  }
+  Ig.spelldelay = 20;
 }
-IC(nq, 'scr_healallitemspell');
+IC(nq, "scr_healallitemspell");
 function nc(A, nv) {
   let ne = Ig.chartarget[nv];
-  Ig.spelldelay = 0xa;
-  let nY = 0x0;
-  if (!K(A, nv) && !(Ig.chapter >= 0x4 && In.chapterSpell && In.chapterSpell(A, nv))) switch (A) {
-    case 0x2:
-      {
-        let nS = Ig.battlemag[nv] * 0x5;
-        II(ne, nS), nm(ne, nS), Ig.spelldelay = 0xf;
-        break;
-      }
-    case 0x3:
-      {
-        if (Ig.monster[ne] === 0x0 && ([ne, nY] = nW(ne)), Ig.monster[ne] === 0x1) {
-          let nC = In.monsterinstance(ne);
-          if (Ig.monsterstatus[ne] === 0x1) Ig.monstertype[ne] !== 0x13 && Ig.monstertype[ne] !== 0x3 ? (Ig.flag[0x33 + ne] = 0x3, nC.userEvent(0xa), nC.scr_monsterdefeat()) : (nC.pacifycon = 0x1, Ig.spelldelay = 0x3e7);else {
-            let no = IZ(0x0, 0x0, nw);
-            no.target = nC, no.fail = 0x1;
+  Ig.spelldelay = 10;
+  let nY = 0;
+  if (!K(A, nv) && (!(Ig.chapter >= 4) || !In.chapterSpell || !In.chapterSpell(A, nv))) {
+    switch (A) {
+      case 2:
+        {
+          let nS = Ig.battlemag[nv] * 5;
+          II(ne, nS);
+          nm(ne, nS);
+          Ig.spelldelay = 15;
+          break;
+        }
+      case 3:
+        {
+          if (Ig.monster[ne] === 0) {
+            [ne, nY] = nW(ne);
           }
-        }
-        Ig.spelldelay = 0x14;
-        break;
-      }
-    case 0x4:
-    case 0x5:
-      {
-        if (Ig.spelldelay = 0x1e, Ig.monster[ne] === 0x0 && ([ne, nY] = nW(ne)), nY === 0x0) {
-          Ig.spelldelay = 0x46;
-          let nX = A === 0x4 ? IY(Ig.battlemag[nv] * 0x5 + Ig.battleat[nv] * 0xb - Ig.monsterdf[ne] * 0x3) : IY(Ig.battlemag[nv] * 0x6 + Ig.battleat[nv] * 0xd - Ig.monsterdf[ne] * 0x6);
-          if (A === 0x4 && Ig.chapter === 0x3) {
-            let L2 = Iv.first('obj_knight_enemy');
-            L2 && (nX = IY(nX * (L2.damagereduction + 0.65)));
+          if (Ig.monster[ne] === 1) {
+            let nC = In.monsterinstance(ne);
+            if (Ig.monsterstatus[ne] === 1) {
+              if (Ig.monstertype[ne] !== 19 && Ig.monstertype[ne] !== 3) {
+                Ig.flag[51 + ne] = 3;
+                nC.userEvent(10);
+                nC.scr_monsterdefeat();
+              } else {
+                nC.pacifycon = 1;
+                Ig.spelldelay = 999;
+              }
+            } else {
+              let no = IZ(0, 0, nw);
+              no.target = nC;
+              no.fail = 1;
+            }
           }
-          let L0 = Iv.first('obj_herosusie'),
-            L1 = IZ(L0 ? L0.x : 0x5a, L0 ? L0.y : 0x96, nI);
-          L1.damage = nX, L1.star = ne, L1.caster = nv, L1.target = In.monsterinstance(ne), A === 0x5 && (L1.red = 0x1);
+          Ig.spelldelay = 20;
+          break;
         }
-        break;
-      }
-    case 0x6:
-      {
-        let L3 = Ig.battlemag[nv] * 0x4;
-        for (let L4 = 0x0; L4 < If(); L4++) II(L4, L3), nm(L4, L3);
-        Ig.spelldelay = 0xf;
-        break;
-      }
-    case 0x8:
-      {
-        let L5 = 0x0;
-        for (let L6 = 0x0; L6 < 0x3; L6++) {
-          if (Ig.monster[L6] !== 0x1) continue;
-          let L7 = IZ(Ig.monsterx[L6], Ig.monstery[L6], N);
-          L7.target = In.monsterinstance(L6), L7.myself = L6, L7.initdelay = L5 * 0xa, L5++;
-        }
-        Ig.spelldelay = 0x14 + L5 * 0xa;
-        break;
-      }
-    case 0x9:
-      {
-        if (Ig.spelldelay = 0x1e, Ig.monster[ne] === 0x0 && ([ne, nY] = nW(ne)), nY === 0x0 && Ig.monster[ne] === 0x1) {
-          Ig.spelldelay = 0x28;
-          let L8 = Math.max(0x1, Math.min(0x3e7, Ig.battlemag[nv] - 0xa)),
-            L9 = IY(L8 * 0x1e + 0x5a + Is(0xa)),
-            LI = IZ(Ig.monsterx[ne], Ig.monstery[ne], f);
-          LI.damage = L9, LI.star = ne, LI.caster = nv, LI.target = In.monsterinstance(ne);
-        }
-        break;
-      }
-    case 0xa:
-      {
-        if (Ig.spelldelay = 0x1e, I8() > 0x0) {
-          let LA = IY(Ig.battlemag[nv] * 0x28 + 0x258),
-            Ln = Iv.exists('obj_berdlyb2_enemy') ? Ig.charinstance && Ig.charinstance[nv] : null,
-            LL = IZ(Ln ? Ln.x : 0x0, Ln ? Ln.y : 0x0, a);
-          LL.caster = nv, LL.damage = LA, Ig.spelldelay = 0x8c, Iv.exists('obj_berdlyb2_enemy') && (Ig.spelldelay = 0xf423f, LL.textwait = 0x1);
-        }
-        break;
-      }
-    case 0x64:
-      {
-        if (Ig.monster[ne] === 0x0 && ([ne, nY] = nW(ne)), Ig.monster[ne] === 0x1) {
-          let Lw = In.monsterinstance(ne),
-            LH = Ig.monstertype[ne] === 0x3 || Ig.chapter >= 0x2 && Ig.monstertype[ne] === 0x34;
-          if (Ig.mercymod[ne] >= 0x64) LH ? Lw.sparecon = 0x1 : (Ig.flag[0x33 + ne] = 0x2, Lw.userEvent(0xa), Lw.scr_monsterdefeat());else {
-            I9(ne, Ig.sparepoint[ne]);
-            let LW = IZ(0x0, 0x0, nw);
-            LW.target = Lw, LW.fail = 0x1, LW.flashcolor = IK.yellow;
+      case 4:
+      case 5:
+        {
+          Ig.spelldelay = 30;
+          if (Ig.monster[ne] === 0) {
+            [ne, nY] = nW(ne);
           }
-        }
-        Ig.spelldelay = 0x0;
-        break;
-      }
-    default:
-      A >= 0xc8 && A6(I4(A), ne, nv, {
-        'healOne': (Lg, LR, LG) => {
-          if (II(Lg, LR), nm(Lg, LR), LG) {
-            let LE = Iv.all('obj_healanim').pop();
-            LE && (LE.particlecolor = IK[LG]);
+          if (nY === 0) {
+            Ig.spelldelay = 70;
+            let nX = A === 4 ? IY(Ig.battlemag[nv] * 5 + Ig.battleat[nv] * 11 - Ig.monsterdf[ne] * 3) : IY(Ig.battlemag[nv] * 6 + Ig.battleat[nv] * 13 - Ig.monsterdf[ne] * 6);
+            if (A === 4 && Ig.chapter === 3) {
+              let L2 = Iv.first("obj_knight_enemy");
+              if (L2) {
+                nX = IY(nX * (L2.damagereduction + 0.65));
+              }
+            }
+            let L0 = Iv.first("obj_herosusie");
+            let L1 = IZ(L0 ? L0.x : 90, L0 ? L0.y : 150, nI);
+            L1.damage = nX;
+            L1.star = ne;
+            L1.caster = nv;
+            L1.target = In.monsterinstance(ne);
+            if (A === 5) {
+              L1.red = 1;
+            }
           }
-          Ig.spelldelay = 0xf;
-        },
-        'healAll': Lg => nq(Lg)
-      });
+          break;
+        }
+      case 6:
+        {
+          let L3 = Ig.battlemag[nv] * 4;
+          for (let L4 = 0; L4 < If(); L4++) {
+            II(L4, L3);
+            nm(L4, L3);
+          }
+          Ig.spelldelay = 15;
+          break;
+        }
+      case 8:
+        {
+          let L5 = 0;
+          for (let L6 = 0; L6 < 3; L6++) {
+            if (Ig.monster[L6] !== 1) {
+              continue;
+            }
+            let L7 = IZ(Ig.monsterx[L6], Ig.monstery[L6], N);
+            L7.target = In.monsterinstance(L6);
+            L7.myself = L6;
+            L7.initdelay = L5 * 10;
+            L5++;
+          }
+          Ig.spelldelay = 20 + L5 * 10;
+          break;
+        }
+      case 9:
+        {
+          Ig.spelldelay = 30;
+          if (Ig.monster[ne] === 0) {
+            [ne, nY] = nW(ne);
+          }
+          if (nY === 0 && Ig.monster[ne] === 1) {
+            Ig.spelldelay = 40;
+            let L8 = Math.max(1, Math.min(999, Ig.battlemag[nv] - 10));
+            let L9 = IY(L8 * 30 + 90 + Is(10));
+            let LI = IZ(Ig.monsterx[ne], Ig.monstery[ne], f);
+            LI.damage = L9;
+            LI.star = ne;
+            LI.caster = nv;
+            LI.target = In.monsterinstance(ne);
+          }
+          break;
+        }
+      case 10:
+        {
+          Ig.spelldelay = 30;
+          if (I8() > 0) {
+            let LA = IY(Ig.battlemag[nv] * 40 + 600);
+            let Ln = Iv.exists("obj_berdlyb2_enemy") ? Ig.charinstance && Ig.charinstance[nv] : null;
+            let LL = IZ(Ln ? Ln.x : 0, Ln ? Ln.y : 0, a);
+            LL.caster = nv;
+            LL.damage = LA;
+            Ig.spelldelay = 140;
+            if (Iv.exists("obj_berdlyb2_enemy")) {
+              Ig.spelldelay = 999999;
+              LL.textwait = 1;
+            }
+          }
+          break;
+        }
+      case 100:
+        {
+          if (Ig.monster[ne] === 0) {
+            [ne, nY] = nW(ne);
+          }
+          if (Ig.monster[ne] === 1) {
+            let Lw = In.monsterinstance(ne);
+            let LH = Ig.monstertype[ne] === 3 || Ig.chapter >= 2 && Ig.monstertype[ne] === 52;
+            if (Ig.mercymod[ne] >= 100) {
+              if (LH) {
+                Lw.sparecon = 1;
+              } else {
+                Ig.flag[51 + ne] = 2;
+                Lw.userEvent(10);
+                Lw.scr_monsterdefeat();
+              }
+            } else {
+              I9(ne, Ig.sparepoint[ne]);
+              let LW = IZ(0, 0, nw);
+              LW.target = Lw;
+              LW.fail = 1;
+              LW.flashcolor = IK.yellow;
+            }
+          }
+          Ig.spelldelay = 0;
+          break;
+        }
+      default:
+        if (A >= 200) {
+          A6(I4(A), ne, nv, {
+            healOne: (Lg, LR, LG) => {
+              II(Lg, LR);
+              nm(Lg, LR);
+              if (LG) {
+                let LE = Iv.all("obj_healanim").pop();
+                if (LE) {
+                  LE.particlecolor = IK[LG];
+                }
+              }
+              Ig.spelldelay = 15;
+            },
+            healAll: Lg => nq(Lg)
+          });
+        }
+    }
   }
 }
-IC(nc, 'scr_spell');
+IC(nc, "scr_spell");
 function nz() {
-  return Iv.first('obj_battlecontroller');
+  return Iv.first("obj_battlecontroller");
 }
-function nl(nv, ne) {
-  nv = nv - 154;
-  const nY = nr();
-  let nS = nY[nv];
-  if (nl.VvBXpj === undefined) {
-    var nC = function (L1) {
-      const L2 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
-      let L3 = '',
-        L4 = '';
-      for (let L5 = 0, L6, L7, L8 = 0; L7 = L1.charAt(L8++); ~L7 && (L6 = L5 % 4 ? L6 * 64 + L7 : L7, L5++ % 4) ? L3 += String.fromCharCode(255 & L6 >> (-2 * L5 & 6)) : 0) {
-        L7 = L2.indexOf(L7);
-      }
-      for (let L9 = 0, LI = L3.length; L9 < LI; L9++) {
-        L4 += '%' + ('00' + L3.charCodeAt(L9).toString(16)).slice(-2);
-      }
-      return decodeURIComponent(L4);
-    };
-    const L0 = function (L1, L2) {
-      let L3 = [],
-        L4 = 0,
-        L5,
-        L6 = '';
-      L1 = nC(L1);
-      let L7;
-      for (L7 = 0; L7 < 256; L7++) {
-        L3[L7] = L7;
-      }
-      for (L7 = 0; L7 < 256; L7++) {
-        L4 = (L4 + L3[L7] + L2.charCodeAt(L7 % L2.length)) % 256, L5 = L3[L7], L3[L7] = L3[L4], L3[L4] = L5;
-      }
-      L7 = 0, L4 = 0;
-      for (let L8 = 0; L8 < L1.length; L8++) {
-        L7 = (L7 + 1) % 256, L4 = (L4 + L3[L7]) % 256, L5 = L3[L7], L3[L7] = L3[L4], L3[L4] = L5, L6 += String.fromCharCode(L1.charCodeAt(L8) ^ L3[(L3[L7] + L3[L4]) % 256]);
-      }
-      return L6;
-    };
-    nl.yRNJOr = L0, nl.IfvEcG = {}, nl.VvBXpj = true;
-  }
-  const no = nY[0];
-  nl.CFmZkw !== no && (nl.IfvEcG = {}, nl.CFmZkw = no);
-  const nX = nl.IfvEcG[nv];
-  return nX === undefined ? (nl.dKCOjT === undefined && (nl.dKCOjT = true), nS = nl.yRNJOr(nS, ne), nl.IfvEcG[nv] = nS) : nS = nX, nS;
-}
-IC(nz, 'BC');
-var nO = new Set(['obj_aqua_enemy', 'obj_ball_enemy', 'obj_balthizard_enemy', 'obj_baseenemy', 'obj_bell_enemy', 'obj_bibliox_enemy', 'obj_blue_enemy', 'obj_elnina_lanino_controller', 'obj_enemy_example', 'obj_floradinn_enemy', 'obj_flowery_enemy', 'obj_guei_enemy', 'obj_halo_enemy', 'obj_hammer_of_justice_enemy', 'obj_holywatercooler_enemy', 'obj_jackenstein_enemy', 'obj_kawkaw_enemy', 'obj_knight_enemy', 'obj_leafling_enemy', 'obj_mizzle_enemy', 'obj_multiboss_controller', 'obj_multiboss_enemy1', 'obj_netskie_enemy', 'obj_nubert_enemy', 'obj_orange_green_controller', 'obj_organ_enemy', 'obj_pink_enemy', 'obj_pippins_enemy', 'obj_purple_enemy', 'obj_ribbick_enemy', 'obj_rouxls_ch3_enemy', 'obj_scarecrow_enemy', 'obj_shadowman_enemy', 'obj_sheary_enemy', 'obj_shinobeetle_enemy', 'obj_shutta_enemy', 'obj_sound_of_justice_enemy', 'obj_tenna_board4_enemy', 'obj_tenna_enemy', 'obj_terracota_enemy', 'obj_titan_enemy', 'obj_titan_spawn_enemy', 'obj_trashy_trio', 'obj_watercooler_enemy', 'obj_yellow_enemy', 'obj_zapper_enemy']),
-  nk = new Map();
+IC(nz, "BC");
+var nO = new Set(["obj_aqua_enemy", "obj_ball_enemy", "obj_balthizard_enemy", "obj_baseenemy", "obj_bell_enemy", "obj_bibliox_enemy", "obj_blue_enemy", "obj_elnina_lanino_controller", "obj_enemy_example", "obj_floradinn_enemy", "obj_flowery_enemy", "obj_guei_enemy", "obj_halo_enemy", "obj_hammer_of_justice_enemy", "obj_holywatercooler_enemy", "obj_jackenstein_enemy", "obj_kawkaw_enemy", "obj_knight_enemy", "obj_leafling_enemy", "obj_mizzle_enemy", "obj_multiboss_controller", "obj_multiboss_enemy1", "obj_netskie_enemy", "obj_nubert_enemy", "obj_orange_green_controller", "obj_organ_enemy", "obj_pink_enemy", "obj_pippins_enemy", "obj_purple_enemy", "obj_ribbick_enemy", "obj_rouxls_ch3_enemy", "obj_scarecrow_enemy", "obj_shadowman_enemy", "obj_sheary_enemy", "obj_shinobeetle_enemy", "obj_shutta_enemy", "obj_sound_of_justice_enemy", "obj_tenna_board4_enemy", "obj_tenna_enemy", "obj_terracota_enemy", "obj_titan_enemy", "obj_titan_spawn_enemy", "obj_trashy_trio", "obj_watercooler_enemy", "obj_yellow_enemy", "obj_zapper_enemy"]);
+var nk = new Map();
 function nd(A) {
   let n = A.constructor;
-  if (nk.has(n)) return nk.get(n);
-  let nv = !0x1;
-  for (let ne = n.prototype; ne && ne !== Id.prototype && ne !== Object.prototype && !nv; ne = Object.getPrototypeOf(ne)) ne.constructor && nO.has(ne.constructor.name) && (nv = !0x0);
-  return nk.set(n, nv), nv;
+  if (nk.has(n)) {
+    return nk.get(n);
+  }
+  let nv = false;
+  for (let ne = n.prototype; ne && ne !== Id.prototype && ne !== Object.prototype && !nv; ne = Object.getPrototypeOf(ne)) {
+    if (ne.constructor && nO.has(ne.constructor.name)) {
+      nv = true;
+    }
+  }
+  nk.set(n, nv);
+  return nv;
 }
-IC(nd, 'handlesTalkEnd');
+IC(nd, "handlesTalkEnd");
 function nj() {
-  let A = Ig.battlespell,
-    n = Ig.battlespellcost;
-  if (Array.isArray(A) && Array.isArray(n)) for (let nv = 0x0; nv < 0x3; nv++) {
-    let ne = A[nv],
-      nY = n[nv];
-    if (ne && nY) {
-      for (let nS = 0x0; nS < ne.length; nS++) ne[nS] === 0xa && (nY[nS] = Ig.maxtension);
+  let A = Ig.battlespell;
+  let n = Ig.battlespellcost;
+  if (Array.isArray(A) && Array.isArray(n)) {
+    for (let nv = 0; nv < 3; nv++) {
+      let ne = A[nv];
+      let nY = n[nv];
+      if (ne && nY) {
+        for (let nS = 0; nS < ne.length; nS++) {
+          if (ne[nS] === 10) {
+            nY[nS] = Ig.maxtension;
+          }
+        }
+      }
     }
   }
-  if (Array.isArray(Ig.spell) && Array.isArray(Ig.spellcost)) for (let nC = 0x0; nC < Ig.spell.length; nC++) {
-    let no = Ig.spell[nC],
-      nX = Ig.spellcost[nC];
-    if (Array.isArray(no) && Array.isArray(nX)) {
-      for (let L0 = 0x0; L0 < no.length; L0++) no[L0] === 0xa && (nX[L0] = Ig.maxtension);
+  if (Array.isArray(Ig.spell) && Array.isArray(Ig.spellcost)) {
+    for (let nC = 0; nC < Ig.spell.length; nC++) {
+      let no = Ig.spell[nC];
+      let nX = Ig.spellcost[nC];
+      if (Array.isArray(no) && Array.isArray(nX)) {
+        for (let L0 = 0; L0 < no.length; L0++) {
+          if (no[L0] === 10) {
+            nX[L0] = Ig.maxtension;
+          }
+        }
+      }
     }
   }
-  if (Ig.charweapon && Ig.charweapon[0x4] !== 0xd) {
+  if (Ig.charweapon && Ig.charweapon[4] !== 13) {
     let L1 = (L2, L3, L4) => {
-      if (!(!L2 || L2 === 0x4 || Ig.charweapon[L2] !== 0xd || !Array.isArray(L3) || !Array.isArray(L4))) {
-        for (let L5 = 0x0; L5 < L3.length; L5++) if (L3[L5] === 0x9) {
-          let L6 = I5(0x9, L2).cost;
-          L6 > 0x0 && L6 < L4[L5] && (L4[L5] = L6);
+      if (!!L2 && L2 !== 4 && Ig.charweapon[L2] === 13 && !!Array.isArray(L3) && !!Array.isArray(L4)) {
+        for (let L5 = 0; L5 < L3.length; L5++) {
+          if (L3[L5] === 9) {
+            let L6 = I5(9, L2).cost;
+            if (L6 > 0 && L6 < L4[L5]) {
+              L4[L5] = L6;
+            }
+          }
         }
       }
     };
     if (Array.isArray(Ig.spell) && Array.isArray(Ig.spellcost)) {
-      for (let L2 = 0x5; L2 < Ig.spell.length; L2++) L1(L2, Ig.spell[L2], Ig.spellcost[L2]);
+      for (let L2 = 5; L2 < Ig.spell.length; L2++) {
+        L1(L2, Ig.spell[L2], Ig.spellcost[L2]);
+      }
     }
     if (Array.isArray(A) && Array.isArray(n)) {
-      for (let L3 = 0x0; L3 < Math.min(0x3, If()); L3++) L1(Ig.char[L3], A[L3], n[L3]);
+      for (let L3 = 0; L3 < Math.min(3, If()); L3++) {
+        L1(Ig.char[L3], A[L3], n[L3]);
+      }
     }
   }
 }
-IC(nj, 'snowgrave100');
+IC(nj, "snowgrave100");
 function nT(A, n, nv, ne, nY) {
   let nS = AG(n, AL);
   if (!nS) {
-    A.draw_set_font('fnt_main'), A.draw_text(nv, ne + 0x4, n, IK.white), A.draw_set_font('fnt_mainbig');
+    A.draw_set_font("fnt_main");
+    A.draw_text(nv, ne + 4, n, IK.white);
+    A.draw_set_font("fnt_mainbig");
     return;
   }
   let nC = Ib[nS].w;
-  A.draw_sprite_ext(nS, 0x0, nv + 0x5, ne + 0x1, nC > AL ? AL / nC : 0x1, 0x1, 0x0, IK.white, 0x1);
+  A.draw_sprite_ext(nS, 0, nv + 5, ne + 1, nC > AL ? AL / nC : 1, 1, 0, IK.white, 1);
 }
-IC(nT, 'fitName');
+IC(nT, "fitName");
 function nu(A, n, nv, ne, nY) {
   let nS = Ib[n];
-  nS && nS.h > 0x1e ? A.draw_sprite_part(n, nv, 0x0, 0x0, nS.w, 0x24, ne - 0x4, nY - 0xa) : A.draw_sprite(n, nv, ne, nY);
+  if (nS && nS.h > 30) {
+    A.draw_sprite_part(n, nv, 0, 0, nS.w, 36, ne - 4, nY - 10);
+  } else {
+    A.draw_sprite(n, nv, ne, nY);
+  }
 }
-IC(nu, 'headDraw');
-var nQ = new Set([0x0, 0x1, 0x2, 0x3, 0x4, 0x7, 0x8, 0xb, 0xc, 0xd]),
-  nh = IC(A => {
-    if (Array.isArray(A)) return A.map(nh);
-    if (A && typeof A == 'object' && Object.getPrototypeOf(A) === Object.prototype) {
-      let n = {};
-      for (let nv of Object.keys(A)) n[nv] = nh(A[nv]);
-      return n;
+IC(nu, "headDraw");
+var nQ = new Set([0, 1, 2, 3, 4, 7, 8, 11, 12, 13]);
+var nh = IC(A => {
+  if (Array.isArray(A)) {
+    return A.map(nh);
+  }
+  if (A && typeof A == "object" && Object.getPrototypeOf(A) === Object.prototype) {
+    let n = {};
+    for (let nv of Object.keys(A)) {
+      n[nv] = nh(A[nv]);
     }
-    return A;
-  }, 'copied');
+    return n;
+  }
+  return A;
+}, "copied");
 function nV() {
   let A = [];
-  return Iv.with('obj_bulletgenparent', n => {
+  Iv.with("obj_bulletgenparent", n => {
     let nv = {};
-    for (let ne of Object.keys(n)) ne !== 'id' && typeof n[ne] != 'function' && (nv[ne] = nh(n[ne]));
+    for (let ne of Object.keys(n)) {
+      if (ne !== "id" && typeof n[ne] != "function") {
+        nv[ne] = nh(n[ne]);
+      }
+    }
     A.push([n.constructor, nv]);
-  }), A;
+  });
+  return A;
 }
-IC(nV, 'attackAsItBegan');
-var nM = IC(() => {}, 'NO_CREATE');
+IC(nV, "attackAsItBegan");
+var nM = IC(() => {}, "NO_CREATE");
 function nB(A) {
   let n = Math.min(A.base, A.left);
-  if (A.left -= n, Ig.turntimer = n, !!A.gens.length) {
-    Iv.with('obj_bulletgenparent', nv => nv.instance_destroy());
+  A.left -= n;
+  Ig.turntimer = n;
+  if (A.gens.length) {
+    Iv.with("obj_bulletgenparent", nv => nv.instance_destroy());
     for (let [nv, ne] of A.gens) {
       let nY = IZ(ne.x, ne.y, nv, {
         ...nh(ne),
-        'create': nM,
-        'preCreate': nM
+        create: nM,
+        preCreate: nM
       });
-      nY && (delete nY.create, delete nY.preCreate);
+      if (nY) {
+        delete nY.create;
+        delete nY.preCreate;
+      }
     }
   }
 }
-IC(nB, 'runAttackAgain');
+IC(nB, "runAttackAgain");
 var nx = class HV extends Id {
-  ["cleanUp"]() {
-    Ig.fighting = 0x0, !Iv.exists('__roomhost') && (Ig.battleover || (Ig.battleover = 'win', IP()));
+  cleanUp() {
+    Ig.fighting = 0;
+    if (!Iv.exists("__roomhost")) {
+      if (!Ig.battleover) {
+        Ig.battleover = "win";
+        IP();
+      }
+    }
   }
-  ["create"]() {
+  create() {
     Object.assign(this, {
-      'victory': 0x0,
-      'victoried': 0x0,
-      'skipvictory': 0x0,
-      'battlewriter': null,
-      'lbuffer': 0x0,
-      'rbuffer': 0x0,
-      'onebuffer': 0x0,
-      'twobuffer': 0x0,
-      'cantspare': [0x0, 0x0, 0x0],
-      'hidemercy': 0x0,
-      'gigaqueencon': 0x0,
-      'gigaqueentimer': 0x0,
-      'gigaqueeny': 0x0,
-      'attackpriority': -0x1,
-      'messagepriority': -0x1
-    }), Object.assign(this, {
-      'disablesusieact': 0x0,
-      'mercytotal': 0x0,
-      'idefendedthisturn': 0x0,
-      'ypostenna': 0x0,
-      'oopsallacts': 0x0,
-      'spadebuttonenabled': !0x1,
-      'spadebuttoncount': 0x0,
-      'spadebuttontimer': 0x0,
-      'heartbuttoncount': 0x0,
-      'heartbuttontimer': 0x0,
-      'heartbuttondirection': 0x10e,
-      'heartsuccesstimer': 0x0,
-      'heartsuccesscon': 0x0,
-      'recentlyhighlightingheart': 0x0,
-      'recentlyhighlightingheartvalue': 0x0,
-      'rouxlsbuttontimer': 0x0,
-      'rouxlsbuttoncount': -0x6,
-      'rouxlsbuttoncount2': -0x6,
-      'rouxlsbuttoncount_y': 0x0,
-      'rouxlsgridenabled': !0x1,
-      'recentlyhighlightingspade': 0x0,
-      'recentlyhighlightingspadevalue': 0x0,
-      'gridchangedirections': !0x0,
-      'spadebuttondirection': 0x0,
-      'rouxlsbuttondirection': 0x10e,
-      'rouxlsbuttondirection2': 0x10e,
-      'rouxlserrorcon': 0x0,
-      'rouxlserrortimer': 0x0,
-      'rouxlstelegraphtimer': 0x0,
-      'rouxlstelegraphcon': 0x0,
-      'spadetelegraphtimer': 0x0,
-      'spadetelegraphcon': 0x0,
-      'spadesuccesstimer': 0x0,
-      'spadesuccesscon': 0x0,
-      'rouxlsbuttonendcon': 0x0,
-      'buttonorder': 0x0,
-      'spadefail': !0x1,
-      'buttonspeed': 0x0,
-      'norouxlsbutton': !0x1,
-      'dogtimer': 0x0,
-      'dogcon': 0x0,
-      'dogselectedcount': 0x0
-    }), Ig.chapter >= 0x4 && In.bcCreate && In.bcCreate(this), Ig.battleend = 0x0, Ig.darkzone = 0x1, Ig.fighting = 0x1, Ig.fe = 0x0, Ig.fc = 0x0, Ig.typer = 0x4, Ig.battletyper = 0x4, Ig.myfight = 0x0, Ig.mnfight = 0x0, Ig.bmenuno = 0x0, Ig.attacking = 0x0, Ig.acting = [0x0, 0x0, 0x0], Ig.tension = 0x0, Ig.spelldelay = 0xa, I6(), Ig.tensionselect = 0x0, Ig.temptension = [Ig.tension, Ig.tension, Ig.tension], this.tempitem = [];
-    for (let nv = 0x0; nv < 0xd; nv++) this.tempitem[nv] = [Ig.item[nv], Ig.item[nv], Ig.item[nv]];
-    Ig.charcond = [0x0, 0x0, 0x0], Ig.automiss = [0x0, 0x0, 0x0], IN(Math.max(0x3, If()));
-    for (let ne = 0x0; ne < Math.max(0x3, If()); ne++) Ig.char[ne] ? (Ig.charmove[ne] = 0x1, Ig.charcantarget[ne] = 0x1, Ig.chardead[ne] = 0x0) : (Ig.charmove[ne] = 0x0, Ig.charcantarget[ne] = 0x0, Ig.chardead[ne] = 0x0);
-    Ig.flag[0x32] = 0x0, Ig.flag[0x33] = 0x0, Ig.flag[0x34] = 0x0, Ig.flag[0x35] = 0x0, Ig.monster = [0x0, 0x0, 0x0], Ig.monsterx = [0x0, 0x0, 0x0], Ig.monstery = [0x0, 0x0, 0x0], Ig.monstername = ['\x20', '\x20', '\x20'], Ig.monsterat = [0x0, 0x0, 0x0], Ig.monsterdf = [0x0, 0x0, 0x0], Ig.monsterhp = [0x0, 0x0, 0x0], Ig.monstermaxhp = [0x0, 0x0, 0x0], Ig.monsterinstance = [null, null, null], Ig.monstergold = [0x0, 0x0, 0x0, 0x0], Ig.monsterexp = [0x0, 0x0, 0x0, 0x0], Ig.sparepoint = [0x0, 0x0, 0x0], Ig.hittarget = [0x0, 0x0, 0x0], Ig.mercymod = [0x0, 0x0, 0x0], Ig.mercymax = [0x0, 0x0, 0x0], Ig.monstercomment = ['\x20', '\x20', '\x20'], Ig.monsterstatus = [0x0, 0x0, 0x0], Ig.canact = [[], [], []], Ig.actname = [[], [], []], Ig.actactor = [[], [], []], Ig.actdesc = [[], [], []], Ig.actcost = [[], [], []];
-    for (let nY = 0x0; nY < 0x3; nY++) for (let nS = 0x0; nS < 0x6; nS++) Ig.canact[nY][nS] = 0x0, Ig.actname[nY][nS] = '\x20', Ig.actactor[nY][nS] = 0x1, Ig.actdesc[nY][nS] = '\x20', Ig.actcost[nY][nS] = 0x0;
-    if (Object.assign(this, {
-      'intro': 0x1,
-      'chartotal': 0x0,
-      'charpos': new Array(If()).fill(-0x1),
-      'havechar': new Array(If()).fill(0x0),
-      'mmy': new Array(If()).fill(0x0)
-    }), Ig.charinstance = new Array(If()).fill(null), If() > 0x3) {
+      victory: 0,
+      victoried: 0,
+      skipvictory: 0,
+      battlewriter: null,
+      lbuffer: 0,
+      rbuffer: 0,
+      onebuffer: 0,
+      twobuffer: 0,
+      cantspare: [0, 0, 0],
+      hidemercy: 0,
+      gigaqueencon: 0,
+      gigaqueentimer: 0,
+      gigaqueeny: 0,
+      attackpriority: -1,
+      messagepriority: -1
+    });
+    Object.assign(this, {
+      disablesusieact: 0,
+      mercytotal: 0,
+      idefendedthisturn: 0,
+      ypostenna: 0,
+      oopsallacts: 0,
+      spadebuttonenabled: false,
+      spadebuttoncount: 0,
+      spadebuttontimer: 0,
+      heartbuttoncount: 0,
+      heartbuttontimer: 0,
+      heartbuttondirection: 270,
+      heartsuccesstimer: 0,
+      heartsuccesscon: 0,
+      recentlyhighlightingheart: 0,
+      recentlyhighlightingheartvalue: 0,
+      rouxlsbuttontimer: 0,
+      rouxlsbuttoncount: -6,
+      rouxlsbuttoncount2: -6,
+      rouxlsbuttoncount_y: 0,
+      rouxlsgridenabled: false,
+      recentlyhighlightingspade: 0,
+      recentlyhighlightingspadevalue: 0,
+      gridchangedirections: true,
+      spadebuttondirection: 0,
+      rouxlsbuttondirection: 270,
+      rouxlsbuttondirection2: 270,
+      rouxlserrorcon: 0,
+      rouxlserrortimer: 0,
+      rouxlstelegraphtimer: 0,
+      rouxlstelegraphcon: 0,
+      spadetelegraphtimer: 0,
+      spadetelegraphcon: 0,
+      spadesuccesstimer: 0,
+      spadesuccesscon: 0,
+      rouxlsbuttonendcon: 0,
+      buttonorder: 0,
+      spadefail: false,
+      buttonspeed: 0,
+      norouxlsbutton: false,
+      dogtimer: 0,
+      dogcon: 0,
+      dogselectedcount: 0
+    });
+    if (Ig.chapter >= 4 && In.bcCreate) {
+      In.bcCreate(this);
+    }
+    Ig.battleend = 0;
+    Ig.darkzone = 1;
+    Ig.fighting = 1;
+    Ig.fe = 0;
+    Ig.fc = 0;
+    Ig.typer = 4;
+    Ig.battletyper = 4;
+    Ig.myfight = 0;
+    Ig.mnfight = 0;
+    Ig.bmenuno = 0;
+    Ig.attacking = 0;
+    Ig.acting = [0, 0, 0];
+    Ig.tension = 0;
+    Ig.spelldelay = 10;
+    I6();
+    Ig.tensionselect = 0;
+    Ig.temptension = [Ig.tension, Ig.tension, Ig.tension];
+    this.tempitem = [];
+    for (let nv = 0; nv < 13; nv++) {
+      this.tempitem[nv] = [Ig.item[nv], Ig.item[nv], Ig.item[nv]];
+    }
+    Ig.charcond = [0, 0, 0];
+    Ig.automiss = [0, 0, 0];
+    IN(Math.max(3, If()));
+    for (let ne = 0; ne < Math.max(3, If()); ne++) {
+      if (Ig.char[ne]) {
+        Ig.charmove[ne] = 1;
+        Ig.charcantarget[ne] = 1;
+        Ig.chardead[ne] = 0;
+      } else {
+        Ig.charmove[ne] = 0;
+        Ig.charcantarget[ne] = 0;
+        Ig.chardead[ne] = 0;
+      }
+    }
+    Ig.flag[50] = 0;
+    Ig.flag[51] = 0;
+    Ig.flag[52] = 0;
+    Ig.flag[53] = 0;
+    Ig.monster = [0, 0, 0];
+    Ig.monsterx = [0, 0, 0];
+    Ig.monstery = [0, 0, 0];
+    Ig.monstername = [" ", " ", " "];
+    Ig.monsterat = [0, 0, 0];
+    Ig.monsterdf = [0, 0, 0];
+    Ig.monsterhp = [0, 0, 0];
+    Ig.monstermaxhp = [0, 0, 0];
+    Ig.monsterinstance = [null, null, null];
+    Ig.monstergold = [0, 0, 0, 0];
+    Ig.monsterexp = [0, 0, 0, 0];
+    Ig.sparepoint = [0, 0, 0];
+    Ig.hittarget = [0, 0, 0];
+    Ig.mercymod = [0, 0, 0];
+    Ig.mercymax = [0, 0, 0];
+    Ig.monstercomment = [" ", " ", " "];
+    Ig.monsterstatus = [0, 0, 0];
+    Ig.canact = [[], [], []];
+    Ig.actname = [[], [], []];
+    Ig.actactor = [[], [], []];
+    Ig.actdesc = [[], [], []];
+    Ig.actcost = [[], [], []];
+    for (let nY = 0; nY < 3; nY++) {
+      for (let nS = 0; nS < 6; nS++) {
+        Ig.canact[nY][nS] = 0;
+        Ig.actname[nY][nS] = " ";
+        Ig.actactor[nY][nS] = 1;
+        Ig.actdesc[nY][nS] = " ";
+        Ig.actcost[nY][nS] = 0;
+      }
+    }
+    Object.assign(this, {
+      intro: 1,
+      chartotal: 0,
+      charpos: new Array(If()).fill(-1),
+      havechar: new Array(If()).fill(0),
+      mmy: new Array(If()).fill(0)
+    });
+    Ig.charinstance = new Array(If()).fill(null);
+    if (If() > 3) {
       let [nC, no] = x(If());
-      Ig.heromakex = nC, Ig.heromakey = no;
+      Ig.heromakex = nC;
+      Ig.heromakey = no;
     }
     let A = new Set();
-    for (let nX = 0x0; nX < If(); nX++) {
-      Ig.char[nX] !== 0x0 && this.chartotal++;
+    for (let nX = 0; nX < If(); nX++) {
+      if (Ig.char[nX] !== 0) {
+        this.chartotal++;
+      }
       let L0 = Ig.char[nX];
-      if (L0 >= 0x1) {
-        let L1 = IR(L0),
-          L2 = Ig.charhero && Ig.charhero[L0] || d[L1 - 0x1] || 'kris',
-          L3 = j(L2, Ib).id === L2 && k[L2] && k[L2].fallback || L2,
-          L4 = Math.max(0x0, d.indexOf(k[L3] ? L3 : 'kris')),
-          L5 = L2 === 'noelle' && Ig.chapter === 0x2 ? Aj : k[L2] && k[L2].custom ? AY : [Ac, Al, Ak][Math.min(0x2, L4)],
-          L6 = A.has(L5) && Ar.has(L5) ? Ar.get(L5) : L5;
+      if (L0 >= 1) {
+        let L1 = IR(L0);
+        let L2 = Ig.charhero && Ig.charhero[L0] || d[L1 - 1] || "kris";
+        let L3 = j(L2, Ib).id === L2 && k[L2] && k[L2].fallback || L2;
+        let L4 = Math.max(0, d.indexOf(k[L3] ? L3 : "kris"));
+        let L5 = L2 === "noelle" && Ig.chapter === 2 ? Aj : k[L2] && k[L2].custom ? AY : [Ac, Al, Ak][Math.min(2, L4)];
+        let L6 = A.has(L5) && Ar.has(L5) ? Ar.get(L5) : L5;
         A.add(L5);
         let L7 = IZ(Ig.heromakex[nX], Ig.heromakey[nX], L6);
-        L7.herokey = L2, L7.setup(), L7.myself = nX, L7.char = L0, L7.base = L1, L7.depth = If() > 0x6 ? r(nX, If()) : 0xc8 - nX * 0x14, Ig.chapter >= 0x5 && In.heroSetup && In.heroSetup(L7), AP(L7);
+        L7.herokey = L2;
+        L7.setup();
+        L7.myself = nX;
+        L7.char = L0;
+        L7.base = L1;
+        L7.depth = If() > 6 ? r(nX, If()) : 200 - nX * 20;
+        if (Ig.chapter >= 5 && In.heroSetup) {
+          In.heroSetup(L7);
+        }
+        AP(L7);
         {
           let L8 = U(If());
-          L8 !== 0x1 && (L7.image_xscale *= L8, L7.image_yscale *= L8, L7.mywidth = Ir(L7.mywidth * L8), L7.myheight = Ir(L7.myheight * L8));
+          if (L8 !== 1) {
+            L7.image_xscale *= L8;
+            L7.image_yscale *= L8;
+            L7.mywidth = Ir(L7.mywidth * L8);
+            L7.myheight = Ir(L7.myheight * L8);
+          }
         }
-        this.havechar[nX] = 0x1, this.charpos[nX] = nX, Ig.charinstance[nX] = L7;
+        this.havechar[nX] = 1;
+        this.charpos[nX] = nX;
+        Ig.charinstance[nX] = L7;
       }
     }
-    for (let L9 = 0x0; L9 < 0x3; L9++) if (Ig.monstertype[L9] > 0x0) {
-      Ig.monster[L9] = 0x1;
-      let LI = IZ(Ig.monstermakex[L9], Ig.monstermakey[L9], Ig.monsterinstancetype[L9]);
-      LI.myself = L9, Ig.monsterinstance[L9] = LI, LI.userEvent(0xc);
+    for (let L9 = 0; L9 < 3; L9++) {
+      if (Ig.monstertype[L9] > 0) {
+        Ig.monster[L9] = 1;
+        let LI = IZ(Ig.monstermakex[L9], Ig.monstermakey[L9], Ig.monsterinstancetype[L9]);
+        LI.myself = L9;
+        Ig.monsterinstance[L9] = LI;
+        LI.userEvent(12);
+      }
     }
-    Ig.chapter === 0x2 && Iv.exists('obj_gigaqueen_enemy') && (this.gigaqueencon = 0x3, Iv.view.live = !0x0);
+    if (Ig.chapter === 2 && Iv.exists("obj_gigaqueen_enemy")) {
+      this.gigaqueencon = 3;
+      Iv.view.live = true;
+    }
     for (let LA of Ig.bystanders || []) {
       let Ln = IZ(LA.x, LA.y, LA.cls);
-      Ln.myself = -0x1, Ln.visible = !0x1, Ln.thrash && (Ln.thrash.visible = !0x1);
-    }
-    Ig.battleactcount = [0x0, 0x0, 0x0], Ig.battlespell = [[], [], []], Ig.battlespellname = [[], [], []], Ig.battlespelldesc = [[], [], []], Ig.battlespellcost = [[], [], []], Ig.battlespelltarget = [[], [], []], Ig.battlespellspecial = [[], [], []];
-    for (let LL = 0x0; LL < 0x3; LL++) for (let Lw = 0x0; Lw < 0x12; Lw++) Ig.battlespell[LL][Lw] = 0x0, Ig.battlespellname[LL][Lw] = '\x20', Ig.battlespelldesc[LL][Lw] = '\x20', Ig.battlespellcost[LL][Lw] = 0x0, Ig.battlespelltarget[LL][Lw] = 0x2, Ig.battlespellspecial[LL][Lw] = 0x0;
-    In.spellmenu_setup && In.spellmenu_setup.call(this), e(), nj(), Ig.charturn = 0x0;
-    {
-      let LH = 0x0;
-      for (; LH < If() && Ig.char[LH] && Ig.charauto[Ig.char[LH]] === 0x1;) LH++;
-      LH > 0x0 && LH < If() && Ig.char[LH] && (Ig.charturn = LH);
-    }
-    Ig.currentactingchar = 0x0;
-    for (let LW of ['acting', 'actingsingle', 'actingsimul', 'actingtarget', 'actingchoice']) if (Array.isArray(Ig[LW])) {
-      for (let Lg = 0x0; Lg < Ia(); Lg++) Ig[LW][Lg] = 0x0;
-    }
-    Ig.charaction = [0x0, 0x0, 0x0], Ig.charspecial = [0x0, 0x0, 0x0], Ig.chartarget = [0x0, 0x0, 0x0], Ig.faceaction = [0x0, 0x0, 0x0], Ig.targeted = [0x0, 0x0, 0x0], IN(Math.max(0x3, If())), Ig.battleat = [], Ig.battledf = [], Ig.battlemag = [];
-    for (let LR = 0x0; LR < If(); LR++) {
-      let LG = Ig.char[LR];
-      Ig.battleat[LR] = Ig.at[LG] + Ig.itemat[LG][0x0] + Ig.itemat[LG][0x1] + Ig.itemat[LG][0x2], Ig.battledf[LR] = Ig.df[LG] + Ig.itemdf[LG][0x0] + Ig.itemdf[LG][0x1] + Ig.itemdf[LG][0x2], Ig.battlemag[LR] = Ig.mag[LG] + Ig.itemmag[LG][0x0] + Ig.itemmag[LG][0x1] + Ig.itemmag[LG][0x2];
-    }
-    Ig.chapter >= 0x5 && In.bcBattleStats && In.bcBattleStats(this);
-    for (let LE = 0x0; LE < 0x14; LE++) for (let Lf = 0x0; Lf < 0x14; Lf++) Ig.bmenucoord[LE][Lf] = 0x0;
-    Object.assign(this, {
-      'movenoise': 0x0,
-      'selnoise': 0x0,
-      'laznoise': 0x0,
-      'damagenoise': 0x0,
-      'grazenoise': 0x0,
-      'tp': 0x0,
-      'tpy': 0x32,
-      'bp': 0x0,
-      'bpy': 0x98,
-      's_siner': 0x0,
-      'reset': 0x0,
-      'timeron': 0x1,
-      'noreturn': 0x0,
-      'shakeReq': 0x0,
-      'victortimer': 0x0
-    }), this.bcolor = Iq(Iq(IK.purple, IK.black, 0.7), IK.dkgray, 0.5), IZ(0x0, 0x0, AZ), this.hpcolor = [IK.aqua, IK.fuchsia, IK.lime, IK.yellow], this.hpcolorsoft = this.hpcolor.map(La => Iq(La, IK.white, 0.5)), In.charinstance = La => Ig.charinstance[La], In.monsterinstance = La => Ig.monsterinstance[La], In.dmgwriter = (La, LN) => IZ(La, LN, Af), In.shake = () => {
-      Iv.exists('obj_shake') || IZ(0x0, 0x0, I3);
-    }, In.gameover = () => {
-      Ig.battleover = 'lose', IM(), Im('snd_hurt1'), IQ();
-    };
-  }
-  ["alarmEvent"](A) {
-    A === 0x2 && (this.reset = 0x0, nN());
-  }
-  ["step"]() {
-    if (nj(), e(), O(), z(this), Ig.chapter === 0x3 && Ig.mnfight === 0x2 && !this.boardend && (p === 'room_board_1' || p === 'room_board_2' || p === 'room_board_3') && Ig.char.every(n => !n || Ig.hp[n] < 0x1) && (this.boardend = 0x1, In.gameover && In.gameover()), this.t_siner = (this.t_siner || 0x0) + 0x1, Ig.chapter === 0x2) {
-      if (this.gigaqueencon !== 0x0) return;
-      let n = Iv.first('o_boxingcontroller');
-      if (n && n.dead === 0x1 && Ig.turntimer < 0x0 || Iv.exists('obj_boxing_loss_controller') || Iv.exists('o_bq_whitefade_persistent')) return;
-    }
-    if (Ig.chapter >= 0x2 && (this.t_siner - 0x1) % 0x6 === 0x0) for (let nv = 0x0; nv < If(); nv++) {
-      let ne = Ig.char[nv];
-      A3(ne) && Ig.hp[ne] > Ir(Ig.maxhp[ne] / 0x3) && Ig.hp[ne]--;
-    }
-    for (let nY = 0x0; nY < If(); nY++) {
-      let nS = Ig.charinstance[nY];
-      if (!(!nS || !(nS.poisonamount > 0x0)) && (nS.poisontimer = (nS.poisontimer || 0x0) + 0x1, nS.poisontimer >= 0xa)) {
-        let nC = Ig.char[nY];
-        Ig.hp[nC] > 0x1 ? (Ig.hp[nC]--, nS.poisonamount--) : nS.poisonamount = 0x0, nS.poisontimer = 0x0;
+      Ln.myself = -1;
+      Ln.visible = false;
+      if (Ln.thrash) {
+        Ln.thrash.visible = false;
       }
     }
-    if (At() || n2()) return;
-    if (Ig.chapter === 0x3 && this.victory === 0x1 && this.victoried === 0x0) {
-      let no = Ao('obj_shutta_enemy');
-      no && no.amiabossfight && (Ig.battletyper = 0x4);
+    Ig.battleactcount = [0, 0, 0];
+    Ig.battlespell = [[], [], []];
+    Ig.battlespellname = [[], [], []];
+    Ig.battlespelldesc = [[], [], []];
+    Ig.battlespellcost = [[], [], []];
+    Ig.battlespelltarget = [[], [], []];
+    Ig.battlespellspecial = [[], [], []];
+    for (let LL = 0; LL < 3; LL++) {
+      for (let Lw = 0; Lw < 18; Lw++) {
+        Ig.battlespell[LL][Lw] = 0;
+        Ig.battlespellname[LL][Lw] = " ";
+        Ig.battlespelldesc[LL][Lw] = " ";
+        Ig.battlespellcost[LL][Lw] = 0;
+        Ig.battlespelltarget[LL][Lw] = 2;
+        Ig.battlespellspecial[LL][Lw] = 0;
+      }
     }
-    if (Ig.chapter >= 0x4 && In.bcStepGate && In.bcStepGate(this)) return;
-    if (this.shakeReq && (this.shakeReq = 0x0, Iv.exists('obj_shake') || IZ(0x0, 0x0, I3)), this.victory === 0x1 && this.victoried === 0x0) {
-      Ig.faceaction = [0x0, 0x0, 0x0], Ig.battleend = 0x1, Ig.mnfight = -0x1, Ig.myfight = 0x7;
-      for (let L0 = 0x3; L0 < If(); L0++) Ig.faceaction[L0] = 0x0;
-      Iv.exists(this.battlewriter) && this.battlewriter.instance_destroy(), Iv.with('obj_face', L1 => L1.instance_destroy());
-      for (let L1 = 0x0; L1 < 0x4; L1++) Ig.hp[L1] < 0x1 && (Ig.hp[L1] = Ir(Ig.maxhp[L1] / 0x8));
-      if (this.lastbattlewriter = null, this.skipvictory === 0x0) {
-        if (Ig.monstergold[0x3] += IS(Ig.tension / 0xa) * (Ig.chapter >= 0x2 ? Ig.chapter : 0x1), Ig.charweapon[0x1] === 0x8 && (Ig.monstergold[0x3] += IS(Ig.monstergold[0x3] / 0x14)), Ig.chapter >= 0x5 && In.bcVictoryGold && In.bcVictoryGold(this), Ig.msg = new Array(0x64).fill('\x20'), Ig.msg[0x0] = "* You won^1!&* Got " + Ig.monsterexp[0x3] + " EXP and " + Ig.monstergold[0x3] + " D$./%", Ig.typer = Ig.battletyper, Ig.fc = 0x0, Ig.chapter >= 0x2 && Ig.flag[0x25] === 0x1 && (Ig.msg[0x0] = "* You won the battle!/%"), Ig.chapter >= 0x2 && Ig.flag[0x3f] === 0x1) {
-          Ig.msg[0x0] = "* You won^1!&* Got " + Ig.monstergold[0x3] + " D$^1.&* " + (Ig.char.some(L3 => L3 && (Ig.charhero && Ig.charhero[L3] ? Ig.charhero[L3] === 'noelle' : L3 === 0x4)) ? 'Noelle' : 'You') + " became stronger./%";
-          let L2 = Im('snd_dtrans_lw');
+    if (In.spellmenu_setup) {
+      In.spellmenu_setup.call(this);
+    }
+    e();
+    nj();
+    Ig.charturn = 0;
+    {
+      let LH = 0;
+      while (LH < If() && Ig.char[LH] && Ig.charauto[Ig.char[LH]] === 1) {
+        LH++;
+      }
+      if (LH > 0 && LH < If() && Ig.char[LH]) {
+        Ig.charturn = LH;
+      }
+    }
+    Ig.currentactingchar = 0;
+    for (let LW of ["acting", "actingsingle", "actingsimul", "actingtarget", "actingchoice"]) {
+      if (Array.isArray(Ig[LW])) {
+        for (let Lg = 0; Lg < Ia(); Lg++) {
+          Ig[LW][Lg] = 0;
+        }
+      }
+    }
+    Ig.charaction = [0, 0, 0];
+    Ig.charspecial = [0, 0, 0];
+    Ig.chartarget = [0, 0, 0];
+    Ig.faceaction = [0, 0, 0];
+    Ig.targeted = [0, 0, 0];
+    IN(Math.max(3, If()));
+    Ig.battleat = [];
+    Ig.battledf = [];
+    Ig.battlemag = [];
+    for (let LR = 0; LR < If(); LR++) {
+      let LG = Ig.char[LR];
+      Ig.battleat[LR] = Ig.at[LG] + Ig.itemat[LG][0] + Ig.itemat[LG][1] + Ig.itemat[LG][2];
+      Ig.battledf[LR] = Ig.df[LG] + Ig.itemdf[LG][0] + Ig.itemdf[LG][1] + Ig.itemdf[LG][2];
+      Ig.battlemag[LR] = Ig.mag[LG] + Ig.itemmag[LG][0] + Ig.itemmag[LG][1] + Ig.itemmag[LG][2];
+    }
+    if (Ig.chapter >= 5 && In.bcBattleStats) {
+      In.bcBattleStats(this);
+    }
+    for (let LE = 0; LE < 20; LE++) {
+      for (let Lf = 0; Lf < 20; Lf++) {
+        Ig.bmenucoord[LE][Lf] = 0;
+      }
+    }
+    Object.assign(this, {
+      movenoise: 0,
+      selnoise: 0,
+      laznoise: 0,
+      damagenoise: 0,
+      grazenoise: 0,
+      tp: 0,
+      tpy: 50,
+      bp: 0,
+      bpy: 152,
+      s_siner: 0,
+      reset: 0,
+      timeron: 1,
+      noreturn: 0,
+      shakeReq: 0,
+      victortimer: 0
+    });
+    this.bcolor = Iq(Iq(IK.purple, IK.black, 0.7), IK.dkgray, 0.5);
+    IZ(0, 0, AZ);
+    this.hpcolor = [IK.aqua, IK.fuchsia, IK.lime, IK.yellow];
+    this.hpcolorsoft = this.hpcolor.map(La => Iq(La, IK.white, 0.5));
+    In.charinstance = La => Ig.charinstance[La];
+    In.monsterinstance = La => Ig.monsterinstance[La];
+    In.dmgwriter = (La, LN) => IZ(La, LN, Af);
+    In.shake = () => {
+      if (!Iv.exists("obj_shake")) {
+        IZ(0, 0, I3);
+      }
+    };
+    In.gameover = () => {
+      Ig.battleover = "lose";
+      IM();
+      Im("snd_hurt1");
+      IQ();
+    };
+  }
+  alarmEvent(A) {
+    if (A === 2) {
+      this.reset = 0;
+      nN();
+    }
+  }
+  step() {
+    nj();
+    e();
+    O();
+    z(this);
+    if (Ig.chapter === 3 && Ig.mnfight === 2 && !this.boardend && (p === "room_board_1" || p === "room_board_2" || p === "room_board_3") && Ig.char.every(n => !n || Ig.hp[n] < 1)) {
+      this.boardend = 1;
+      if (In.gameover) {
+        In.gameover();
+      }
+    }
+    this.t_siner = (this.t_siner || 0) + 1;
+    if (Ig.chapter === 2) {
+      if (this.gigaqueencon !== 0) {
+        return;
+      }
+      let n = Iv.first("o_boxingcontroller");
+      if (n && n.dead === 1 && Ig.turntimer < 0 || Iv.exists("obj_boxing_loss_controller") || Iv.exists("o_bq_whitefade_persistent")) {
+        return;
+      }
+    }
+    if (Ig.chapter >= 2 && (this.t_siner - 1) % 6 === 0) {
+      for (let nv = 0; nv < If(); nv++) {
+        let ne = Ig.char[nv];
+        if (A3(ne) && Ig.hp[ne] > Ir(Ig.maxhp[ne] / 3)) {
+          Ig.hp[ne]--;
+        }
+      }
+    }
+    for (let nY = 0; nY < If(); nY++) {
+      let nS = Ig.charinstance[nY];
+      if (!!nS && !!(nS.poisonamount > 0) && (nS.poisontimer = (nS.poisontimer || 0) + 1, nS.poisontimer >= 10)) {
+        let nC = Ig.char[nY];
+        if (Ig.hp[nC] > 1) {
+          Ig.hp[nC]--;
+          nS.poisonamount--;
+        } else {
+          nS.poisonamount = 0;
+        }
+        nS.poisontimer = 0;
+      }
+    }
+    if (At() || n2()) {
+      return;
+    }
+    if (Ig.chapter === 3 && this.victory === 1 && this.victoried === 0) {
+      let no = Ao("obj_shutta_enemy");
+      if (no && no.amiabossfight) {
+        Ig.battletyper = 4;
+      }
+    }
+    if (Ig.chapter >= 4 && In.bcStepGate && In.bcStepGate(this)) {
+      return;
+    }
+    if (this.shakeReq) {
+      this.shakeReq = 0;
+      if (!Iv.exists("obj_shake")) {
+        IZ(0, 0, I3);
+      }
+    }
+    if (this.victory === 1 && this.victoried === 0) {
+      Ig.faceaction = [0, 0, 0];
+      Ig.battleend = 1;
+      Ig.mnfight = -1;
+      Ig.myfight = 7;
+      for (let L0 = 3; L0 < If(); L0++) {
+        Ig.faceaction[L0] = 0;
+      }
+      if (Iv.exists(this.battlewriter)) {
+        this.battlewriter.instance_destroy();
+      }
+      Iv.with("obj_face", L1 => L1.instance_destroy());
+      for (let L1 = 0; L1 < 4; L1++) {
+        if (Ig.hp[L1] < 1) {
+          Ig.hp[L1] = Ir(Ig.maxhp[L1] / 8);
+        }
+      }
+      this.lastbattlewriter = null;
+      if (this.skipvictory === 0) {
+        Ig.monstergold[3] += IS(Ig.tension / 10) * (Ig.chapter >= 2 ? Ig.chapter : 1);
+        if (Ig.charweapon[1] === 8) {
+          Ig.monstergold[3] += IS(Ig.monstergold[3] / 20);
+        }
+        if (Ig.chapter >= 5 && In.bcVictoryGold) {
+          In.bcVictoryGold(this);
+        }
+        Ig.msg = new Array(100).fill(" ");
+        Ig.msg[0] = "* You won^1!&* Got " + Ig.monsterexp[3] + " EXP and " + Ig.monstergold[3] + " D$./%";
+        Ig.typer = Ig.battletyper;
+        Ig.fc = 0;
+        if (Ig.chapter >= 2 && Ig.flag[37] === 1) {
+          Ig.msg[0] = "* You won the battle!/%";
+        }
+        if (Ig.chapter >= 2 && Ig.flag[63] === 1) {
+          Ig.msg[0] = "* You won^1!&* Got " + Ig.monstergold[3] + " D$^1.&* " + (Ig.char.some(L3 => L3 && (Ig.charhero && Ig.charhero[L3] ? Ig.charhero[L3] === "noelle" : L3 === 4)) ? "Noelle" : "You") + " became stronger./%";
+          let L2 = Im("snd_dtrans_lw");
           try {
-            Il(L2, 0x2), Ie(L2, 0.7, 0x0);
+            Il(L2, 2);
+            Ie(L2, 0.7, 0);
           } catch {}
         }
-        Ig.chapter >= 0x4 && In.bcVictoryMsg && In.bcVictoryMsg(this), this.lastbattlewriter = t(), Ig.chapter >= 0x2 && Ig.flag[0x26] === 0x1 && this.lastbattlewriter && this.lastbattlewriter.instance_destroy();
-        for (let L3 = 0x0; L3 < If(); L3++) {
+        if (Ig.chapter >= 4 && In.bcVictoryMsg) {
+          In.bcVictoryMsg(this);
+        }
+        this.lastbattlewriter = t();
+        if (Ig.chapter >= 2 && Ig.flag[38] === 1 && this.lastbattlewriter) {
+          this.lastbattlewriter.instance_destroy();
+        }
+        for (let L3 = 0; L3 < If(); L3++) {
           let L4 = Ig.charinstance[L3];
-          L4 && (L4.state = 0x7, L4.hurt = 0x0, L4.hurttimer = 0x0);
+          if (L4) {
+            L4.state = 7;
+            L4.hurt = 0;
+            L4.hurttimer = 0;
+          }
         }
       }
-      this.victoried = 0x1, this.victortimer = 0x0, this.skipvictory === 0x1 && (this.victortimer = -0x14), Ig.chapter >= 0x5 && this.skipvictory === 0x2 && (this.victortimer = 0x9);
-      let nX = Iv.first('obj_tensionbar');
-      nX && (nX.alarm[0x5] = 0xf, nX.hspeed = -0xa, nX.friction = -0.4);
-    }
-    this.victoried === 0x1 && (this.victortimer++, !Iv.exists(this.lastbattlewriter) && this.victortimer >= 0xa && !(Ig.chapter >= 0x4 && In.bcVictoryHold && In.bcVictoryHold(this)) && (this.intro = 0x2, this.bp <= 0x0 && nF())), this.talkNobodyEnds(), Ig.myfight === 0x0 && !(Ig.chapter >= 0x4 && In.bcSkipMenu && In.bcSkipMenu(this)) && this.menuStep(), this.movenoise === 0x1 && (Im('snd_menumove'), this.movenoise = 0x0), this.grazenoise === 0x1 && (Im('snd_graze'), this.grazenoise = 0x0), this.selnoise === 0x1 && (Im('snd_select'), this.selnoise = 0x0), this.damagenoise === 0x1 && (Ig.chapter >= 0x4 && In.bcDamageNoise && In.bcDamageNoise(this) || Im('snd_damage'), this.damagenoise = 0x0), this.onebuffer--, this.twobuffer--, this.lbuffer--, this.rbuffer--;
-    let A = Ig.mnfight === 0x2 && this.timeron === 0x1 || Ig.chapter >= 0x4 && In.bcTurnTimer && In.bcTurnTimer(this);
-    if (A || (this._turnScaled = 0x0), A) {
-      if (this._turnScaled !== 0x1) {
-        this._turnScaled = 0x1, this._stretch = null;
-        let L5 = ID.turnscale ?? 0x1;
-        L5 !== 0x1 && Ig.turntimer > 0x0 && Ig.turntimer < 0x7d0 && (L5 < 0x1 ? Ig.turntimer = Math.max(0x1, Math.round(Ig.turntimer * L5)) : this._stretch = {
-          'base': Ig.turntimer,
-          'left': Math.round(Ig.turntimer * (L5 - 0x1)),
-          'gens': nV()
-        });
+      this.victoried = 1;
+      this.victortimer = 0;
+      if (this.skipvictory === 1) {
+        this.victortimer = -20;
       }
-      this._stretch && !this._stretch.gens.length && (this._stretch.gens = nV()), Ig.turntimer -= 0x1, Ig.turntimer <= 0x0 && this.reset === 0x0 && this._stretch && this._stretch.left > 0x0 && nB(this._stretch), Ig.turntimer <= 0x0 && this.reset === 0x0 && (Iv.with('obj_bulletparent', L6 => L6.instance_destroy()), Iv.with('obj_bulletgenparent', L6 => L6.instance_destroy()), Iv.with('obj_darkener', L6 => {
-        L6.darken = 0x0;
-      }), Iv.with('obj_heart', L6 => {
-        IZ(L6.x, L6.y, I2), L6.instance_destroy();
-      }), this.reset = 0x1, Ig.chapter >= 0x4 && In.bcNoReturn && In.bcNoReturn(this) || this.noreturn === 0x0 && (this.alarm[0x2] = 0xf));
+      if (Ig.chapter >= 5 && this.skipvictory === 2) {
+        this.victortimer = 9;
+      }
+      let nX = Iv.first("obj_tensionbar");
+      if (nX) {
+        nX.alarm[5] = 15;
+        nX.hspeed = -10;
+        nX.friction = -0.4;
+      }
     }
-    Ig.chapter >= 0x2 && Ig.myfight === 0x3 && I8() === 0x0 && !Iv.exists('obj_writer') && (nJ(), Ig.myfight === 0x3 && nf()), Ig.time++;
+    if (this.victoried === 1) {
+      this.victortimer++;
+      if (!Iv.exists(this.lastbattlewriter) && this.victortimer >= 10 && (!(Ig.chapter >= 4) || !In.bcVictoryHold || !In.bcVictoryHold(this))) {
+        this.intro = 2;
+        if (this.bp <= 0) {
+          nF();
+        }
+      }
+    }
+    this.talkNobodyEnds();
+    if (Ig.myfight === 0 && (!(Ig.chapter >= 4) || !In.bcSkipMenu || !In.bcSkipMenu(this))) {
+      this.menuStep();
+    }
+    if (this.movenoise === 1) {
+      Im("snd_menumove");
+      this.movenoise = 0;
+    }
+    if (this.grazenoise === 1) {
+      Im("snd_graze");
+      this.grazenoise = 0;
+    }
+    if (this.selnoise === 1) {
+      Im("snd_select");
+      this.selnoise = 0;
+    }
+    if (this.damagenoise === 1) {
+      if (!(Ig.chapter >= 4) || !In.bcDamageNoise || !In.bcDamageNoise(this)) {
+        Im("snd_damage");
+      }
+      this.damagenoise = 0;
+    }
+    this.onebuffer--;
+    this.twobuffer--;
+    this.lbuffer--;
+    this.rbuffer--;
+    let A = Ig.mnfight === 2 && this.timeron === 1 || Ig.chapter >= 4 && In.bcTurnTimer && In.bcTurnTimer(this);
+    if (!A) {
+      this._turnScaled = 0;
+    }
+    if (A) {
+      if (this._turnScaled !== 1) {
+        this._turnScaled = 1;
+        this._stretch = null;
+        let L5 = ID.turnscale ?? 1;
+        if (L5 !== 1 && Ig.turntimer > 0 && Ig.turntimer < 2000) {
+          if (L5 < 1) {
+            Ig.turntimer = Math.max(1, Math.round(Ig.turntimer * L5));
+          } else {
+            this._stretch = {
+              base: Ig.turntimer,
+              left: Math.round(Ig.turntimer * (L5 - 1)),
+              gens: nV()
+            };
+          }
+        }
+      }
+      if (this._stretch && !this._stretch.gens.length) {
+        this._stretch.gens = nV();
+      }
+      Ig.turntimer -= 1;
+      if (Ig.turntimer <= 0 && this.reset === 0 && this._stretch && this._stretch.left > 0) {
+        nB(this._stretch);
+      }
+      if (Ig.turntimer <= 0 && this.reset === 0) {
+        Iv.with("obj_bulletparent", L6 => L6.instance_destroy());
+        Iv.with("obj_bulletgenparent", L6 => L6.instance_destroy());
+        Iv.with("obj_darkener", L6 => {
+          L6.darken = 0;
+        });
+        Iv.with("obj_heart", L6 => {
+          IZ(L6.x, L6.y, I2);
+          L6.instance_destroy();
+        });
+        this.reset = 1;
+        if (!(Ig.chapter >= 4) || !In.bcNoReturn || !In.bcNoReturn(this)) {
+          if (this.noreturn === 0) {
+            this.alarm[2] = 15;
+          }
+        }
+      }
+    }
+    if (Ig.chapter >= 2 && Ig.myfight === 3 && I8() === 0 && !Iv.exists("obj_writer")) {
+      nJ();
+      if (Ig.myfight === 3) {
+        nf();
+      }
+    }
+    Ig.time++;
   }
-  ["talkNobodyEnds"]() {
-    if (Ig.chapter < 0x3 || Ig.mnfight !== 1.5 || Ig.myfight === 0x0) {
-      this._mn15 = 0x0;
+  talkNobodyEnds() {
+    if (Ig.chapter < 3 || Ig.mnfight !== 1.5 || Ig.myfight === 0) {
+      this._mn15 = 0;
       return;
     }
-    if (++this._mn15 < 0x3) return;
-    let A = n => !(n instanceof AC) || typeof n.myself == 'number' && Ig.monsterinstance[n.myself] === n && Ig.monster[n.myself] === 0x1;
-    Iv.list.some(n => n !== this && !n.destroyed && nd(n) && A(n)) || (Iv.exists('obj_growtangle') || IZ(F(0x0) + 0x140, 0xaa, I0), Iv.exists('obj_moveheart') || I1(), Ig.mnfight = 0x2, this._mn15 = 0x0);
-  }
-  ["actselect"](A, nv) {
-    let ne = Ig.monsterinstance[A],
-      nY = IR(Ig.char[Ig.charturn]),
-      nS = this.actinfo(A);
-    if (ne && !ne.destroyed && (nY === 0x1 ? ne.acting = nv + 0x1 : nY === 0x2 ? ne.actingsus = nv + 0x1 : nY === 0x3 ? ne.actingral = nv + 0x1 : nY === 0x4 && (ne.actingnoe = nv + 0x1)), nY === 0x1) {
-      let nC = IE();
-      Ig.actingsimul[nC] = nS.simul.get(nv), Ig.acting[nC] = 0x1, Ig.actingsingle[nC] = 0x1, Ig.actingtarget[Ig.charturn] = A;
-      let no = (Ig.actactor[A] || [])[nv],
-        nX = L0 => IG(L0);
-      no === 0x2 && nX(0x2) >= 0x0 && (Ig.acting[nX(0x2)] = 0x1), no === 0x3 && nX(0x3) >= 0x0 && (Ig.acting[nX(0x3)] = 0x1), no === 0x4 && (Ig.char[0x2] && (Ig.acting[0x2] = 0x1), Ig.char[0x1] && (Ig.acting[0x1] = 0x1)), no === 0x5 && nX(0x4) >= 0x0 && (Ig.acting[nX(0x4)] = 0x1);
-      for (let L0 = 0x0; L0 < Ia(); L0++) Ig.acting[L0] === 0x1 && (Ig.faceaction[L0] = 0x6, Ig.charaction[L0] = 0x9);
-    } else {
-      Ig.actingtarget[Ig.charturn] = A, Ig.actingsingle[Ig.charturn] = 0x1;
-      let L1 = Ig.customTeam === 0x1 && Ig.char.some((L2, L3) => L3 !== Ig.charturn && Ig.actingsingle[L3] === 0x1 && L2 && IR(L2) === nY);
-      Ig.actingsimul[Ig.charturn] = L1 ? 0x0 : nS.simul.get(nv), Ig.faceaction[Ig.charturn] = 0x6, Ig.charaction[Ig.charturn] = 0x9;
+    if (++this._mn15 < 3) {
+      return;
+    }
+    let A = n => !(n instanceof AC) || typeof n.myself == "number" && Ig.monsterinstance[n.myself] === n && Ig.monster[n.myself] === 1;
+    if (!Iv.list.some(n => n !== this && !n.destroyed && nd(n) && A(n))) {
+      if (!Iv.exists("obj_growtangle")) {
+        IZ(F(0) + 320, 170, I0);
+      }
+      if (!Iv.exists("obj_moveheart")) {
+        I1();
+      }
+      Ig.mnfight = 2;
+      this._mn15 = 0;
     }
   }
-  ["techUnlocked"](A, nv) {
-    if (Ig.chapter !== 0x3) return !0x0;
-    let ne = (Ig.battlespellname[A] || [])[nv];
-    if (ne === void 0x0 || ne === '\x20') return !0x0;
-    let nY = !0x0;
-    Iv.with('obj_pippins_enemy', nX => {
-      ne === (Ig.actname[nX.myself] || [])[0x3] && (Ig.flag[0x414] || 0x0) < 0x96 && (nY = !0x1);
-    });
-    let nS = [0x1, 0x2, 0x3].some(nX => Ig.chararmor1[nX] === 0x7 || Ig.chararmor2[nX] === 0x7),
-      nC = Iv.first('obj_tenna_enemy_bg'),
-      no = Iv.first('obj_tenna_enemy');
-    return nC && no && ne === (Ig.actnamesus[no.myself] || [])[0x1] && nC.myscore < (nS ? 0x1e : 0x14) && (nY = !0x1), nY;
+  actselect(A, nv) {
+    let ne = Ig.monsterinstance[A];
+    let nY = IR(Ig.char[Ig.charturn]);
+    let nS = this.actinfo(A);
+    if (ne && !ne.destroyed) {
+      if (nY === 1) {
+        ne.acting = nv + 1;
+      } else if (nY === 2) {
+        ne.actingsus = nv + 1;
+      } else if (nY === 3) {
+        ne.actingral = nv + 1;
+      } else if (nY === 4) {
+        ne.actingnoe = nv + 1;
+      }
+    }
+    if (nY === 1) {
+      let nC = IE();
+      Ig.actingsimul[nC] = nS.simul.get(nv);
+      Ig.acting[nC] = 1;
+      Ig.actingsingle[nC] = 1;
+      Ig.actingtarget[Ig.charturn] = A;
+      let no = (Ig.actactor[A] || [])[nv];
+      let nX = L0 => IG(L0);
+      if (no === 2 && nX(2) >= 0) {
+        Ig.acting[nX(2)] = 1;
+      }
+      if (no === 3 && nX(3) >= 0) {
+        Ig.acting[nX(3)] = 1;
+      }
+      if (no === 4) {
+        if (Ig.char[2]) {
+          Ig.acting[2] = 1;
+        }
+        if (Ig.char[1]) {
+          Ig.acting[1] = 1;
+        }
+      }
+      if (no === 5 && nX(4) >= 0) {
+        Ig.acting[nX(4)] = 1;
+      }
+      for (let L0 = 0; L0 < Ia(); L0++) {
+        if (Ig.acting[L0] === 1) {
+          Ig.faceaction[L0] = 6;
+          Ig.charaction[L0] = 9;
+        }
+      }
+    } else {
+      Ig.actingtarget[Ig.charturn] = A;
+      Ig.actingsingle[Ig.charturn] = 1;
+      let L1 = Ig.customTeam === 1 && Ig.char.some((L2, L3) => L3 !== Ig.charturn && Ig.actingsingle[L3] === 1 && L2 && IR(L2) === nY);
+      Ig.actingsimul[Ig.charturn] = L1 ? 0 : nS.simul.get(nv);
+      Ig.faceaction[Ig.charturn] = 6;
+      Ig.charaction[Ig.charturn] = 9;
+    }
   }
-  ["actinfo"](A) {
-    let n = Ig.chapter === 0x1 ? '' : {
-        0x1: '',
-        0x2: 'sus',
-        0x3: 'ral',
-        0x4: 'noe'
-      }[IR(Ig.char[Ig.charturn])] ?? '',
-      nv = (ne, nY) => {
-        let nS = Ig[ne + n],
-          nC = nS && nS[A] || [];
-        return {
-          'get': no => nC[no] === void 0x0 ? nY : nC[no]
-        };
+  techUnlocked(A, nv) {
+    if (Ig.chapter !== 3) {
+      return true;
+    }
+    let ne = (Ig.battlespellname[A] || [])[nv];
+    if (ne === undefined || ne === " ") {
+      return true;
+    }
+    let nY = true;
+    Iv.with("obj_pippins_enemy", nX => {
+      if (ne === (Ig.actname[nX.myself] || [])[3] && (Ig.flag[1044] || 0) < 150) {
+        nY = false;
+      }
+    });
+    let nS = [1, 2, 3].some(nX => Ig.chararmor1[nX] === 7 || Ig.chararmor2[nX] === 7);
+    let nC = Iv.first("obj_tenna_enemy_bg");
+    let no = Iv.first("obj_tenna_enemy");
+    if (nC && no && ne === (Ig.actnamesus[no.myself] || [])[1] && nC.myscore < (nS ? 30 : 20)) {
+      nY = false;
+    }
+    return nY;
+  }
+  actinfo(A) {
+    let n = Ig.chapter === 1 ? "" : {
+      1: "",
+      2: "sus",
+      3: "ral",
+      4: "noe"
+    }[IR(Ig.char[Ig.charturn])] ?? "";
+    let nv = (ne, nY) => {
+      let nS = Ig[ne + n];
+      let nC = nS && nS[A] || [];
+      return {
+        get: no => nC[no] === undefined ? nY : nC[no]
       };
+    };
     return {
-      'canact': nv('canact', 0x0),
-      'cost': nv('actcost', 0x0),
-      'simul': nv('actsimul', 0x0),
-      'name': nv('actname', '\x20'),
-      'desc': nv('actdesc', '\x20')
+      canact: nv("canact", 0),
+      cost: nv("actcost", 0),
+      simul: nv("actsimul", 0),
+      name: nv("actname", " "),
+      desc: nv("actdesc", " ")
     };
   }
-  ["charAlive"](A) {
+  charAlive(A) {
     let n = IG(A);
-    return n < 0x0 ? !0x1 : this.havechar[n] === 0x1 && Ig.hp[Ig.char[n]] > 0x0;
+    if (n < 0) {
+      return false;
+    } else {
+      return this.havechar[n] === 1 && Ig.hp[Ig.char[n]] > 0;
+    }
   }
-  ["partnerReady"](A) {
-    return this.charAlive(A) || Ig.customTeam === 0x1 && IG(A) < 0x0;
+  partnerReady(A) {
+    return this.charAlive(A) || Ig.customTeam === 1 && IG(A) < 0;
   }
-  ["rouxlsButtonStep"]() {
-    let A = Ig.chapter === 0x3 ? Iv.first('obj_rouxls_ch3_enemy') : null;
-    if (!(A && A.intro >= 0x2 && this.spadebuttonenabled && Ig.bmenuno === 0x0 && Ig.myfight === 0x0)) {
-      this.rouxlserrortimer = 0x0, this.rouxlstelegraphcon = 0x0;
+  rouxlsButtonStep() {
+    let A = Ig.chapter === 3 ? Iv.first("obj_rouxls_ch3_enemy") : null;
+    if (!A || !(A.intro >= 2) || !this.spadebuttonenabled || Ig.bmenuno !== 0 || Ig.myfight !== 0) {
+      this.rouxlserrortimer = 0;
+      this.rouxlstelegraphcon = 0;
       return;
     }
-    let nv = Ig.bmenucoord,
-      ne = () => nv[0x0][Ig.charturn] + this.rouxlsbuttoncount_y * 0x5,
-      nY = (L0, L1) => {
-        for (let L2 = 0x1; L2 <= 0x5; L2++) {
-          if (L0 !== L2) continue;
-          let L3 = !0x1;
-          for (let L4 = 0x0; L4 < 0x6; L4++) L1 === L2 + L4 * 0x5 && (L3 = !0x0);
-          L3 && (L0 = L2 === 0x5 ? 0x1 : L2 + 0x1);
+    let nv = Ig.bmenucoord;
+    let ne = () => nv[0][Ig.charturn] + this.rouxlsbuttoncount_y * 5;
+    let nY = (L0, L1) => {
+      for (let L2 = 1; L2 <= 5; L2++) {
+        if (L0 !== L2) {
+          continue;
         }
-        return L0;
-      },
-      nS = () => {
-        this.rouxlsbuttoncount = nY(this.rouxlsbuttoncount, this.heartbuttoncount), this.rouxlsbuttoncount = nY(this.rouxlsbuttoncount, this.spadebuttoncount);
-      },
-      nC = L0 => {
-        this.rouxlsgridenabled && (this.rouxlsbuttoncount_y = 0x4, this.buttonorder = 0x0, this.rouxlsbuttoncount = IT(0x0, -0x1, -0x3, -0x4), L0 && (this.spadebuttoncount = -0x6));
-      },
-      no = () => Im('snd_menumove', {
-        'pitch': 0.6 + Is(0.8)
-      }),
-      nX = !0x1;
-    for (let L0 = 0x1; L0 <= 0x3; L0++) Ig.hp[L0] < Ig.maxhp[L0] / 0x3 && (nX = !0x0);
-    if (Ig.hp[0x1] + Ig.hp[0x2] + Ig.hp[0x3] < (Ig.maxhp[0x1] + Ig.maxhp[0x2] + Ig.maxhp[0x3]) / 0x2 && (nX = !0x0), this.rouxlserrorcon === 0x0 && this.rouxlstelegraphcon === 0x0 && this.rouxlsbuttoncount > 0x0 && this.rouxlsbuttoncount - 0x1 === ne() && (this.rouxlserrorcon = 0x1, Im('snd_error')), this.rouxlserrorcon === 0x0 && this.rouxlstelegraphcon === 0x0 && this.rouxlsbuttoncount2 > 0x0 && this.rouxlsbuttoncount2 - 0x1 === ne() && (this.rouxlserrorcon = 0x1, Im('snd_error')), this.rouxlserrorcon === 0x1 && (this.rouxlserrortimer++, this.rouxlserrortimer >= 0xa && (this.spadesuccesscon = 0x0, this.spadebuttontimer = 0x0, this.rouxlserrortimer = 0x0, this.rouxlserrorcon = 0x0, Ig.bmenuno = 0x0, nG(), nv[0x0][0x0] = 0x2, nv[0x0][0x1] = 0x2, nv[0x0][0x2] = 0x2, nC(!0x1), A.phase > 0x1 && (this.rouxlsbuttondirection = 0x10e, this.rouxlsbuttoncount = this.rouxlsbuttoncount === IT(0x0, -0x1, -0x3, -0x4) ? 0x1 : 0x0)), nS()), this.rouxlserrorcon === 0x0 && (this.spadebuttontimer++, A.phase > 0x1 && this.rouxlsbuttontimer++), nX ? nX === !0x0 && A.phase > 0x1 && this.heartbuttontimer++ : this.heartbuttoncount = -0x6, this.spadebuttontimer >= 0xa && this.spadetelegraphcon === 0x1) this.spadetelegraphcon = 0x0, this.spadebuttontimer = 0x0;else {
-      if (this.spadebuttontimer >= 0xa && this.spadesuccesscon === 0x1) this.norouxlsbutton = !0x1, this.rouxlserrortimer = 0x0, this.rouxlserrorcon = 0x0, this.spadesuccesscon = 0x0, this.spadesuccesstimer = 0x0, nv[0x0][0x0] = 0x2, nv[0x0][0x1] = 0x2, nv[0x0][0x2] = 0x2, nC(!0x0), this.spadefail = !0x1, this.rouxlsbuttonendcon === 0x0 ? nG() : (Ig.charturn = 0x0, Ig.bmenuno = 0x0);else {
-        if ((this.spadebuttontimer >= 0x7 && this.buttonspeed === 0x0 || this.spadebuttontimer >= 0x5 && this.buttonspeed === 0x1 || this.spadebuttontimer >= 0x3 && this.buttonspeed === 0x2) && this.spadetelegraphcon === 0x0 && this.spadesuccesscon === 0x0) {
-          this.spadebuttontimer = 0x0, this.dogcon !== 0x2 && this.spadebuttoncount !== -0x6 && no(), this.spadebuttondirection === 0x0 && this.spadebuttoncount++, this.spadebuttondirection === 0x5a && (this.spadebuttoncount -= 0x5), this.spadebuttondirection === 0xb4 && this.spadebuttoncount--, this.spadebuttondirection === 0x10e && this.spadebuttoncount !== -0x6 && (this.spadebuttoncount += 0x5);
-          let L1 = this.spadebuttoncount;
-          !this.rouxlsgridenabled && L1 > 0x5 ? this.spadebuttoncount = 0x1 : (this.spadebuttondirection === 0x0 && [0x6, 0xb, 0x10, 0x15, 0x1a].includes(L1) || this.spadebuttondirection === 0x5a && [-0x4, -0x3, -0x2, -0x1, 0x0].includes(L1) || this.spadebuttondirection === 0xb4 && [0x0, 0x5, 0xa, 0xf, 0x14].includes(L1) || this.spadebuttondirection === 0x10e && [0x1a, 0x1b, 0x1c, 0x1d, 0x1e].includes(L1)) && (this.buttonorder = 0x0, this.spadebuttoncount = -0x6, this.rouxlsbuttondirection = 0x10e, this.rouxlsbuttoncount = IT(0x1, 0x2, 0x3, 0x4, 0x5), this.rouxlsbuttontimer = 0x0), nS();
+        let L3 = false;
+        for (let L4 = 0; L4 < 6; L4++) {
+          if (L1 === L2 + L4 * 5) {
+            L3 = true;
+          }
         }
+        if (L3) {
+          L0 = L2 === 5 ? 1 : L2 + 1;
+        }
+      }
+      return L0;
+    };
+    let nS = () => {
+      this.rouxlsbuttoncount = nY(this.rouxlsbuttoncount, this.heartbuttoncount);
+      this.rouxlsbuttoncount = nY(this.rouxlsbuttoncount, this.spadebuttoncount);
+    };
+    let nC = L0 => {
+      if (this.rouxlsgridenabled) {
+        this.rouxlsbuttoncount_y = 4;
+        this.buttonorder = 0;
+        this.rouxlsbuttoncount = IT(0, -1, -3, -4);
+        if (L0) {
+          this.spadebuttoncount = -6;
+        }
+      }
+    };
+    let no = () => Im("snd_menumove", {
+      pitch: 0.6 + Is(0.8)
+    });
+    let nX = false;
+    for (let L0 = 1; L0 <= 3; L0++) {
+      if (Ig.hp[L0] < Ig.maxhp[L0] / 3) {
+        nX = true;
       }
     }
-    if (this.heartbuttontimer >= 0xa && this.heartsuccesscon === 0x1) {
-      this.caster = 0x1;
-      for (let L2 = 0x0; L2 < If(); L2++) {
-        if (!In.charinstance(L2)) continue;
-        let L3 = Ir(Ig.maxhp[Ig.char[L2]] / 0x2);
-        II(L2, L3), nm(L2, L3);
+    if (Ig.hp[1] + Ig.hp[2] + Ig.hp[3] < (Ig.maxhp[1] + Ig.maxhp[2] + Ig.maxhp[3]) / 2) {
+      nX = true;
+    }
+    if (this.rouxlserrorcon === 0 && this.rouxlstelegraphcon === 0 && this.rouxlsbuttoncount > 0 && this.rouxlsbuttoncount - 1 === ne()) {
+      this.rouxlserrorcon = 1;
+      Im("snd_error");
+    }
+    if (this.rouxlserrorcon === 0 && this.rouxlstelegraphcon === 0 && this.rouxlsbuttoncount2 > 0 && this.rouxlsbuttoncount2 - 1 === ne()) {
+      this.rouxlserrorcon = 1;
+      Im("snd_error");
+    }
+    if (this.rouxlserrorcon === 1) {
+      this.rouxlserrortimer++;
+      if (this.rouxlserrortimer >= 10) {
+        this.spadesuccesscon = 0;
+        this.spadebuttontimer = 0;
+        this.rouxlserrortimer = 0;
+        this.rouxlserrorcon = 0;
+        Ig.bmenuno = 0;
+        nG();
+        nv[0][0] = 2;
+        nv[0][1] = 2;
+        nv[0][2] = 2;
+        nC(false);
+        if (A.phase > 1) {
+          this.rouxlsbuttondirection = 270;
+          this.rouxlsbuttoncount = this.rouxlsbuttoncount === IT(0, -1, -3, -4) ? 1 : 0;
+        }
       }
-      this.heartsuccesscon = 0x0, this.buttonorder = 0x0, this.spadebuttoncount = -0x6, this.rouxlsbuttondirection = 0x10e, this.rouxlsbuttoncount = IT(0x1, 0x2, 0x3, 0x4, 0x5), nS(), this.heartsuccesstimer = 0x0, nv[0x0][0x0] = 0x2, nv[0x0][0x1] = 0x2, nv[0x0][0x2] = 0x2, nC(!0x0);
+      nS();
+    }
+    if (this.rouxlserrorcon === 0) {
+      this.spadebuttontimer++;
+      if (A.phase > 1) {
+        this.rouxlsbuttontimer++;
+      }
+    }
+    if (nX) {
+      if (nX === true && A.phase > 1) {
+        this.heartbuttontimer++;
+      }
     } else {
-      if (this.heartbuttontimer >= 0x7 && this.spadetelegraphcon === 0x0 && this.spadesuccesscon === 0x0) {
-        this.heartbuttontimer = 0x0, this.dogcon !== 0x2 && this.heartbuttoncount !== -0x6 && no(), this.heartbuttondirection === 0x0 && this.heartbuttoncount++, this.heartbuttondirection === 0x5a && (this.heartbuttoncount -= 0x5), this.heartbuttondirection === 0xb4 && this.heartbuttoncount--, this.heartbuttondirection === 0x10e && (this.heartbuttoncount += 0x5);
-        let L4 = this.heartbuttoncount;
-        !this.rouxlsgridenabled && L4 > 0x5 ? this.heartbuttoncount = 0x1 : (this.heartbuttondirection === 0x0 && [0x6, 0xb, 0x10, 0x15, 0x1a].includes(L4) || this.heartbuttondirection === 0x5a && [-0x4, -0x3, -0x2, -0x1, 0x0].includes(L4) || this.heartbuttondirection === 0xb4 && [0x0, 0x5, 0xa, 0xf, 0x14].includes(L4) || this.heartbuttondirection === 0x10e && [0x1a, 0x1b, 0x1c, 0x1d, 0x1e].includes(L4)) && (this.heartbuttoncount = -0x6, this.heartbuttondirection = 0x10e, this.heartbuttoncount = IT(0x1, 0x2, 0x3, 0x4, 0x5)), this.heartbuttoncount = nY(this.heartbuttoncount, this.rouxlsbuttoncount), this.heartbuttoncount = nY(this.heartbuttoncount, this.spadebuttoncount), (this.heartbuttoncount === this.rouxlsbuttoncount || this.heartbuttoncount === this.spadebuttoncount) && this.heartbuttoncount++, this.heartbuttoncount > 0x1e && (this.heartbuttoncount = 0x1a);
+      this.heartbuttoncount = -6;
+    }
+    if (this.spadebuttontimer >= 10 && this.spadetelegraphcon === 1) {
+      this.spadetelegraphcon = 0;
+      this.spadebuttontimer = 0;
+    } else if (this.spadebuttontimer >= 10 && this.spadesuccesscon === 1) {
+      this.norouxlsbutton = false;
+      this.rouxlserrortimer = 0;
+      this.rouxlserrorcon = 0;
+      this.spadesuccesscon = 0;
+      this.spadesuccesstimer = 0;
+      nv[0][0] = 2;
+      nv[0][1] = 2;
+      nv[0][2] = 2;
+      nC(true);
+      this.spadefail = false;
+      if (this.rouxlsbuttonendcon === 0) {
+        nG();
+      } else {
+        Ig.charturn = 0;
+        Ig.bmenuno = 0;
+      }
+    } else if ((this.spadebuttontimer >= 7 && this.buttonspeed === 0 || this.spadebuttontimer >= 5 && this.buttonspeed === 1 || this.spadebuttontimer >= 3 && this.buttonspeed === 2) && this.spadetelegraphcon === 0 && this.spadesuccesscon === 0) {
+      this.spadebuttontimer = 0;
+      if (this.dogcon !== 2 && this.spadebuttoncount !== -6) {
+        no();
+      }
+      if (this.spadebuttondirection === 0) {
+        this.spadebuttoncount++;
+      }
+      if (this.spadebuttondirection === 90) {
+        this.spadebuttoncount -= 5;
+      }
+      if (this.spadebuttondirection === 180) {
+        this.spadebuttoncount--;
+      }
+      if (this.spadebuttondirection === 270 && this.spadebuttoncount !== -6) {
+        this.spadebuttoncount += 5;
+      }
+      let L1 = this.spadebuttoncount;
+      if (!this.rouxlsgridenabled && L1 > 5) {
+        this.spadebuttoncount = 1;
+      } else if (this.spadebuttondirection === 0 && [6, 11, 16, 21, 26].includes(L1) || this.spadebuttondirection === 90 && [-4, -3, -2, -1, 0].includes(L1) || this.spadebuttondirection === 180 && [0, 5, 10, 15, 20].includes(L1) || this.spadebuttondirection === 270 && [26, 27, 28, 29, 30].includes(L1)) {
+        this.buttonorder = 0;
+        this.spadebuttoncount = -6;
+        this.rouxlsbuttondirection = 270;
+        this.rouxlsbuttoncount = IT(1, 2, 3, 4, 5);
+        this.rouxlsbuttontimer = 0;
+      }
+      nS();
+    }
+    if (this.heartbuttontimer >= 10 && this.heartsuccesscon === 1) {
+      this.caster = 1;
+      for (let L2 = 0; L2 < If(); L2++) {
+        if (!In.charinstance(L2)) {
+          continue;
+        }
+        let L3 = Ir(Ig.maxhp[Ig.char[L2]] / 2);
+        II(L2, L3);
+        nm(L2, L3);
+      }
+      this.heartsuccesscon = 0;
+      this.buttonorder = 0;
+      this.spadebuttoncount = -6;
+      this.rouxlsbuttondirection = 270;
+      this.rouxlsbuttoncount = IT(1, 2, 3, 4, 5);
+      nS();
+      this.heartsuccesstimer = 0;
+      nv[0][0] = 2;
+      nv[0][1] = 2;
+      nv[0][2] = 2;
+      nC(true);
+    } else if (this.heartbuttontimer >= 7 && this.spadetelegraphcon === 0 && this.spadesuccesscon === 0) {
+      this.heartbuttontimer = 0;
+      if (this.dogcon !== 2 && this.heartbuttoncount !== -6) {
+        no();
+      }
+      if (this.heartbuttondirection === 0) {
+        this.heartbuttoncount++;
+      }
+      if (this.heartbuttondirection === 90) {
+        this.heartbuttoncount -= 5;
+      }
+      if (this.heartbuttondirection === 180) {
+        this.heartbuttoncount--;
+      }
+      if (this.heartbuttondirection === 270) {
+        this.heartbuttoncount += 5;
+      }
+      let L4 = this.heartbuttoncount;
+      if (!this.rouxlsgridenabled && L4 > 5) {
+        this.heartbuttoncount = 1;
+      } else if (this.heartbuttondirection === 0 && [6, 11, 16, 21, 26].includes(L4) || this.heartbuttondirection === 90 && [-4, -3, -2, -1, 0].includes(L4) || this.heartbuttondirection === 180 && [0, 5, 10, 15, 20].includes(L4) || this.heartbuttondirection === 270 && [26, 27, 28, 29, 30].includes(L4)) {
+        this.heartbuttoncount = -6;
+        this.heartbuttondirection = 270;
+        this.heartbuttoncount = IT(1, 2, 3, 4, 5);
+      }
+      this.heartbuttoncount = nY(this.heartbuttoncount, this.rouxlsbuttoncount);
+      this.heartbuttoncount = nY(this.heartbuttoncount, this.spadebuttoncount);
+      if (this.heartbuttoncount === this.rouxlsbuttoncount || this.heartbuttoncount === this.spadebuttoncount) {
+        this.heartbuttoncount++;
+      }
+      if (this.heartbuttoncount > 30) {
+        this.heartbuttoncount = 26;
       }
     }
-    this.rouxlsbuttontimer >= 0x14 && this.rouxlstelegraphcon === 0x1 ? (this.rouxlstelegraphcon = 0x0, this.rouxlsbuttontimer = 0x0) : (this.rouxlsbuttontimer >= 0x7 && this.buttonspeed === 0x0 || this.rouxlsbuttontimer >= 0x5 && this.buttonspeed === 0x1 || this.rouxlsbuttontimer >= 0x3 && this.buttonspeed === 0x2) && this.rouxlstelegraphcon === 0x0 && this.spadesuccesscon === 0x0 && (this.rouxlsbuttontimer = 0x0, this.rouxlsbuttoncount !== -0x6 && no(), this.rouxlsbuttondirection === 0x0 && this.rouxlsbuttoncount++, this.rouxlsbuttondirection === 0x5a && (this.rouxlsbuttoncount -= 0x5), this.rouxlsbuttondirection === 0xb4 && this.rouxlsbuttoncount--, this.rouxlsbuttondirection === 0x10e && this.rouxlsbuttoncount !== -0x6 && (this.rouxlsbuttoncount += 0x5), this.rouxlsbuttondirection === 0x10e && [0x1a, 0x1b, 0x1c, 0x1d, 0x1e].includes(this.rouxlsbuttoncount) && (this.buttonorder++, this.buttonorder < 0x2 && A.phase === 0x2 || this.buttonorder < 0x4 && A.phase === 0x3 ? (this.rouxlsbuttondirection = 0x10e, this.rouxlsbuttoncount = IT(0x1, 0x2, 0x3, 0x4, 0x5)) : (this.rouxlsbuttoncount = -0x6, this.spadebuttontimer = 0x0, this.spadebuttondirection = 0x10e, this.spadebuttoncount = IT(0x1, 0x2, 0x3, 0x4, 0x5))), nS(), this.spadebuttoncount = nY(this.spadebuttoncount, this.heartbuttoncount), this.spadebuttoncount = nY(this.spadebuttoncount, this.rouxlsbuttoncount));
+    if (this.rouxlsbuttontimer >= 20 && this.rouxlstelegraphcon === 1) {
+      this.rouxlstelegraphcon = 0;
+      this.rouxlsbuttontimer = 0;
+    } else if ((this.rouxlsbuttontimer >= 7 && this.buttonspeed === 0 || this.rouxlsbuttontimer >= 5 && this.buttonspeed === 1 || this.rouxlsbuttontimer >= 3 && this.buttonspeed === 2) && this.rouxlstelegraphcon === 0 && this.spadesuccesscon === 0) {
+      this.rouxlsbuttontimer = 0;
+      if (this.rouxlsbuttoncount !== -6) {
+        no();
+      }
+      if (this.rouxlsbuttondirection === 0) {
+        this.rouxlsbuttoncount++;
+      }
+      if (this.rouxlsbuttondirection === 90) {
+        this.rouxlsbuttoncount -= 5;
+      }
+      if (this.rouxlsbuttondirection === 180) {
+        this.rouxlsbuttoncount--;
+      }
+      if (this.rouxlsbuttondirection === 270 && this.rouxlsbuttoncount !== -6) {
+        this.rouxlsbuttoncount += 5;
+      }
+      if (this.rouxlsbuttondirection === 270 && [26, 27, 28, 29, 30].includes(this.rouxlsbuttoncount)) {
+        this.buttonorder++;
+        if (this.buttonorder < 2 && A.phase === 2 || this.buttonorder < 4 && A.phase === 3) {
+          this.rouxlsbuttondirection = 270;
+          this.rouxlsbuttoncount = IT(1, 2, 3, 4, 5);
+        } else {
+          this.rouxlsbuttoncount = -6;
+          this.spadebuttontimer = 0;
+          this.spadebuttondirection = 270;
+          this.spadebuttoncount = IT(1, 2, 3, 4, 5);
+        }
+      }
+      nS();
+      this.spadebuttoncount = nY(this.spadebuttoncount, this.heartbuttoncount);
+      this.spadebuttoncount = nY(this.spadebuttoncount, this.rouxlsbuttoncount);
+    }
   }
-  ["rouxlsConfirm"]() {
-    let A = Iv.first('obj_rouxls_ch3_enemy'),
-      n = Ig.bmenucoord,
-      nv = () => n[0x0][Ig.charturn] + this.rouxlsbuttoncount_y * 0x5,
-      ne = () => {
-        this.rouxlsgridenabled && (this.rouxlsbuttoncount_y = 0x4, this.buttonorder = 0x0, this.rouxlsbuttoncount = IT(0x0, -0x1, -0x3, -0x4));
-      };
-    if (this.norouxlsbutton = !0x0, !this.spadebuttonenabled) return Ig.faceaction[Ig.charturn] = 0x6, n[0x0][0x0] = 0x2, n[0x0][0x1] = 0x2, n[0x0][0x2] = 0x2, this.rouxlsgridenabled && (this.rouxlsbuttoncount_y = 0x4, this.rouxlserrorcon = 0x0, this.rouxlstelegraphtimer = 0x0), Iv.exists('obj_tenna_board4_enemy') ? (this.onebuffer = 0x1, Ig.bmenuno = 0xb) : nG(), !0x0;
-    this.spadesuccesscon = 0x1;
-    let nY = !0x1,
-      nS = Iv.first('obj_heroralsei');
-    return Ig.charturn === 0x2 && nS && (nS.sprite_index === 'spr_ralseib_yarn_1' || nS.sprite_index === 'spr_ralseib_yarn_2') && A && A.yarnendturn === 0x0 ? (this.selnoise = 0x0, Ig.bmenuno = 0x0, A.yarnendturn = 0x1, this.dogcon < 0x1 && (this.rouxlsbuttonendcon = 0x0, this.spadebuttoncount - 0x1 === nv() || this.recentlyhighlightingspade > 0x0 ? (Im('snd_coin'), Ig.faceaction[Ig.charturn] = 0x6, this.spadesuccesscon = 0x1, this.recentlyhighlightingspade > 0x0 && this.spadebuttoncount - 0x1 !== nv() && (this.spadebuttoncount = this.recentlyhighlightingspadevalue)) : (Im('snd_error'), this.spadesuccesscon = 0x1, this.spadefail = !0x0)), this.dogcon > 0x0 && (Im('snd_pombark'), this.dogselectedcount++, this.spadesuccesscon = 0x0, Ig.charturn === 0x2 && this.dogselectedcount < 0x9 ? (Ig.charturn = 0x0, Ig.bmenuno = 0x0) : (nG(), n[0x0][0x0] = 0x2, n[0x0][0x1] = 0x2, n[0x0][0x2] = 0x2, ne(), Ig.charturn === 0x2 && this.dogselectedcount >= 0x9 && (A.dogtrigger = 0x1))), !0x0) : (this.spadebuttonenabled && nY === !0x1 && (this.selnoise = 0x0, this.dogcon > 0x0 ? this.spadebuttoncount - 0x1 === nv() || this.recentlyhighlightingspade > 0x0 || this.dogcon === 0x2 ? (this.buttonspeed++, Im('snd_pombark'), this.dogselectedcount++, this.dogcon === 0x1 && (this.dogcon = 0x2), this.recentlyhighlightingspade > 0x0 && this.spadebuttoncount - 0x1 !== nv() && (this.spadebuttoncount = this.recentlyhighlightingspadevalue)) : (Im('snd_error'), this.dogcon = -0x1, this.spadefail = !0x0) : this.spadebuttoncount - 0x1 === nv() || this.recentlyhighlightingspade > 0x0 ? (this.buttonspeed++, A && A.spadepower++, Im('snd_coin'), Ig.faceaction[Ig.charturn] = 0x6, this.spadesuccesscon = 0x1, this.recentlyhighlightingspade > 0x0 && this.spadebuttoncount - 0x1 !== nv() && (this.spadebuttoncount = this.recentlyhighlightingspadevalue)) : this.heartbuttoncount - 0x1 === nv() ? (this.buttonspeed++, Im('snd_coin'), this.heartsuccesscon = 0x1, this.spadebuttontimer = 0x0) : (Im('snd_error'), this.spadesuccesscon = 0x1, this.spadefail = !0x0)), this.rouxlsbuttonendcon = 0x0, this.dogcon > 0x0 && (this.dogselectedcount++, Ig.charturn === 0x2 && this.dogselectedcount < 0x9 ? this.rouxlsbuttonendcon = 0x1 : Ig.charturn === 0x2 && this.dogselectedcount >= 0x9 ? (this.rouxlsbuttonendcon = 0x0, A && (A.dogtrigger = 0x1)) : this.rouxlsbuttonendcon = 0x0), !0x0);
+  rouxlsConfirm() {
+    let A = Iv.first("obj_rouxls_ch3_enemy");
+    let n = Ig.bmenucoord;
+    let nv = () => n[0][Ig.charturn] + this.rouxlsbuttoncount_y * 5;
+    let ne = () => {
+      if (this.rouxlsgridenabled) {
+        this.rouxlsbuttoncount_y = 4;
+        this.buttonorder = 0;
+        this.rouxlsbuttoncount = IT(0, -1, -3, -4);
+      }
+    };
+    this.norouxlsbutton = true;
+    if (!this.spadebuttonenabled) {
+      Ig.faceaction[Ig.charturn] = 6;
+      n[0][0] = 2;
+      n[0][1] = 2;
+      n[0][2] = 2;
+      if (this.rouxlsgridenabled) {
+        this.rouxlsbuttoncount_y = 4;
+        this.rouxlserrorcon = 0;
+        this.rouxlstelegraphtimer = 0;
+      }
+      if (Iv.exists("obj_tenna_board4_enemy")) {
+        this.onebuffer = 1;
+        Ig.bmenuno = 11;
+      } else {
+        nG();
+      }
+      return true;
+    }
+    this.spadesuccesscon = 1;
+    let nY = false;
+    let nS = Iv.first("obj_heroralsei");
+    if (Ig.charturn === 2 && nS && (nS.sprite_index === "spr_ralseib_yarn_1" || nS.sprite_index === "spr_ralseib_yarn_2") && A && A.yarnendturn === 0) {
+      this.selnoise = 0;
+      Ig.bmenuno = 0;
+      A.yarnendturn = 1;
+      if (this.dogcon < 1) {
+        this.rouxlsbuttonendcon = 0;
+        if (this.spadebuttoncount - 1 === nv() || this.recentlyhighlightingspade > 0) {
+          Im("snd_coin");
+          Ig.faceaction[Ig.charturn] = 6;
+          this.spadesuccesscon = 1;
+          if (this.recentlyhighlightingspade > 0 && this.spadebuttoncount - 1 !== nv()) {
+            this.spadebuttoncount = this.recentlyhighlightingspadevalue;
+          }
+        } else {
+          Im("snd_error");
+          this.spadesuccesscon = 1;
+          this.spadefail = true;
+        }
+      }
+      if (this.dogcon > 0) {
+        Im("snd_pombark");
+        this.dogselectedcount++;
+        this.spadesuccesscon = 0;
+        if (Ig.charturn === 2 && this.dogselectedcount < 9) {
+          Ig.charturn = 0;
+          Ig.bmenuno = 0;
+        } else {
+          nG();
+          n[0][0] = 2;
+          n[0][1] = 2;
+          n[0][2] = 2;
+          ne();
+          if (Ig.charturn === 2 && this.dogselectedcount >= 9) {
+            A.dogtrigger = 1;
+          }
+        }
+      }
+      return true;
+    } else {
+      if (this.spadebuttonenabled && nY === false) {
+        this.selnoise = 0;
+        if (this.dogcon > 0) {
+          if (this.spadebuttoncount - 1 === nv() || this.recentlyhighlightingspade > 0 || this.dogcon === 2) {
+            this.buttonspeed++;
+            Im("snd_pombark");
+            this.dogselectedcount++;
+            if (this.dogcon === 1) {
+              this.dogcon = 2;
+            }
+            if (this.recentlyhighlightingspade > 0 && this.spadebuttoncount - 1 !== nv()) {
+              this.spadebuttoncount = this.recentlyhighlightingspadevalue;
+            }
+          } else {
+            Im("snd_error");
+            this.dogcon = -1;
+            this.spadefail = true;
+          }
+        } else if (this.spadebuttoncount - 1 === nv() || this.recentlyhighlightingspade > 0) {
+          this.buttonspeed++;
+          if (A) {
+            A.spadepower++;
+          }
+          Im("snd_coin");
+          Ig.faceaction[Ig.charturn] = 6;
+          this.spadesuccesscon = 1;
+          if (this.recentlyhighlightingspade > 0 && this.spadebuttoncount - 1 !== nv()) {
+            this.spadebuttoncount = this.recentlyhighlightingspadevalue;
+          }
+        } else if (this.heartbuttoncount - 1 === nv()) {
+          this.buttonspeed++;
+          Im("snd_coin");
+          this.heartsuccesscon = 1;
+          this.spadebuttontimer = 0;
+        } else {
+          Im("snd_error");
+          this.spadesuccesscon = 1;
+          this.spadefail = true;
+        }
+      }
+      this.rouxlsbuttonendcon = 0;
+      if (this.dogcon > 0) {
+        this.dogselectedcount++;
+        if (Ig.charturn === 2 && this.dogselectedcount < 9) {
+          this.rouxlsbuttonendcon = 1;
+        } else if (Ig.charturn === 2 && this.dogselectedcount >= 9) {
+          this.rouxlsbuttonendcon = 0;
+          if (A) {
+            A.dogtrigger = 1;
+          }
+        } else {
+          this.rouxlsbuttonendcon = 0;
+        }
+      }
+      return true;
+    }
   }
-  ["menuStep"]() {
-    if (Ig.standaloneMinigame && Ig.myfight === 0x0 && Ig.mnfight === 0x0 && (Iv.exists('obj_rhythmgame') || Ig.minigameStage)) return;
-    if (Ig.minigameOnly && Ig.myfight === 0x0 && Ig.mnfight === 0x0) {
-      let nC = Ig.monsterinstance && Ig.monsterinstance[0x0];
-      nC && !nC.destroyed && typeof nC.minigameRearm == 'function' && nC.minigameRearm(), Ig.charturn = nR();
-      for (let no = 0x0; no < If(); no++) Ig.acting[no] = 0x0, Ig.charaction[no] = 0x0, Ig.faceaction[no] = 0x0;
+  menuStep() {
+    if (Ig.standaloneMinigame && Ig.myfight === 0 && Ig.mnfight === 0 && (Iv.exists("obj_rhythmgame") || Ig.minigameStage)) {
+      return;
+    }
+    if (Ig.minigameOnly && Ig.myfight === 0 && Ig.mnfight === 0) {
+      let nC = Ig.monsterinstance && Ig.monsterinstance[0];
+      if (nC && !nC.destroyed && typeof nC.minigameRearm == "function") {
+        nC.minigameRearm();
+      }
+      Ig.charturn = nR();
+      for (let no = 0; no < If(); no++) {
+        Ig.acting[no] = 0;
+        Ig.charaction[no] = 0;
+        Ig.faceaction[no] = 0;
+      }
       nf();
       return;
     }
-    let A = Ig.charturn,
-      nv = Ig.bmenucoord,
-      ne = Ig.bmenuno === 0x0 ? -0x64 : 0xa;
-    nQ.has(Ig.bmenuno) && (this.battlewriter && !this.battlewriter.destroyed && (this.battlewriter.depth = ne), Iv.with('obj_face', nX => {
-      nX.depth = ne - 0x1;
-    }));
+    let A = Ig.charturn;
+    let nv = Ig.bmenucoord;
+    let ne = Ig.bmenuno === 0 ? -100 : 10;
+    if (nQ.has(Ig.bmenuno)) {
+      if (this.battlewriter && !this.battlewriter.destroyed) {
+        this.battlewriter.depth = ne;
+      }
+      Iv.with("obj_face", nX => {
+        nX.depth = ne - 1;
+      });
+    }
     let nY = () => {
-      this.battlewriter && !this.battlewriter.destroyed && (this.battlewriter.depth = 0xa), Iv.with('obj_face', nX => {
-        nX.depth = 0x9;
+      if (this.battlewriter && !this.battlewriter.destroyed) {
+        this.battlewriter.depth = 10;
+      }
+      Iv.with("obj_face", nX => {
+        nX.depth = 9;
       });
     };
-    if (Ig.bmenuno === 0x0) {
-      let nX = !0x0,
-        L0 = !0x0;
-      Iv.exists('obj_board_battleintroduction') && (nX = !0x1), Iv.with('obj_knight_enemy', L2 => {
-        L2.practicemode && (nX = !0x1);
-      }), (this.spadesuccesscon === 0x1 || this.rouxlserrorcon === 0x1) && (nX = !0x1);
-      let L1 = Ig.chapter === 0x3 ? Iv.first('obj_rouxls_ch3_enemy') : null;
-      if (L1 && (L1.dancecon = 0x1, L1.intro === 0x2 && (nX = !0x1), L0 = !0x1, L1.intro === 0x3 && (L0 = !0x0), this.oopsallacts === 0x1 && this.spadebuttonenabled && L1.phase !== 0x3 && Ig.charturn === 0x0 && this.dogcon === 0x0 ? this.dogtimer++ : this.dogtimer = 0x0, this.dogtimer === 0x3e8 && (this.dogcon = 0x1)), !Iv.exists(this.battlewriter) && L0 && !(Ig.chapter === 0x5 && Ig.battlemsg[0x0] === '')) {
-        if (Ig.msg[0x0] = Ig.battlemsg[0x0], Ig.typer = Ig.battletyper, Ig.chapter === 0x3) {
-          let L2 = Iv.first('obj_tenna_enemy');
-          (L2 && L2.turn === 0x0 || Iv.exists('obj_tennabattleconvo_controller')) && (Ig.fe = 0x0, Ig.fc = 0x16, Ig.typer = 0x50);
-          let L3 = Ig.encounterno === 0x7b ? Iv.first('obj_pippins_enemy') : null;
-          L3 && (L3.turns === 0x0 || L3.turns === 0x2 || L3.turns === 0x4) && (Ig.fe = 0x0, Ig.fc = 0x2, Ig.typer = 0x2d), L3 && (L3.turns === 0x1 || L3.turns === 0x3) && (Ig.fe = 0x0, Ig.fc = 0x1, Ig.typer = 0x2f);
+    if (Ig.bmenuno === 0) {
+      let nX = true;
+      let L0 = true;
+      if (Iv.exists("obj_board_battleintroduction")) {
+        nX = false;
+      }
+      Iv.with("obj_knight_enemy", L2 => {
+        if (L2.practicemode) {
+          nX = false;
+        }
+      });
+      if (this.spadesuccesscon === 1 || this.rouxlserrorcon === 1) {
+        nX = false;
+      }
+      let L1 = Ig.chapter === 3 ? Iv.first("obj_rouxls_ch3_enemy") : null;
+      if (L1) {
+        L1.dancecon = 1;
+        if (L1.intro === 2) {
+          nX = false;
+        }
+        L0 = false;
+        if (L1.intro === 3) {
+          L0 = true;
+        }
+        if (this.oopsallacts === 1 && this.spadebuttonenabled && L1.phase !== 3 && Ig.charturn === 0 && this.dogcon === 0) {
+          this.dogtimer++;
+        } else {
+          this.dogtimer = 0;
+        }
+        if (this.dogtimer === 1000) {
+          this.dogcon = 1;
+        }
+      }
+      if (!Iv.exists(this.battlewriter) && L0 && (Ig.chapter !== 5 || Ig.battlemsg[0] !== "")) {
+        Ig.msg[0] = Ig.battlemsg[0];
+        Ig.typer = Ig.battletyper;
+        if (Ig.chapter === 3) {
+          let L2 = Iv.first("obj_tenna_enemy");
+          if (L2 && L2.turn === 0 || Iv.exists("obj_tennabattleconvo_controller")) {
+            Ig.fe = 0;
+            Ig.fc = 22;
+            Ig.typer = 80;
+          }
+          let L3 = Ig.encounterno === 123 ? Iv.first("obj_pippins_enemy") : null;
+          if (L3 && (L3.turns === 0 || L3.turns === 2 || L3.turns === 4)) {
+            Ig.fe = 0;
+            Ig.fc = 2;
+            Ig.typer = 45;
+          }
+          if (L3 && (L3.turns === 1 || L3.turns === 3)) {
+            Ig.fe = 0;
+            Ig.fc = 1;
+            Ig.typer = 47;
+          }
         }
         this.battlewriter = t();
       }
-      if (Iu() && this.lbuffer < 0x0 && nX && (nv[0x0][A] = nv[0x0][A] === 0x0 ? 0x4 : nv[0x0][A] - 0x1, this.movenoise = 0x1, this.rbuffer = 0x1, this.disablesusieact === 0x1 && Ig.charturn === 0x1 && nv[0x0][A] === 0x1 && (nv[0x0][A] = 0x0), Ig.chapter >= 0x4 && this.disablesusieralseiattack === 0x1 && (Ig.charturn === 0x1 || Ig.charturn === 0x2) && nv[0x0][A] === 0x0 && (nv[0x0][A] = 0x4)), IV() && this.rbuffer < 0x0 && nX && (nv[0x0][A] = nv[0x0][A] === 0x4 ? 0x0 : nv[0x0][A] + 0x1, this.movenoise = 0x1, this.lbuffer = 0x1, this.disablesusieact === 0x1 && Ig.charturn === 0x1 && nv[0x0][A] === 0x1 && (nv[0x0][A] = 0x2), Ig.chapter >= 0x4 && this.disablesusieralseiattack === 0x1 && (Ig.charturn === 0x1 || Ig.charturn === 0x2) && nv[0x0][A] === 0x0 && (nv[0x0][A] = 0x1)), !(Iz() && this.rouxlserrorcon === 0x1 && this.dogcon < 0x1)) {
-        if (Iz() && this.twobuffer < 0x0 && nX) {
-          this.onebuffer = 0x1, this.selnoise = 0x1;
-          let L4 = nv[0x0][A];
-          if (this.oopsallacts === 0x1 && this.rouxlsConfirm()) return;
-          if (L4 === 0x0 && (Ig.bmenuno = 0x1), L4 === 0x1 && IR(Ig.char[A]) !== 0x1 && (Ig.bmenuno = 0x2), L4 === 0x1 && IR(Ig.char[A]) === 0x1 && (Ig.bmenuno = 0xb), L4 === 0x2 && this.tempitem[0x0][A] !== 0x0) {
-            Ig.bmenuno = 0x4;
-            for (let L5 = 0x0; L5 < 0xc; L5++) this.tempitem[nv[0x4][A]][A] === 0x0 && nv[0x4][A] > 0x0 && nv[0x4][A]--;
-          }
-          L4 === 0x3 && (Ig.bmenuno = 0xc), L4 === 0x4 && (I7(Ig.chapter >= 0x4 && In.bcDefendTP ? In.bcDefendTP(this) : 0x28), Ig.chapter === 0x3 && this.idefendedthisturn++, Ig.faceaction[A] = 0x4, Ig.charaction[A] = 0xa, nG(), Ig.chapter === 0x2 && Iv.with('o_boxingcontroller', L6 => {
-            L6.defend = 0x1, L6.specialcon = 0x8;
-          }));
+      if (Iu() && this.lbuffer < 0 && nX) {
+        nv[0][A] = nv[0][A] === 0 ? 4 : nv[0][A] - 1;
+        this.movenoise = 1;
+        this.rbuffer = 1;
+        if (this.disablesusieact === 1 && Ig.charturn === 1 && nv[0][A] === 1) {
+          nv[0][A] = 0;
+        }
+        if (Ig.chapter >= 4 && this.disablesusieralseiattack === 1 && (Ig.charturn === 1 || Ig.charturn === 2) && nv[0][A] === 0) {
+          nv[0][A] = 4;
         }
       }
-      if (IO() && this.onebuffer < 0x0 && Ig.charturn > 0x0 && !L1 && (this.twobuffer = 0x1, this.movenoise = 0x1, nE()), If() > 0x3 && Ik() && this.onebuffer < 0x0 && nX && !L1) {
-        let L6 = 0x0;
-        for (; L6 < 0x2 && Ig.monster[L6] !== 0x1;) L6++;
-        this.selnoise = 0x1, this.onebuffer = 0x2;
-        for (let L7 = 0x0; L7 < If() && Ig.charturn < If() && Ig.myfight === 0x0; L7++) {
+      if (IV() && this.rbuffer < 0 && nX) {
+        nv[0][A] = nv[0][A] === 4 ? 0 : nv[0][A] + 1;
+        this.movenoise = 1;
+        this.lbuffer = 1;
+        if (this.disablesusieact === 1 && Ig.charturn === 1 && nv[0][A] === 1) {
+          nv[0][A] = 2;
+        }
+        if (Ig.chapter >= 4 && this.disablesusieralseiattack === 1 && (Ig.charturn === 1 || Ig.charturn === 2) && nv[0][A] === 0) {
+          nv[0][A] = 1;
+        }
+      }
+      if (!Iz() || this.rouxlserrorcon !== 1 || !(this.dogcon < 1)) {
+        if (Iz() && this.twobuffer < 0 && nX) {
+          this.onebuffer = 1;
+          this.selnoise = 1;
+          let L4 = nv[0][A];
+          if (this.oopsallacts === 1 && this.rouxlsConfirm()) {
+            return;
+          }
+          if (L4 === 0) {
+            Ig.bmenuno = 1;
+          }
+          if (L4 === 1 && IR(Ig.char[A]) !== 1) {
+            Ig.bmenuno = 2;
+          }
+          if (L4 === 1 && IR(Ig.char[A]) === 1) {
+            Ig.bmenuno = 11;
+          }
+          if (L4 === 2 && this.tempitem[0][A] !== 0) {
+            Ig.bmenuno = 4;
+            for (let L5 = 0; L5 < 12; L5++) {
+              if (this.tempitem[nv[4][A]][A] === 0 && nv[4][A] > 0) {
+                nv[4][A]--;
+              }
+            }
+          }
+          if (L4 === 3) {
+            Ig.bmenuno = 12;
+          }
+          if (L4 === 4) {
+            I7(Ig.chapter >= 4 && In.bcDefendTP ? In.bcDefendTP(this) : 40);
+            if (Ig.chapter === 3) {
+              this.idefendedthisturn++;
+            }
+            Ig.faceaction[A] = 4;
+            Ig.charaction[A] = 10;
+            nG();
+            if (Ig.chapter === 2) {
+              Iv.with("o_boxingcontroller", L6 => {
+                L6.defend = 1;
+                L6.specialcon = 8;
+              });
+            }
+          }
+        }
+      }
+      if (IO() && this.onebuffer < 0 && Ig.charturn > 0 && !L1) {
+        this.twobuffer = 1;
+        this.movenoise = 1;
+        nE();
+      }
+      if (If() > 3 && Ik() && this.onebuffer < 0 && nX && !L1) {
+        let L6 = 0;
+        while (L6 < 2 && Ig.monster[L6] !== 1) {
+          L6++;
+        }
+        this.selnoise = 1;
+        this.onebuffer = 2;
+        for (let L7 = 0; L7 < If() && Ig.charturn < If() && Ig.myfight === 0; L7++) {
           let L8 = Ig.charturn;
-          if (Ig.chartarget[L8] = L6, Ig.faceaction[L8] = 0x1, Ig.charaction[L8] = 0x1, nG(), Ig.charturn === L8) break;
+          Ig.chartarget[L8] = L6;
+          Ig.faceaction[L8] = 1;
+          Ig.charaction[L8] = 1;
+          nG();
+          if (Ig.charturn === L8) {
+            break;
+          }
         }
         return;
       }
     }
-    if (Ig.bmenuno === 0x2 && Ig.flag[0x22] === 0x0 && Ig.chapter !== 0x1) {
-      this.battlewriter && (this.battlewriter.skipme = 0x1), nY();
-      let L9 = A,
-        LI = Ig.battlespell[L9] || [];
+    if (Ig.bmenuno === 2 && Ig.flag[34] === 0 && Ig.chapter !== 1) {
+      if (this.battlewriter) {
+        this.battlewriter.skipme = 1;
+      }
+      nY();
+      let L9 = A;
+      let LI = Ig.battlespell[L9] || [];
       if (IV() || Iu()) {
-        let Ln = 0x1,
-          LL = nv[0x2][A];
-        LL < 0xb ? LI[LL + 0x1] === 0x0 && (Ln = 0x0, LL % 0x2 === 0x1 && LL > 0x0 && nv[0x2][A]--) : (nv[0x2][A]--, Ln = 0x0), Ln === 0x1 && (LL % 0x2 === 0x0 ? nv[0x2][A]++ : nv[0x2][A]--);
+        let Ln = 1;
+        let LL = nv[2][A];
+        if (LL < 11) {
+          if (LI[LL + 1] === 0) {
+            Ln = 0;
+            if (LL % 2 === 1 && LL > 0) {
+              nv[2][A]--;
+            }
+          }
+        } else {
+          nv[2][A]--;
+          Ln = 0;
+        }
+        if (Ln === 1) {
+          if (LL % 2 === 0) {
+            nv[2][A]++;
+          } else {
+            nv[2][A]--;
+          }
+        }
       }
       if (IU()) {
-        let Lw = nv[0x2][A],
-          LH = 0x1;
-        Lw >= 0xa ? LH = 0x0 : (LI[Lw + 0x2] === 0x0 && (LH = 0x0), Lw === 0x5 && LI[0x6] !== 0x0 && LI[0x7] === 0x0 && (LH = 0x2)), LH === 0x1 && (nv[0x2][A] += 0x2), LH === 0x2 && (nv[0x2][A] = 0x6);
-      }
-      Ii() && nv[0x2][A] > 0x1 && (nv[0x2][A] -= 0x2), Ig.tensionselect = (Ig.battlespellcost[L9] || [])[nv[0x2][A]] || 0x0;
-      let LA = this.techUnlocked(L9, nv[0x2][A]) && !(Ig.chapter >= 0x4 && In.techBlocked && In.techBlocked(this, L9, nv[0x2][A])) && S(LI[nv[0x2][A]], L9);
-      if (Iz() && LI[nv[0x2][A]] !== 0x0 && this.onebuffer < 0x0 && LA && ((Ig.battlespellcost[L9] || [])[nv[0x2][A]] || 0x0) <= Ig.tension) {
-        if (Ig.chapter >= 0x4 && In.techConfirm && In.techConfirm(this, L9, nv[0x2][A], 'before') || (this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1, Ig.chapter >= 0x4 && In.techConfirm && In.techConfirm(this, L9, nv[0x2][A], 'after'))) return;
-        if (LI[nv[0x2][A]] !== -0x1) {
-          let LW = Ig.chapter >= 0x4 && In.chapterSpellinfo && !IW(LI[nv[0x2][A]]) ? In.chapterSpellinfo(LI[nv[0x2][A]]) : I5(LI[nv[0x2][A]]);
-          this.cost = LW.cost, LW.spelltarget === 0x0 && np(LW.cost, LW.spellanim), LW.spelltarget === 0x1 && (Ig.bmenuno = 0x8), LW.spelltarget === 0x2 && (Ig.bmenuno = 0x3), LW.spelltarget === 0x3 && (Ig.bmenuno = 0x63);
-        } else Ig.chapter >= 0x4 && In.techActDirect && In.techActDirect(this, L9, nv[0x2][A]) || (Ig.bmenuno = 0xd);
-      }
-      IO() && this.onebuffer < 0x0 && (Ig.tensionselect = 0x0, this.twobuffer = 0x1, Ig.bmenuno = 0x0, this.movenoise = 0x1);
-    } else {
-      if (Ig.bmenuno === 0x2) {
-        this.battlewriter && (this.battlewriter.skipme = 0x1), nY();
-        let Lg = Ig.char[A],
-          LR = Ig.spell[Lg];
-        if (IV()) {
-          let LG = 0x1,
-            LE = nv[0x2][A];
-          LE < 0xb ? LR[LE + 0x1] === 0x0 && (LG = 0x0, LE % 0x2 === 0x1 && LE > 0x0 && nv[0x2][A]--) : (nv[0x2][A]--, LG = 0x0), LG === 0x1 && (LE % 0x2 === 0x0 ? nv[0x2][A]++ : nv[0x2][A]--);
+        let Lw = nv[2][A];
+        let LH = 1;
+        if (Lw >= 10) {
+          LH = 0;
+        } else {
+          if (LI[Lw + 2] === 0) {
+            LH = 0;
+          }
+          if (Lw === 5 && LI[6] !== 0 && LI[7] === 0) {
+            LH = 2;
+          }
         }
-        if (Iu()) {
-          let Lf = nv[0x2][A];
-          LR[0x1] !== 0x0 && (Lf % 0x2 === 0x0 ? nv[0x2][A]++ : nv[0x2][A]--);
+        if (LH === 1) {
+          nv[2][A] += 2;
         }
-        if (IU()) {
-          let La = nv[0x2][A],
-            LN = 0x1;
-          La >= 0xa ? LN = 0x0 : (LR[La + 0x2] === 0x0 && (LN = 0x0), La === 0x5 && LR[0x6] !== 0x0 && LR[0x7] === 0x0 && (LN = 0x2)), LN === 0x1 && (nv[0x2][A] += 0x2), LN === 0x2 && (nv[0x2][A] = 0x6);
+        if (LH === 2) {
+          nv[2][A] = 6;
         }
-        if (Ii() && nv[0x2][A] > 0x1 && (nv[0x2][A] -= 0x2), Ig.tensionselect = Ig.spellcost[Lg][nv[0x2][A]], Iz() && LR[nv[0x2][A]] !== 0x0 && this.onebuffer < 0x0 && S(LR[nv[0x2][A]], A) && Ig.spellcost[Lg][nv[0x2][A]] <= Ig.tension) {
-          this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1;
-          let LJ = I5(LR[nv[0x2][A]]);
-          this.cost = LJ.cost, LJ.spelltarget === 0x0 && np(LJ.cost, LJ.spellanim), LJ.spelltarget === 0x1 && (Ig.bmenuno = 0x8), LJ.spelltarget === 0x2 && (Ig.bmenuno = 0x3), LJ.spelltarget === 0x3 && (Ig.bmenuno = 0x63);
+      }
+      if (Ii() && nv[2][A] > 1) {
+        nv[2][A] -= 2;
+      }
+      Ig.tensionselect = (Ig.battlespellcost[L9] || [])[nv[2][A]] || 0;
+      let LA = this.techUnlocked(L9, nv[2][A]) && (!(Ig.chapter >= 4) || !In.techBlocked || !In.techBlocked(this, L9, nv[2][A])) && S(LI[nv[2][A]], L9);
+      if (Iz() && LI[nv[2][A]] !== 0 && this.onebuffer < 0 && LA && ((Ig.battlespellcost[L9] || [])[nv[2][A]] || 0) <= Ig.tension) {
+        if (Ig.chapter >= 4 && In.techConfirm && In.techConfirm(this, L9, nv[2][A], "before") || (this.onebuffer = 2, Ig.bmenuno = 0, this.selnoise = 1, Ig.chapter >= 4 && In.techConfirm && In.techConfirm(this, L9, nv[2][A], "after"))) {
+          return;
         }
-        IO() && this.onebuffer < 0x0 && (Ig.tensionselect = 0x0, this.twobuffer = 0x1, Ig.bmenuno = 0x0, this.movenoise = 0x1);
+        if (LI[nv[2][A]] !== -1) {
+          let LW = Ig.chapter >= 4 && In.chapterSpellinfo && !IW(LI[nv[2][A]]) ? In.chapterSpellinfo(LI[nv[2][A]]) : I5(LI[nv[2][A]]);
+          this.cost = LW.cost;
+          if (LW.spelltarget === 0) {
+            np(LW.cost, LW.spellanim);
+          }
+          if (LW.spelltarget === 1) {
+            Ig.bmenuno = 8;
+          }
+          if (LW.spelltarget === 2) {
+            Ig.bmenuno = 3;
+          }
+          if (LW.spelltarget === 3) {
+            Ig.bmenuno = 99;
+          }
+        } else if (!(Ig.chapter >= 4) || !In.techActDirect || !In.techActDirect(this, L9, nv[2][A])) {
+          Ig.bmenuno = 13;
+        }
       }
-    }
-    if (Ig.bmenuno === 0x4) {
-      this.battlewriter && (this.battlewriter.skipme = 0x1), nY();
-      let LF = Lp => this.tempitem[Lp] ? this.tempitem[Lp][A] : 0x0;
-      if (LF(nv[0x4][A]) === 0x0 && nv[0x4][A] > 0x0 && nv[0x4][A]--, IV()) {
-        let Lp = 0x1,
-          Ly = nv[0x4][A];
-        Ly < 0xb ? LF(Ly + 0x1) === 0x0 && (Lp = 0x0, Ly % 0x2 === 0x1 && Ly > 0x0 && nv[0x4][A]--) : (nv[0x4][A]--, Lp = 0x0), Lp === 0x1 && (Ly % 0x2 === 0x0 ? nv[0x4][A]++ : nv[0x4][A]--);
+      if (IO() && this.onebuffer < 0) {
+        Ig.tensionselect = 0;
+        this.twobuffer = 1;
+        Ig.bmenuno = 0;
+        this.movenoise = 1;
       }
-      if (Iu()) {
-        let LD = nv[0x4][A];
-        LF(0x1) !== 0x0 && (LD % 0x2 === 0x0 ? nv[0x4][A]++ : nv[0x4][A]--);
+    } else if (Ig.bmenuno === 2) {
+      if (this.battlewriter) {
+        this.battlewriter.skipme = 1;
       }
-      if (IU()) {
-        let LZ = nv[0x4][A],
-          Lb = 0x1;
-        LZ >= 0xa ? Lb = 0x0 : (LF(LZ + 0x2) === 0x0 && (Lb = 0x0), LZ === 0x5 && LF(0x6) !== 0x0 && LF(0x7) === 0x0 && (Lb = 0x2)), Lb === 0x1 && (nv[0x4][A] += 0x2), Lb === 0x2 && (nv[0x4][A] = 0x6), Lb === 0x0 && (nv[0x4][A] = ny(LF, LZ, 0x1));
-      }
-      if (Ii() && (nv[0x4][A] > 0x1 ? nv[0x4][A] -= 0x2 : nv[0x4][A] = ny(LF, nv[0x4][A], -0x1)), LF(nv[0x4][A]) === 0x0 && nv[0x4][A] > 0x0 && nv[0x4][A]--, Iz() && LF(nv[0x4][A]) !== 0x0 && this.onebuffer < 0x0) {
-        this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1;
-        let HM = LF(nv[0x4][A]),
-          HB = IJ[HM];
-        if (this.itemsel = {
-          'id': HM,
-          'idx': nv[0x4][A]
-        }, Ig.chapter >= 0x4 && In.itemMenuPick && In.itemMenuPick(this, HM, nv[0x4][A])) return;
-        let Hi = !HB || HB[0x2] === 0x0 || HB[0x2] === 0x2 ? A7(I4(HM)) : null;
-        if (Hi !== null) {
-          I7(Hi), nD(A);
-          let Hx = A;
-          for (let HU = nv[0x4][A]; HU < 0xc; HU++) this.tempitem[HU][Hx] = this.tempitem[HU + 0x1] ? this.tempitem[HU + 0x1][Hx] : 0x0;
-          nG();
-        } else !HB || HB[0x2] === 0x0 || HB[0x2] === 0x2 ? nZ(HM, nv[0x4][A]) : Ig.bmenuno = 0x7;
-      }
-      IO() && this.onebuffer < 0x0 && (this.twobuffer = 0x1, Ig.bmenuno = 0x0, this.movenoise = 0x1, Ig.chapter >= 0x4 && In.itemMenuCancel && In.itemMenuCancel(this));
-    }
-    if (Ig.bmenuno === 0x9) {
-      let Hr = nv[0xb][A],
-        Hv = this.actinfo(Hr);
+      nY();
+      let Lg = Ig.char[A];
+      let LR = Ig.spell[Lg];
       if (IV()) {
-        let HC = 0x1,
-          Ho = nv[0x9][A];
-        Ho < 0x5 ? Hv.canact.get(Ho + 0x1) === 0x0 && (HC = 0x0, Ho % 0x2 === 0x1 && Ho > 0x0 && nv[0x9][A]--) : (nv[0x9][A]--, HC = 0x0), HC === 0x1 && (Ho % 0x2 === 0x0 ? nv[0x9][A]++ : nv[0x9][A]--);
-      }
-      if (Iu()) {
-        let HX = nv[0x9][A];
-        HX % 0x2 === 0x0 ? Hv.canact.get(HX + 0x1) !== 0x0 && nv[0x9][A]++ : nv[0x9][A]--;
-      }
-      if (IU()) {
-        let W0 = nv[0x9][A],
-          W1 = 0x1;
-        (W0 >= 0x4 || Hv.canact.get(W0 + 0x2) === 0x0) && (W1 = 0x0), W1 === 0x1 && (nv[0x9][A] += 0x2);
-      }
-      Ii() && nv[0x9][A] > 0x1 && (nv[0x9][A] -= 0x2), Ig.tensionselect = Hv.cost.get(nv[0x9][A]);
-      let He = 0x1,
-        HY = Ig.chapter === 0x1 || IR(Ig.char[A]) === 0x1 ? Ig.actactor[Hr][nv[0x9][A]] : 0x0;
-      (HY === 0x2 || HY === 0x4) && (this.partnerReady(0x2) || (He = 0x0)), (HY === 0x3 || HY === 0x4) && (this.partnerReady(0x3) || (He = 0x0)), HY === 0x5 && Ig.chapter !== 0x1 && (this.partnerReady(0x4) || (He = 0x0));
-      let HS = !0x0;
-      if (Ig.chapter === 0x3) {
-        let W2 = (Ig.actname[Hr] || [])[nv[0x9][A]],
-          W3 = Iv.first('obj_pippins_enemy');
-        (Ig.flag[0x414] || 0x0) < 0x96 && W3 && W2 === (Ig.actname[W3.myself] || [])[0x3] && (HS = !0x1);
-        let W4 = [0x1, 0x2, 0x3].some(W7 => Ig.chararmor1[W7] === 0x7 || Ig.chararmor2[W7] === 0x7),
-          W5 = Iv.first('obj_tenna_enemy_bg'),
-          W6 = Iv.first('obj_tenna_enemy');
-        W5 && W6 && W5.myscore < (W4 ? 0x1e : 0x14) && W2 === (Ig.actnamesus[W6.myself] || [])[0x1] && (HS = !0x1);
-      }
-      if ((Ig.chapter === 0x2 || Ig.chapter === 0x3) && He === 0x1 && HS && Iz() && (Ig.canact[Hr] || [])[nv[0x9][A]] === 0x1 && Ig.tension >= Ig.tensionselect && this.onebuffer < 0x0) {
-        this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1;
-        let W7 = nv[0x9][A];
-        Ig.actingchoice[A] = W7, Ig.tension -= Hv.cost.get(W7), Ig.tensionselect = 0x0, this.actselect(Hr, W7), nv[0x9][A] = 0x0, nG();
-      } else {
-        if (!(Ig.chapter === 0x2 || Ig.chapter === 0x3) && He === 0x1 && Iz() && (Ig.canact[Hr] || [])[nv[0x9][A]] === 0x1 && Ig.tension >= Ig.tensionselect && this.onebuffer < 0x0) {
-          this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1, Ig.tension -= Hv.cost.get(nv[0x9][A]), Ig.tensionselect = 0x0;
-          let W8 = Ig.monsterinstance[Hr];
-          W8 && !W8.destroyed && (W8.acting = nv[0x9][A] + 0x1), Ig.chapter >= 0x2 && (Ig.actingchoice[A] = nv[0x9][A], Ig.actingsimul[IE()] = Hv.simul.get(nv[0x9][A]), Ig.actingsingle[IE()] = 0x1, Ig.actingtarget[A] = Hr), Ig.acting[IE()] = 0x1, HY === 0x2 && IG(0x2) >= 0x0 && (Ig.acting[IG(0x2)] = 0x1), HY === 0x3 && IG(0x3) >= 0x0 && (Ig.acting[IG(0x3)] = 0x1), HY === 0x4 && (Ig.char[0x2] && (Ig.acting[0x2] = 0x1), Ig.char[0x1] && (Ig.acting[0x1] = 0x1));
-          for (let W9 = 0x0; W9 < If(); W9++) Ig.acting[W9] === 0x1 && (Ig.faceaction[W9] = 0x6, Ig.charaction[W9] = 0x9);
-          nG();
+        let LG = 1;
+        let LE = nv[2][A];
+        if (LE < 11) {
+          if (LR[LE + 1] === 0) {
+            LG = 0;
+            if (LE % 2 === 1 && LE > 0) {
+              nv[2][A]--;
+            }
+          }
+        } else {
+          nv[2][A]--;
+          LG = 0;
+        }
+        if (LG === 1) {
+          if (LE % 2 === 0) {
+            nv[2][A]++;
+          } else {
+            nv[2][A]--;
+          }
         }
       }
-      IO() && this.onebuffer < 0x0 && ((Ig.chapter === 0x2 || Ig.chapter === 0x3) && (nv[0x9][A] = 0x0), Ig.tensionselect = 0x0, this.twobuffer = 0x1, Ig.bmenuno = 0xb, this.movenoise = 0x1);
-    }
-    let nS = Ig.chapter === 0x1 ? [0x7, 0x1, 0x8, 0x3, 0xb, 0xc] : [0x7, 0x1, 0x8, 0x3, 0xb, 0xc, 0xd];
-    if (nS.includes(Ig.bmenuno) && (this.battlewriter && (this.battlewriter.skipme = 0x1), nY(), IO() && this.onebuffer < 0x0 && (this.twobuffer = 0x1, [0x1, 0xb, 0xc].includes(Ig.bmenuno) ? Ig.bmenuno = 0x0 : Ig.bmenuno === 0x7 ? Ig.bmenuno = 0x4 : (Ig.bmenuno === 0x8 || Ig.bmenuno === 0x3 || Ig.bmenuno === 0xd) && (Ig.bmenuno = 0x2), this.movenoise = 0x1), nS.includes(Ig.bmenuno))) {
-      let WI = Ig.bmenuno,
-        WA = [0x0, 0x0, 0x0];
-      if (WI === 0x7 || WI === 0x8) {
-        for (let WH = 0x0; WH < If(); WH++) Ig.char[WH] > 0x0 && (WA[WH] = 0x1);
-      } else {
-        for (let WW = 0x0; WW < 0x3; WW++) WA[WW] = Ig.monster[WW];
+      if (Iu()) {
+        let Lf = nv[2][A];
+        if (LR[1] !== 0) {
+          if (Lf % 2 === 0) {
+            nv[2][A]++;
+          } else {
+            nv[2][A]--;
+          }
+        }
       }
-      let Wn = (WI === 0x7 || WI === 0x8) && If() > 0x3;
+      if (IU()) {
+        let La = nv[2][A];
+        let LN = 1;
+        if (La >= 10) {
+          LN = 0;
+        } else {
+          if (LR[La + 2] === 0) {
+            LN = 0;
+          }
+          if (La === 5 && LR[6] !== 0 && LR[7] === 0) {
+            LN = 2;
+          }
+        }
+        if (LN === 1) {
+          nv[2][A] += 2;
+        }
+        if (LN === 2) {
+          nv[2][A] = 6;
+        }
+      }
+      if (Ii() && nv[2][A] > 1) {
+        nv[2][A] -= 2;
+      }
+      Ig.tensionselect = Ig.spellcost[Lg][nv[2][A]];
+      if (Iz() && LR[nv[2][A]] !== 0 && this.onebuffer < 0 && S(LR[nv[2][A]], A) && Ig.spellcost[Lg][nv[2][A]] <= Ig.tension) {
+        this.onebuffer = 2;
+        Ig.bmenuno = 0;
+        this.selnoise = 1;
+        let LJ = I5(LR[nv[2][A]]);
+        this.cost = LJ.cost;
+        if (LJ.spelltarget === 0) {
+          np(LJ.cost, LJ.spellanim);
+        }
+        if (LJ.spelltarget === 1) {
+          Ig.bmenuno = 8;
+        }
+        if (LJ.spelltarget === 2) {
+          Ig.bmenuno = 3;
+        }
+        if (LJ.spelltarget === 3) {
+          Ig.bmenuno = 99;
+        }
+      }
+      if (IO() && this.onebuffer < 0) {
+        Ig.tensionselect = 0;
+        this.twobuffer = 1;
+        Ig.bmenuno = 0;
+        this.movenoise = 1;
+      }
+    }
+    if (Ig.bmenuno === 4) {
+      if (this.battlewriter) {
+        this.battlewriter.skipme = 1;
+      }
+      nY();
+      let LF = Lp => this.tempitem[Lp] ? this.tempitem[Lp][A] : 0;
+      if (LF(nv[4][A]) === 0 && nv[4][A] > 0) {
+        nv[4][A]--;
+      }
+      if (IV()) {
+        let Lp = 1;
+        let Ly = nv[4][A];
+        if (Ly < 11) {
+          if (LF(Ly + 1) === 0) {
+            Lp = 0;
+            if (Ly % 2 === 1 && Ly > 0) {
+              nv[4][A]--;
+            }
+          }
+        } else {
+          nv[4][A]--;
+          Lp = 0;
+        }
+        if (Lp === 1) {
+          if (Ly % 2 === 0) {
+            nv[4][A]++;
+          } else {
+            nv[4][A]--;
+          }
+        }
+      }
+      if (Iu()) {
+        let LD = nv[4][A];
+        if (LF(1) !== 0) {
+          if (LD % 2 === 0) {
+            nv[4][A]++;
+          } else {
+            nv[4][A]--;
+          }
+        }
+      }
+      if (IU()) {
+        let LZ = nv[4][A];
+        let Lb = 1;
+        if (LZ >= 10) {
+          Lb = 0;
+        } else {
+          if (LF(LZ + 2) === 0) {
+            Lb = 0;
+          }
+          if (LZ === 5 && LF(6) !== 0 && LF(7) === 0) {
+            Lb = 2;
+          }
+        }
+        if (Lb === 1) {
+          nv[4][A] += 2;
+        }
+        if (Lb === 2) {
+          nv[4][A] = 6;
+        }
+        if (Lb === 0) {
+          nv[4][A] = ny(LF, LZ, 1);
+        }
+      }
+      if (Ii()) {
+        if (nv[4][A] > 1) {
+          nv[4][A] -= 2;
+        } else {
+          nv[4][A] = ny(LF, nv[4][A], -1);
+        }
+      }
+      if (LF(nv[4][A]) === 0 && nv[4][A] > 0) {
+        nv[4][A]--;
+      }
+      if (Iz() && LF(nv[4][A]) !== 0 && this.onebuffer < 0) {
+        this.onebuffer = 2;
+        Ig.bmenuno = 0;
+        this.selnoise = 1;
+        let HM = LF(nv[4][A]);
+        let HB = IJ[HM];
+        this.itemsel = {
+          id: HM,
+          idx: nv[4][A]
+        };
+        if (Ig.chapter >= 4 && In.itemMenuPick && In.itemMenuPick(this, HM, nv[4][A])) {
+          return;
+        }
+        let Hi = !HB || HB[2] === 0 || HB[2] === 2 ? A7(I4(HM)) : null;
+        if (Hi !== null) {
+          I7(Hi);
+          nD(A);
+          let Hx = A;
+          for (let HU = nv[4][A]; HU < 12; HU++) {
+            this.tempitem[HU][Hx] = this.tempitem[HU + 1] ? this.tempitem[HU + 1][Hx] : 0;
+          }
+          nG();
+        } else if (!HB || HB[2] === 0 || HB[2] === 2) {
+          nZ(HM, nv[4][A]);
+        } else {
+          Ig.bmenuno = 7;
+        }
+      }
+      if (IO() && this.onebuffer < 0) {
+        this.twobuffer = 1;
+        Ig.bmenuno = 0;
+        this.movenoise = 1;
+        if (Ig.chapter >= 4 && In.itemMenuCancel) {
+          In.itemMenuCancel(this);
+        }
+      }
+    }
+    if (Ig.bmenuno === 9) {
+      let Hr = nv[11][A];
+      let Hv = this.actinfo(Hr);
+      if (IV()) {
+        let HC = 1;
+        let Ho = nv[9][A];
+        if (Ho < 5) {
+          if (Hv.canact.get(Ho + 1) === 0) {
+            HC = 0;
+            if (Ho % 2 === 1 && Ho > 0) {
+              nv[9][A]--;
+            }
+          }
+        } else {
+          nv[9][A]--;
+          HC = 0;
+        }
+        if (HC === 1) {
+          if (Ho % 2 === 0) {
+            nv[9][A]++;
+          } else {
+            nv[9][A]--;
+          }
+        }
+      }
+      if (Iu()) {
+        let HX = nv[9][A];
+        if (HX % 2 === 0) {
+          if (Hv.canact.get(HX + 1) !== 0) {
+            nv[9][A]++;
+          }
+        } else {
+          nv[9][A]--;
+        }
+      }
+      if (IU()) {
+        let W0 = nv[9][A];
+        let W1 = 1;
+        if (W0 >= 4 || Hv.canact.get(W0 + 2) === 0) {
+          W1 = 0;
+        }
+        if (W1 === 1) {
+          nv[9][A] += 2;
+        }
+      }
+      if (Ii() && nv[9][A] > 1) {
+        nv[9][A] -= 2;
+      }
+      Ig.tensionselect = Hv.cost.get(nv[9][A]);
+      let He = 1;
+      let HY = Ig.chapter === 1 || IR(Ig.char[A]) === 1 ? Ig.actactor[Hr][nv[9][A]] : 0;
+      if (HY === 2 || HY === 4) {
+        if (!this.partnerReady(2)) {
+          He = 0;
+        }
+      }
+      if (HY === 3 || HY === 4) {
+        if (!this.partnerReady(3)) {
+          He = 0;
+        }
+      }
+      if (HY === 5 && Ig.chapter !== 1) {
+        if (!this.partnerReady(4)) {
+          He = 0;
+        }
+      }
+      let HS = true;
+      if (Ig.chapter === 3) {
+        let W2 = (Ig.actname[Hr] || [])[nv[9][A]];
+        let W3 = Iv.first("obj_pippins_enemy");
+        if ((Ig.flag[1044] || 0) < 150 && W3 && W2 === (Ig.actname[W3.myself] || [])[3]) {
+          HS = false;
+        }
+        let W4 = [1, 2, 3].some(W7 => Ig.chararmor1[W7] === 7 || Ig.chararmor2[W7] === 7);
+        let W5 = Iv.first("obj_tenna_enemy_bg");
+        let W6 = Iv.first("obj_tenna_enemy");
+        if (W5 && W6 && W5.myscore < (W4 ? 30 : 20) && W2 === (Ig.actnamesus[W6.myself] || [])[1]) {
+          HS = false;
+        }
+      }
+      if ((Ig.chapter === 2 || Ig.chapter === 3) && He === 1 && HS && Iz() && (Ig.canact[Hr] || [])[nv[9][A]] === 1 && Ig.tension >= Ig.tensionselect && this.onebuffer < 0) {
+        this.onebuffer = 2;
+        Ig.bmenuno = 0;
+        this.selnoise = 1;
+        let W7 = nv[9][A];
+        Ig.actingchoice[A] = W7;
+        Ig.tension -= Hv.cost.get(W7);
+        Ig.tensionselect = 0;
+        this.actselect(Hr, W7);
+        nv[9][A] = 0;
+        nG();
+      } else if (Ig.chapter !== 2 && Ig.chapter !== 3 && He === 1 && Iz() && (Ig.canact[Hr] || [])[nv[9][A]] === 1 && Ig.tension >= Ig.tensionselect && this.onebuffer < 0) {
+        this.onebuffer = 2;
+        Ig.bmenuno = 0;
+        this.selnoise = 1;
+        Ig.tension -= Hv.cost.get(nv[9][A]);
+        Ig.tensionselect = 0;
+        let W8 = Ig.monsterinstance[Hr];
+        if (W8 && !W8.destroyed) {
+          W8.acting = nv[9][A] + 1;
+        }
+        if (Ig.chapter >= 2) {
+          Ig.actingchoice[A] = nv[9][A];
+          Ig.actingsimul[IE()] = Hv.simul.get(nv[9][A]);
+          Ig.actingsingle[IE()] = 1;
+          Ig.actingtarget[A] = Hr;
+        }
+        Ig.acting[IE()] = 1;
+        if (HY === 2 && IG(2) >= 0) {
+          Ig.acting[IG(2)] = 1;
+        }
+        if (HY === 3 && IG(3) >= 0) {
+          Ig.acting[IG(3)] = 1;
+        }
+        if (HY === 4) {
+          if (Ig.char[2]) {
+            Ig.acting[2] = 1;
+          }
+          if (Ig.char[1]) {
+            Ig.acting[1] = 1;
+          }
+        }
+        for (let W9 = 0; W9 < If(); W9++) {
+          if (Ig.acting[W9] === 1) {
+            Ig.faceaction[W9] = 6;
+            Ig.charaction[W9] = 9;
+          }
+        }
+        nG();
+      }
+      if (IO() && this.onebuffer < 0) {
+        if (Ig.chapter === 2 || Ig.chapter === 3) {
+          nv[9][A] = 0;
+        }
+        Ig.tensionselect = 0;
+        this.twobuffer = 1;
+        Ig.bmenuno = 11;
+        this.movenoise = 1;
+      }
+    }
+    let nS = Ig.chapter === 1 ? [7, 1, 8, 3, 11, 12] : [7, 1, 8, 3, 11, 12, 13];
+    if (nS.includes(Ig.bmenuno) && (this.battlewriter && (this.battlewriter.skipme = 1), nY(), IO() && this.onebuffer < 0 && (this.twobuffer = 1, [1, 11, 12].includes(Ig.bmenuno) ? Ig.bmenuno = 0 : Ig.bmenuno === 7 ? Ig.bmenuno = 4 : (Ig.bmenuno === 8 || Ig.bmenuno === 3 || Ig.bmenuno === 13) && (Ig.bmenuno = 2), this.movenoise = 1), nS.includes(Ig.bmenuno))) {
+      let WI = Ig.bmenuno;
+      let WA = [0, 0, 0];
+      if (WI === 7 || WI === 8) {
+        for (let WH = 0; WH < If(); WH++) {
+          if (Ig.char[WH] > 0) {
+            WA[WH] = 1;
+          }
+        }
+      } else {
+        for (let WW = 0; WW < 3; WW++) {
+          WA[WW] = Ig.monster[WW];
+        }
+      }
+      let Wn = (WI === 7 || WI === 8) && If() > 3;
       if (Wn) {
-        let Wg = If(),
-          WR = Wf => Wf >= 0x0 && Wf < Wg && Ig.char[Wf] > 0x0,
-          WG = nv[WI][A];
+        let Wg = If();
+        let WR = Wf => Wf >= 0 && Wf < Wg && Ig.char[Wf] > 0;
+        let WG = nv[WI][A];
         if (!WR(WG)) {
-          for (WG = 0x0; WG < Wg - 0x1 && !WR(WG);) WG++;
+          for (WG = 0; WG < Wg - 1 && !WR(WG);) {
+            WG++;
+          }
         }
         let WE = Wf => {
           let Wa = WG;
-          for (let WN = 0x0; WN < Wg; WN++) if (Wa = (Wa + Wf + Wg) % Wg, WR(Wa)) return Wa;
+          for (let WN = 0; WN < Wg; WN++) {
+            Wa = (Wa + Wf + Wg) % Wg;
+            if (WR(Wa)) {
+              return Wa;
+            }
+          }
           return WG;
         };
-        IU() && (WG = WE(0x1), this.movenoise = 0x1), Ii() && (WG = WE(-0x1), this.movenoise = 0x1);
+        if (IU()) {
+          WG = WE(1);
+          this.movenoise = 1;
+        }
+        if (Ii()) {
+          WG = WE(-1);
+          this.movenoise = 1;
+        }
         {
-          let Wf = Math.floor(WG / 0x6) * 0x6,
-            Wa = WG - Wf < 0x3 ? WG + 0x3 : WG - 0x3;
-          (IV() || Iu()) && WR(Wa) && (WG = Wa, this.movenoise = 0x1);
+          let Wf = Math.floor(WG / 6) * 6;
+          let Wa = WG - Wf < 3 ? WG + 3 : WG - 3;
+          if ((IV() || Iu()) && WR(Wa)) {
+            WG = Wa;
+            this.movenoise = 1;
+          }
         }
         nv[WI][A] = WG;
       }
-      Wn || (nv[WI][A] === 0x2 && WA[0x2] === 0x0 && (nv[WI][A] = 0x0), nv[WI][A] === 0x0 && WA[0x0] === 0x0 && (nv[WI][A] = 0x1), nv[WI][A] === 0x1 && WA[0x1] === 0x0 && (nv[WI][A] = 0x0), nv[WI][A] === 0x0 && WA[0x0] === 0x0 && (nv[WI][A] = 0x2));
-      let WL = IU() ? 0x1 : Ii() ? -0x1 : 0x0;
-      if (WL !== 0x0 && WI !== 0x7 && WI !== 0x8 && Ig.monster.__customBoard && In.customScroll && In.customScroll(WI, A, WL)) this.movenoise = 0x1;else {
-        if (!Wn) {
-          if (IU()) {
-            let WN = nv[WI][A],
-              WJ = WN === 0x0 ? [0x1, 0x2] : WN === 0x1 ? [0x2, 0x0] : [0x0, 0x1];
-            for (let WD of WJ) if (WA[WD] === 0x1) {
-              this.movenoise = 0x1, nv[WI][A] = WD;
+      if (!Wn) {
+        if (nv[WI][A] === 2 && WA[2] === 0) {
+          nv[WI][A] = 0;
+        }
+        if (nv[WI][A] === 0 && WA[0] === 0) {
+          nv[WI][A] = 1;
+        }
+        if (nv[WI][A] === 1 && WA[1] === 0) {
+          nv[WI][A] = 0;
+        }
+        if (nv[WI][A] === 0 && WA[0] === 0) {
+          nv[WI][A] = 2;
+        }
+      }
+      let WL = IU() ? 1 : Ii() ? -1 : 0;
+      if (WL !== 0 && WI !== 7 && WI !== 8 && Ig.monster.__customBoard && In.customScroll && In.customScroll(WI, A, WL)) {
+        this.movenoise = 1;
+      } else if (!Wn) {
+        if (IU()) {
+          let WN = nv[WI][A];
+          let WJ = WN === 0 ? [1, 2] : WN === 1 ? [2, 0] : [0, 1];
+          for (let WD of WJ) {
+            if (WA[WD] === 1) {
+              this.movenoise = 1;
+              nv[WI][A] = WD;
               break;
             }
           }
-          if (Ii()) {
-            let WZ = nv[WI][A],
-              Wb = WZ === 0x0 ? [0x2, 0x1] : WZ === 0x1 ? [0x0, 0x2] : [0x1, 0x0];
-            for (let Wm of Wb) if (WA[Wm] === 0x1) {
-              this.movenoise = 0x1, nv[WI][A] = Wm;
+        }
+        if (Ii()) {
+          let WZ = nv[WI][A];
+          let Wb = WZ === 0 ? [2, 1] : WZ === 1 ? [0, 2] : [1, 0];
+          for (let Wm of Wb) {
+            if (WA[Wm] === 1) {
+              this.movenoise = 1;
+              nv[WI][A] = Wm;
               break;
             }
           }
         }
       }
-      let Ww = Ig.chapter >= 0x4 && this.skipmonsterselection ? (this.skipmonsterselection = 0x0, !0x0) : !0x1;
-      if (Iz() && this.onebuffer < 0x0 || Ww) {
-        if (WI !== 0x7 && WI !== 0x8 && Ig.monster.__customBoard && In.customTargetPicked && In.customTargetPicked(WI, A, nv[WI][A]), this.onebuffer = 0x1, this.selnoise = 0x1, WI === 0x1 && (Ig.chartarget[A] = nv[WI][A], Ig.faceaction[A] = 0x1, Ig.charaction[A] = 0x1, nG()), WI === 0x7) {
+      let Ww = Ig.chapter >= 4 && this.skipmonsterselection ? (this.skipmonsterselection = 0, true) : false;
+      if (Iz() && this.onebuffer < 0 || Ww) {
+        if (WI !== 7 && WI !== 8 && Ig.monster.__customBoard && In.customTargetPicked) {
+          In.customTargetPicked(WI, A, nv[WI][A]);
+        }
+        this.onebuffer = 1;
+        this.selnoise = 1;
+        if (WI === 1) {
+          Ig.chartarget[A] = nv[WI][A];
+          Ig.faceaction[A] = 1;
+          Ig.charaction[A] = 1;
+          nG();
+        }
+        if (WI === 7) {
           Ig.chartarget[A] = nv[WI][A];
           {
             let WK = this.itemsel && A8(I4(this.itemsel.id));
-            WK && (I7(WK), nD(A));
+            if (WK) {
+              I7(WK);
+              nD(A);
+            }
           }
-          Ig.chapter >= 0x4 && In.itemTargetSkip && In.itemTargetSkip(this) ? nG() : (nZ(this.itemsel.id, this.itemsel.idx), Ig.chapter === 0x2 && Iv.with('o_boxingcontroller', WP => {
-            WP.specialcon = 0x7;
-          }));
+          if (Ig.chapter >= 4 && In.itemTargetSkip && In.itemTargetSkip(this)) {
+            nG();
+          } else {
+            nZ(this.itemsel.id, this.itemsel.idx);
+            if (Ig.chapter === 2) {
+              Iv.with("o_boxingcontroller", WP => {
+                WP.specialcon = 7;
+              });
+            }
+          }
         }
-        if ((WI === 0x8 || WI === 0x3) && (Ig.chartarget[A] = nv[WI][A], np(this.cost)), WI === 0xb) {
-          Ig.bmenuno = 0x9;
-          let WP = nv[0x9][A],
-            Wq = nv[0xb][A],
-            Wc = this.actinfo(Wq);
-          for (let Wz = 0x0; Wz < 0x6; Wz++) Wc.canact.get(WP) === 0x0 && WP > 0x0 && (nv[0x9][A]--, WP--);
-          this.onebuffer = 0x1;
+        if (WI === 8 || WI === 3) {
+          Ig.chartarget[A] = nv[WI][A];
+          np(this.cost);
         }
-        if (WI === 0xc && (Ig.faceaction[A] = 0xa, Ig.chartarget[A] = nv[WI][A], Ig.charaction[A] = 0x2, Ig.charspecial[A] = 0x64, nG()), WI === 0xd) {
-          this.onebuffer = 0x2, Ig.bmenuno = 0x0, this.selnoise = 0x1;
-          let Wl = nv[0x2][A],
-            Ws = nv[0xd][A];
-          if (Ig.actingchoice[A] = Wl, Ig.tension -= (Ig.battlespellcost[A] || [])[Wl] || 0x0, Ig.tensionselect = 0x0, this.actselect(Ws, Wl), Ig.chapter >= 0x4 && In.techActPicked && In.techActPicked(this)) return;
+        if (WI === 11) {
+          Ig.bmenuno = 9;
+          let WP = nv[9][A];
+          let Wq = nv[11][A];
+          let Wc = this.actinfo(Wq);
+          for (let Wz = 0; Wz < 6; Wz++) {
+            if (Wc.canact.get(WP) === 0 && WP > 0) {
+              nv[9][A]--;
+              WP--;
+            }
+          }
+          this.onebuffer = 1;
+        }
+        if (WI === 12) {
+          Ig.faceaction[A] = 10;
+          Ig.chartarget[A] = nv[WI][A];
+          Ig.charaction[A] = 2;
+          Ig.charspecial[A] = 100;
+          nG();
+        }
+        if (WI === 13) {
+          this.onebuffer = 2;
+          Ig.bmenuno = 0;
+          this.selnoise = 1;
+          let Wl = nv[2][A];
+          let Ws = nv[13][A];
+          Ig.actingchoice[A] = Wl;
+          Ig.tension -= (Ig.battlespellcost[A] || [])[Wl] || 0;
+          Ig.tensionselect = 0;
+          this.actselect(Ws, Wl);
+          if (Ig.chapter >= 4 && In.techActPicked && In.techActPicked(this)) {
+            return;
+          }
           nG();
         }
       }
     }
   }
-  ["draw"](nv) {
-    if (nj(), n1()) return;
-    let ne = 0x0,
-      nY = 0x0;
-    Ig.chapter === 0x2 && Iv.exists('obj_gigaqueen_enemy') && (this.gigaqueencon === 0x1 && (this.gigaqueentimer++, this.gigaqueeny = y(0x0, 0x64, this.gigaqueentimer / 0xa), this.gigaqueentimer === 0xa && (this.gigaqueencon = 0x0)), this.gigaqueencon === 0x2 && (this.gigaqueentimer++, this.gigaqueeny = y(0x64, 0x0, this.gigaqueentimer / 0xa), this.gigaqueentimer === 0xa && (this.gigaqueencon = 0x0)), this.gigaqueencon === 0x3 && (this.gigaqueeny = 0xc8), this.gigaqueencon === 0x4 && (this.gigaqueentimer++, this.gigaqueeny = y(0xc8, 0x0, this.gigaqueentimer / 0xa), this.gigaqueentimer === 0xa && (this.gigaqueencon = 0x0)), this.gigaqueencon === 0x5 && (this.gigaqueentimer++, this.gigaqueeny = y(0x0, 0xc8, this.gigaqueentimer / 0xa), this.gigaqueentimer === 0xa && (this.gigaqueencon = 0x0)), nY = this.gigaqueeny);
-    let nS = -this.bp + this.bpy + nY;
-    this.intro === 0x1 && (this.bp < this.bpy - 0x1 ? this.bpy - this.bp < 0x28 ? this.bp += Ir((this.bpy - this.bp) / 2.5) : this.bp += 0x1e : this.bp = this.bpy, this.bp === this.bpy && (this.intro = 0x0)), this.intro === 0x2 && (this.bp > 0x0 ? Ir((this.bpy - this.bp) / 0x5) > 0xf ? this.bp -= Ir((this.bpy - this.bp) / 2.5) : this.bp -= 0x1e : this.bp = 0x0), Ig.chapter >= 0x4 && In.bcBp && In.bcBp(this);
-    let nC = this.bp;
-    Ig.chapter >= 0x4 && In.bcDrawTop && In.bcDrawTop(this, nv), this.rouxlsButtonStep();
-    let no = Ig.chapter === 0x1;
-    nv.draw_set_color(IK.black), nv.draw_rectangle(ne - 0xa, 0x1e1 + nY, ne + 0x2bc, no ? 0x1e0 - nC + nY : 0x1e0 - nC + nY - 0x4, !0x1), nv.draw_set_color(this.bcolor), no ? nv.draw_rectangle(ne - 0xa, 0x1e0 - nC - 0x2 + nY, ne + 0x2bc, 0x1e0 - nC + nY, !0x1) : nv.draw_rectangle(ne - 0xa, 0x1e0 - nC - 0x3 + nY, ne + 0x2bc, 0x1e0 - nC - 0x2 + nY, !0x1), nv.draw_rectangle(ne - 0xa, 0x1e0 - nC + 0x22 + nY, ne + 0x2bc, 0x1e0 - nC + 0x24 + nY, !0x1), this.charbox(nv, nS, nY), nv.draw_set_font('fnt_mainbig');
-    let nX = Ig.charturn,
-      L0 = Ig.bmenucoord;
-    if (([0x1, 0x3, 0xb, 0xc].includes(Ig.bmenuno) || Ig.bmenuno === 0xd && Ig.chapter !== 0x1) && Ig.myfight === 0x0) {
-      nv.draw_sprite('spr_heart', 0x0, ne + 0x37, nY + 0x181 + L0[Ig.bmenuno][nX] * 0x1e);
-      let L1 = 0x0;
-      for (let L3 = 0x0; L3 < 0x3; L3++) {
-        let L4 = nv.string_width(Ig.monstername[L3]);
-        L4 > L1 && (L1 = L4);
+  draw(nv) {
+    nj();
+    if (n1()) {
+      return;
+    }
+    let ne = 0;
+    let nY = 0;
+    if (Ig.chapter === 2 && Iv.exists("obj_gigaqueen_enemy")) {
+      if (this.gigaqueencon === 1) {
+        this.gigaqueentimer++;
+        this.gigaqueeny = y(0, 100, this.gigaqueentimer / 10);
+        if (this.gigaqueentimer === 10) {
+          this.gigaqueencon = 0;
+        }
       }
-      let L2 = Ig.monsterinstance[L0[Ig.bmenuno][nX]];
-      L2 && !L2.destroyed && (L2.flash === 0x0 && (L2.fsiner = 0x0), L2.flash = 0x1, L2.becomeflash = 0x1), Ig.monster.__customBoard && In.customHidden && In.customHidden() > 0x0 && (nv.draw_sprite_ext('spr_morearrow', 0x0, ne + 0x28, nY + 0x17e - Ip(this.s_siner / 0xa) * 0x2, 0x1, -0x1, 0x0, IK.white, 0x1), nv.draw_sprite('spr_morearrow', 0x0, ne + 0x28, nY + 0x1be + Ip(this.s_siner / 0xa) * 0x2));
-      for (let L5 = 0x0; L5 < 0x3; L5++) if (Ig.monster[L5] === 0x1) {
-        let L6 = IK.white,
-          L7 = IK.white,
-          L8 = Iq(IK.aqua, IK.blue, 0.3);
-        Ig.chapter === 0x3 && Ig.charturn === 0x2 && (L8 = Iq(L8, IK.white, 0.5 + Ip((this.t_siner || 0x0) / 0x4) * 0.5));
-        let L9 = Ig.monsterstatus[L5] === 0x1,
-          LI = Ig.mercymod[L5] >= Ig.mercymax[L5],
-          LA = nv.string_width(Ig.monstername[L5]);
-        L9 && (Ig.encounterno !== 0x1f && (L6 = L8, L7 = L8), nv.draw_sprite('spr_tiredmark', 0x0, ne + 0x50 + LA + 0x28, nY + 0x181 + L5 * 0x1e));
-        let Ln = Ig.chapter !== 0x1 && this.hidemercy === 0x1,
-          LL = Ig.chapter >= 0x4 && this.hidestar === 0x1;
-        LI && LL || LI && (L6 = IK.yellow, L9 || (L7 = IK.yellow), Ln || nv.draw_sprite('spr_sparestar', 0x0, ne + 0x50 + LA + 0x14, nY + 0x181 + L5 * 0x1e)), nv.draw_text_colour(ne + 0x50, nY + 0x177 + L5 * 0x1e, Ig.monstername[L5], L6, L7, L7, L6, 0x1);
-        let Lw = Ig.bmenuno === 0xd && Ig.chapter !== 0x1;
-        if (Lw) {
-          let LH = IR(Ig.char[nX]),
-            LW = L0[0x2][nX],
-            Lg = LH === 0x2 ? Ig.actnamesus : LH === 0x3 ? Ig.actnameral : LH === 0x4 ? Ig.actnamenoe : null,
-            LR = 'Standard';
-          Lg && Lg[L5] && Lg[L5][LW] !== void 0x0 && (LR = Lg[L5][LW]), (LR === "S-Action" || LR === "R-Action" || LR === "N-Action") && (LR = 'Standard'), nv.draw_set_color((this.hpcolorsoft || [])[Q(Ig.char[nX]) === 'noelle' ? 0x3 : LH - 0x1] || IK.white);
-          let LG = 0x202 - (0x50 + L1 + 0x3c),
-            LE = nv.string_width(String(LR));
-          nv.draw_text_transformed(ne + 0x50 + L1 + 0x3c, nY + 0x177 + L5 * 0x1e, String(LR), LE >= LG ? LG / LE : 0x1, 0x1, 0x0);
+      if (this.gigaqueencon === 2) {
+        this.gigaqueentimer++;
+        this.gigaqueeny = y(100, 0, this.gigaqueentimer / 10);
+        if (this.gigaqueentimer === 10) {
+          this.gigaqueencon = 0;
         }
-        if (!Lw) {
-          nv.draw_text(ne + 0x50 + LA + 0x3c, nY + 0x177 + L5 * 0x1e, Ig.monstercomment[L5], IK.gray);
-          let Lf = Ig.chapter === 0x1 ? 0x1fe : 0x1a4,
-            La = Ig.chapter === 0x1 ? 0x24e : 0x1f4,
-            LN = Math.max(0x0, Ig.monsterhp[L5] / Ig.monstermaxhp[L5]);
-          if (nv.draw_set_color(IK.maroon), nv.draw_rectangle(ne + Lf, nY + 0x17c + L5 * 0x1e, ne + La, nY + 0x17c + L5 * 0x1e + 0xf, !0x1), nv.draw_set_color(IK.lime), nv.draw_rectangle(ne + Lf, nY + 0x17c + L5 * 0x1e, ne + Lf + LN * 0x50, nY + 0x17c + L5 * 0x1e + 0xf, !0x1), Ig.chapter !== 0x1) {
-            nv.draw_set_color(IK.white), nv.draw_text_transformed(ne + 0x1a8, nY + 0x16c, 'HP', 0x1, 0.5, 0x0);
-            let LJ = Ig.chapter === 0x3 && Iv.exists('obj_knight_enemy') ? "???" : Math.ceil(LN * 0x64) + '%';
-            nv.draw_text_transformed(ne + 0x1a8, nY + 0x17c + L5 * 0x1e, LJ, 0x1, 0.5, 0x0);
-          }
+      }
+      if (this.gigaqueencon === 3) {
+        this.gigaqueeny = 200;
+      }
+      if (this.gigaqueencon === 4) {
+        this.gigaqueentimer++;
+        this.gigaqueeny = y(200, 0, this.gigaqueentimer / 10);
+        if (this.gigaqueentimer === 10) {
+          this.gigaqueencon = 0;
         }
-        if (Ig.chapter !== 0x1 && !Ln) {
-          let LF = Math.ceil(Ig.mercymod[L5] / Ig.mercymax[L5] * 0x64);
-          LF > 0x64 && (LF = 0x64);
-          let Lp = (this.cantspare || [])[L5] === 0x1,
-            Ly = Ig.chapter >= 0x4 && (this.questionmercy || [])[L5] === 0x1;
-          Ig.chapter >= 0x4 && (LF = Math.round(Ig.mercymod[L5] / Ig.mercymax[L5] * 0x64), LF > 0x64 && (LF = 0x64)), nv.draw_set_color(Iq(IK.orange, IK.red, 0.5)), nv.draw_rectangle(ne + 0x208, nY + 0x17c + L5 * 0x1e, ne + 0x258, nY + 0x17c + L5 * 0x1e + 0xf, !0x1), nv.draw_set_color(IK.yellow), Ig.mercymod[L5] > 0x0 && !Lp && !Ly && nv.draw_rectangle(ne + 0x208, nY + 0x17c + L5 * 0x1e, ne + 0x208 + LF * 0.8, nY + 0x17c + L5 * 0x1e + 0xf, !0x1), nv.draw_set_color(IK.white), nv.draw_text_transformed(ne + 0x20c, nY + 0x16c, 'MERCY', 0x1, 0.5, 0x0), nv.draw_set_color(IK.maroon), !Lp && !Ly ? nv.draw_text_transformed(ne + 0x20c, nY + 0x17c + L5 * 0x1e, LF + '%', 0x1, 0.5, 0x0) : Ly && !Lp ? (nv.draw_set_color(IK.white), nv.draw_text_transformed(ne + 0x20c, nY + 0x16c + 0xf, "???", 0x1, 0.5, 0x0)) : (nv.draw_line_width_color(ne + 0x208 - 0x1, nY + 0x17c + L5 * 0x1e, ne + 0x258, nY + 0x17c + L5 * 0x1e + 0xf, 0x2, IK.maroon, IK.maroon), nv.draw_line_width_color(ne + 0x208 - 0x1, nY + 0x17c + L5 * 0x1e + 0xf, ne + 0x258, nY + 0x17c + L5 * 0x1e, 0x2, IK.maroon, IK.maroon));
+      }
+      if (this.gigaqueencon === 5) {
+        this.gigaqueentimer++;
+        this.gigaqueeny = y(0, 200, this.gigaqueentimer / 10);
+        if (this.gigaqueentimer === 10) {
+          this.gigaqueencon = 0;
         }
+      }
+      nY = this.gigaqueeny;
+    }
+    let nS = -this.bp + this.bpy + nY;
+    if (this.intro === 1) {
+      if (this.bp < this.bpy - 1) {
+        if (this.bpy - this.bp < 40) {
+          this.bp += Ir((this.bpy - this.bp) / 2.5);
+        } else {
+          this.bp += 30;
+        }
+      } else {
+        this.bp = this.bpy;
+      }
+      if (this.bp === this.bpy) {
+        this.intro = 0;
       }
     }
-    if (Ig.bmenuno === 0x2 && Ig.myfight === 0x0 && Ig.flag[0x22] === 0x0 && Ig.chapter !== 0x1) {
-      let LD = nX,
-        LZ = L0[0x2][nX],
-        Lb = 0x0;
-      LZ > 0x5 && (Lb = 0x1, LZ -= 0x6);
-      let HM = 0xa,
-        HB = 0x181;
-      LZ % 0x2 === 0x1 && (HM = 0xe6), LZ > 0x1 && LZ < 0x4 && (HB = 0x19f), LZ > 0x3 && (HB = 0x1bd), nv.draw_sprite('spr_heart', 0x0, ne + HM, nY + HB);
-      let Hi = Ig.battlespellname[LD] || [],
-        Hx = Ig.battlespellcost[LD] || [],
-        HU = Ig.battlespellspecial[LD] || [],
-        Hr = Ig.battlespell[LD] || [];
-      for (let Hv = 0x0; Hv < 0x3; Hv++) for (let He = 0x0; He < 0x2; He++) {
-        let HY = Lb * 0x6 + Hv * 0x2 + He,
-          HS = IK.white;
-        (HU[HY] || 0x0) >= 0x1 && (HS = (this.hpcolorsoft || [])[IR(Ig.char[LD]) - 0x1] || (V(Ig.char[LD]) ? Iq(V(Ig.char[LD]), IK.white, 0.5) : IK.white));
-        let HC = !this.techUnlocked(LD, HY),
-          Ho = Ig.chapter >= 0x4 && In.techMenuColor ? In.techMenuColor(this, LD, HY, HS) : null;
-        if (Ho != null && Ho !== !0x1) HS = Ho;else {
-          if (Ig.tension < (Hx[HY] || 0x0) || HC || !S(Hr[HY], LD)) HS = IK.gray;else {
-            if (Hr[HY] === 0x3 || Hr[HY] === 0x8) {
-              let HX = 0x0;
-              for (let W0 = 0x0; W0 < 0x3; W0++) Ig.monster[W0] === 0x1 && Ig.monsterstatus[W0] === 0x1 && Ig.encounterno !== 0x1f && (HX = 0x1);
-              if (HX) {
-                let W1 = Iq(IK.aqua, IK.blue, 0.3);
-                HS = Iq(W1, IK.white, 0.5 + Ip((this.t_siner || 0x0) / 0x4) * 0.5);
+    if (this.intro === 2) {
+      if (this.bp > 0) {
+        if (Ir((this.bpy - this.bp) / 5) > 15) {
+          this.bp -= Ir((this.bpy - this.bp) / 2.5);
+        } else {
+          this.bp -= 30;
+        }
+      } else {
+        this.bp = 0;
+      }
+    }
+    if (Ig.chapter >= 4 && In.bcBp) {
+      In.bcBp(this);
+    }
+    let nC = this.bp;
+    if (Ig.chapter >= 4 && In.bcDrawTop) {
+      In.bcDrawTop(this, nv);
+    }
+    this.rouxlsButtonStep();
+    let no = Ig.chapter === 1;
+    nv.draw_set_color(IK.black);
+    nv.draw_rectangle(ne - 10, 481 + nY, ne + 700, no ? 480 - nC + nY : 480 - nC + nY - 4, false);
+    nv.draw_set_color(this.bcolor);
+    if (no) {
+      nv.draw_rectangle(ne - 10, 480 - nC - 2 + nY, ne + 700, 480 - nC + nY, false);
+    } else {
+      nv.draw_rectangle(ne - 10, 480 - nC - 3 + nY, ne + 700, 480 - nC - 2 + nY, false);
+    }
+    nv.draw_rectangle(ne - 10, 480 - nC + 34 + nY, ne + 700, 480 - nC + 36 + nY, false);
+    this.charbox(nv, nS, nY);
+    nv.draw_set_font("fnt_mainbig");
+    let nX = Ig.charturn;
+    let L0 = Ig.bmenucoord;
+    if (([1, 3, 11, 12].includes(Ig.bmenuno) || Ig.bmenuno === 13 && Ig.chapter !== 1) && Ig.myfight === 0) {
+      nv.draw_sprite("spr_heart", 0, ne + 55, nY + 385 + L0[Ig.bmenuno][nX] * 30);
+      let L1 = 0;
+      for (let L3 = 0; L3 < 3; L3++) {
+        let L4 = nv.string_width(Ig.monstername[L3]);
+        if (L4 > L1) {
+          L1 = L4;
+        }
+      }
+      let L2 = Ig.monsterinstance[L0[Ig.bmenuno][nX]];
+      if (L2 && !L2.destroyed) {
+        if (L2.flash === 0) {
+          L2.fsiner = 0;
+        }
+        L2.flash = 1;
+        L2.becomeflash = 1;
+      }
+      if (Ig.monster.__customBoard && In.customHidden && In.customHidden() > 0) {
+        nv.draw_sprite_ext("spr_morearrow", 0, ne + 40, nY + 382 - Ip(this.s_siner / 10) * 2, 1, -1, 0, IK.white, 1);
+        nv.draw_sprite("spr_morearrow", 0, ne + 40, nY + 446 + Ip(this.s_siner / 10) * 2);
+      }
+      for (let L5 = 0; L5 < 3; L5++) {
+        if (Ig.monster[L5] === 1) {
+          let L6 = IK.white;
+          let L7 = IK.white;
+          let L8 = Iq(IK.aqua, IK.blue, 0.3);
+          if (Ig.chapter === 3 && Ig.charturn === 2) {
+            L8 = Iq(L8, IK.white, 0.5 + Ip((this.t_siner || 0) / 4) * 0.5);
+          }
+          let L9 = Ig.monsterstatus[L5] === 1;
+          let LI = Ig.mercymod[L5] >= Ig.mercymax[L5];
+          let LA = nv.string_width(Ig.monstername[L5]);
+          if (L9) {
+            if (Ig.encounterno !== 31) {
+              L6 = L8;
+              L7 = L8;
+            }
+            nv.draw_sprite("spr_tiredmark", 0, ne + 80 + LA + 40, nY + 385 + L5 * 30);
+          }
+          let Ln = Ig.chapter !== 1 && this.hidemercy === 1;
+          let LL = Ig.chapter >= 4 && this.hidestar === 1;
+          if (!LI || !LL) {
+            if (LI) {
+              L6 = IK.yellow;
+              if (!L9) {
+                L7 = IK.yellow;
+              }
+              if (!Ln) {
+                nv.draw_sprite("spr_sparestar", 0, ne + 80 + LA + 20, nY + 385 + L5 * 30);
               }
             }
           }
-        }
-        nv.draw_text(ne + 0x1e + He * 0xe6, nY + 0x177 + Hv * 0x1e, Hi[HY] === void 0x0 ? '\x20' : Hi[HY], HS);
-      }
-      if (!(Ig.chapter >= 0x4 && In.techMenuInfoHide && In.techMenuInfoHide(this, LD, Lb * 0x6 + LZ))) {
-        let W2 = String((Ig.battlespelldesc[LD] || [])[Lb * 0x6 + LZ] || '\x20').split('#'),
-          W3 = IW((Ig.battlespell[LD] || [])[Lb * 0x6 + LZ]);
-        for (let W5 = 0x0; W5 < W2.length; W5++) {
-          let W6 = W3 ? nv.string_width(W2[W5]) : 0x0;
-          W6 > 0x88 ? (nv.draw_set_color(IK.gray), nv.draw_text_transformed(ne + 0x1f4, nY + 0x177 + W5 * 0x1c, W2[W5], 0x88 / W6, 0x1, 0x0)) : nv.draw_text(ne + 0x1f4, nY + 0x177 + W5 * 0x1c, W2[W5], IK.gray);
-        }
-        let W4 = IS((Hx[Lb * 0x6 + LZ] || 0x0) / Ig.maxtension * 0x64);
-        W4 > 0x0 && nv.draw_text(ne + 0x1f4, nY + 0x1b8, W4 + "% TP", IK.orange);
-      }
-    } else {
-      if (Ig.bmenuno === 0x2 && Ig.myfight === 0x0) {
-        let W7 = Ig.char[nX],
-          W8 = L0[0x2][nX],
-          W9 = 0x0;
-        W8 > 0x5 && (W9 = 0x1, W8 -= 0x6);
-        let WI = 0xa,
-          WA = 0x181;
-        W8 % 0x2 === 0x1 && (WI = 0xe6), W8 > 0x1 && W8 < 0x4 && (WA = 0x19f), W8 > 0x3 && (WA = 0x1bd), nv.draw_sprite('spr_heart', 0x0, ne + WI, nY + WA);
-        for (let WH = 0x0; WH < 0x3; WH++) {
-          let WW = W9 * 0x6 + WH * 0x2,
-            Wg = IK.white;
-          if (Ig.tension < Ig.spellcost[W7][WW] || !S(Ig.spell[W7][WW], nX)) Wg = IK.gray;else {
-            if (Ig.spell[W7][WW] === 0x3) {
-              let WR = 0x0;
-              for (let WG = 0x0; WG < 0x3; WG++) Ig.monster[WG] === 0x1 && Ig.monsterstatus[WG] === 0x1 && Ig.encounterno !== 0x1f && (WR = 0x1);
-              WR && (Wg = Iq(IK.aqua, IK.blue, 0.3));
+          nv.draw_text_colour(ne + 80, nY + 375 + L5 * 30, Ig.monstername[L5], L6, L7, L7, L6, 1);
+          let Lw = Ig.bmenuno === 13 && Ig.chapter !== 1;
+          if (Lw) {
+            let LH = IR(Ig.char[nX]);
+            let LW = L0[2][nX];
+            let Lg = LH === 2 ? Ig.actnamesus : LH === 3 ? Ig.actnameral : LH === 4 ? Ig.actnamenoe : null;
+            let LR = "Standard";
+            if (Lg && Lg[L5] && Lg[L5][LW] !== undefined) {
+              LR = Lg[L5][LW];
+            }
+            if (LR === "S-Action" || LR === "R-Action" || LR === "N-Action") {
+              LR = "Standard";
+            }
+            nv.draw_set_color((this.hpcolorsoft || [])[Q(Ig.char[nX]) === "noelle" ? 3 : LH - 1] || IK.white);
+            let LG = 514 - (80 + L1 + 60);
+            let LE = nv.string_width(String(LR));
+            nv.draw_text_transformed(ne + 80 + L1 + 60, nY + 375 + L5 * 30, String(LR), LE >= LG ? LG / LE : 1, 1, 0);
+          }
+          if (!Lw) {
+            nv.draw_text(ne + 80 + LA + 60, nY + 375 + L5 * 30, Ig.monstercomment[L5], IK.gray);
+            let Lf = Ig.chapter === 1 ? 510 : 420;
+            let La = Ig.chapter === 1 ? 590 : 500;
+            let LN = Math.max(0, Ig.monsterhp[L5] / Ig.monstermaxhp[L5]);
+            nv.draw_set_color(IK.maroon);
+            nv.draw_rectangle(ne + Lf, nY + 380 + L5 * 30, ne + La, nY + 380 + L5 * 30 + 15, false);
+            nv.draw_set_color(IK.lime);
+            nv.draw_rectangle(ne + Lf, nY + 380 + L5 * 30, ne + Lf + LN * 80, nY + 380 + L5 * 30 + 15, false);
+            if (Ig.chapter !== 1) {
+              nv.draw_set_color(IK.white);
+              nv.draw_text_transformed(ne + 424, nY + 364, "HP", 1, 0.5, 0);
+              let LJ = Ig.chapter === 3 && Iv.exists("obj_knight_enemy") ? "???" : Math.ceil(LN * 100) + "%";
+              nv.draw_text_transformed(ne + 424, nY + 380 + L5 * 30, LJ, 1, 0.5, 0);
             }
           }
-          nv.draw_text(ne + 0x1e, nY + 0x177 + WH * 0x1e, Ig.spellnameb[W7][WW], Wg), nv.draw_text(ne + 0x104, nY + 0x177 + WH * 0x1e, Ig.spellnameb[W7][WW + 0x1], Ig.tension < Ig.spellcost[W7][WW + 0x1] || !S(Ig.spell[W7][WW + 0x1], nX) ? IK.gray : IK.white);
+          if (Ig.chapter !== 1 && !Ln) {
+            let LF = Math.ceil(Ig.mercymod[L5] / Ig.mercymax[L5] * 100);
+            if (LF > 100) {
+              LF = 100;
+            }
+            let Lp = (this.cantspare || [])[L5] === 1;
+            let Ly = Ig.chapter >= 4 && (this.questionmercy || [])[L5] === 1;
+            if (Ig.chapter >= 4) {
+              LF = Math.round(Ig.mercymod[L5] / Ig.mercymax[L5] * 100);
+              if (LF > 100) {
+                LF = 100;
+              }
+            }
+            nv.draw_set_color(Iq(IK.orange, IK.red, 0.5));
+            nv.draw_rectangle(ne + 520, nY + 380 + L5 * 30, ne + 600, nY + 380 + L5 * 30 + 15, false);
+            nv.draw_set_color(IK.yellow);
+            if (Ig.mercymod[L5] > 0 && !Lp && !Ly) {
+              nv.draw_rectangle(ne + 520, nY + 380 + L5 * 30, ne + 520 + LF * 0.8, nY + 380 + L5 * 30 + 15, false);
+            }
+            nv.draw_set_color(IK.white);
+            nv.draw_text_transformed(ne + 524, nY + 364, "MERCY", 1, 0.5, 0);
+            nv.draw_set_color(IK.maroon);
+            if (!Lp && !Ly) {
+              nv.draw_text_transformed(ne + 524, nY + 380 + L5 * 30, LF + "%", 1, 0.5, 0);
+            } else if (Ly && !Lp) {
+              nv.draw_set_color(IK.white);
+              nv.draw_text_transformed(ne + 524, nY + 364 + 15, "???", 1, 0.5, 0);
+            } else {
+              nv.draw_line_width_color(ne + 520 - 1, nY + 380 + L5 * 30, ne + 600, nY + 380 + L5 * 30 + 15, 2, IK.maroon, IK.maroon);
+              nv.draw_line_width_color(ne + 520 - 1, nY + 380 + L5 * 30 + 15, ne + 600, nY + 380 + L5 * 30, 2, IK.maroon, IK.maroon);
+            }
+          }
         }
-        let Wn = (Ig.spelldescb[W7][W9 * 0x6 + W8] || '').split('#'),
-          WL = IW(Ig.spell[W7][W9 * 0x6 + W8]);
-        for (let WE = 0x0; WE < Wn.length; WE++) {
-          let Wf = WL ? nv.string_width(Wn[WE]) : 0x0;
-          Wf > 0x88 ? (nv.draw_set_color(IK.gray), nv.draw_text_transformed(ne + 0x1f4, nY + 0x177 + WE * 0x1c, Wn[WE], 0x88 / Wf, 0x1, 0x0)) : nv.draw_text(ne + 0x1f4, nY + 0x177 + WE * 0x1c, Wn[WE], IK.gray);
-        }
-        let Ww = Ir(Ig.spellcost[W7][W9 * 0x6 + W8] / Ig.maxtension * 0x64);
-        nv.draw_text(ne + 0x1f4, nY + 0x1b8, Ww + "% TP", IK.orange);
       }
     }
-    if (Ig.bmenuno === 0x4 && Ig.myfight === 0x0) {
-      let Wa = L0[0x4][nX],
-        WN = 0x0;
-      Wa > 0x5 && (WN = 0x1, Wa -= 0x6);
-      let WJ = 0xa,
-        WD = 0x181;
-      Wa % 0x2 === 0x1 && (WJ = 0xe6), Wa > 0x1 && Wa < 0x4 && (WD = 0x19f), Wa > 0x3 && (WD = 0x1bd), nv.draw_sprite('spr_heart', 0x0, ne + WJ, nY + WD);
+    if (Ig.bmenuno === 2 && Ig.myfight === 0 && Ig.flag[34] === 0 && Ig.chapter !== 1) {
+      let LD = nX;
+      let LZ = L0[2][nX];
+      let Lb = 0;
+      if (LZ > 5) {
+        Lb = 1;
+        LZ -= 6;
+      }
+      let HM = 10;
+      let HB = 385;
+      if (LZ % 2 === 1) {
+        HM = 230;
+      }
+      if (LZ > 1 && LZ < 4) {
+        HB = 415;
+      }
+      if (LZ > 3) {
+        HB = 445;
+      }
+      nv.draw_sprite("spr_heart", 0, ne + HM, nY + HB);
+      let Hi = Ig.battlespellname[LD] || [];
+      let Hx = Ig.battlespellcost[LD] || [];
+      let HU = Ig.battlespellspecial[LD] || [];
+      let Hr = Ig.battlespell[LD] || [];
+      for (let Hv = 0; Hv < 3; Hv++) {
+        for (let He = 0; He < 2; He++) {
+          let HY = Lb * 6 + Hv * 2 + He;
+          let HS = IK.white;
+          if ((HU[HY] || 0) >= 1) {
+            HS = (this.hpcolorsoft || [])[IR(Ig.char[LD]) - 1] || (V(Ig.char[LD]) ? Iq(V(Ig.char[LD]), IK.white, 0.5) : IK.white);
+          }
+          let HC = !this.techUnlocked(LD, HY);
+          let Ho = Ig.chapter >= 4 && In.techMenuColor ? In.techMenuColor(this, LD, HY, HS) : null;
+          if (Ho != null && Ho !== false) {
+            HS = Ho;
+          } else if (Ig.tension < (Hx[HY] || 0) || HC || !S(Hr[HY], LD)) {
+            HS = IK.gray;
+          } else if (Hr[HY] === 3 || Hr[HY] === 8) {
+            let HX = 0;
+            for (let W0 = 0; W0 < 3; W0++) {
+              if (Ig.monster[W0] === 1 && Ig.monsterstatus[W0] === 1 && Ig.encounterno !== 31) {
+                HX = 1;
+              }
+            }
+            if (HX) {
+              let W1 = Iq(IK.aqua, IK.blue, 0.3);
+              HS = Iq(W1, IK.white, 0.5 + Ip((this.t_siner || 0) / 4) * 0.5);
+            }
+          }
+          nv.draw_text(ne + 30 + He * 230, nY + 375 + Hv * 30, Hi[HY] === undefined ? " " : Hi[HY], HS);
+        }
+      }
+      if (!(Ig.chapter >= 4) || !In.techMenuInfoHide || !In.techMenuInfoHide(this, LD, Lb * 6 + LZ)) {
+        let W2 = String((Ig.battlespelldesc[LD] || [])[Lb * 6 + LZ] || " ").split("#");
+        let W3 = IW((Ig.battlespell[LD] || [])[Lb * 6 + LZ]);
+        for (let W5 = 0; W5 < W2.length; W5++) {
+          let W6 = W3 ? nv.string_width(W2[W5]) : 0;
+          if (W6 > 136) {
+            nv.draw_set_color(IK.gray);
+            nv.draw_text_transformed(ne + 500, nY + 375 + W5 * 28, W2[W5], 136 / W6, 1, 0);
+          } else {
+            nv.draw_text(ne + 500, nY + 375 + W5 * 28, W2[W5], IK.gray);
+          }
+        }
+        let W4 = IS((Hx[Lb * 6 + LZ] || 0) / Ig.maxtension * 100);
+        if (W4 > 0) {
+          nv.draw_text(ne + 500, nY + 440, W4 + "% TP", IK.orange);
+        }
+      }
+    } else if (Ig.bmenuno === 2 && Ig.myfight === 0) {
+      let W7 = Ig.char[nX];
+      let W8 = L0[2][nX];
+      let W9 = 0;
+      if (W8 > 5) {
+        W9 = 1;
+        W8 -= 6;
+      }
+      let WI = 10;
+      let WA = 385;
+      if (W8 % 2 === 1) {
+        WI = 230;
+      }
+      if (W8 > 1 && W8 < 4) {
+        WA = 415;
+      }
+      if (W8 > 3) {
+        WA = 445;
+      }
+      nv.draw_sprite("spr_heart", 0, ne + WI, nY + WA);
+      for (let WH = 0; WH < 3; WH++) {
+        let WW = W9 * 6 + WH * 2;
+        let Wg = IK.white;
+        if (Ig.tension < Ig.spellcost[W7][WW] || !S(Ig.spell[W7][WW], nX)) {
+          Wg = IK.gray;
+        } else if (Ig.spell[W7][WW] === 3) {
+          let WR = 0;
+          for (let WG = 0; WG < 3; WG++) {
+            if (Ig.monster[WG] === 1 && Ig.monsterstatus[WG] === 1 && Ig.encounterno !== 31) {
+              WR = 1;
+            }
+          }
+          if (WR) {
+            Wg = Iq(IK.aqua, IK.blue, 0.3);
+          }
+        }
+        nv.draw_text(ne + 30, nY + 375 + WH * 30, Ig.spellnameb[W7][WW], Wg);
+        nv.draw_text(ne + 260, nY + 375 + WH * 30, Ig.spellnameb[W7][WW + 1], Ig.tension < Ig.spellcost[W7][WW + 1] || !S(Ig.spell[W7][WW + 1], nX) ? IK.gray : IK.white);
+      }
+      let Wn = (Ig.spelldescb[W7][W9 * 6 + W8] || "").split("#");
+      let WL = IW(Ig.spell[W7][W9 * 6 + W8]);
+      for (let WE = 0; WE < Wn.length; WE++) {
+        let Wf = WL ? nv.string_width(Wn[WE]) : 0;
+        if (Wf > 136) {
+          nv.draw_set_color(IK.gray);
+          nv.draw_text_transformed(ne + 500, nY + 375 + WE * 28, Wn[WE], 136 / Wf, 1, 0);
+        } else {
+          nv.draw_text(ne + 500, nY + 375 + WE * 28, Wn[WE], IK.gray);
+        }
+      }
+      let Ww = Ir(Ig.spellcost[W7][W9 * 6 + W8] / Ig.maxtension * 100);
+      nv.draw_text(ne + 500, nY + 440, Ww + "% TP", IK.orange);
+    }
+    if (Ig.bmenuno === 4 && Ig.myfight === 0) {
+      let Wa = L0[4][nX];
+      let WN = 0;
+      if (Wa > 5) {
+        WN = 1;
+        Wa -= 6;
+      }
+      let WJ = 10;
+      let WD = 385;
+      if (Wa % 2 === 1) {
+        WJ = 230;
+      }
+      if (Wa > 1 && Wa < 4) {
+        WD = 415;
+      }
+      if (Wa > 3) {
+        WD = 445;
+      }
+      nv.draw_sprite("spr_heart", 0, ne + WJ, nY + WD);
       let WZ = WK => {
-        let WP = this.tempitem[WK] ? this.tempitem[WK][nX] : 0x0;
-        return WP && IJ[WP] ? IJ[WP][0x1] : '\x20';
+        let WP = this.tempitem[WK] ? this.tempitem[WK][nX] : 0;
+        if (WP && IJ[WP]) {
+          return IJ[WP][1];
+        } else {
+          return " ";
+        }
       };
-      for (let WK = 0x0; WK < 0x3; WK++) nv.draw_text(ne + 0x1e, nY + 0x177 + WK * 0x1e, WZ(WN * 0x6 + WK * 0x2), IK.white), nv.draw_text(ne + 0x104, nY + 0x177 + WK * 0x1e, WZ(WN * 0x6 + WK * 0x2 + 0x1), IK.white);
-      WN === 0x0 && Ig.item[0x6] !== 0x0 && nv.draw_sprite('spr_morearrow', 0x0, ne + 0x1d6, nY + 0x1bd + Ip(this.s_siner / 0xa) * 0x2), WN === 0x1 && nv.draw_sprite_ext('spr_morearrow', 0x0, ne + 0x1d6, nY + 0x18b - Ip(this.s_siner / 0xa) * 0x2, 0x1, -0x1, 0x0, IK.white, 0x1);
-      let Wb = this.tempitem[WN * 0x6 + Wa] ? this.tempitem[WN * 0x6 + Wa][nX] : 0x0,
-        Wm = Wb ? IH.items[Wb - 0xc8] : null;
-      nv.draw_text(ne + 0x1f4, nY + 0x177, Wm ? Wm.desc.replace(/#/g, '\x0a') : Wb && IJ[Wb] ? IJ[Wb][0x3] : '\x20', IK.gray);
+      for (let WK = 0; WK < 3; WK++) {
+        nv.draw_text(ne + 30, nY + 375 + WK * 30, WZ(WN * 6 + WK * 2), IK.white);
+        nv.draw_text(ne + 260, nY + 375 + WK * 30, WZ(WN * 6 + WK * 2 + 1), IK.white);
+      }
+      if (WN === 0 && Ig.item[6] !== 0) {
+        nv.draw_sprite("spr_morearrow", 0, ne + 470, nY + 445 + Ip(this.s_siner / 10) * 2);
+      }
+      if (WN === 1) {
+        nv.draw_sprite_ext("spr_morearrow", 0, ne + 470, nY + 395 - Ip(this.s_siner / 10) * 2, 1, -1, 0, IK.white, 1);
+      }
+      let Wb = this.tempitem[WN * 6 + Wa] ? this.tempitem[WN * 6 + Wa][nX] : 0;
+      let Wm = Wb ? IH.items[Wb - 200] : null;
+      nv.draw_text(ne + 500, nY + 375, Wm ? Wm.desc.replace(/#/g, "\n") : Wb && IJ[Wb] ? IJ[Wb][3] : " ", IK.gray);
     }
-    if (Ig.bmenuno === 0x9 && Ig.myfight === 0x0) {
-      let WP = L0[0x9][nX],
-        Wq = L0[0xb][nX],
-        Wc = 0xa,
-        Wz = 0x181;
-      WP % 0x2 === 0x1 && (Wc = 0xf0), WP > 0x1 && WP < 0x4 && (Wz = 0x19f), WP > 0x3 && (Wz = 0x1bd), nv.draw_sprite('spr_heart', 0x0, ne + Wc, nY + Wz);
-      let Wl = this.actinfo(Wq),
-        Ws = Ig.chapter === 0x1;
-      for (let Wd = 0x0; Wd < 0x6; Wd++) {
-        let Wj = 0x0,
-          WT = Ws || IR(Ig.char[nX]) === 0x1 ? Ig.actactor[Wq][Wd] : 0x0,
-          Wu = 0x0,
-          WQ = Wd % 0x2 === 0x1 ? 0xe6 : 0x0,
-          Wh = Wd >= 0x4 ? 0x3c : Wd >= 0x2 ? 0x1e : 0x0,
-          WV = Ws ? 0x24 : 0x1e,
-          WM = IK.white,
-          WB = IK.white,
-          Wi = IK.white;
-        (WT === 0x2 || WT === 0x4) && (this.partnerReady(0x2) || (WM = IK.gray, Wj = 0x1), Wu = WV), (WT === 0x3 || WT === 0x4) && (this.partnerReady(0x3) || (WB = IK.gray, Wj = 0x1), Wu = WV), WT === 0x5 && !Ws && (this.partnerReady(0x4) || (Wi = IK.gray, Wj = 0x1), Wu = WV), Ig.tension < Wl.cost.get(Wd) && (Wj = 0x1), WT === 0x4 && (Wu = Ws ? Ir(Wu * 1.8) : Wu * 0x2), WT === 0x2 && nv.draw_sprite_ext('spr_headsusie', 0x0, ne + 0x1e + WQ, nY + 0x177 + Wh, 0x1, 0x1, 0x0, WM, 0x1), WT === 0x3 && nv.draw_sprite_ext('spr_headralsei', 0x0, ne + 0x1e + WQ, nY + 0x177 + Wh, 0x1, 0x1, 0x0, WM, 0x1), WT === 0x4 && (nv.draw_sprite_ext('spr_headsusie', 0x0, ne + 0x1e + WQ, nY + 0x177 + Wh, 0x1, 0x1, 0x0, WM, 0x1), nv.draw_sprite_ext('spr_headralsei', 0x0, ne + 0x3c + WQ, nY + 0x177 + Wh, 0x1, 0x1, 0x0, WM, 0x1)), WT === 0x5 && !Ws && nv.draw_sprite_ext('spr_headnoelle', 0x0, ne + 0x1e + WQ, nY + 0x177 + Wh, 0x1, 0x1, 0x0, Wi, 0x1), Ig.chapter === 0x2 && Iv.with('obj_spamton_neo_enemy', Wr => {
-          let Wv = Wr.savemeactcon || 0x0;
-          if (Wv <= 0x0) return;
-          let We = Wv <= 0x2 ? 'spr_headralsei' : Wv <= 0x4 ? 'spr_headsusie' : 'spr_headnoelle';
-          nv.draw_sprite_ext(We, 0x0, ne + 0x1e, nY + 0x17c, 0x1, 0x1, 0x0, Wi, 0x1);
-        });
-        let Wx = String(Wl.name.get(Wd)),
-          WU = Wj ? IK.gray : IK.white;
-        if (Ig.chapter >= 0x4 && In.actNameColor && (WU = In.actNameColor(Wd, Wj, WU)), Ws) nv.draw_text(ne + 0x1e + Wu + WQ, nY + 0x177 + Wh, Wx, WU);else {
-          let Wr = Math.max(0x1, nv.string_width(Wx)),
-            Wv = Math.min(0x1, Math.max(0.5, (0xce - Wu) / Wr));
-          nv.draw_set_color(WU), nv.draw_text_transformed(ne + 0x1e + Wu + WQ, nY + 0x177 + Wh, Wx, Wv, 0x1, 0x0);
+    if (Ig.bmenuno === 9 && Ig.myfight === 0) {
+      let WP = L0[9][nX];
+      let Wq = L0[11][nX];
+      let Wc = 10;
+      let Wz = 385;
+      if (WP % 2 === 1) {
+        Wc = 240;
+      }
+      if (WP > 1 && WP < 4) {
+        Wz = 415;
+      }
+      if (WP > 3) {
+        Wz = 445;
+      }
+      nv.draw_sprite("spr_heart", 0, ne + Wc, nY + Wz);
+      let Wl = this.actinfo(Wq);
+      let Ws = Ig.chapter === 1;
+      for (let Wd = 0; Wd < 6; Wd++) {
+        let Wj = 0;
+        let WT = Ws || IR(Ig.char[nX]) === 1 ? Ig.actactor[Wq][Wd] : 0;
+        let Wu = 0;
+        let WQ = Wd % 2 === 1 ? 230 : 0;
+        let Wh = Wd >= 4 ? 60 : Wd >= 2 ? 30 : 0;
+        let WV = Ws ? 36 : 30;
+        let WM = IK.white;
+        let WB = IK.white;
+        let Wi = IK.white;
+        if (WT === 2 || WT === 4) {
+          if (!this.partnerReady(2)) {
+            WM = IK.gray;
+            Wj = 1;
+          }
+          Wu = WV;
+        }
+        if (WT === 3 || WT === 4) {
+          if (!this.partnerReady(3)) {
+            WB = IK.gray;
+            Wj = 1;
+          }
+          Wu = WV;
+        }
+        if (WT === 5 && !Ws) {
+          if (!this.partnerReady(4)) {
+            Wi = IK.gray;
+            Wj = 1;
+          }
+          Wu = WV;
+        }
+        if (Ig.tension < Wl.cost.get(Wd)) {
+          Wj = 1;
+        }
+        if (WT === 4) {
+          Wu = Ws ? Ir(Wu * 1.8) : Wu * 2;
+        }
+        if (WT === 2) {
+          nv.draw_sprite_ext("spr_headsusie", 0, ne + 30 + WQ, nY + 375 + Wh, 1, 1, 0, WM, 1);
+        }
+        if (WT === 3) {
+          nv.draw_sprite_ext("spr_headralsei", 0, ne + 30 + WQ, nY + 375 + Wh, 1, 1, 0, WM, 1);
+        }
+        if (WT === 4) {
+          nv.draw_sprite_ext("spr_headsusie", 0, ne + 30 + WQ, nY + 375 + Wh, 1, 1, 0, WM, 1);
+          nv.draw_sprite_ext("spr_headralsei", 0, ne + 60 + WQ, nY + 375 + Wh, 1, 1, 0, WM, 1);
+        }
+        if (WT === 5 && !Ws) {
+          nv.draw_sprite_ext("spr_headnoelle", 0, ne + 30 + WQ, nY + 375 + Wh, 1, 1, 0, Wi, 1);
+        }
+        if (Ig.chapter === 2) {
+          Iv.with("obj_spamton_neo_enemy", Wr => {
+            let Wv = Wr.savemeactcon || 0;
+            if (Wv <= 0) {
+              return;
+            }
+            let We = Wv <= 2 ? "spr_headralsei" : Wv <= 4 ? "spr_headsusie" : "spr_headnoelle";
+            nv.draw_sprite_ext(We, 0, ne + 30, nY + 380, 1, 1, 0, Wi, 1);
+          });
+        }
+        let Wx = String(Wl.name.get(Wd));
+        let WU = Wj ? IK.gray : IK.white;
+        if (Ig.chapter >= 4 && In.actNameColor) {
+          WU = In.actNameColor(Wd, Wj, WU);
+        }
+        if (Ws) {
+          nv.draw_text(ne + 30 + Wu + WQ, nY + 375 + Wh, Wx, WU);
+        } else {
+          let Wr = Math.max(1, nv.string_width(Wx));
+          let Wv = Math.min(1, Math.max(0.5, (206 - Wu) / Wr));
+          nv.draw_set_color(WU);
+          nv.draw_text_transformed(ne + 30 + Wu + WQ, nY + 375 + Wh, Wx, Wv, 1, 0);
         }
       }
-      let WO = Ig.chapter >= 0x4 && In.actInfoHide ? In.actInfoHide(this, WP) || {} : {};
+      let WO = Ig.chapter >= 4 && In.actInfoHide ? In.actInfoHide(this, WP) || {} : {};
       if (!WO.desc) {
-        let We = String(Wl.desc.get(WP) || '\x20').split('#');
-        for (let WY = 0x0; WY < We.length; WY++) nv.draw_text(ne + 0x1f4, nY + 0x177 + WY * 0x1c, We[WY], IK.gray);
+        let We = String(Wl.desc.get(WP) || " ").split("#");
+        for (let WY = 0; WY < We.length; WY++) {
+          nv.draw_text(ne + 500, nY + 375 + WY * 28, We[WY], IK.gray);
+        }
       }
-      if (Ig.tensionselect > 0x0 && !WO.tp) {
-        let WS = Ir(Wl.cost.get(WP) / Ig.maxtension * 0x64);
-        nv.draw_text(ne + 0x1f4, nY + 0x1b8, WS + "% TP", IK.orange);
+      if (Ig.tensionselect > 0 && !WO.tp) {
+        let WS = Ir(Wl.cost.get(WP) / Ig.maxtension * 100);
+        nv.draw_text(ne + 500, nY + 440, WS + "% TP", IK.orange);
       }
       let Wk = Ig.monsterinstance[Wq];
-      Wk && !Wk.destroyed && (Wk.flash === 0x0 && (Wk.fsiner = 0x0), Wk.flash = 0x1, Wk.becomeflash = 0x1);
+      if (Wk && !Wk.destroyed) {
+        if (Wk.flash === 0) {
+          Wk.fsiner = 0;
+        }
+        Wk.flash = 1;
+        Wk.becomeflash = 1;
+      }
     }
-    if ((Ig.bmenuno === 0x7 || Ig.bmenuno === 0x8) && Ig.myfight === 0x0 && If() > 0x3) {
-      let WC = Math.floor(L0[Ig.bmenuno][nX] / 0x6) * 0x6,
-        Wt = Math.min(If(), WC + 0x6),
-        Wo = g2 => [ne + 0x50 + (g2 - WC < 0x3 ? 0x0 : 0x118), nY + 0x177 + (g2 - WC) % 0x3 * 0x1e],
-        [WX, g0] = Wo(L0[Ig.bmenuno][nX]);
-      nv.draw_sprite('spr_heart', 0x0, WX - 0x19, g0 + 0xa);
+    if ((Ig.bmenuno === 7 || Ig.bmenuno === 8) && Ig.myfight === 0 && If() > 3) {
+      let WC = Math.floor(L0[Ig.bmenuno][nX] / 6) * 6;
+      let Wt = Math.min(If(), WC + 6);
+      let Wo = g2 => [ne + 80 + (g2 - WC < 3 ? 0 : 280), nY + 375 + (g2 - WC) % 3 * 30];
+      let [WX, g0] = Wo(L0[Ig.bmenuno][nX]);
+      nv.draw_sprite("spr_heart", 0, WX - 25, g0 + 10);
       let g1 = Ig.charinstance[L0[Ig.bmenuno][nX]];
-      g1 && (g1.flash === 0x0 && (g1.fsiner = 0x0), g1.flash = 0x1, g1.becomeflash = 0x1), If() > 0x6 && (nv.draw_set_font('fnt_main'), nv.draw_set_halign('right'), nv.draw_text(ne + 0x278, nY + 0x1c8, WC + 0x1 + '-' + Wt + '/' + If(), IK.gray), nv.draw_set_halign('left'), nv.draw_set_font('fnt_mainbig'));
-      for (let g2 = WC; g2 < Wt; g2++) if (Ig.char[g2] !== 0x0) {
-        let [g3, g4] = Wo(g2),
-          g5 = Ig.char[g2];
-        nv.draw_text(g3, g4, Ig.charname[g5], IK.white), nv.draw_set_color(IK.maroon), nv.draw_rectangle(g3 + 0x96, g4 + 0x5, g3 + 0xe6, g4 + 0x14, !0x1), nv.draw_set_color(IK.lime), nv.draw_rectangle(g3 + 0x96, g4 + 0x5, g3 + 0x96 + Math.max(0x0, Ig.hp[g5] / Ig.maxhp[g5]) * 0x50, g4 + 0x14, !0x1);
+      if (g1) {
+        if (g1.flash === 0) {
+          g1.fsiner = 0;
+        }
+        g1.flash = 1;
+        g1.becomeflash = 1;
       }
-    } else {
-      if ((Ig.bmenuno === 0x7 || Ig.bmenuno === 0x8) && Ig.myfight === 0x0) {
-        nv.draw_sprite('spr_heart', 0x0, ne + 0x37, nY + 0x181 + L0[Ig.bmenuno][nX] * 0x1e);
-        let g6 = Ig.charinstance[L0[Ig.bmenuno][nX]];
-        g6 && (g6.flash === 0x0 && (g6.fsiner = 0x0), g6.flash = 0x1, g6.becomeflash = 0x1);
-        for (let g7 = 0x0; g7 < If(); g7++) Ig.char[g7] !== 0x0 && (nv.draw_text(ne + 0x50, nY + 0x177 + g7 * 0x1e, Ig.charname[Ig.char[g7]], IK.white), nv.draw_set_color(IK.maroon), nv.draw_rectangle(ne + 0x190, nY + 0x17c + g7 * 0x1e, ne + 0x1f4, nY + 0x17c + g7 * 0x1e + 0xf, !0x1), nv.draw_set_color(IK.lime), nv.draw_rectangle(ne + 0x190, nY + 0x17c + g7 * 0x1e, ne + 0x190 + Math.max(0x0, Ig.hp[Ig.char[g7]] / Ig.maxhp[Ig.char[g7]]) * 0x64, nY + 0x17c + g7 * 0x1e + 0xf, !0x1));
+      if (If() > 6) {
+        nv.draw_set_font("fnt_main");
+        nv.draw_set_halign("right");
+        nv.draw_text(ne + 632, nY + 456, WC + 1 + "-" + Wt + "/" + If(), IK.gray);
+        nv.draw_set_halign("left");
+        nv.draw_set_font("fnt_mainbig");
+      }
+      for (let g2 = WC; g2 < Wt; g2++) {
+        if (Ig.char[g2] !== 0) {
+          let [g3, g4] = Wo(g2);
+          let g5 = Ig.char[g2];
+          nv.draw_text(g3, g4, Ig.charname[g5], IK.white);
+          nv.draw_set_color(IK.maroon);
+          nv.draw_rectangle(g3 + 150, g4 + 5, g3 + 230, g4 + 20, false);
+          nv.draw_set_color(IK.lime);
+          nv.draw_rectangle(g3 + 150, g4 + 5, g3 + 150 + Math.max(0, Ig.hp[g5] / Ig.maxhp[g5]) * 80, g4 + 20, false);
+        }
+      }
+    } else if ((Ig.bmenuno === 7 || Ig.bmenuno === 8) && Ig.myfight === 0) {
+      nv.draw_sprite("spr_heart", 0, ne + 55, nY + 385 + L0[Ig.bmenuno][nX] * 30);
+      let g6 = Ig.charinstance[L0[Ig.bmenuno][nX]];
+      if (g6) {
+        if (g6.flash === 0) {
+          g6.fsiner = 0;
+        }
+        g6.flash = 1;
+        g6.becomeflash = 1;
+      }
+      for (let g7 = 0; g7 < If(); g7++) {
+        if (Ig.char[g7] !== 0) {
+          nv.draw_text(ne + 80, nY + 375 + g7 * 30, Ig.charname[Ig.char[g7]], IK.white);
+          nv.draw_set_color(IK.maroon);
+          nv.draw_rectangle(ne + 400, nY + 380 + g7 * 30, ne + 500, nY + 380 + g7 * 30 + 15, false);
+          nv.draw_set_color(IK.lime);
+          nv.draw_rectangle(ne + 400, nY + 380 + g7 * 30, ne + 400 + Math.max(0, Ig.hp[Ig.char[g7]] / Ig.maxhp[Ig.char[g7]]) * 100, nY + 380 + g7 * 30 + 15, false);
+        }
       }
     }
-    Ig.chapter >= 0x4 && In.bcDrawEnd && In.bcDrawEnd(this, nv);
+    if (Ig.chapter >= 4 && In.bcDrawEnd) {
+      In.bcDrawEnd(this, nv);
+    }
   }
-  ["charbox"](nv, ne, nY) {
+  charbox(nv, ne, nY) {
     let nS = v(this, If());
     if (nS) {
-      this.charboxCompact(nv, ne, nY || 0x0, nS);
+      this.charboxCompact(nv, ne, nY || 0, nS);
       return;
     }
-    let nC = 0x0,
-      no = nY || 0x0,
-      nX = this.bp;
-    for (let L0 = 0x0; L0 < If(); L0++) {
-      if (this.havechar[L0] !== 0x1) continue;
-      let L1 = Ig.char[L0],
-        L2 = IR(L1),
-        L3 = V(L1) || (Q(L1) === 'noelle' ? IK.yellow : this.hpcolor[L2 - 0x1]),
-        L4 = Ig.charturn,
-        L5 = 0x0,
-        L6 = L0,
-        L7 = this.chartotal,
-        L8 = 0xd4,
-        L9 = Ig.chapter === 0x1;
-      L7 === 0x3 ? L5 = (L9 ? [0x0, 0xd4, 0x1a8] : [0x0, 0xd5, 0x1aa])[L6] : L7 === 0x2 ? L5 = (L9 ? [0x6a, 0x146] : [0x6c, 0x142])[L6] : L5 = L9 ? 0xd4 : 0xd5;
+    let nC = 0;
+    let no = nY || 0;
+    let nX = this.bp;
+    for (let L0 = 0; L0 < If(); L0++) {
+      if (this.havechar[L0] !== 1) {
+        continue;
+      }
+      let L1 = Ig.char[L0];
+      let L2 = IR(L1);
+      let L3 = V(L1) || (Q(L1) === "noelle" ? IK.yellow : this.hpcolor[L2 - 1]);
+      let L4 = Ig.charturn;
+      let L5 = 0;
+      let L6 = L0;
+      let L7 = this.chartotal;
+      let L8 = 212;
+      let L9 = Ig.chapter === 1;
+      if (L7 === 3) {
+        L5 = (L9 ? [0, 212, 424] : [0, 213, 426])[L6];
+      } else if (L7 === 2) {
+        L5 = (L9 ? [106, 326] : [108, 322])[L6];
+      } else {
+        L5 = L9 ? 212 : 213;
+      }
       let LI = !!this.rouxlsgridenabled;
-      if (L4 === L6 ? LI ? (this.mmy[L0] > -0xaa && (this.mmy[L0] -= 0x2), this.mmy[L0] > -0xa0 && (this.mmy[L0] -= 0x4), this.mmy[L0] > -0x96 && (this.mmy[L0] -= 0x6), this.mmy[L0] > -0x8c && (this.mmy[L0] -= 0xc), this.mmy[L0] > -0x20 && (this.mmy[L0] -= 0x20)) : (this.mmy[L0] > -0x20 && (this.mmy[L0] -= 0x2), this.mmy[L0] > -0x18 && (this.mmy[L0] -= 0x4), this.mmy[L0] > -0x10 && (this.mmy[L0] -= 0x6), this.mmy[L0] > -0x8 && (this.mmy[L0] -= 0x8), this.mmy[L0] < -0x20 && (this.mmy[L0] = -0x40)) : LI ? (this.mmy[L0] < -0xe && (this.mmy[L0] += 0x20), this.mmy[L0] > -0xe && (this.mmy[L0] = 0x0)) : this.mmy[L0] < -0xe ? this.mmy[L0] += 0xf : this.mmy[L0] = 0x0, LI && this.mmy[L0] !== 0x0 && (nv.draw_set_color(IK.black), nv.draw_rectangle(nC + L5 + 0x2, 0x1e0 - nX - 0x1 + no + this.mmy[L0], nC + L5 + 0xd2, 0x1e0 - nX + no + 0x21, !0x1)), L4 === L6 && Ig.myfight === 0x0) {
-        if (!LI) this.selectionmatrix(nv, nC + L5, 0x1e0 - nX + no, L3);else {
-          let La = this.mmy[L0],
-            LN = nC + L5,
-            LJ = 0x1e0 - nX + no;
-          nv.draw_rectangle(LN, 0x1e0 - nX - 0x3 + no + La, LN + 0xd4, 0x1e0 - nX, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(LN + 0x2, 0x1e0 - nX - 0x1 + no + La, LN + 0xd2, 0x1e0 - nX, !0x1), this.s_siner += 0x2, nv.draw_set_color(L3), nv.draw_rectangle(LN, 0x1e0 - nX + 0x28 + no + La, LN + 0xd4, 0x1e0 - nX + 0x2b + no + La, !0x1);
-          for (let LF = 0x0; LF < 0xc; LF++) {
-            let Lp = this.s_siner + LF * (0xa * Math.PI);
-            nv.draw_set_alpha(Math.max(0x0, Ip(Lp / 0x3c))), nv.draw_line_width(LN, LJ - 0x3 + La * 0.75, LN, LJ + 0x21, 0x2), nv.draw_line_width(LN + 0xd3, LJ - 0x3 + La * 0.75, LN + 0xd3, LJ + 0x21, 0x2), La < -0x8c && Iy(Lp / 0x3c) < 0x0 && (nv.draw_set_alpha(Math.max(0x0, y(0x0, Ip(Lp / 0x3c), (IF(La) - 0x8c) / 0x1e))), nv.draw_line_width(LN - Ip(Lp / 0x3c) * 0x1e + 0x1e, LJ + La * 0.75, LN - Ip(Lp / 0x3c) * 0x1e + 0x1e, LJ + 0x21, 0x2), nv.draw_line_width(LN + 0xd2 + Ip(Lp / 0x3c) * 0x1e - 0x1e, LJ + La * 0.75, LN + 0xd2 + Ip(Lp / 0x3c) * 0x1e - 0x1e, LJ + 0x21, 0x2));
+      if (L4 === L6) {
+        if (LI) {
+          if (this.mmy[L0] > -170) {
+            this.mmy[L0] -= 2;
           }
-          nv.draw_set_alpha(0x1);
+          if (this.mmy[L0] > -160) {
+            this.mmy[L0] -= 4;
+          }
+          if (this.mmy[L0] > -150) {
+            this.mmy[L0] -= 6;
+          }
+          if (this.mmy[L0] > -140) {
+            this.mmy[L0] -= 12;
+          }
+          if (this.mmy[L0] > -32) {
+            this.mmy[L0] -= 32;
+          }
+        } else {
+          if (this.mmy[L0] > -32) {
+            this.mmy[L0] -= 2;
+          }
+          if (this.mmy[L0] > -24) {
+            this.mmy[L0] -= 4;
+          }
+          if (this.mmy[L0] > -16) {
+            this.mmy[L0] -= 6;
+          }
+          if (this.mmy[L0] > -8) {
+            this.mmy[L0] -= 8;
+          }
+          if (this.mmy[L0] < -32) {
+            this.mmy[L0] = -64;
+          }
+        }
+      } else if (LI) {
+        if (this.mmy[L0] < -14) {
+          this.mmy[L0] += 32;
+        }
+        if (this.mmy[L0] > -14) {
+          this.mmy[L0] = 0;
+        }
+      } else if (this.mmy[L0] < -14) {
+        this.mmy[L0] += 15;
+      } else {
+        this.mmy[L0] = 0;
+      }
+      if (LI && this.mmy[L0] !== 0) {
+        nv.draw_set_color(IK.black);
+        nv.draw_rectangle(nC + L5 + 2, 480 - nX - 1 + no + this.mmy[L0], nC + L5 + 210, 480 - nX + no + 33, false);
+      }
+      if (L4 === L6 && Ig.myfight === 0) {
+        if (!LI) {
+          this.selectionmatrix(nv, nC + L5, 480 - nX + no, L3);
+        } else {
+          let La = this.mmy[L0];
+          let LN = nC + L5;
+          let LJ = 480 - nX + no;
+          nv.draw_rectangle(LN, 480 - nX - 3 + no + La, LN + 212, 480 - nX, false);
+          nv.draw_set_color(IK.black);
+          nv.draw_rectangle(LN + 2, 480 - nX - 1 + no + La, LN + 210, 480 - nX, false);
+          this.s_siner += 2;
+          nv.draw_set_color(L3);
+          nv.draw_rectangle(LN, 480 - nX + 40 + no + La, LN + 212, 480 - nX + 43 + no + La, false);
+          for (let LF = 0; LF < 12; LF++) {
+            let Lp = this.s_siner + LF * (Math.PI * 10);
+            nv.draw_set_alpha(Math.max(0, Ip(Lp / 60)));
+            nv.draw_line_width(LN, LJ - 3 + La * 0.75, LN, LJ + 33, 2);
+            nv.draw_line_width(LN + 211, LJ - 3 + La * 0.75, LN + 211, LJ + 33, 2);
+            if (La < -140 && Iy(Lp / 60) < 0) {
+              nv.draw_set_alpha(Math.max(0, y(0, Ip(Lp / 60), (IF(La) - 140) / 30)));
+              nv.draw_line_width(LN - Ip(Lp / 60) * 30 + 30, LJ + La * 0.75, LN - Ip(Lp / 60) * 30 + 30, LJ + 33, 2);
+              nv.draw_line_width(LN + 210 + Ip(Lp / 60) * 30 - 30, LJ + La * 0.75, LN + 210 + Ip(Lp / 60) * 30 - 30, LJ + 33, 2);
+            }
+          }
+          nv.draw_set_alpha(1);
         }
       }
-      let LA = this.mmy[L0],
-        Ln = new Array(Iv.exists('obj_rouxls_ch3_enemy') ? 0x19 : 0x5).fill(0x0);
-      if (L4 === L6 && (Ln[Ig.bmenucoord[0x0][Ig.charturn] + this.rouxlsbuttoncount_y * 0x5] = 0x1), Ig.fighting === 0x1) {
-        let Ly = 0x0;
-        for (let Lb = 0x0; Lb < 0x3; Lb++) Ig.monster[Lb] === 0x1 && Ig.mercymod[Lb] >= 0x64 && (Ly = 0x1);
-        let LD = 0x0;
-        if (L2 === 0x3) {
-          for (let HM = 0x0; HM < 0x3; HM++) Ig.monster[HM] === 0x1 && Ig.monsterstatus[HM] === 0x1 && Ig.tension >= 0x28 && (LD = 0x1), Ig.encounterno === 0x1f && (LD = 0x0);
+      let LA = this.mmy[L0];
+      let Ln = new Array(Iv.exists("obj_rouxls_ch3_enemy") ? 25 : 5).fill(0);
+      if (L4 === L6) {
+        Ln[Ig.bmenucoord[0][Ig.charturn] + this.rouxlsbuttoncount_y * 5] = 1;
+      }
+      if (Ig.fighting === 1) {
+        let Ly = 0;
+        for (let Lb = 0; Lb < 3; Lb++) {
+          if (Ig.monster[Lb] === 1 && Ig.mercymod[Lb] >= 100) {
+            Ly = 1;
+          }
         }
-        let LZ = L9 ? 0x0 : 0x5;
-        if (this.oopsallacts === 0x1 && (Iv.exists('obj_rouxls_ch3_enemy') || Iv.exists('obj_tenna_board4_enemy'))) this.rouxlsCharbox(nv, nC + L5, LZ, nX, no, LA, L4 === L6, Ln);else {
-          let HB = Ig.chapter >= 0x4 && this.disablesusieralseiattack === 0x1 && (Ig.charturn === 0x1 || Ig.charturn === 0x2);
-          nv.draw_sprite('spr_btfight', HB ? 0x2 : Ln[0x0], nC + L5 + 0xf + LZ, 0x1e5 - nX + no), L2 === 0x1 ? nv.draw_sprite('spr_btact', Ln[0x1], nC + L5 + 0x32 + LZ, 0x1e5 - nX + no) : this.disablesusieact === 0x1 && L2 === 0x2 ? nv.draw_sprite('spr_ja_bttech_grey', Ln[0x1], nC + L5 + 0x32 + LZ, 0x1e5 - nX + no) : nv.draw_sprite('spr_bttech', Ln[0x1], nC + L5 + 0x32 + LZ, 0x1e5 - nX + no), nv.draw_sprite('spr_btitem', Ln[0x2], nC + L5 + 0x55 + LZ, 0x1e5 - nX + no), nv.draw_sprite('spr_btspare', Ln[0x3], nC + L5 + 0x78 + LZ, 0x1e5 - nX + no), nv.draw_sprite('spr_btdefend', Ln[0x4], nC + L5 + 0x9b + LZ, 0x1e5 - nX + no), Ly === 0x1 && L4 === L6 && nv.draw_sprite_ext('spr_btspare', 0x2, nC + L5 + 0x78 + LZ, 0x1e5 - nX + no, 0x1, 0x1, 0x0, IK.white, 0.4 + Ip(Ig.time / 0x6) * 0.4), LD === 0x1 && L4 === L6 && nv.draw_sprite_ext('spr_bttech', 0x2, nC + L5 + 0x32 + LZ, 0x1e5 - nX + no, 0x1, 0x1, 0x0, IK.white, 0.4 + Ip(Ig.time / 0x6) * 0.4);
+        let LD = 0;
+        if (L2 === 3) {
+          for (let HM = 0; HM < 3; HM++) {
+            if (Ig.monster[HM] === 1 && Ig.monsterstatus[HM] === 1 && Ig.tension >= 40) {
+              LD = 1;
+            }
+            if (Ig.encounterno === 31) {
+              LD = 0;
+            }
+          }
+        }
+        let LZ = L9 ? 0 : 5;
+        if (this.oopsallacts === 1 && (Iv.exists("obj_rouxls_ch3_enemy") || Iv.exists("obj_tenna_board4_enemy"))) {
+          this.rouxlsCharbox(nv, nC + L5, LZ, nX, no, LA, L4 === L6, Ln);
+        } else {
+          let HB = Ig.chapter >= 4 && this.disablesusieralseiattack === 1 && (Ig.charturn === 1 || Ig.charturn === 2);
+          nv.draw_sprite("spr_btfight", HB ? 2 : Ln[0], nC + L5 + 15 + LZ, 485 - nX + no);
+          if (L2 === 1) {
+            nv.draw_sprite("spr_btact", Ln[1], nC + L5 + 50 + LZ, 485 - nX + no);
+          } else if (this.disablesusieact === 1 && L2 === 2) {
+            nv.draw_sprite("spr_ja_bttech_grey", Ln[1], nC + L5 + 50 + LZ, 485 - nX + no);
+          } else {
+            nv.draw_sprite("spr_bttech", Ln[1], nC + L5 + 50 + LZ, 485 - nX + no);
+          }
+          nv.draw_sprite("spr_btitem", Ln[2], nC + L5 + 85 + LZ, 485 - nX + no);
+          nv.draw_sprite("spr_btspare", Ln[3], nC + L5 + 120 + LZ, 485 - nX + no);
+          nv.draw_sprite("spr_btdefend", Ln[4], nC + L5 + 155 + LZ, 485 - nX + no);
+          if (Ly === 1 && L4 === L6) {
+            nv.draw_sprite_ext("spr_btspare", 2, nC + L5 + 120 + LZ, 485 - nX + no, 1, 1, 0, IK.white, 0.4 + Ip(Ig.time / 6) * 0.4);
+          }
+          if (LD === 1 && L4 === L6) {
+            nv.draw_sprite_ext("spr_bttech", 2, nC + L5 + 50 + LZ, 485 - nX + no, 1, 1, 0, IK.white, 0.4 + Ip(Ig.time / 6) * 0.4);
+          }
         }
       }
       let LL = L4 === L6 ? L3 : this.bcolor;
-      (Ig.charselect === L6 || Ig.charselect === 0x3) && (LL = L3);
-      let Lw = 0x1e0;
-      Ig.fighting === 0x0 && (Lw = 0x1ae), Ig.fighting === 0x1 && (Lw = 0x150), nv.draw_set_color(LL), L9 ? (nv.draw_rectangle(nC + L5, 0x1e0 - nX - 0x2 + no + LA, nC + L5 + L8, 0x1e0 - nX + no, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(nC + L5 + 0x2, 0x1e0 - nX + no + LA, nC + L5 + L8 - 0x2, 0x1e0 - nX + no + LA + 0x21, !0x1)) : this.rouxlsgridenabled ? (nv.draw_rectangle(nC + L5, 0x1e0 - nX - 0x3 + no + LA, nC + L5 + L8, 0x1e0 - nX - 0x2 + no + LA, !0x1), LA < -0x20 && (nv.draw_rectangle(nC + L5, 0x1e0 - nX - 0x3 + no + LA, nC + L5 + 0x1, ne + Lw + 0x27 + LA, !0x1), nv.draw_rectangle(nC + L5 + L8 - 0x1, 0x1e0 - nX - 0x3 + no + LA, nC + L5 + L8, ne + Lw + 0x27 + LA, !0x1)), nv.draw_set_color(IK.black), L4 !== L6 && LA !== 0x0 ? nv.draw_rectangle(nC + L5 + 0x2, 0x1e0 - nX - 0x1 + no + LA, nC + L5 + L8 - 0x2, 0x1e0 - nX + no + 0x21, !0x1) : nv.draw_rectangle(nC + L5 + 0x2, 0x1e0 - nX - 0x1 + no + LA, nC + L5 + L8 - 0x2, 0x1e0 - nX + no + LA + 0x21, !0x1)) : (nv.draw_rectangle(nC + L5, 0x1e0 - nX - 0x3 + no + LA, nC + L5 + L8, 0x1e0 - nX + no - 0x2, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(nC + L5 + 0x2, 0x1e0 - nX - 0x1 + no + LA, nC + L5 + L8 - 0x2, 0x1e0 - nX + no + LA + 0x21, !0x1));
-      let LH = Ig.charhero && Ig.charhero[L1] || d[L2 - 0x1] || 'kris',
-        LW = k[LH] || k.kris,
-        Lg = LW.head && Ib[LW.head] ? LW.head : LW.head === null ? null : ['spr_headkris', 'spr_headsusie', 'spr_headralsei'][L2 - 0x1],
-        LR = LW.namesprite && Ib[LW.namesprite] ? LW.namesprite : LW.namesprite === null ? null : ['spr_bnamekris', 'spr_bnamesusie', 'spr_bnameralsei'][L2 - 0x1],
-        LG = {
-          'spr_bhero_head_a': [0x1, 0x29, 0x2],
-          'spr_bhero_head_b': [0x3, 0x2b, 0x2],
-          'spr_bhero_head_c': [0x2, 0x2b, 0x2],
-          'spr_bhero_head_d': [0x0, 0x24, 1.6]
-        },
-        LE = null;
-      L0 === 0x0 && Ig.chapter === 0x2 && Iv.with('o_boxingcontroller', Hi => {
-        LE = LG[Hi.headsprite] || null;
-      }), LE && (nv.draw_sprite_ext('spr_headthrash', LE[0x0], nC + LE[0x1] + L5, ne + 0x8 + Lw + LA, LE[0x2], LE[0x2], 0x0, IK.white, 0x1), Ib.spr_bnamethrash ? nv.draw_sprite('spr_bnamethrash', 0x0, nC + 0x33 + L5, ne + Lw + 0x3 + LA) : (nv.draw_set_font('fnt_mainbig'), nv.draw_text(nC + 0x2e + L5, ne + Lw + 0x2 + LA, String(Ig.charname[L1] || '\x20').toUpperCase(), IK.white))), !LE && !LR && nT(nv, String(Ig.charname[L1] || LW.name).toUpperCase(), nC + 0x2e + L5, ne + Lw + 0x2 + LA, 0x3c), !LE && Lg && nu(nv, Lg, Ig.faceaction[L6], nC + 0xd + L5, ne + Lw + LA), !LE && LR && nv.draw_sprite(LR, 0x0, nC + 0x33 + L5, ne + Lw + 0x3 + LA), nv.draw_sprite('spr_hpname', 0x0, nC + 0x6d + L5, ne + Lw + 0xb + LA);
+      if (Ig.charselect === L6 || Ig.charselect === 3) {
+        LL = L3;
+      }
+      let Lw = 480;
+      if (Ig.fighting === 0) {
+        Lw = 430;
+      }
+      if (Ig.fighting === 1) {
+        Lw = 336;
+      }
+      nv.draw_set_color(LL);
+      if (L9) {
+        nv.draw_rectangle(nC + L5, 480 - nX - 2 + no + LA, nC + L5 + L8, 480 - nX + no, false);
+        nv.draw_set_color(IK.black);
+        nv.draw_rectangle(nC + L5 + 2, 480 - nX + no + LA, nC + L5 + L8 - 2, 480 - nX + no + LA + 33, false);
+      } else if (this.rouxlsgridenabled) {
+        nv.draw_rectangle(nC + L5, 480 - nX - 3 + no + LA, nC + L5 + L8, 480 - nX - 2 + no + LA, false);
+        if (LA < -32) {
+          nv.draw_rectangle(nC + L5, 480 - nX - 3 + no + LA, nC + L5 + 1, ne + Lw + 39 + LA, false);
+          nv.draw_rectangle(nC + L5 + L8 - 1, 480 - nX - 3 + no + LA, nC + L5 + L8, ne + Lw + 39 + LA, false);
+        }
+        nv.draw_set_color(IK.black);
+        if (L4 !== L6 && LA !== 0) {
+          nv.draw_rectangle(nC + L5 + 2, 480 - nX - 1 + no + LA, nC + L5 + L8 - 2, 480 - nX + no + 33, false);
+        } else {
+          nv.draw_rectangle(nC + L5 + 2, 480 - nX - 1 + no + LA, nC + L5 + L8 - 2, 480 - nX + no + LA + 33, false);
+        }
+      } else {
+        nv.draw_rectangle(nC + L5, 480 - nX - 3 + no + LA, nC + L5 + L8, 480 - nX + no - 2, false);
+        nv.draw_set_color(IK.black);
+        nv.draw_rectangle(nC + L5 + 2, 480 - nX - 1 + no + LA, nC + L5 + L8 - 2, 480 - nX + no + LA + 33, false);
+      }
+      let LH = Ig.charhero && Ig.charhero[L1] || d[L2 - 1] || "kris";
+      let LW = k[LH] || k.kris;
+      let Lg = LW.head && Ib[LW.head] ? LW.head : LW.head === null ? null : ["spr_headkris", "spr_headsusie", "spr_headralsei"][L2 - 1];
+      let LR = LW.namesprite && Ib[LW.namesprite] ? LW.namesprite : LW.namesprite === null ? null : ["spr_bnamekris", "spr_bnamesusie", "spr_bnameralsei"][L2 - 1];
+      let LG = {
+        spr_bhero_head_a: [1, 41, 2],
+        spr_bhero_head_b: [3, 43, 2],
+        spr_bhero_head_c: [2, 43, 2],
+        spr_bhero_head_d: [0, 36, 1.6]
+      };
+      let LE = null;
+      if (L0 === 0 && Ig.chapter === 2) {
+        Iv.with("o_boxingcontroller", Hi => {
+          LE = LG[Hi.headsprite] || null;
+        });
+      }
+      if (LE) {
+        nv.draw_sprite_ext("spr_headthrash", LE[0], nC + LE[1] + L5, ne + 8 + Lw + LA, LE[2], LE[2], 0, IK.white, 1);
+        if (Ib.spr_bnamethrash) {
+          nv.draw_sprite("spr_bnamethrash", 0, nC + 51 + L5, ne + Lw + 3 + LA);
+        } else {
+          nv.draw_set_font("fnt_mainbig");
+          nv.draw_text(nC + 46 + L5, ne + Lw + 2 + LA, String(Ig.charname[L1] || " ").toUpperCase(), IK.white);
+        }
+      }
+      if (!LE && !LR) {
+        nT(nv, String(Ig.charname[L1] || LW.name).toUpperCase(), nC + 46 + L5, ne + Lw + 2 + LA, 60);
+      }
+      if (!LE && Lg) {
+        nu(nv, Lg, Ig.faceaction[L6], nC + 13 + L5, ne + Lw + LA);
+      }
+      if (!LE && LR) {
+        nv.draw_sprite(LR, 0, nC + 51 + L5, ne + Lw + 3 + LA);
+      }
+      nv.draw_sprite("spr_hpname", 0, nC + 109 + L5, ne + Lw + 11 + LA);
       let Lf = IK.white;
-      Ig.hp[L1] / Ig.maxhp[L1] <= 0.25 && (Lf = IK.yellow), Ig.hp[L1] <= 0x0 && (Lf = IK.red), nv.draw_set_halign('right'), nv.draw_spritefont('spr_numbersfontsmall', "0123456789-+", String(Ig.hp[L1]), nC + 0xa0 + L5, ne + Lw - 0x2 + LA, 0x1, 0x1, Lf, 0x1, 0x2), nv.draw_sprite('spr_hpslash', 0x0, nC + 0x9f + L5, ne + Lw - 0x4 + LA), nv.draw_spritefont('spr_numbersfontsmall', "0123456789-+", String(Ig.maxhp[L1]), nC + 0xcd + L5, ne + Lw - 0x2 + LA, 0x1, 0x1, Lf, 0x1, 0x2), nv.draw_set_halign('left'), nv.draw_set_color(IK.maroon), nv.draw_rectangle(nC + 0x80 + L5, ne + Lw + 0xb + LA, nC + 0xcb + L5, ne + Lw + 0x13 + LA, !0x1), Ig.hp[L1] > 0x0 && Ig.maxhp[L1] > 0x0 && (nv.draw_set_color(L3), nv.draw_rectangle(nC + 0x80 + L5, ne + Lw + 0xb + LA, nC + L5 + 0x80 + IY(Ig.hp[L1] / Ig.maxhp[L1] * 0x4b), ne + Lw + 0x13 + LA, !0x1));
+      if (Ig.hp[L1] / Ig.maxhp[L1] <= 0.25) {
+        Lf = IK.yellow;
+      }
+      if (Ig.hp[L1] <= 0) {
+        Lf = IK.red;
+      }
+      nv.draw_set_halign("right");
+      nv.draw_spritefont("spr_numbersfontsmall", "0123456789-+", String(Ig.hp[L1]), nC + 160 + L5, ne + Lw - 2 + LA, 1, 1, Lf, 1, 2);
+      nv.draw_sprite("spr_hpslash", 0, nC + 159 + L5, ne + Lw - 4 + LA);
+      nv.draw_spritefont("spr_numbersfontsmall", "0123456789-+", String(Ig.maxhp[L1]), nC + 205 + L5, ne + Lw - 2 + LA, 1, 1, Lf, 1, 2);
+      nv.draw_set_halign("left");
+      nv.draw_set_color(IK.maroon);
+      nv.draw_rectangle(nC + 128 + L5, ne + Lw + 11 + LA, nC + 203 + L5, ne + Lw + 19 + LA, false);
+      if (Ig.hp[L1] > 0 && Ig.maxhp[L1] > 0) {
+        nv.draw_set_color(L3);
+        nv.draw_rectangle(nC + 128 + L5, ne + Lw + 11 + LA, nC + L5 + 128 + IY(Ig.hp[L1] / Ig.maxhp[L1] * 75), ne + Lw + 19 + LA, false);
+      }
     }
   }
-  ["rouxlsCharbox"](nv, ne, nY, nS, nC, no, nX, L0) {
-    let L1 = Iv.first('obj_rouxls_ch3_enemy'),
-      L2 = Iv.first('obj_tenna_board4_enemy'),
-      L3 = 0x1e5 - nS + nC,
-      L4 = Ln => ne + 0xf + Ln * 0x23 + nY,
-      L5 = 'spr_btrouxls',
-      L6 = 'spr_btspade',
-      L7 = 'spr_btheart',
-      L8 = 'spr_btact';
-    if (this.dogcon === 0x1 && (L6 = 'spr_btdog'), this.dogcon === 0x2 && (L6 = 'spr_btdog', L7 = 'spr_btdog', L8 = 'spr_btdog'), this.rouxlserrorcon === 0x1 && this.dogcon < 0x1 && (this.rouxlstelegraphtimer++, this.rouxlstelegraphtimer >= 0x1 && this.rouxlstelegraphtimer <= 0x4 && (L5 = 'spr_btrouxls_select1'), this.rouxlstelegraphtimer >= 0x5 && this.rouxlstelegraphtimer <= 0x8 && (L5 = 'spr_btrouxls_select2'), this.rouxlstelegraphtimer === 0x8 && (this.rouxlstelegraphtimer = 0x0)), this.rouxlstelegraphcon === 0x1 && this.dogcon < 0x1 && (this.rouxlstelegraphtimer === 0x0 && Im('snd_bombfall'), this.rouxlstelegraphtimer++, this.rouxlstelegraphtimer >= 0x1 && this.rouxlstelegraphtimer <= 0x4 && (L5 = 'spr_btexclamation1'), this.rouxlstelegraphtimer >= 0x5 && this.rouxlstelegraphtimer <= 0x8 && (L5 = 'spr_btexclamation2'), this.rouxlstelegraphtimer === 0x8 && (this.rouxlstelegraphtimer = 0x0)), this.spadetelegraphcon === 0x1 && this.dogcon < 0x1 && (this.spadetelegraphtimer++, this.spadetelegraphtimer >= 0x1 && this.spadetelegraphtimer <= 0x4 && (L6 = 'spr_btexclamation1_spade'), this.spadetelegraphtimer >= 0x5 && this.spadetelegraphtimer <= 0x8 && (L6 = 'spr_btexclamation2'), this.spadetelegraphtimer === 0x8 && (this.spadetelegraphtimer = 0x0)), this.spadesuccesscon === 0x1 && this.heartsuccesscon === 0x0) {
+  rouxlsCharbox(nv, ne, nY, nS, nC, no, nX, L0) {
+    let L1 = Iv.first("obj_rouxls_ch3_enemy");
+    let L2 = Iv.first("obj_tenna_board4_enemy");
+    let L3 = 485 - nS + nC;
+    let L4 = Ln => ne + 15 + Ln * 35 + nY;
+    let L5 = "spr_btrouxls";
+    let L6 = "spr_btspade";
+    let L7 = "spr_btheart";
+    let L8 = "spr_btact";
+    if (this.dogcon === 1) {
+      L6 = "spr_btdog";
+    }
+    if (this.dogcon === 2) {
+      L6 = "spr_btdog";
+      L7 = "spr_btdog";
+      L8 = "spr_btdog";
+    }
+    if (this.rouxlserrorcon === 1 && this.dogcon < 1) {
+      this.rouxlstelegraphtimer++;
+      if (this.rouxlstelegraphtimer >= 1 && this.rouxlstelegraphtimer <= 4) {
+        L5 = "spr_btrouxls_select1";
+      }
+      if (this.rouxlstelegraphtimer >= 5 && this.rouxlstelegraphtimer <= 8) {
+        L5 = "spr_btrouxls_select2";
+      }
+      if (this.rouxlstelegraphtimer === 8) {
+        this.rouxlstelegraphtimer = 0;
+      }
+    }
+    if (this.rouxlstelegraphcon === 1 && this.dogcon < 1) {
+      if (this.rouxlstelegraphtimer === 0) {
+        Im("snd_bombfall");
+      }
+      this.rouxlstelegraphtimer++;
+      if (this.rouxlstelegraphtimer >= 1 && this.rouxlstelegraphtimer <= 4) {
+        L5 = "spr_btexclamation1";
+      }
+      if (this.rouxlstelegraphtimer >= 5 && this.rouxlstelegraphtimer <= 8) {
+        L5 = "spr_btexclamation2";
+      }
+      if (this.rouxlstelegraphtimer === 8) {
+        this.rouxlstelegraphtimer = 0;
+      }
+    }
+    if (this.spadetelegraphcon === 1 && this.dogcon < 1) {
       this.spadetelegraphtimer++;
-      let Ln = this.spadetelegraphtimer >= 0x5 ? 0x2 : 0x1;
-      this.spadetelegraphtimer >= 0x1 && this.spadetelegraphtimer <= 0x8 && (this.spadefail ? L8 = Ln === 0x1 ? 'spr_btact_fail1' : 'spr_btact_fail2' : (L6 = Ln === 0x1 ? 'spr_btspade_success' : 'spr_btspade_success2', (this.dogcon === 0x1 || this.dogcon === 0x2) && (L6 = Ln === 0x1 ? 'spr_btdog_success' : 'spr_btdog_success2', L8 = L6))), this.spadetelegraphtimer === 0x8 && (this.spadetelegraphtimer = 0x0);
+      if (this.spadetelegraphtimer >= 1 && this.spadetelegraphtimer <= 4) {
+        L6 = "spr_btexclamation1_spade";
+      }
+      if (this.spadetelegraphtimer >= 5 && this.spadetelegraphtimer <= 8) {
+        L6 = "spr_btexclamation2";
+      }
+      if (this.spadetelegraphtimer === 8) {
+        this.spadetelegraphtimer = 0;
+      }
     }
-    this.heartsuccesscon === 0x1 && (this.heartsuccesstimer++, this.heartsuccesstimer >= 0x1 && this.heartsuccesstimer <= 0x4 && (L7 = 'spr_btheart_success1'), this.heartsuccesstimer >= 0x5 && this.heartsuccesstimer <= 0x8 && (L7 = 'spr_btheart_success2'), this.heartsuccesstimer === 0x8 && (this.heartsuccesstimer = 0x0));
+    if (this.spadesuccesscon === 1 && this.heartsuccesscon === 0) {
+      this.spadetelegraphtimer++;
+      let Ln = this.spadetelegraphtimer >= 5 ? 2 : 1;
+      if (this.spadetelegraphtimer >= 1 && this.spadetelegraphtimer <= 8) {
+        if (this.spadefail) {
+          L8 = Ln === 1 ? "spr_btact_fail1" : "spr_btact_fail2";
+        } else {
+          L6 = Ln === 1 ? "spr_btspade_success" : "spr_btspade_success2";
+          if (this.dogcon === 1 || this.dogcon === 2) {
+            L6 = Ln === 1 ? "spr_btdog_success" : "spr_btdog_success2";
+            L8 = L6;
+          }
+        }
+      }
+      if (this.spadetelegraphtimer === 8) {
+        this.spadetelegraphtimer = 0;
+      }
+    }
+    if (this.heartsuccesscon === 1) {
+      this.heartsuccesstimer++;
+      if (this.heartsuccesstimer >= 1 && this.heartsuccesstimer <= 4) {
+        L7 = "spr_btheart_success1";
+      }
+      if (this.heartsuccesstimer >= 5 && this.heartsuccesstimer <= 8) {
+        L7 = "spr_btheart_success2";
+      }
+      if (this.heartsuccesstimer === 8) {
+        this.heartsuccesstimer = 0;
+      }
+    }
     let L9 = (LL, Lw, LH) => {
-      LL.introtimer = (LL.introtimer || 0x0) + 0x1, LL.introtimer === 0x1 && Im('snd_petrify');
+      LL.introtimer = (LL.introtimer || 0) + 1;
+      if (LL.introtimer === 1) {
+        Im("snd_petrify");
+      }
       let LW;
-      if (LL.introtimer < 0x1e) nv.draw_sprite('spr_btfight', 0x0, L4(0x0), L3), nv.draw_sprite('spr_btact', 0x0, L4(0x1), L3), nv.draw_sprite('spr_bttech', 0x0, L4(0x2), L3), nv.draw_sprite('spr_btitem', 0x0, L4(0x3), L3), nv.draw_sprite('spr_btspare', 0x0, L4(0x4), L3), LW = y(0x0, 1.2, LL.introtimer / 0x1d);else {
-        for (let Lg = 0x0; Lg < 0x5; Lg++) nv.draw_sprite('spr_btact', 0x0, L4(Lg), L3);
-        LW = y(0x1, 0x0, (LL.introtimer - 0x1e) / 0x1e), LH && (Ig.bmenucoord[0x0][0x0] = 0x2, Ig.bmenucoord[0x0][0x1] = 0x2, Ig.bmenucoord[0x0][0x2] = 0x2);
+      if (LL.introtimer < 30) {
+        nv.draw_sprite("spr_btfight", 0, L4(0), L3);
+        nv.draw_sprite("spr_btact", 0, L4(1), L3);
+        nv.draw_sprite("spr_bttech", 0, L4(2), L3);
+        nv.draw_sprite("spr_btitem", 0, L4(3), L3);
+        nv.draw_sprite("spr_btspare", 0, L4(4), L3);
+        LW = y(0, 1.2, LL.introtimer / 29);
+      } else {
+        for (let Lg = 0; Lg < 5; Lg++) {
+          nv.draw_sprite("spr_btact", 0, L4(Lg), L3);
+        }
+        LW = y(1, 0, (LL.introtimer - 30) / 30);
+        if (LH) {
+          Ig.bmenucoord[0][0] = 2;
+          Ig.bmenucoord[0][1] = 2;
+          Ig.bmenucoord[0][2] = 2;
+        }
       }
-      for (let LR = 0x0; LR < 0x5; LR++) nv.draw_sprite_ext('spr_btact_rouxls_white', 0x0, L4(LR), L3, 0x1, 0x1, 0x0, IK.white, LW);
-      Lw && LL.introtimer === 0x3c && (LL.intro = 0x3);
+      for (let LR = 0; LR < 5; LR++) {
+        nv.draw_sprite_ext("spr_btact_rouxls_white", 0, L4(LR), L3, 1, 1, 0, IK.white, LW);
+      }
+      if (Lw && LL.introtimer === 60) {
+        LL.intro = 3;
+      }
     };
-    if (L1 && L1.intro === 0x2) {
-      L9(L1, !0x0, !0x1);
+    if (L1 && L1.intro === 2) {
+      L9(L1, true, false);
       return;
     }
-    if (L2 && L2.intro === 0x1) {
-      L9(L2, !0x1, !0x0);
+    if (L2 && L2.intro === 1) {
+      L9(L2, false, true);
       return;
     }
-    let LI = 0x0,
-      LA = 0x1;
-    if (this.rouxlsgridenabled && (LA = 0x5), !!nX) for (let LL = 0x0; LL < LA; LL++) {
-      let Lw = y(0x8c, 0x0, IF(no / 0xaa)),
-        LH = LI * 0x20 + no * 0.75 + Lw;
-      LA === 0x1 && (LH += 0x20), LH > 0x0 && (LH = 0x0);
-      let LW = L8;
-      LI !== 0x4 && this.rouxlsgridenabled && (LW = 'spr_btact_ex');
-      for (let Lg = 0x0; Lg < 0x5; Lg++) {
-        let LR = Lg + 0x1 + LI * 0x5,
-          LG = L0[Lg + LI * 0x5] || 0x0,
-          LE = LW;
-        this.rouxlsbuttoncount === LR || this.rouxlsbuttoncount2 === LR ? LE = L5 : this.spadebuttoncount === LR ? LE = L6 : this.heartbuttoncount === LR && (LE = L7), nv.draw_sprite(LE, LG, L4(Lg), L3 + LH);
+    let LI = 0;
+    let LA = 1;
+    if (this.rouxlsgridenabled) {
+      LA = 5;
+    }
+    if (nX) {
+      for (let LL = 0; LL < LA; LL++) {
+        let Lw = y(140, 0, IF(no / 170));
+        let LH = LI * 32 + no * 0.75 + Lw;
+        if (LA === 1) {
+          LH += 32;
+        }
+        if (LH > 0) {
+          LH = 0;
+        }
+        let LW = L8;
+        if (LI !== 4 && this.rouxlsgridenabled) {
+          LW = "spr_btact_ex";
+        }
+        for (let Lg = 0; Lg < 5; Lg++) {
+          let LR = Lg + 1 + LI * 5;
+          let LG = L0[Lg + LI * 5] || 0;
+          let LE = LW;
+          if (this.rouxlsbuttoncount === LR || this.rouxlsbuttoncount2 === LR) {
+            LE = L5;
+          } else if (this.spadebuttoncount === LR) {
+            LE = L6;
+          } else if (this.heartbuttoncount === LR) {
+            LE = L7;
+          }
+          nv.draw_sprite(LE, LG, L4(Lg), L3 + LH);
+        }
+        LI++;
       }
-      LI++;
     }
   }
-  ["selectionmatrix"](A, nv, ne, nY, nS = 0xd2) {
-    this.s_siner += 0x2, A.draw_set_color(nY), A.draw_rectangle(nv, ne, nv + nS, ne + 0x3, !0x1);
-    for (let nC = 0x0; nC < 0xc; nC++) {
-      let no = this.s_siner + nC * (0xa * Math.PI);
-      A.draw_set_alpha(Math.max(0x0, Ip(no / 0x3c))), A.draw_line_width(nv, ne, nv, ne + 0x21, 0x2), A.draw_line_width(nv + nS, ne, nv + nS, ne + 0x21, 0x2), Iy(no / 0x3c) < 0x0 && (A.draw_line_width(nv - Ip(no / 0x3c) * 0x1e + 0x1e, ne, nv - Ip(no / 0x3c) * 0x1e + 0x1e, ne + 0x21, 0x2), A.draw_line_width(nv + nS + Ip(no / 0x3c) * 0x1e - 0x1e, ne, nv + nS + Ip(no / 0x3c) * 0x1e - 0x1e, ne + 0x21, 0x2));
+  selectionmatrix(A, nv, ne, nY, nS = 210) {
+    this.s_siner += 2;
+    A.draw_set_color(nY);
+    A.draw_rectangle(nv, ne, nv + nS, ne + 3, false);
+    for (let nC = 0; nC < 12; nC++) {
+      let no = this.s_siner + nC * (Math.PI * 10);
+      A.draw_set_alpha(Math.max(0, Ip(no / 60)));
+      A.draw_line_width(nv, ne, nv, ne + 33, 2);
+      A.draw_line_width(nv + nS, ne, nv + nS, ne + 33, 2);
+      if (Iy(no / 60) < 0) {
+        A.draw_line_width(nv - Ip(no / 60) * 30 + 30, ne, nv - Ip(no / 60) * 30 + 30, ne + 33, 2);
+        A.draw_line_width(nv + nS + Ip(no / 60) * 30 - 30, ne, nv + nS + Ip(no / 60) * 30 - 30, ne + 33, 2);
+      }
     }
-    A.draw_set_alpha(0x1);
+    A.draw_set_alpha(1);
   }
-  ["groupBox"](nv, ne, nY, nS, nC) {
-    let no = this.bp,
-      nX = Ig.chapter === 0x1,
-      {
-        x: L0,
-        w: L1
-      } = nC,
-      L2 = nC.group.map(LG => Ig.char[s(LG)]).filter(Boolean);
-    if (!L2.length) return;
-    let L3 = L2[0x0],
-      L4 = IR(L3),
-      L5 = h(L3),
-      L6 = V(L3) || (Q(L3) === 'noelle' ? IK.yellow : this.hpcolor[L4 - 0x1]) || IK.white;
-    nv.draw_set_color(this.bcolor), nX ? (nv.draw_rectangle(L0, 0x1e0 - no - 0x2 + nY, L0 + L1, 0x1e0 - no + nY, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(L0 + 0x2, 0x1e0 - no + nY, L0 + L1 - 0x2, 0x1e0 - no + nY + 0x21, !0x1)) : (nv.draw_rectangle(L0, 0x1e0 - no - 0x3 + nY, L0 + L1, 0x1e0 - no + nY - 0x2, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(L0 + 0x2, 0x1e0 - no - 0x1 + nY, L0 + L1 - 0x2, 0x1e0 - no + nY + 0x21, !0x1));
-    let L7 = ne + nS,
-      L8 = L0 + L1 - 0x6,
-      L9 = L5.head && Ib[L5.head] ? L5.head : L5.head === null ? null : ['spr_headkris', 'spr_headsusie', 'spr_headralsei'][L4 - 0x1],
-      LI = String(L5.name || Ig.charname[L3]).toUpperCase() + (L2.length > 0x1 ? '\x20X' + L2.length : ''),
-      LA = !!L9 && L1 - 0x30 >= AR(LI).narrow,
-      Ln = LA ? L0 + 0x2a : L0 + 0x6;
-    LA && nu(nv, L9, 0x0, L0 + 0x5, L7);
-    let LL = 0x0,
-      Lw = 0x0,
-      LH = 0x0;
-    for (let LG of L2) LL += Math.max(0x0, Ig.hp[LG]), Lw += Ig.maxhp[LG], Ig.hp[LG] > 0x0 && LH++;
+  groupBox(nv, ne, nY, nS, nC) {
+    let no = this.bp;
+    let nX = Ig.chapter === 1;
+    let {
+      x: L0,
+      w: L1
+    } = nC;
+    let L2 = nC.group.map(LG => Ig.char[s(LG)]).filter(Boolean);
+    if (!L2.length) {
+      return;
+    }
+    let L3 = L2[0];
+    let L4 = IR(L3);
+    let L5 = h(L3);
+    let L6 = V(L3) || (Q(L3) === "noelle" ? IK.yellow : this.hpcolor[L4 - 1]) || IK.white;
+    nv.draw_set_color(this.bcolor);
+    if (nX) {
+      nv.draw_rectangle(L0, 480 - no - 2 + nY, L0 + L1, 480 - no + nY, false);
+      nv.draw_set_color(IK.black);
+      nv.draw_rectangle(L0 + 2, 480 - no + nY, L0 + L1 - 2, 480 - no + nY + 33, false);
+    } else {
+      nv.draw_rectangle(L0, 480 - no - 3 + nY, L0 + L1, 480 - no + nY - 2, false);
+      nv.draw_set_color(IK.black);
+      nv.draw_rectangle(L0 + 2, 480 - no - 1 + nY, L0 + L1 - 2, 480 - no + nY + 33, false);
+    }
+    let L7 = ne + nS;
+    let L8 = L0 + L1 - 6;
+    let L9 = L5.head && Ib[L5.head] ? L5.head : L5.head === null ? null : ["spr_headkris", "spr_headsusie", "spr_headralsei"][L4 - 1];
+    let LI = String(L5.name || Ig.charname[L3]).toUpperCase() + (L2.length > 1 ? " X" + L2.length : "");
+    let LA = !!L9 && L1 - 48 >= AR(LI).narrow;
+    let Ln = LA ? L0 + 42 : L0 + 6;
+    if (LA) {
+      nu(nv, L9, 0, L0 + 5, L7);
+    }
+    let LL = 0;
+    let Lw = 0;
+    let LH = 0;
+    for (let LG of L2) {
+      LL += Math.max(0, Ig.hp[LG]);
+      Lw += Ig.maxhp[LG];
+      if (Ig.hp[LG] > 0) {
+        LH++;
+      }
+    }
     let LW = AG(LI, L8 - Ln);
-    LW && (Ib[LW].w <= L8 - Ln ? nv.draw_sprite(LW, 0x0, Ln, L7 - 0x5) : nv.draw_sprite_part(LW, 0x0, 0x0, 0x0, L8 - Ln, 0xf, Ln, L7 - 0x5));
-    let Lg = Ln,
-      LR = L8 - 0x1;
-    nv.draw_set_color(IK.maroon), nv.draw_rectangle(Lg, L7 + 0xb, LR, L7 + 0x13, !0x1), LL > 0x0 && Lw > 0x0 && (nv.draw_set_color(LH < L2.length ? Iq(L6, IK.yellow, 0.3) : L6), nv.draw_rectangle(Lg, L7 + 0xb, Lg + IY(LL / Lw * (LR - Lg)), L7 + 0x13, !0x1));
-  }
-  ["charboxCompact"](nv, ne, nY, nS) {
-    let nC = this.bp,
-      no = Ig.chapter === 0x1,
-      nX = Ig.charturn,
-      L0 = 0x1e0;
-    if (Ig.fighting === 0x0 && (L0 = 0x1ae), Ig.fighting === 0x1 && (L0 = 0x150), this.boxLay = nS, nS.crowd) {
-      let L1 = (nS.turn >= 0x0 ? "TURN " + (nS.turn + 0x1) + " OF " + nS.total + "  C ALL FIGHT" : "PARTY OF " + nS.total) + (nS.pages > 0x1 ? "  PAGE " + (nS.page + 0x1) + " OF " + nS.pages : ''),
-        L2 = AG(L1, 0x190);
-      L2 && nv.draw_sprite(L2, 0x0, 0x27c - Ib[L2].w, 0x1e0 - this.bp + nY - 0x36);
+    if (LW) {
+      if (Ib[LW].w <= L8 - Ln) {
+        nv.draw_sprite(LW, 0, Ln, L7 - 5);
+      } else {
+        nv.draw_sprite_part(LW, 0, 0, 0, L8 - Ln, 15, Ln, L7 - 5);
+      }
     }
-    for (let L3 = 0x0; L3 < nS.length; L3++) {
+    let Lg = Ln;
+    let LR = L8 - 1;
+    nv.draw_set_color(IK.maroon);
+    nv.draw_rectangle(Lg, L7 + 11, LR, L7 + 19, false);
+    if (LL > 0 && Lw > 0) {
+      nv.draw_set_color(LH < L2.length ? Iq(L6, IK.yellow, 0.3) : L6);
+      nv.draw_rectangle(Lg, L7 + 11, Lg + IY(LL / Lw * (LR - Lg)), L7 + 19, false);
+    }
+  }
+  charboxCompact(nv, ne, nY, nS) {
+    let nC = this.bp;
+    let no = Ig.chapter === 1;
+    let nX = Ig.charturn;
+    let L0 = 480;
+    if (Ig.fighting === 0) {
+      L0 = 430;
+    }
+    if (Ig.fighting === 1) {
+      L0 = 336;
+    }
+    this.boxLay = nS;
+    if (nS.crowd) {
+      let L1 = (nS.turn >= 0 ? "TURN " + (nS.turn + 1) + " OF " + nS.total + "  C ALL FIGHT" : "PARTY OF " + nS.total) + (nS.pages > 1 ? "  PAGE " + (nS.page + 1) + " OF " + nS.pages : "");
+      let L2 = AG(L1, 400);
+      if (L2) {
+        nv.draw_sprite(L2, 0, 636 - Ib[L2].w, 480 - this.bp + nY - 54);
+      }
+    }
+    for (let L3 = 0; L3 < nS.length; L3++) {
       if (nS[L3].group) {
         this.groupBox(nv, ne, nY, L0, nS[L3]);
         continue;
       }
       let L4 = nS[L3].slot;
-      if (this.havechar[L4] !== 0x1) continue;
-      let L5 = s(L4),
-        L6 = Ig.char[L5],
-        L7 = IR(L6),
-        L8 = V(L6) || (Q(L6) === 'noelle' ? IK.yellow : this.hpcolor[L7 - 0x1]) || IK.white,
-        {
-          x: L9,
-          w: LI
-        } = nS[L3],
-        LA = nX === L4 && Ig.myfight === 0x0;
-      nX === L4 ? (this.mmy[L4] > -0x20 && (this.mmy[L4] -= 0x2), this.mmy[L4] > -0x18 && (this.mmy[L4] -= 0x4), this.mmy[L4] > -0x10 && (this.mmy[L4] -= 0x6), this.mmy[L4] > -0x8 && (this.mmy[L4] -= 0x8), this.mmy[L4] < -0x20 && (this.mmy[L4] = -0x40)) : this.mmy[L4] < -0xe ? this.mmy[L4] += 0xf : this.mmy[L4] = 0x0;
-      let Ln = this.mmy[L4];
-      if (LA && this.selectionmatrix(nv, L9, 0x1e0 - nC + nY, L8, LI - 0x2), Ig.fighting === 0x1 && nX === L4) {
-        let Lp = [0x0, 0x0, 0x0, 0x0, 0x0];
-        Lp[Ig.bmenucoord[0x0][nX]] = 0x1;
-        let Ly = 0x0;
-        for (let Lb = 0x0; Lb < 0x3; Lb++) Ig.monster[Lb] === 0x1 && Ig.mercymod[Lb] >= 0x64 && (Ly = 0x1);
-        let LD = L9 + Math.max(0x4, Math.floor((LI - 0xab) / 0x2)),
-          LZ = 0x1e5 - nC + nY;
-        if (this.oopsallacts === 0x1 && (Iv.exists('obj_rouxls_ch3_enemy') || Iv.exists('obj_tenna_board4_enemy'))) {
-          let HM = new Array(0x19).fill(0x0);
-          HM[Ig.bmenucoord[0x0][nX] + this.rouxlsbuttoncount_y * 0x5] = 0x1, this.rouxlsCharbox(nv, LD - 0x14, 0x5, nC, nY, Ln, !0x0, HM), this.boxBtnX = LD;
-        } else nv.draw_sprite('spr_btfight', Lp[0x0], LD, LZ), nv.draw_sprite(L7 === 0x1 ? 'spr_btact' : 'spr_bttech', Lp[0x1], LD + 0x23, LZ), nv.draw_sprite('spr_btitem', Lp[0x2], LD + 0x46, LZ), nv.draw_sprite('spr_btspare', Lp[0x3], LD + 0x69, LZ), nv.draw_sprite('spr_btdefend', Lp[0x4], LD + 0x8c, LZ), Ly === 0x1 && nv.draw_sprite_ext('spr_btspare', 0x2, LD + 0x69, LZ, 0x1, 0x1, 0x0, IK.white, 0.4 + Ip(Ig.time / 0x6) * 0.4), this.boxBtnX = LD;
+      if (this.havechar[L4] !== 1) {
+        continue;
       }
-      nv.draw_set_color(nX === L4 ? L8 : this.bcolor), no ? (nv.draw_rectangle(L9, 0x1e0 - nC - 0x2 + nY + Ln, L9 + LI, 0x1e0 - nC + nY, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(L9 + 0x2, 0x1e0 - nC + nY + Ln, L9 + LI - 0x2, 0x1e0 - nC + nY + Ln + 0x21, !0x1)) : (nv.draw_rectangle(L9, 0x1e0 - nC - 0x3 + nY + Ln, L9 + LI, 0x1e0 - nC + nY - 0x2, !0x1), nv.draw_set_color(IK.black), nv.draw_rectangle(L9 + 0x2, 0x1e0 - nC - 0x1 + nY + Ln, L9 + LI - 0x2, 0x1e0 - nC + nY + Ln + 0x21, !0x1));
-      let LL = h(L6),
-        Lw = ne + L0 + Ln,
-        LH = LL.head && Ib[LL.head] ? LL.head : LL.head === null ? null : ['spr_headkris', 'spr_headsusie', 'spr_headralsei'][L7 - 0x1],
-        LW = !!LH && LI >= 0x82,
-        Lg = LW ? L9 + 0x2a : L9 + 0x6,
-        LR = L9 + LI - 0x6;
-      LW && nu(nv, LH, Ig.faceaction[L5], L9 + 0x5, Lw);
-      let LG = String(Ig.charname[L6] || LL.name).toUpperCase(),
-        LE = String(Ig.hp[L6]).length * 0x8,
-        Lf = LR - Lg >= AR(LG).narrow + 0x8 + 0x30 + LE,
-        La = Lf ? 0x30 + LE : LE,
-        LN = IK.white;
-      Ig.hp[L6] / Ig.maxhp[L6] <= 0.25 && (LN = IK.yellow), Ig.hp[L6] <= 0x0 && (LN = IK.red), nv.draw_set_halign('right'), Lf ? (nv.draw_spritefont('spr_numbersfontsmall', "0123456789-+", String(Ig.hp[L6]), LR - 0x2e, Lw - 0x2, 0x1, 0x1, LN, 0x1, 0x2), nv.draw_sprite('spr_hpslash', 0x0, LR - 0x2f, Lw - 0x4), nv.draw_spritefont('spr_numbersfontsmall', "0123456789-+", String(Ig.maxhp[L6]), LR + 0x1, Lw - 0x2, 0x1, 0x1, LN, 0x1, 0x2)) : nv.draw_spritefont('spr_numbersfontsmall', "0123456789-+", String(Ig.hp[L6]), LR, Lw - 0x2, 0x1, 0x1, LN, 0x1, 0x2), nv.draw_set_halign('left');
+      let L5 = s(L4);
+      let L6 = Ig.char[L5];
+      let L7 = IR(L6);
+      let L8 = V(L6) || (Q(L6) === "noelle" ? IK.yellow : this.hpcolor[L7 - 1]) || IK.white;
+      let {
+        x: L9,
+        w: LI
+      } = nS[L3];
+      let LA = nX === L4 && Ig.myfight === 0;
+      if (nX === L4) {
+        if (this.mmy[L4] > -32) {
+          this.mmy[L4] -= 2;
+        }
+        if (this.mmy[L4] > -24) {
+          this.mmy[L4] -= 4;
+        }
+        if (this.mmy[L4] > -16) {
+          this.mmy[L4] -= 6;
+        }
+        if (this.mmy[L4] > -8) {
+          this.mmy[L4] -= 8;
+        }
+        if (this.mmy[L4] < -32) {
+          this.mmy[L4] = -64;
+        }
+      } else if (this.mmy[L4] < -14) {
+        this.mmy[L4] += 15;
+      } else {
+        this.mmy[L4] = 0;
+      }
+      let Ln = this.mmy[L4];
+      if (LA) {
+        this.selectionmatrix(nv, L9, 480 - nC + nY, L8, LI - 2);
+      }
+      if (Ig.fighting === 1 && nX === L4) {
+        let Lp = [0, 0, 0, 0, 0];
+        Lp[Ig.bmenucoord[0][nX]] = 1;
+        let Ly = 0;
+        for (let Lb = 0; Lb < 3; Lb++) {
+          if (Ig.monster[Lb] === 1 && Ig.mercymod[Lb] >= 100) {
+            Ly = 1;
+          }
+        }
+        let LD = L9 + Math.max(4, Math.floor((LI - 171) / 2));
+        let LZ = 485 - nC + nY;
+        if (this.oopsallacts === 1 && (Iv.exists("obj_rouxls_ch3_enemy") || Iv.exists("obj_tenna_board4_enemy"))) {
+          let HM = new Array(25).fill(0);
+          HM[Ig.bmenucoord[0][nX] + this.rouxlsbuttoncount_y * 5] = 1;
+          this.rouxlsCharbox(nv, LD - 20, 5, nC, nY, Ln, true, HM);
+          this.boxBtnX = LD;
+        } else {
+          nv.draw_sprite("spr_btfight", Lp[0], LD, LZ);
+          nv.draw_sprite(L7 === 1 ? "spr_btact" : "spr_bttech", Lp[1], LD + 35, LZ);
+          nv.draw_sprite("spr_btitem", Lp[2], LD + 70, LZ);
+          nv.draw_sprite("spr_btspare", Lp[3], LD + 105, LZ);
+          nv.draw_sprite("spr_btdefend", Lp[4], LD + 140, LZ);
+          if (Ly === 1) {
+            nv.draw_sprite_ext("spr_btspare", 2, LD + 105, LZ, 1, 1, 0, IK.white, 0.4 + Ip(Ig.time / 6) * 0.4);
+          }
+          this.boxBtnX = LD;
+        }
+      }
+      nv.draw_set_color(nX === L4 ? L8 : this.bcolor);
+      if (no) {
+        nv.draw_rectangle(L9, 480 - nC - 2 + nY + Ln, L9 + LI, 480 - nC + nY, false);
+        nv.draw_set_color(IK.black);
+        nv.draw_rectangle(L9 + 2, 480 - nC + nY + Ln, L9 + LI - 2, 480 - nC + nY + Ln + 33, false);
+      } else {
+        nv.draw_rectangle(L9, 480 - nC - 3 + nY + Ln, L9 + LI, 480 - nC + nY - 2, false);
+        nv.draw_set_color(IK.black);
+        nv.draw_rectangle(L9 + 2, 480 - nC - 1 + nY + Ln, L9 + LI - 2, 480 - nC + nY + Ln + 33, false);
+      }
+      let LL = h(L6);
+      let Lw = ne + L0 + Ln;
+      let LH = LL.head && Ib[LL.head] ? LL.head : LL.head === null ? null : ["spr_headkris", "spr_headsusie", "spr_headralsei"][L7 - 1];
+      let LW = !!LH && LI >= 130;
+      let Lg = LW ? L9 + 42 : L9 + 6;
+      let LR = L9 + LI - 6;
+      if (LW) {
+        nu(nv, LH, Ig.faceaction[L5], L9 + 5, Lw);
+      }
+      let LG = String(Ig.charname[L6] || LL.name).toUpperCase();
+      let LE = String(Ig.hp[L6]).length * 8;
+      let Lf = LR - Lg >= AR(LG).narrow + 8 + 48 + LE;
+      let La = Lf ? 48 + LE : LE;
+      let LN = IK.white;
+      if (Ig.hp[L6] / Ig.maxhp[L6] <= 0.25) {
+        LN = IK.yellow;
+      }
+      if (Ig.hp[L6] <= 0) {
+        LN = IK.red;
+      }
+      nv.draw_set_halign("right");
+      if (Lf) {
+        nv.draw_spritefont("spr_numbersfontsmall", "0123456789-+", String(Ig.hp[L6]), LR - 46, Lw - 2, 1, 1, LN, 1, 2);
+        nv.draw_sprite("spr_hpslash", 0, LR - 47, Lw - 4);
+        nv.draw_spritefont("spr_numbersfontsmall", "0123456789-+", String(Ig.maxhp[L6]), LR + 1, Lw - 2, 1, 1, LN, 1, 2);
+      } else {
+        nv.draw_spritefont("spr_numbersfontsmall", "0123456789-+", String(Ig.hp[L6]), LR, Lw - 2, 1, 1, LN, 1, 2);
+      }
+      nv.draw_set_halign("left");
       {
-        let HB = String(Ig.charname[L6] || LL.name).toUpperCase(),
-          Hi = Math.max(0x10, LR - Lg - La - 0x8),
-          Hx = AG(HB, Hi);
+        let HB = String(Ig.charname[L6] || LL.name).toUpperCase();
+        let Hi = Math.max(16, LR - Lg - La - 8);
+        let Hx = AG(HB, Hi);
         if (Hx) {
           let HU = Ib[Hx].w;
-          nv.draw_sprite_ext(Hx, 0x0, Lg, Lw - 0x5, HU > Hi ? Hi / HU : 0x1, 0x1, 0x0, IK.white, 0x1);
-        } else nv.draw_set_font('fnt_main'), nv.draw_text(Lg, Lw - 0x5, HB, IK.white), nv.draw_set_font('fnt_mainbig');
+          nv.draw_sprite_ext(Hx, 0, Lg, Lw - 5, HU > Hi ? Hi / HU : 1, 1, 0, IK.white, 1);
+        } else {
+          nv.draw_set_font("fnt_main");
+          nv.draw_text(Lg, Lw - 5, HB, IK.white);
+          nv.draw_set_font("fnt_mainbig");
+        }
       }
-      let LJ = Lg,
-        LF = LR - 0x1;
-      nv.draw_set_color(IK.maroon), nv.draw_rectangle(LJ, Lw + 0xb, LF, Lw + 0x13, !0x1), Ig.hp[L6] > 0x0 && Ig.maxhp[L6] > 0x0 && (nv.draw_set_color(L8), nv.draw_rectangle(LJ, Lw + 0xb, LJ + IY(Ig.hp[L6] / Ig.maxhp[L6] * (LF - LJ)), Lw + 0x13, !0x1));
+      let LJ = Lg;
+      let LF = LR - 1;
+      nv.draw_set_color(IK.maroon);
+      nv.draw_rectangle(LJ, Lw + 11, LF, Lw + 19, false);
+      if (Ig.hp[L6] > 0 && Ig.maxhp[L6] > 0) {
+        nv.draw_set_color(L8);
+        nv.draw_rectangle(LJ, Lw + 11, LJ + IY(Ig.hp[L6] / Ig.maxhp[L6] * (LF - LJ)), Lw + 19, false);
+      }
     }
   }
 };
-IC(nx, 'obj_battlecontroller'), Io(nx, 'kinds', Ij('obj_battlecontroller', Id)), Io(nx, 'defaultDepth', 0x5), Io(nx, 'screenSpace', !0x0);
+IC(nx, "obj_battlecontroller");
+Io(nx, "kinds", Ij("obj_battlecontroller", Id));
+Io(nx, "defaultDepth", 5);
+Io(nx, "screenSpace", true);
 var nU = nx;
-function nr() {
-  const A = ["ettdUmk4W7v9W73dRf/dPW", 'WPddNSk4zem', "W7RdPCo9CqZcTM/dNG", 'e8kaWP8xj8kLm8oZ', 'cCo1W4ldNCkou1e6', "v8oNW6/dUmk9W4GRCfe", 'WPFcSSkNfvC', 'WRrdACoxia', 'W6yvWPVcSSoWWQbO', 'W6dcVmk3W77cVq', 'CgPyW5JcKmk9W459', "W5/dLCoQq39EWQldNJK", 'uSopW68iWR0XWPhcTG', 'W5KAW5aAW7tcOuydW5ry', 'W6rEW5RdKCkTW7PdW4dcJCozW6ZdLW', 'wmk1WQZcUSoK', 'pZCRx3OFW4hcKG', 'WRRcMSoNW6hdOXxcV8kv', 'W4FcSmoUBSkrW4y', 'W4fVbCokcSo4WRddGW', 'CghdQ2XB', 'WObHA8kYW6KRW6eM', 'WRFcL8oNW6ZdRHxcSSky', 'fCkGiM0E', 'j33cOMJdGCkf', 'mIeyWPhdISo2', 'lbbRW5iQWR0imG', 'W5ldMmoQq39E', 'WOVcTmkpgN8MW5BcMx9z', 'lhBcVmoys8kQW5hcHSkUW7C', "WPblW5/dUuqbW7joma", 'WQDPWRqaWPK', 'W7FdQmoWCqZcU2ldKW', 'W74eWOldRh08sMqVW6q', 'WQ3dKSkmiSo3W4JcNvLKW6G', 'e3xdNCoRfr0nAhFcSq', "peeIbZ/dIXPK", 'qSorsWHtWOnTW74H', 'pCkQWQTFW5TlW6ldVSkYW7C', "hSknWP8xkSkOpSo+", "W7/dGCoMW58qW5urva", 'WQddKWPvnW', 'WQKNASk9yG', 'o8oZWQVcHWG', "umo/W7pdNCky", 'WQ7cHCk1oKa', 'W7GZW6nOW6lcNLBcGG', 'j8oVqCkvlhvQDW', 'WObHA8kYW6KRW6WR', 'hmoPW71EW7RdJZxdJSoy', 'fmkEWRnjW6e', 've7dUCo6qq', "WR/dNSoqWOVdQmoMcXq", 'bgJcS8ojsSktW6ZcHG', 'ACkvhSkvEbyMgmo0WO0', 'e8kaWPiAkSkOm8oZ', 'yCooW4JdV8ke', 'b8keWPZdVCouoSkekW', 'WRtdMmkVoSok', 'bmo1W4ldNCkou1e3', 'W6CApmoiWO1sWOzDnay', 'W4XIbCohb8o4WR3dJG', 'mJOMuNCsW4hcNW', 'WRldNSoDWOBdPCoRbHq', 'WOjfFmoyoG', 'WRzbE8o3la', 'W6yHa8kVEmk2wYu', 'j8oVqCkvlhvNEG', 'W5PRWQRdG8oN', 'WP8SW4JdI0O', 'hdlcN8kS', 'WRFcMSoQW6ZdRHJcV8ky', 'WPXvWQGaWPa', 'W4OYaSoseG', 'sttcPSk1', 'qSorrGvtWOnGW74', 'WPLwWP1kWQpdSbbd', 'rdNcPSk1s1zCca', 'W6BcVSoXjW', 'WQLsWOhdOSkPyq', 'WR4hz8kGumkeW7xcUmk3W5W', 'W6SSa8kV', 'v2ZcHmoDWQWzWPZcLa', 'W4PIWRxdVCo7', 'W4fVbCohb8o4WR3dJG', 'W4JcM2GIx8oqDmkv', 'W6VdO8kBWQVcOq', 'W6OtWONdTf0X', 'FwDvW5xcNCk9W45WWQO', 'W4xcLMGIx8oqECky', 'rdNcPSk1s1zrbq', 'W6bACCknWR5pg8k2', "WObHzSk/W6qMW6eM", "WRL/smksBdRdM8oU", 'W5xdUr0UW6z4g0XWWPu', 'W48TiG', 'x8opW6ifWRa8WPhcUW', 'WPydW7FcU8k8EmoMWRC', 'tdpdS8keemouWQddIW', 'CgPyW5JcKmkW', 'W5LMWPdcOYnUDSkn', 'WPSoW7FcU8kXDCoMWRC', 'a8o4WQNcRJe', 'fmolW7H7W53dTXBdTSoSW7y', 'qSorsWHtWOnGW74', 'wMhcICoDWQWuWPhcMq', 'CSkrWO3cQCoN', 'smkpj8o8qa', 'W7NcOCoTw8kbWQZdQZ4', 'W7RdPCo9Fa', 'W7eDdSoSiW', 'j8oVtmkyixHNEG', 'lbbRW5iQWR0fpW', 'W7tcOCoGvSkmWQhdQZm', 'WRzyW4pcRXb6', 'cSkeWPZdVCouoG', 'W6yHdSkIDCk2wYxdRW', 'W6OvWQddHxC', 'nCk7WQHLW4u', 'uSo6W6LCqG', 'W4f0WQJdGCoziCkDW51pWP8', 'W4JcM2uIx8oDDmkv', 'FmkcW6FdVmkHW54OtMdcMa', 'W70YWRtcOIC', 'W4XIbCohb8o4WRddGW', 'FgxdK1xdR2tdNSkI', 'W499WPNdNSoY', 'W6yHa8kVDCk7vIG', 'irbMW58NWRaipW', "W7FdQmo9FahcTM/dKW0", 'qt7dS8keemouWQ3dHG', 'W5mlcY0C', "WQxdP8k+fmodW6ZcRq", 'igddICo6iq', 'W7tdMmk5', 'CeRdVwDZ', "WRpdM8o+i27cTgus", "WOhdU8kPkSoAWPZdGmo/", "W5/dLCoNtNjtWQ/dNG", 'W7FdQmo9FaZcU2ldKW', 'WRTvW4pcRXb6btG', 'cYFcTcqTeKKp', 'WQJdRW50mq', 'cYFcTcqGh0Kp', 'W68kWQDdW6u', 'WRhcSSk0cWm', 'DSkwW5ldT2RcUdpcHG', 'a8kIWOLbW78', 'WQDTAKfXtCk4W4W', 'W5ldMmoQqW', 'wmo4W4WXWRhcQa', 'WOiyW63cO8kDjWuE', "yCozW6CmWO3cGtRdPI/dLa", 'W4mWW7KgW7pcP3K5W5PN', "WP/cM8kXWRTl", "hd/cKSkHeXVcQSon", 'W7mYamot', 'x8ocW68iWR0XWPhcTG', 'WQPiW5GBWQFdMmkllq', 'fIddGmkBW6Xd', 'WP7dJCk9dCoa', "W7RdPCo9FaZcU2/dNG", 'WRKMW5JdG1u', 'gJddN8oZzei', 'E8oMW53cMmkV', 'W5LMWPdcOYnUE8ka', 'WRpdM8oZlMpcUwus', 'WRRcMSoNW6hdOXxcSSky', 'WOhdU8kPj8oxWPZdJCoY', 'kfFcT8oZFq', 'WPSoW7RcTSk8EmoRWRO', 'ySo3W64bWOC', 'WR3cSCkfoXS2W57cRvj6', "mueVbZ/dHHDK", 'k8kBWRhcPmo8WP9Nda', 'peeIcJldIXPK', 'WR3dQMOTW6G0W4u1qa', 'WPDDWPFdVSkw', 'W5rRWPdcOYnU', 'k8kBWRhcQCoXWPjNda', 'W5LMWP3cRI5JDSkn', 'qSk1WRWjWRBcLwlcKa', 'W6SSa8kIDCk2wYu', 'o8kJWQrwW4q', 'W7NcOmkZCxNcJNDB', 'W7GZW6nOW6lcK1VcGG', 'W50eWOFcGdG', 'W4qUpmoSWQ92', 'WRJdLNC1W7q', 'lLtcV8oJzSk7W6BcNSkpW68', 'td7dVSkjhCozWQddHG', 'CCoPW5JcS8kh', "WR/dNSoqWOBdPCoMcXq", 'W6xcN8oTumk6', 'W6qqW53cVSoOobKW', 'h8o3W7TjW7a', 'W5rMWP3cRI5JDSkn', 'W6yHdSkIDCk7vIG', 'W6VcS8oXjX3dLq46', "WRW/WPRcK8ou", 'eGpdGSkUW64', 'CdTuqvC', 'WQiWgmofW5K', 'WQPGz0X8qmk1W4hcLa', 'W4y6jSo5WRDXWQTQda', 'WR51WPNdPSkI', 'gCk2cwaR', 'WRrFWPRdS8kJ', 'W7ldJmoRW5i', "zSkeW4BdO3VcRYpdOCkaBSk+W7bI", 'WPSoW7FcU8kXDCoMWROP', 'W4mHWPXSW4O', 'WOldJMmiW50vW7aCtG4', "WRBdSSk+fmoB", 'W7rfW4ldJCkYW6ePWP8', "f8k+WOf1W6BdO2JcTgm", 'peWVbW', 'WR7dLSoZlMpcTguF', 'CLlcT8k7aW', 'W7WsemoKbG', 'W7RdPCo9FahcTMldKW', 'W5W7WQDIW5O', 'W447WRxdU0y', 'WRrYsmks', 'WOtdNcvL', 'W6BcS8o8jX3dMam6', "W7/dGCoRW5iDW5GCva", 'W4XIcmokcSo1WR3dJG', 'W4mmlbif', 'fvJdHCoUmG', 'W5LMWPdcRInUDSkn', 'lxhcOgpdP8kiWPe4', 'WRrYsmksBdRdLSoJ', 'W4BcR8krW7lcRa', 'WQzWsmoGiSo9mgFcPmkI', 'W7rfW4ldJCkYW6eKWPi', 'WQDTz0fXqmk4W4W', 'W5KFWRvXW7O', 'WPfBWQmaWRK', 'wMhcHmoqWQWuWPhcLae', 'fc4VWQFdSa', 'W6BcSSkIamoOW7RcN18', 'WRuatCkmqa', 'WO8vW63cRSkqkGGt', "WP1gW5/dUuqmW7jd", 'evhcNvFdOW', "W7G+W65LW6/cNLBcGG", 'W5S7WQBcKXi', 'WOyVt8kmuCkzW7G', 'cSkeWPhdSmozn8kejG', 'W67cUYT3WQLUWPjMbG', 'WOjFW4NdR1GxW6mmAHpcJtVcOW', 'dmkthq', 'CgPyW5xcNCkWW4n9', 'l8o4W7rKW40', 'WPBdVsrQjq', 'WRrYsmkFytRdM8oU', 'WRBcHeLRWRWprdy', "WP1TE8oShmo6tK/cLSk4", 'WO1SA8kYW6KRW6eM', 'WOhdQCkmcCog', "tL/cKmkvcq", 'WOeUdSoIW7yWBSoufW4', 'bIFcUsKGh0Kc', 'W67dKmkTWRVcPq', 'wMhcICoqWQeuWPhcMq', 'khdcRx3dTSkcWPyPWPJcRW', 'W67cUYT3WQLUWP9M', 'cYFcTcqTeKqc', 'WQDfW5GwWQRdMmkgia', 'W7RcVmkEW6VcUW', 'W61xFmkaWRncg8k2', 'WOWUrCkArSk6W7S', 'W4JcM2uVuSoDECky', 'W4fIcmohb8o1WR3dGW', 'WRJdT3mmW4u', 'WQhcHCkHpLW', 'r0OsWP5qW7vtqwbi', 'mJORx3OFW4ZcNW', "cCo1W4/dKmkdxLW3", 'hc4xWPxdUq', 's1fZeHK', 'qg1PkcW', "WO/cTCksgYS", 'WPSoW7FcU8kXDCoRWRO', 'W4ZcLmoqr8kA', "WOJdNCk+cSonW7VcP09J", 'WP88bSofW50', 'pZCRuNCFW4ZcNW', 'DSoQW6q3WOO', 'W6bACCkaWRnpfSk7', "mW/dUSkXW6K", 'WRVcIurRWRWcstS', 'lbbMW58NWRaimIq', 'mSozWOJcPchdQa', 'WR7dLSoZi27cUwGF', 'FgJdNLJdOMq', 'W6uMjWuMbG', 'W6tcK8kCBq4', 'ztBdRYZcLSooW5XI', 'W67cUYz6WQrJWP9M', 'ymosW5jKua', 'DmkGdSopzWWTpCoWWQa', 'W7RdPCoWCqZcU2ldNG', 'W6VcS8o8kHddMam6', 'W5ldMmoQtNjEWQldKW', 'xN3dImoTruW', 'W6KDW53cVSoOobq9', 'WQDfW5GBWQFdMmkllq', 'pZCMuNCFW4ZcNW', 'FwDyW5JcKmkWW45W', 'gmktWOJdQSopkSkEtflcVuyXWPy', 'WRzyW4pcRXb6cdu', 'k8kBWRhcPmo8WPjNda', 'uCokW45Tsq', "peWVbZ/dHG", 'W4ZdVCkUWQRcHa', 'tmk3WRdcImob', 'W7FdQmo9FahcTMldKW', 'FCkkbConzG', 'nSoHWQlcKJa', 'WPyuzSkyBG', 'vxShWRnk', 'WQJcS8kCWOLd', "fZ3dKSo+Au/cK8kw", 'AdVdRYZcLSooW5fV', 'WRbaWPhdTSk0', 'gCoqW7bqW4u', 'W6qqW5dcS8oLnrq9', 'WQpdGmoRmNZcOGjaW5ZdUSoCW64', "W7GZW6nLW6/cK1BcJW", 'WRTvW4pcRXb6cdu', 'W4hcSmkezGa', 'b8keWPZdSmozn8kjkW', 'WRpdTmkzhCo2', "f8k+WOX4W6VdRMJcTa", 'WQPGz0fXtCk4W4ZcMq', 'umolW6mNWOi', 'W4fVbCohb8o4', 'WRxcM8kVWP5e', 'W61xCCknWR5pg8k2', "fCojW7L/W5JdUaVdRSoPW7a", 'WQyIWQNcHSog', 'ica9rw0iWPhdNh56WRFcNG', "W7/dGCoMW5iDW5Grwq", 'W4JcM2uVuSoD', 'WPjWWRqfWQy', "W6tcL8koDd/dVIHw", 'x8ocW68fWRaXWPZcUW', "qSk4WRejWRBcMg/cKa", "WRf/WR8+WQ4", 'WQirmCoeW6qj', 'WOBcM8kBhwldUGBcOMiw', 'W7NcRmoGw8kbWQhdPJ4', 'WRBcIurRWRWcsty', 'WQDTz0X8qa', 'WRnGz8oZfq', "DSkwW5/dUMFcTt7cIW", 'FCk6WO7cNComhaPmWQ7cQa', 'i8kOmb06WPXXWOHlWRq', 'W6VcS8o8kHddMam3', 'v2hcICoDWQWuWPhcLa', 's8ouW7FdO8k9', 'yariFKy', 'WOioWQJcKSoD', 'v2ZcHmoqWQezWPhcMq', 'W6yHdSkIEmk2wYxdRW', 'k8kBWRhcPmo8WPjQdc0', 'W7SMoq4ZdCoZ', "t8k4WRejWRBcMg/cKa", 'pdFdMmk6W5C', 'CwxdK1xdR2NdK8kI', 'WQPGz0X8qmk1W4e', 'W7tcOCoGw8kbWQhdQZm', 'FwDvW5xcNCk9W45W', 'FwDyW5JcKmk9W45WWQO', 'WQ3dISkxEKNcVwr9WQBcRW', "WO1SA8k/W6qRW6WR", "WOmKrCkoxCk+", 'W7VdKmkNWQS', 'itBcGINcRItcKCoHWQql', 'f8knWPbqW78', 'vSkujCoHsIechCocWO8', 'WPLwWPbhWQ7dVrbd', 'CN1hfY0', 'WRpdM8oZi27cTgGFWPC', 'WRzyW4pcRW', 'WQOSW7tdNNO', "gSk+WOf1W6BdO2JcUq", "gGpdQ8kSW4r+W7JdLxNdGG", 'WPLwWP1kWQpdSbbo', 'meFcT8oMxa', 'uSopW6ifWRa8WPhcTG', 'W4fVbCohcSo1WRddGW', "W73cMmkDW4/cV8kT", 'pCoVW75ZW60', 'i8ocW59OW5K', 'WQpdJSkfuWBdHc5q', 'W4JdSCkqWQNcGa', 'E399jt5OWPpdI1Po', 'WQmuWO3cGmo5', "z8opW6C+WOpcKHy", 't8k4WRWeWRVcLwlcKa', "W7/dGCoMW58qW5urwq", 'hSknWPiAkSkOm8oZ', 'W6W3W5SdW6BcOeS0W4PE', "FmoxW4RdUSkIW5K2Bg/cGa", 't8oCsWHtWOm', 'W5rRWPdcRI5UE8ka', 'k8kBWRhcPmo8WPjNdc0', 'WQewnCogW7mv', 'qYPyt1W', 'gblcVZ3cRIdcICor', 'sKddJuHiAJbUWRddJq', 'WQPGz0X8qmk4W4W', 'WP1lW5ldTeKmW7jd', 'WRNcS8k2WPvEWRDuk8osxW', 'tvKKWP9d', 'c2VcISoFAa', "vSowW5jxCmoVF8k+", 'WQHJvq', 'W4GNW488W7G', 'yfzabr8', 'a8kBc0i', 'bIRcTcqTeKKp', "W4jJWR/dVCoW", 'jW3cKGZcNa', 'W6BcNmkbW4y', 'xmogW5jtCmoU', 'W6icitiZ', 'W6qqW53cVSoOobq9', 'WRzyW47cOHb6btG', 'aYxcICk2cqhdUSkoW6y3W7mG', 'ir1RW58NWR0fpW', 'a8orWPtcTHm', 'W5rRWPdcOYnUDSkn', 'psuyWOddN8oT', 'wMhcHmoqWQezWPhcMq', "W5/dLCoQq39EWQ/dNG", 'zLevWQrt', 'W43dUJyFW4W', 'hdlcN8kShHBcQSoa', 'ztVdRYZcLSooW5fI', 'WPRcN8kOaqieW7xcKx8', 'kSoIqCkvlhvNEG', 'W7FcM8oGzmkj', "f8k+WOf1W6BdO2JcTa", 'W5K3cIyH', 'fsFdHmkzW7TF', 'W706WQ9aW7K', "zxHhaYf/WPVdVNL2", "WOZdTSkPj8oxWPZdGmo/", 'W4XIcmokcSo1WR3dGW', 'W7eVWPPZW58', 'y3pdH0ddVx7dH8k9WQ4kWRaLmSk5', "W5FcImkcW5/cRW", 'CgPyW5JcKmkWW45W', 'W4umm8oeWOm', 'qSorsWHtWOnTW7m', 'CwxdNLJdOMtdK8kV', "gJddKSoZze/cK8kw", 'WQX7r8oJiq', 'W77dTmkeWPBcIa', 'W67cUYT3WQLUWPjR', 'W6SHdSkIDCk7vIu', "cCo1W4/dNCkoxLe6", 'WOtdKmklemoKW50', 'kLdcJCobsG', "gJddKSo+Au/cK8kw", 'WROvpCopW7u', 'rConW5HrySoVFSk1W7e', 'uSopW68iWR0XWPZcUW', 'qt7dVSkjhCouWQ3dHSoy', 'CwxdNLJdOMtdNSkI', 'W58klmokdG', "cCo1W4/dKmkdxLe6", 'WPZdT8kgeCoo', 'gJddN8oZzelcK8kw', 'qt7dS8keemouWQddIW', 'bCo1W7zpW63dTcO', 'W6OIha4En8o9WORdRNy', "WPblW5/dUuqbW7jo", 'WOLEWQ7dHmoZnmkN', 'mJORx3OFW4ZcKJq', 'W6xcV8oEwmk3', 'WOiyW63cO8kDjWGt', 'WQ7dTIzelq', 'BKm1WPb9', "W7FdQmo9FahcTM/dNG", "WPT/WOOzWO3dPtJdV8oCaa", 'tmovW6BdHmk1', "WOZdTSkKkSoAWPhdJCo/", 'q8kVWOVcNmoA', "W58nWP/cSb5h", 'jSkBWRZcQCoXWP9Qaq', "m8kgWPz/W4q", "DSkwW5/dUMFcTtpcHG", 'WQPiW5uwWQRdLCkllq', 'cSkeWPhdVCoun8kejG', 'WRVcIuLMWReprdy', 'FgxdK1JdOMNdK8kI', 'W6yHa8kVEmk2vIG', "qSk1WRWeWRVcLw/cNq", 'WRRcMSoQW6hdOXxcV8kv', 'W5BdOmkeWO3cGq', 'W5rMWP3cRI5JDSka', 'W6msWPDhW4hcOSoDxLFcNW', "E8kBW5/dT2RcTt7cIW", 'WRVcIuLMWRepstS', "W7aaWR/dH0qEzeaCW4m", 'lqCGWOddHa', 'WP17WOxdS8kl', 'W6BcVSoXjX3dLq46', 'WRldNSoDWOBdPCoRcXK', 'WQDzWOGUWPS', 'WRFcL8oNW6hdOXxcSSky', 'W6RdICkLWQBcUq', 'WP3dJ8kEn8oe', 'WO8vW63cRSkqjWGt', 'gSkZWOX4W6VdRMJcTa', 'WRTvW47cOH13cdu', "W7/dGCoRW5iDW5Grwq", 'rComW4PHrG', "W7/dGCoRW5iDW5GCwCkN", 'WO1SA8kY', 'W5KwbY4M', 'CCkhWOlcTCoNobrHWPpcSW', "W7G+W65OW6lcNLBcJW", "WP3cP8kbWQP3WOX+m8oMoa", 'W6RdJc4FW4G', "f8k+WOX4W6BdO2JcTa", 'hCkjWQ9bW6D3', 'W4xcLMuVuSoDECky', 'W61xCCknWR5pfSk7', 'd8oZW7nyW5BdLcJdM8o8W5e', 'a0ZcVSoiuCkXW4NcOmkqW4G', 'yq5OsNq', 'W6VcS8oXjX3dLqm3', "WP1gW5/dTeKbW79d", 'WP0UW7FdGKi', 'WPxdMxWlW4yhW70tBXe', 'WPrBWPbhWQ7dVrbd', 'W7ldJmoRW58qW5GCva', "WO1SzSk/W6qMW6eM", 'W7ldJmoMW58qW5uCva', 'CWnQAKy', 'WPddHmkGm8oA', 'WRzyW4pcOH16btG', "WRW/W6VdM0O", "WR/dK8oDWOVdQmoRbHq", 'k8kBWRZcQCoXWP9Ndc0', "W7G+W65OW6lcNLBcGG", 'WPLwWPbhWQ7dVr1dWOm', 'WOGJW7FdMLO', 'WPSoW7RcTSk8EmoRWRC', 'Acz1yeG', 'WPyoW7RcTSk8EmoRWRC', 'jSkwWRhcPmo8WPjNda', 'gHJdUmkiW6K', 'WPGSW5ddQq', 'WRpdM8oZlMpcUwGF', 'zSkMfG', "iqj+WPHHW79Fshjm", 'fSkBaviv', 'W5ZdHX4gW7G', "kCk+p24SW74jWOLnWQC", 'WPlcSCkgbgG', 'lbbMW58NWRaipW', 'qt7dVSkjhCozWQddHG', 'cmovW4zWW7S', 'A8oCW53dRmkR', 'WOJcJ8kXcWC', 'W6xcNCoIqSkO', 'WRRcMSoNW6ZdRHxcV8kv', 'bIFcUsqTh0Kc', 'WPydW7RcTSk8EmoMWRC', 'WPuJj8o2W5SyFCoshau', 'W69vWRZdNCox', 'cIxcPmkdddldMmou', 'jcRcQHNcJq', 'CwxdK1xdR2NdK8kV', 'dwNdP8ojda', 'sttcPSk1s1zCca', "WRL/smksBdRdLSoJ", 'EL3dGmoZuKhdMmkLW4mO', 'WRf4WRKiWQ7dKWhdICoEeG', 'mJORx3OFW4hcKG', 'peWVcJldHHDK', 'WOZdTSkPj8oxWPZdJCoY', 'WPLwWPbhWQ7dVr1o', 'W7rfW4ldJCkYW6ePWPldIW', "mueVbZ/dHHPP", 'WOTcWOzrWRldQWebW5LVWPFcMSo1', 'WP8RW4O', 'W7K0b8ooaxVcKCkLW5aY', 'pZCRx3OsW4hcNW', 'DKtdNmkSsvVdNCkPW5GL', 'AdVdOIhcLSooW5fIW7C', "E8kBW5/dUG", 'mJOMuNCsW4hcKG', 'W7RcTmkevIO', 'dCofWR3cJt0', 'FwDyW5JcKmkWW4n9', 'qt7dS8keemouWQddI8ov', 'i8kLi2rgW4KlWQ9nWP8', 'WQJcJCkwWOHbWP9Chq', 'uY7dQ8onCSk7W43cUCkC', 'ztBdOIhcLSooW5XI', 'WPVcPCkuWQvF', 'ztBdOIZcLSodW5XI', 'q8oXW5xdNmkqW6ScBuBcVa', "et/cN8kShHBcQSoa", "t8k4WRWeWRVcLw/cNq", 'cYFcUsKGh0Kp', 'W4XIbCohb8o1WR3dJG', "W7rfW4/dGmkYW6eKWPi", "qmofW6/cHSkG", "W7rfW4/dJCkYW6WKWPi", 'AdVdOIhcM8odW5fV', 'ymkAlSokrq', 'WO8vW63cO8kDjW', 'W6qkWOy', 'zmkbW4BdOhhcQcNdRmk4EmkBW7Tr', 'WQ1rESoflG', "f8k+WOX4W6VdRMxcUq", 'x8ocW68i', 'ztBdRYZcLSooW5fV', 'WR7dLSoZlMpcUq', 'FwDyW5JcKmk9W45W', 'A8oxW7hdUCkMW44XthRcNa', 'W7qXg8oMgSozo1RcQW', 'WOJdLczKlmkFo8opFW', 'WOhdTSkKkSoAWPhdJCoY', 'W53cS8ooxSkU', "W7rfW4/dGmk/W6WKWPi", "W7a6hmkYy8kGeM/cQmkDg1K", "DItcHCo+e1hdLSkBu8od", 'WONcJ8k1WPr6', 'W7RdPCoWCqZcU2ldKW', 'WQrCWP3dO8kPELi', 'cYFcTcqGeKKp', 'rdNcQ8k4rLTCbq', 'WQ7cRmknWPTF', 'W7TmBSkqWQvzx8oXpW4WWQG', 'WQPGz0X8qmk4W4hcLa', "et/cN8kShHBcP8on", 'WQiiWOJcHSo6WQzPW5tcJa', 'W6GqaSoilW', 'W58OcXm2', 'gSkwWOJdQCoflCkuqwRcQ2m6WQu', 'WPydW7FcU8kXEmoRWRO', 'W7OViae3', 'W5VcNCkFzH0', 'kSoIqCkyixvQDW', 'xh3dNCoZDW', "W7LiW4ldGmk/W6ePWP8", 'ECoNW5jeBW', 'cSkeWPhdSmozn8kjjJK', 'W5j3WRFcTSkDt0jyaSka', "W7/dGCoRW5iqW5urwq", "WPblW5/dUuqbW79d", 'zs5TBf8', 'jSkwWRZcQCoXWP9Naq', 'WRTvW4pcRXb3cdvc', 'j8kQcCoDzd0I', "gSk+WOf4W6VdO2JcUq", "W7/dGCoMW5iDW5GCva", 'WQyfrCkzqG', 'ir1RW5iQWR0imG', 'kmonW7nnW7ddIaJcKmozW58', 'b8kjWPhdSmozn8kejG', 'wuxdH8oYEa', 'WOZdTSkKkSoAWPhdJCoY', 'W6WzWR7dTuW9rxe', 'W4aKhCoLWO0', 'tdpdS8keemozWQddIW', 'W6KDW53cS8oLobKW', 'k8kBWRZcPmo8WPjNda', 'vKLrjbXiWRxdK0nk', 'phhcQhVdNq', 'uvddVfXArd9IWPxdPa', 'W547W6OZW64', "t8k4WRejWRBcMg/cNq", 'qSorrGvEWO5GW74', 'aCo6W6i', "W7u+W6nLW6/cK1BcJW", "f8k+WOf1W6BdO2JcUq", 'W7rfW4ldJCkYW6eKWPldIW', 'lxtcI8omu8kRWQ3cHmkSW5i', 'W5T1WQxdPCoC'];
-  return nr = function () {
-    return A;
-  }, nr();
-}
 u({
-  'healFx': nm,
-  'obj_dmgwriter': Af
-}), IX(n6, "G.mnfight = 1;"), IX(nU, "G.myfight = 0;G.mnfight = 0;G.myfight = 7;G.mnfight = 2;");
+  healFx: nm,
+  obj_dmgwriter: Af
+});
+IX(n6, "G.mnfight = 1;");
+IX(nU, "G.myfight = 0;G.mnfight = 0;G.myfight = 7;G.mnfight = 2;");
 export { AL as a, AR as b, AG as c, Af as d, AN as e, AF as f, Ay as g, AZ as h, Am as i, Ac as j, Al as k, Ak as l, Aj as m, AQ as n, AV as o, AB as p, AU as q, AY as r, AC as s, n3 as t, n4 as u, n6 as v, n8 as w, nI as x, nn as y, nw as z, nH as A, ng as B, nR as C, nG as D, nE as E, nf as F, na as G, nN as H, nJ as I, nF as J, np as K, nZ as L, nb as M, nP as N, nq as O, nc as P, nj as Q, nU as R };
