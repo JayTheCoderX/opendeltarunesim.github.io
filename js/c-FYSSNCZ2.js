@@ -1,257 +1,257 @@
-import { _F as c } from "./c-E335QRCA.js";
-import { Ma as W } from "./c-NHPC5UGW.js";
-import "./c-IXEDCLR4.js";
-import "./c-O567UJ4Y.js";
-import "./c-UTWCWEAR.js";
-import "./c-QFDZPUX2.js";
-import "./c-VWTE3AY2.js";
-import { Sh as Q } from "./c-PWNRTD7X.js";
-import "./c-DTW63MWW.js";
-import "./c-HUDNK55W.js";
-import "./c-IKEEXWRQ.js";
-import "./c-SUMRYW3E.js";
-import "./c-3ELH3LBH.js";
-import "./c-OYFOJ3BV.js";
-import "./c-MYK6C3LF.js";
-import "./c-E7FVSW52.js";
-import "./c-ZQQWH6UG.js";
-import "./c-PBMEVLU6.js";
-import { a as J, l as M } from "./c-XSSGDLV7.js";
+import { _F as c } from './c-E335QRCA.js';
+import { Ma as W } from './c-NHPC5UGW.js';
+import './c-IXEDCLR4.js';
+import './c-O567UJ4Y.js';
+import './c-UTWCWEAR.js';
+import './c-QFDZPUX2.js';
+import './c-VWTE3AY2.js';
+import { Sh as Q } from './c-PWNRTD7X.js';
+import './c-DTW63MWW.js';
+import './c-HUDNK55W.js';
+import './c-IKEEXWRQ.js';
+import './c-SUMRYW3E.js';
+import './c-3ELH3LBH.js';
+import './c-OYFOJ3BV.js';
+import './c-MYK6C3LF.js';
+import './c-E7FVSW52.js';
+import './c-ZQQWH6UG.js';
+import './c-PBMEVLU6.js';
+import { a as J, l as M } from './c-XSSGDLV7.js';
 M();
 var {
-  AR: p,
-  FIRST: G,
-  SETALL: e
-} = Q;
-var j = new Proxy({}, {
-  get: J((b, L) => c[L] || W[L], "get")
-});
-var N = {
-  name: "room_dw_susiezilla_empty",
-  w: 640,
-  h: 480,
-  color: 0,
-  drawColor: false,
-  speed: 0,
-  views: [{
-    x: 0,
-    y: 0,
-    w: 640,
-    h: 480,
-    follow: null,
-    bx: 160,
-    by: 240
-  }],
-  rcc: null,
-  layers: [{
-    name: "FG_Curtains",
-    type: "Assets",
-    depth: 95000,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    sprites: [{
-      spr: "spr_dw_gameshow_curtain",
-      x: 0,
-      y: 52,
-      xs: 2,
-      ys: 2,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 1,
-      rot: 0,
-      id: "graphic_4473C506"
-    }, {
-      spr: "spr_dw_gameshow_curtain",
-      x: 640,
-      y: 52,
-      xs: -2,
-      ys: 2,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 1,
-      rot: 0,
-      id: "graphic_66541F5E"
+    AR: p,
+    FIRST: G,
+    SETALL: e
+  } = Q,
+  j = new Proxy({}, {
+    'get': J((b, L) => c[L] || W[L], 'get')
+  }),
+  N = {
+    'name': 'room_dw_susiezilla_empty',
+    'w': 0x280,
+    'h': 0x1e0,
+    'color': 0x0,
+    'drawColor': false,
+    'speed': 0x0,
+    'views': [{
+      'x': 0x0,
+      'y': 0x0,
+      'w': 0x280,
+      'h': 0x1e0,
+      'follow': null,
+      'bx': 0xa0,
+      'by': 0xf0
     }],
-    instances: []
-  }, {
-    name: "OBJECTS_MAIN",
-    type: "Instances",
-    depth: 95100,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: [{
-      obj: "obj_mainchara",
-      x: 320,
-      y: 200,
-      xs: 2,
-      ys: 2,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108051,
-      pre: null,
-      cc: null
+    'rcc': null,
+    'layers': [{
+      'name': 'FG_Curtains',
+      'type': 'Assets',
+      'depth': 0x17318,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'sprites': [{
+        'spr': 'spr_dw_gameshow_curtain',
+        'x': 0x0,
+        'y': 0x34,
+        'xs': 0x2,
+        'ys': 0x2,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1,
+        'rot': 0x0,
+        'id': 'graphic_4473C506'
+      }, {
+        'spr': 'spr_dw_gameshow_curtain',
+        'x': 0x280,
+        'y': 0x34,
+        'xs': -0x2,
+        'ys': 0x2,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1,
+        'rot': 0x0,
+        'id': 'graphic_66541F5E'
+      }],
+      'instances': []
     }, {
-      obj: "obj_darkcontroller",
-      x: 0,
-      y: 0,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108052,
-      pre: null,
-      cc: null
+      'name': 'OBJECTS_MAIN',
+      'type': 'Instances',
+      'depth': 0x1737c,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_mainchara',
+        'x': 0x140,
+        'y': 0xc8,
+        'xs': 0x2,
+        'ys': 0x2,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a613,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_darkcontroller',
+        'x': 0x0,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a614,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_room_susiezilla_empty',
+        'x': 0x0,
+        'y': 0x28,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a615,
+        'pre': null,
+        'cc': null
+      }]
     }, {
-      obj: "obj_room_susiezilla_empty",
-      x: 0,
-      y: 40,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108053,
-      pre: null,
-      cc: null
+      'name': 'COLLISION_DOOR',
+      'type': 'Instances',
+      'depth': 0x173e0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_solidblock_32',
+        'x': 0x0,
+        'y': 0x168,
+        'xs': 0x14,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a616,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_solidblock_32',
+        'x': -0x20,
+        'y': 0x9c,
+        'xs': 0x1,
+        'ys': 7.375,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a617,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_solidblock_32',
+        'x': 0x0,
+        'y': 0x9c,
+        'xs': 0x14,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a618,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_solidblock_32',
+        'x': 0x280,
+        'y': 0x9c,
+        'xs': 0x1,
+        'ys': 7.375,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x1a619,
+        'pre': null,
+        'cc': null
+      }]
+    }, {
+      'name': 'BACKGROUND',
+      'type': 'Assets',
+      'depth': 0xf4240,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'sprites': [{
+        'spr': 'spr_dw_susiezilla_bg_empty',
+        'x': 0x0,
+        'y': 0x0,
+        'xs': 0x2,
+        'ys': 0x2,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1,
+        'rot': 0x0,
+        'id': 'graphic_5E7B8710'
+      }],
+      'instances': []
+    }, {
+      'name': 'TILES',
+      'type': 'Tiles',
+      'depth': 0xf42a4,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': []
+    }, {
+      'name': 'BGCOLOR',
+      'type': 'Background',
+      'depth': 0x7fffffd0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'bg': {
+        'spr': null,
+        'visible': true,
+        'fore': false,
+        'htile': false,
+        'vtile': false,
+        'stretch': false,
+        'color': 0x0,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0xf
+      },
+      'instances': []
     }]
-  }, {
-    name: "COLLISION_DOOR",
-    type: "Instances",
-    depth: 95200,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: [{
-      obj: "obj_solidblock_32",
-      x: 0,
-      y: 360,
-      xs: 20,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108054,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_solidblock_32",
-      x: -32,
-      y: 156,
-      xs: 1,
-      ys: 7.375,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108055,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_solidblock_32",
-      x: 0,
-      y: 156,
-      xs: 20,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108056,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_solidblock_32",
-      x: 640,
-      y: 156,
-      xs: 1,
-      ys: 7.375,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 108057,
-      pre: null,
-      cc: null
-    }]
-  }, {
-    name: "BACKGROUND",
-    type: "Assets",
-    depth: 1000000,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    sprites: [{
-      spr: "spr_dw_susiezilla_bg_empty",
-      x: 0,
-      y: 0,
-      xs: 2,
-      ys: 2,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 1,
-      rot: 0,
-      id: "graphic_5E7B8710"
-    }],
-    instances: []
-  }, {
-    name: "TILES",
-    type: "Tiles",
-    depth: 1000100,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: []
-  }, {
-    name: "BGCOLOR",
-    type: "Background",
-    depth: 2147483600,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    bg: {
-      spr: null,
-      visible: true,
-      fore: false,
-      htile: false,
-      vtile: false,
-      stretch: false,
-      color: 0,
-      alpha: 1,
-      frame: 0,
-      speed: 15
-    },
-    instances: []
-  }]
-};
-N.ginst = [108051, 108052, 108053, 108054, 108055, 108056, 108057];
+  };
+N.ginst = [0x1a613, 0x1a614, 0x1a615, 0x1a616, 0x1a617, 0x1a618, 0x1a619];
 export { N as ROOM };

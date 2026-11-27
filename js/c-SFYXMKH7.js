@@ -1,247 +1,247 @@
-import { _F as X } from "./c-E335QRCA.js";
-import { Ma as w } from "./c-NHPC5UGW.js";
-import "./c-IXEDCLR4.js";
-import "./c-O567UJ4Y.js";
-import "./c-UTWCWEAR.js";
-import "./c-QFDZPUX2.js";
-import "./c-VWTE3AY2.js";
-import { Sh as M } from "./c-PWNRTD7X.js";
-import "./c-DTW63MWW.js";
-import "./c-HUDNK55W.js";
-import "./c-IKEEXWRQ.js";
-import "./c-SUMRYW3E.js";
-import "./c-3ELH3LBH.js";
-import "./c-OYFOJ3BV.js";
-import "./c-MYK6C3LF.js";
-import "./c-E7FVSW52.js";
-import "./c-ZQQWH6UG.js";
-import "./c-PBMEVLU6.js";
-import { a as N, l as v } from "./c-XSSGDLV7.js";
+import { _F as X } from './c-E335QRCA.js';
+import { Ma as w } from './c-NHPC5UGW.js';
+import './c-IXEDCLR4.js';
+import './c-O567UJ4Y.js';
+import './c-UTWCWEAR.js';
+import './c-QFDZPUX2.js';
+import './c-VWTE3AY2.js';
+import { Sh as M } from './c-PWNRTD7X.js';
+import './c-DTW63MWW.js';
+import './c-HUDNK55W.js';
+import './c-IKEEXWRQ.js';
+import './c-SUMRYW3E.js';
+import './c-3ELH3LBH.js';
+import './c-OYFOJ3BV.js';
+import './c-MYK6C3LF.js';
+import './c-E7FVSW52.js';
+import './c-ZQQWH6UG.js';
+import './c-PBMEVLU6.js';
+import { a as N, l as v } from './c-XSSGDLV7.js';
 v();
 var {
-  AR: G,
-  FIRST: J,
-  SETALL: I
-} = M;
-var E = new Proxy({}, {
-  get: N((C, y) => X[y] || w[y], "get")
-});
-var z = {
-  name: "room_board_sword_intro",
-  w: 640,
-  h: 480,
-  color: 0,
-  drawColor: false,
-  speed: 0,
-  views: [{
-    x: 0,
-    y: 0,
-    w: 640,
-    h: 480,
-    follow: null,
-    bx: 0,
-    by: 0
-  }],
-  rcc: null,
-  layers: [{
-    name: "BoardAreaReferences",
-    type: "Assets",
-    depth: 0,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    sprites: [{
-      spr: "spr_whitepixel",
-      x: 128,
-      y: 64,
-      xs: 384,
-      ys: 256,
-      color: 0,
-      alpha: 0.1255,
-      frame: 0,
-      speed: 1,
-      rot: 0,
-      id: "graphic_62DBDC26_1_1_1_2_1"
+    AR: G,
+    FIRST: J,
+    SETALL: I
+  } = M,
+  E = new Proxy({}, {
+    'get': N((C, y) => X[y] || w[y], 'get')
+  }),
+  z = {
+    'name': 'room_board_sword_intro',
+    'w': 0x280,
+    'h': 0x1e0,
+    'color': 0x0,
+    'drawColor': false,
+    'speed': 0x0,
+    'views': [{
+      'x': 0x0,
+      'y': 0x0,
+      'w': 0x280,
+      'h': 0x1e0,
+      'follow': null,
+      'bx': 0x0,
+      'by': 0x0
     }],
-    instances: []
-  }, {
-    name: "GAMESHOW_Instances",
-    type: "Instances",
-    depth: 100,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: [{
-      obj: "obj_gameshow_swordroute",
-      x: -40,
-      y: 40,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105148,
-      pre: null,
-      cc: null
+    'rcc': null,
+    'layers': [{
+      'name': 'BoardAreaReferences',
+      'type': 'Assets',
+      'depth': 0x0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'sprites': [{
+        'spr': 'spr_whitepixel',
+        'x': 0x80,
+        'y': 0x40,
+        'xs': 0x180,
+        'ys': 0x100,
+        'color': 0x0,
+        'alpha': 0.1255,
+        'frame': 0x0,
+        'speed': 0x1,
+        'rot': 0x0,
+        'id': 'graphic_62DBDC26_1_1_1_2_1'
+      }],
+      'instances': []
     }, {
-      obj: "obj_markerAny",
-      x: 576,
-      y: 298,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 1,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105149,
-      pre: null,
-      cc: null
+      'name': 'GAMESHOW_Instances',
+      'type': 'Instances',
+      'depth': 0x64,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_gameshow_swordroute',
+        'x': -0x28,
+        'y': 0x28,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19abc,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_markerAny',
+        'x': 0x240,
+        'y': 0x12a,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x1,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19abd,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_markerAny',
+        'x': 0x12c,
+        'y': 0x12a,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x2,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19abe,
+        'pre': null,
+        'cc': null
+      }]
     }, {
-      obj: "obj_markerAny",
-      x: 300,
-      y: 298,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 2,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105150,
-      pre: null,
-      cc: null
+      'name': 'BOARD_Instances',
+      'type': 'Instances',
+      'depth': 0xdbba0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_darkcontroller',
+        'x': -0x20,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19abf,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_board_controller',
+        'x': -0x20,
+        'y': 0x60,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19ac0,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_board_camera',
+        'x': -0x20,
+        'y': 0x80,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19ac1,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_mainchara',
+        'x': 0x12c,
+        'y': 0x12a,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19ac2,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_mainchara_board',
+        'x': 0x130,
+        'y': 0xac,
+        'xs': 0x2,
+        'ys': 0x2,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x19ac3,
+        'pre': null,
+        'cc': null
+      }]
+    }, {
+      'name': 'BOARD_Tiles',
+      'type': 'Tiles',
+      'depth': 0xf4240,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'tileset': {
+        'bg': 'bg_board_adventure_tileset',
+        'tw': 0x20,
+        'th': 0x20,
+        'bx': 0x2,
+        'by': 0x2,
+        'cols': 0x1e
+      },
+      'tilesX': 0x14,
+      'tilesY': 0xf,
+      'data': [[0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0]],
+      'instances': []
+    }, {
+      'name': 'Compatibility_Colour',
+      'type': 'Background',
+      'depth': 0x7fffffd0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'bg': {
+        'spr': null,
+        'visible': true,
+        'fore': false,
+        'htile': false,
+        'vtile': false,
+        'stretch': false,
+        'color': 0x666666,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0xf
+      },
+      'instances': []
     }]
-  }, {
-    name: "BOARD_Instances",
-    type: "Instances",
-    depth: 900000,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: [{
-      obj: "obj_darkcontroller",
-      x: -32,
-      y: 0,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105151,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_board_controller",
-      x: -32,
-      y: 96,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105152,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_board_camera",
-      x: -32,
-      y: 128,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105153,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_mainchara",
-      x: 300,
-      y: 298,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105154,
-      pre: null,
-      cc: null
-    }, {
-      obj: "obj_mainchara_board",
-      x: 304,
-      y: 172,
-      xs: 2,
-      ys: 2,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 105155,
-      pre: null,
-      cc: null
-    }]
-  }, {
-    name: "BOARD_Tiles",
-    type: "Tiles",
-    depth: 1000000,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    tileset: {
-      bg: "bg_board_adventure_tileset",
-      tw: 32,
-      th: 32,
-      bx: 2,
-      by: 2,
-      cols: 30
-    },
-    tilesX: 20,
-    tilesY: 15,
-    data: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
-    instances: []
-  }, {
-    name: "Compatibility_Colour",
-    type: "Background",
-    depth: 2147483600,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    bg: {
-      spr: null,
-      visible: true,
-      fore: false,
-      htile: false,
-      vtile: false,
-      stretch: false,
-      color: 6710886,
-      alpha: 1,
-      frame: 0,
-      speed: 15
-    },
-    instances: []
-  }]
-};
-z.ginst = [105154, 105151, 105155, 105152, 105153, 105148, 105149, 105150];
+  };
+z.ginst = [0x19ac2, 0x19abf, 0x19ac3, 0x19ac0, 0x19ac1, 0x19abc, 0x19abd, 0x19abe];
 export { z as ROOM };

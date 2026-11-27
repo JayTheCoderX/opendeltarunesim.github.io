@@ -1,209 +1,209 @@
-import { _F as z } from "./c-E335QRCA.js";
-import { Ma as e } from "./c-NHPC5UGW.js";
-import "./c-IXEDCLR4.js";
-import "./c-O567UJ4Y.js";
-import "./c-UTWCWEAR.js";
-import "./c-QFDZPUX2.js";
-import "./c-VWTE3AY2.js";
-import { Sh as G } from "./c-PWNRTD7X.js";
-import "./c-DTW63MWW.js";
-import "./c-HUDNK55W.js";
-import "./c-IKEEXWRQ.js";
-import "./c-SUMRYW3E.js";
-import "./c-3ELH3LBH.js";
-import "./c-OYFOJ3BV.js";
-import "./c-MYK6C3LF.js";
-import "./c-E7FVSW52.js";
-import "./c-ZQQWH6UG.js";
-import "./c-PBMEVLU6.js";
-import { a as J, l as n } from "./c-XSSGDLV7.js";
+import { _F as z } from './c-E335QRCA.js';
+import { Ma as e } from './c-NHPC5UGW.js';
+import './c-IXEDCLR4.js';
+import './c-O567UJ4Y.js';
+import './c-UTWCWEAR.js';
+import './c-QFDZPUX2.js';
+import './c-VWTE3AY2.js';
+import { Sh as G } from './c-PWNRTD7X.js';
+import './c-DTW63MWW.js';
+import './c-HUDNK55W.js';
+import './c-IKEEXWRQ.js';
+import './c-SUMRYW3E.js';
+import './c-3ELH3LBH.js';
+import './c-OYFOJ3BV.js';
+import './c-MYK6C3LF.js';
+import './c-E7FVSW52.js';
+import './c-ZQQWH6UG.js';
+import './c-PBMEVLU6.js';
+import { a as J, l as n } from './c-XSSGDLV7.js';
 n();
 var {
-  AR: h,
-  FIRST: q,
-  SETALL: Q
-} = G;
-var f = new Proxy({}, {
-  get: J((U, g) => z[g] || e[g], "get")
-});
-var V = {
-  name: "room_shootout",
-  w: 640,
-  h: 480,
-  color: 0,
-  drawColor: false,
-  speed: 0,
-  views: [{
-    x: 0,
-    y: 0,
-    w: 640,
-    h: 480,
-    follow: null,
-    bx: 32,
-    by: 32
-  }],
-  rcc: null,
-  layers: [{
-    name: "collision",
-    type: "Instances",
-    depth: 0,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: []
-  }, {
-    name: "destructibles",
-    type: "Instances",
-    depth: 999050,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: []
-  }, {
-    name: "OBJECTS_MAIN",
-    type: "Instances",
-    depth: 999062,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: 0,
-    vs: 0,
-    instances: [{
-      obj: "obj_mainchara",
-      x: -64,
-      y: 160,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 104645,
-      pre: null,
-      cc: null
+    AR: h,
+    FIRST: q,
+    SETALL: Q
+  } = G,
+  f = new Proxy({}, {
+    'get': J((U, g) => z[g] || e[g], 'get')
+  }),
+  V = {
+    'name': 'room_shootout',
+    'w': 0x280,
+    'h': 0x1e0,
+    'color': 0x0,
+    'drawColor': false,
+    'speed': 0x0,
+    'views': [{
+      'x': 0x0,
+      'y': 0x0,
+      'w': 0x280,
+      'h': 0x1e0,
+      'follow': null,
+      'bx': 0x20,
+      'by': 0x20
+    }],
+    'rcc': null,
+    'layers': [{
+      'name': 'collision',
+      'type': 'Instances',
+      'depth': 0x0,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': []
     }, {
-      obj: "obj_darkcontroller",
-      x: 0,
-      y: 0,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 104646,
-      pre: null,
-      cc: null
+      'name': 'destructibles',
+      'type': 'Instances',
+      'depth': 0xf3e8a,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': []
     }, {
-      obj: "obj_ch3_GSD03",
-      x: 32,
-      y: 0,
-      xs: 1,
-      ys: 1,
-      rot: 0,
-      frame: 0,
-      speed: 1,
-      color: 16777215,
-      alpha: 1,
-      id: 104648,
-      pre: null,
-      cc: null
+      'name': 'OBJECTS_MAIN',
+      'type': 'Instances',
+      'depth': 0xf3e96,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': 0x0,
+      'vs': 0x0,
+      'instances': [{
+        'obj': 'obj_mainchara',
+        'x': -0x40,
+        'y': 0xa0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c5,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_darkcontroller',
+        'x': 0x0,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c6,
+        'pre': null,
+        'cc': null
+      }, {
+        'obj': 'obj_ch3_GSD03',
+        'x': 0x20,
+        'y': 0x0,
+        'xs': 0x1,
+        'ys': 0x1,
+        'rot': 0x0,
+        'frame': 0x0,
+        'speed': 0x1,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'id': 0x198c8,
+        'pre': null,
+        'cc': null
+      }]
+    }, {
+      'name': 'fg',
+      'type': 'Background',
+      'depth': 0xf3efa,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x8,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_foreground',
+        'visible': true,
+        'fore': false,
+        'htile': true,
+        'vtile': false,
+        'stretch': true,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'md',
+      'type': 'Background',
+      'depth': 0xf3f5e,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x4,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_middle_2',
+        'visible': true,
+        'fore': false,
+        'htile': true,
+        'vtile': false,
+        'stretch': true,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'md_back',
+      'type': 'Background',
+      'depth': 0xf3fc2,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x2,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_middle_back_3',
+        'visible': true,
+        'fore': false,
+        'htile': true,
+        'vtile': false,
+        'stretch': true,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
+    }, {
+      'name': 'bg',
+      'type': 'Background',
+      'depth': 0xf4026,
+      'visible': true,
+      'x': 0x0,
+      'y': 0x0,
+      'hs': -0x1,
+      'vs': 0x0,
+      'bg': {
+        'spr': 'spr_desert_loop_backrgound_4',
+        'visible': true,
+        'fore': false,
+        'htile': true,
+        'vtile': false,
+        'stretch': true,
+        'color': 0xffffff,
+        'alpha': 0x1,
+        'frame': 0x0,
+        'speed': 0x1e
+      },
+      'instances': []
     }]
-  }, {
-    name: "fg",
-    type: "Background",
-    depth: 999162,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: -8,
-    vs: 0,
-    bg: {
-      spr: "spr_desert_loop_foreground",
-      visible: true,
-      fore: false,
-      htile: true,
-      vtile: false,
-      stretch: true,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 30
-    },
-    instances: []
-  }, {
-    name: "md",
-    type: "Background",
-    depth: 999262,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: -4,
-    vs: 0,
-    bg: {
-      spr: "spr_desert_loop_middle_2",
-      visible: true,
-      fore: false,
-      htile: true,
-      vtile: false,
-      stretch: true,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 30
-    },
-    instances: []
-  }, {
-    name: "md_back",
-    type: "Background",
-    depth: 999362,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: -2,
-    vs: 0,
-    bg: {
-      spr: "spr_desert_loop_middle_back_3",
-      visible: true,
-      fore: false,
-      htile: true,
-      vtile: false,
-      stretch: true,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 30
-    },
-    instances: []
-  }, {
-    name: "bg",
-    type: "Background",
-    depth: 999462,
-    visible: true,
-    x: 0,
-    y: 0,
-    hs: -1,
-    vs: 0,
-    bg: {
-      spr: "spr_desert_loop_backrgound_4",
-      visible: true,
-      fore: false,
-      htile: true,
-      vtile: false,
-      stretch: true,
-      color: 16777215,
-      alpha: 1,
-      frame: 0,
-      speed: 30
-    },
-    instances: []
-  }]
-};
-V.ginst = [104645, 104646, 104648];
+  };
+V.ginst = [0x198c5, 0x198c6, 0x198c8];
 export { V as ROOM };
