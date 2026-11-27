@@ -1,20 +1,3 @@
-var R = function () {
-    var P = true;
-    return function (z, Z) {
-      var C = P ? function () {
-        if (Z) {
-          var I = Z.apply(z, arguments);
-          return Z = null, I;
-        }
-      } : function () {};
-      return P = false, C;
-    };
-  }(),
-  F = R(this, function () {
-    if (F.bind().toString().indexOf('\x0a') !== -0x1) return;
-    return F.toString().search(".*").toString().constructor(F).search(".*");
-  });
-F();
-import { b as N, c as S, d as Y, e as H, f as L, g as t, h as B, i as E, j as u, k as O, l as x, m as W, n as w, o as U, p as G, q as M, r as v, s as Q, t as A } from './c-KLECZKO5.js';
-import './c-XSSGDLV7.js';
+import { b as N, c as S, d as Y, e as H, f as L, g as t, h as B, i as E, j as u, k as O, l as x, m as W, n as w, o as U, p as G, q as M, r as v, s as Q, t as A } from "./c-KLECZKO5.js";
+import "./c-XSSGDLV7.js";
 export { S as CODE, Y as CodeStatus, N as GROUP_NAMES, B as allFightCodeReady, Q as captureState, E as codeVersion, t as fightCodeReady, L as groupReady, H as groupsOf, G as loadAllFightCode, W as loadFightCode, x as loadGroup, v as loadGroupSync, O as onFightCode, u as onGroupCode, M as prefetchFightCode, w as startUndertaleFight, U as utCode, A as withCapturedState };

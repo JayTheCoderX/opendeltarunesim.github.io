@@ -1,799 +1,1448 @@
-const i = function () {
-    let ZK = true;
-    return function (ZV, Ze) {
-      const Zh = ZK ? function () {
-        if (Ze) {
-          const Zf = Ze.apply(ZV, arguments);
-          return Ze = null, Zf;
-        }
-      } : function () {};
-      return ZK = false, Zh;
-    };
-  }(),
-  u = i(this, function () {
-    if (u.bind().toString().indexOf('\x0a') !== -0x1) return;
-    return u.toString().search(".*").toString().constructor(u).search(".*");
-  });
-u();
-import { P as E, g as s } from './c-ZQQWH6UG.js';
-import { Aa as d, B as g, C as S, Ib as c, Jb as v, Ra as o, Ta as l, Tb as e, h, na as f, o as p, pa as m, pb as Z0, qb as Z1, ra as Z2, s as Z3, sa as Z4, t as Z5, xa as Z6, xb as Z7, ya as Z8, yc as Z9, za as ZZ } from './c-PBMEVLU6.js';
-import { a as ZT, e as Zx, l as Zw } from './c-XSSGDLV7.js';
+import { P as E, g as s } from "./c-ZQQWH6UG.js";
+import { Aa as d, B as g, C as S, Ib as c, Jb as v, Ra as o, Ta as l, Tb as e, h, na as f, o as p, pa as m, pb as Z0, qb as Z1, ra as Z2, s as Z3, sa as Z4, t as Z5, xa as Z6, xb as Z7, ya as Z8, yc as Z9, za as ZZ } from "./c-PBMEVLU6.js";
+import { a as ZT, e as Zx, l as Zw } from "./c-XSSGDLV7.js";
 Zw();
 var Zk = {
-    0x1: ['fnt_main', h.white, 0x1, 'snd_text', 0x8, 0x12, 0x0],
-    0x2: ['fnt_main', h.white, 0x2, null, 0x8, 0x12, 0x0],
-    0x3: ['fnt_main', h.white, 0x2, 'snd_text', 0x8, 0x12, 0x1],
-    0x4: ['fnt_mainbig', h.white, 0x1, 'snd_text', 0x10, 0x1c, 0x1],
-    0x5: ['fnt_main', h.white, 0x1, 'snd_text', 0x8, 0x12, 0x0],
-    0x6: ['fnt_mainbig', h.white, 0x1, 'snd_text', 0x10, 0x24, 0x1],
-    0x7: ['fnt_main', h.white, 0x1, 'snd_txttor', 0x8, 0x12, 0x0],
-    0x8: ['fnt_main', h.white, 0x2, 'snd_txttor', 0x8, 0x12, 0x0],
-    0xa: ['fnt_main', h.white, 0x1, 'snd_txtsus', 0x8, 0x12, 0x0],
-    0xb: ['fnt_main', h.white, 0x1, 'snd_txtsus', 0x8, 0x12, 0x0],
-    0xc: ['fnt_main', h.white, 0x1, 'snd_txtnoe', 0x8, 0x12, 0x0],
-    0xd: ['fnt_main', h.white, 0x1, 'snd_txtber', 0x8, 0x12, 0x0],
-    0xe: ['fnt_main', h.white, 0x1, 'snd_txtsans', 0x8, 0x12, 0x0],
-    0xf: ['fnt_main', h.white, 0x1, 'snd_text', 0x8, 0x12, 0x0],
-    0x11: ['fnt_main', h.white, 0x1, 'snd_txtund', 0x8, 0x12, 0x0],
-    0x12: ['fnt_main', h.white, 0x1, 'snd_txtasg', 0x8, 0x12, 0x0],
-    0x13: ['fnt_main', h.white, 0x1, 'snd_text', 0x8, 0x12, 0x0],
-    0x14: ['fnt_main', h.white, 0x1, 'snd_txtal', 0x8, 0x12, 0x0],
-    0x15: ['fnt_main', h.white, 0x1, 'snd_txtal', 0x8, 0x12, 0x0],
-    0x16: ['fnt_small', h.white, 0x1, 'snd_txtal', 0x6, 0x12, 0x0],
-    0x17: ['fnt_small', h.white, 0x1, 'snd_txtnoe', 0x6, 0x12, 0x0],
-    0x1e: ['fnt_mainbig', h.white, 0x1, 'snd_txtsus', 0x10, 0x24, 0x1],
-    0x1f: ['fnt_mainbig', h.white, 0x1, 'snd_txtral', 0x10, 0x24, 0x1],
-    0x20: ['fnt_mainbig', h.white, 0x1, 'snd_txtlan', 0x10, 0x24, 0x1],
-    0x21: ['fnt_mainbig', h.white, 0x1, 'snd_dadtxt', 0x10, 0x24, 0x1],
-    0x23: ['fnt_mainbig', h.white, 0x1, 'snd_txtjok', 0x10, 0x24, 0x1],
-    0x24: ['fnt_mainbig', h.white, 0x1, null, 0x10, 0x24, 0x1],
-    0x25: ['fnt_mainbig', h.white, 0x3, 'snd_txtsus', 0x12, 0x24, 0x1],
-    0x28: ['fnt_main', h.white, 0x2, null, 0x8, 0x12, 0x0],
-    0x29: ['fnt_main', h.white, 0x3, null, 0x8, 0x12, 0x0],
-    0x2a: ['fnt_mainbig', h.white, 0x2, null, 0x10, 0x24, 0x1],
-    0x2d: ['fnt_mainbig', h.white, 0x1, 'snd_txtral', 0x10, 0x1c, 0x1],
-    0x2e: ['fnt_mainbig', h.white, 0x1, 'snd_txtlan', 0x10, 0x1c, 0x1],
-    0x2f: ['fnt_mainbig', h.white, 0x1, 'snd_txtsus', 0x10, 0x1c, 0x1],
-    0x30: ['fnt_mainbig', h.white, 0x1, 'snd_dadtxt', 0x10, 0x1c, 0x1],
-    0x32: ['fnt_dotumche', h.black, 0x1, 'snd_text', 0x9, 0x14, 0x0],
-    0x35: ['fnt_dotumche', h.black, 0x1, 'snd_txtsus', 0x9, 0x14, 0x0],
-    0x36: ['fnt_dotumche', h.black, 0x2, 'snd_txtsus', 0x9, 0x14, 0x0],
-    0x37: ['fnt_main', h.white, 0x1, 'snd_txtrud', 0x8, 0x12, 0x0],
-    0x44: ['fnt_dotumche', h.black, 0x1, 'snd_txtspam', 0x9, 0x14, 0x0],
-    0x38: ['fnt_mainbig', h.white, 0x1, 'snd_txtnoe', 0x10, 0x24, 0x1],
-    0x39: ['fnt_mainbig', h.white, 0x1, 'snd_txtber', 0x10, 0x24, 0x1],
-    0x3a: ['fnt_mainbig', h.white, 0x1, 'snd_txtq', 0x10, 0x24, 0x1],
-    0x3b: ['fnt_mainbig', h.white, 0x1, 'snd_txtnoe', 0x10, 0x1c, 0x1],
-    0x3e: ['fnt_mainbig', h.white, 0x1, 'snd_txtq_2', 0x10, 0x24, 0x1],
-    0x3f: ['fnt_main', h.white, 0x2, 'snd_txtnoe', 0x8, 0x12, 0x0],
-    0x40: ['fnt_main', h.white, 0x2, 'snd_txtnoe', 0x8, 0x12, 0x0, 0x1],
-    0x41: ['fnt_mainbig', h.white, 0x1, 'snd_txtrx1', 0x10, 0x24, 0x1],
-    0x42: ['fnt_mainbig', h.white, 0x1, 'snd_txtspam', 0x10, 0x24, 0x1],
-    0x43: ['fnt_mainbig', h.white, 0x1, 'snd_txtspam2', 0x10, 0x24, 0x1],
-    0x45: ['fnt_dotumche', h.black, 0x1, 'snd_txtber', 0x9, 0x14, 0x0],
-    0x46: ['fnt_dotumche', h.black, 0x1, 'snd_txtq', 0x9, 0x14, 0x0],
-    0x47: ['fnt_dotumche', h.black, 0x1, 'snd_txtq', 0x9, 0x14, 0x0],
-    0x48: ['fnt_dotumche', h.black, 0x1, 'snd_txtspam2', 0x9, 0x14, 0x0],
-    0x4a: ['fnt_dotumche', h.black, 0x1, 'snd_txtral', 0x9, 0x14, 0x0],
-    0x4b: ['fnt_dotumche', h.black, 0x1, 'snd_txtsus', 0x9, 0x14, 0x0],
-    0x4c: ['fnt_dotumche', h.black, 0x1, 'snd_txtnoe', 0x9, 0x14, 0x0],
-    0x4d: ['fnt_mainbig', h.white, 0x1, 'snd_txtber', 0x10, 0x1c, 0x1],
-    0x4e: ['fnt_mainbig', h.white, 0x1, 'snd_text', 0x10, 0x24, 0x1],
-    0x29a: ['fnt_main', h.white, 0x4, null, 0xc, 0x14, 0x2],
-    0x29b: ['fnt_main', h.white, 0x2, null, 0xc, 0x14, 0x2],
-    0x3e7: ['fnt_main', h.white, 0x4, 'snd_txtecho', 0x8, 0x12, 0x3],
-    0x3c: ['fnt_main', h.white, 0x2, 'snd_txtral', 0xc, 0x14, 0x0],
-    0x3d: ['fnt_main', h.white, 0x2, 'snd_txtsus', 0xc, 0x14, 0x0]
-  },
-  Za = {},
-  ZO = {},
-  Zi = {};
+  1: ["fnt_main", h.white, 1, "snd_text", 8, 18, 0],
+  2: ["fnt_main", h.white, 2, null, 8, 18, 0],
+  3: ["fnt_main", h.white, 2, "snd_text", 8, 18, 1],
+  4: ["fnt_mainbig", h.white, 1, "snd_text", 16, 28, 1],
+  5: ["fnt_main", h.white, 1, "snd_text", 8, 18, 0],
+  6: ["fnt_mainbig", h.white, 1, "snd_text", 16, 36, 1],
+  7: ["fnt_main", h.white, 1, "snd_txttor", 8, 18, 0],
+  8: ["fnt_main", h.white, 2, "snd_txttor", 8, 18, 0],
+  10: ["fnt_main", h.white, 1, "snd_txtsus", 8, 18, 0],
+  11: ["fnt_main", h.white, 1, "snd_txtsus", 8, 18, 0],
+  12: ["fnt_main", h.white, 1, "snd_txtnoe", 8, 18, 0],
+  13: ["fnt_main", h.white, 1, "snd_txtber", 8, 18, 0],
+  14: ["fnt_main", h.white, 1, "snd_txtsans", 8, 18, 0],
+  15: ["fnt_main", h.white, 1, "snd_text", 8, 18, 0],
+  17: ["fnt_main", h.white, 1, "snd_txtund", 8, 18, 0],
+  18: ["fnt_main", h.white, 1, "snd_txtasg", 8, 18, 0],
+  19: ["fnt_main", h.white, 1, "snd_text", 8, 18, 0],
+  20: ["fnt_main", h.white, 1, "snd_txtal", 8, 18, 0],
+  21: ["fnt_main", h.white, 1, "snd_txtal", 8, 18, 0],
+  22: ["fnt_small", h.white, 1, "snd_txtal", 6, 18, 0],
+  23: ["fnt_small", h.white, 1, "snd_txtnoe", 6, 18, 0],
+  30: ["fnt_mainbig", h.white, 1, "snd_txtsus", 16, 36, 1],
+  31: ["fnt_mainbig", h.white, 1, "snd_txtral", 16, 36, 1],
+  32: ["fnt_mainbig", h.white, 1, "snd_txtlan", 16, 36, 1],
+  33: ["fnt_mainbig", h.white, 1, "snd_dadtxt", 16, 36, 1],
+  35: ["fnt_mainbig", h.white, 1, "snd_txtjok", 16, 36, 1],
+  36: ["fnt_mainbig", h.white, 1, null, 16, 36, 1],
+  37: ["fnt_mainbig", h.white, 3, "snd_txtsus", 18, 36, 1],
+  40: ["fnt_main", h.white, 2, null, 8, 18, 0],
+  41: ["fnt_main", h.white, 3, null, 8, 18, 0],
+  42: ["fnt_mainbig", h.white, 2, null, 16, 36, 1],
+  45: ["fnt_mainbig", h.white, 1, "snd_txtral", 16, 28, 1],
+  46: ["fnt_mainbig", h.white, 1, "snd_txtlan", 16, 28, 1],
+  47: ["fnt_mainbig", h.white, 1, "snd_txtsus", 16, 28, 1],
+  48: ["fnt_mainbig", h.white, 1, "snd_dadtxt", 16, 28, 1],
+  50: ["fnt_dotumche", h.black, 1, "snd_text", 9, 20, 0],
+  53: ["fnt_dotumche", h.black, 1, "snd_txtsus", 9, 20, 0],
+  54: ["fnt_dotumche", h.black, 2, "snd_txtsus", 9, 20, 0],
+  55: ["fnt_main", h.white, 1, "snd_txtrud", 8, 18, 0],
+  68: ["fnt_dotumche", h.black, 1, "snd_txtspam", 9, 20, 0],
+  56: ["fnt_mainbig", h.white, 1, "snd_txtnoe", 16, 36, 1],
+  57: ["fnt_mainbig", h.white, 1, "snd_txtber", 16, 36, 1],
+  58: ["fnt_mainbig", h.white, 1, "snd_txtq", 16, 36, 1],
+  59: ["fnt_mainbig", h.white, 1, "snd_txtnoe", 16, 28, 1],
+  62: ["fnt_mainbig", h.white, 1, "snd_txtq_2", 16, 36, 1],
+  63: ["fnt_main", h.white, 2, "snd_txtnoe", 8, 18, 0],
+  64: ["fnt_main", h.white, 2, "snd_txtnoe", 8, 18, 0, 1],
+  65: ["fnt_mainbig", h.white, 1, "snd_txtrx1", 16, 36, 1],
+  66: ["fnt_mainbig", h.white, 1, "snd_txtspam", 16, 36, 1],
+  67: ["fnt_mainbig", h.white, 1, "snd_txtspam2", 16, 36, 1],
+  69: ["fnt_dotumche", h.black, 1, "snd_txtber", 9, 20, 0],
+  70: ["fnt_dotumche", h.black, 1, "snd_txtq", 9, 20, 0],
+  71: ["fnt_dotumche", h.black, 1, "snd_txtq", 9, 20, 0],
+  72: ["fnt_dotumche", h.black, 1, "snd_txtspam2", 9, 20, 0],
+  74: ["fnt_dotumche", h.black, 1, "snd_txtral", 9, 20, 0],
+  75: ["fnt_dotumche", h.black, 1, "snd_txtsus", 9, 20, 0],
+  76: ["fnt_dotumche", h.black, 1, "snd_txtnoe", 9, 20, 0],
+  77: ["fnt_mainbig", h.white, 1, "snd_txtber", 16, 28, 1],
+  78: ["fnt_mainbig", h.white, 1, "snd_text", 16, 36, 1],
+  666: ["fnt_main", h.white, 4, null, 12, 20, 2],
+  667: ["fnt_main", h.white, 2, null, 12, 20, 2],
+  999: ["fnt_main", h.white, 4, "snd_txtecho", 8, 18, 3],
+  60: ["fnt_main", h.white, 2, "snd_txtral", 12, 20, 0],
+  61: ["fnt_main", h.white, 2, "snd_txtsus", 12, 20, 0]
+};
+var Za = {};
+var ZO = {};
+var Zi = {};
 function ZB(ZK, ZV, Ze, Zh, Zf) {
-  Zk[ZV] = Ze, ZO[ZK] = {
-    'typer': ZV,
-    'fc': Zh
-  }, Zf && (Zi[Zh] = Zf);
+  Zk[ZV] = Ze;
+  ZO[ZK] = {
+    typer: ZV,
+    fc: Zh
+  };
+  if (Zf) {
+    Zi[Zh] = Zf;
+  }
 }
-ZT(ZB, 'registerSpeaker');
-var ZY = ZT(ZK => ZK === '0' ? {
-    'typer': 0x4,
-    'fc': 0x0
-  } : ZO[ZK], 'speakerOf'),
-  Zu = {
-    0x0: ZT(() => s.darkzone === 0x1 ? s.fighting === 0x1 ? 0x4 : 0x6 : 0x5, '0'),
-    0x1: ZT(() => 0x2, '1'),
-    'A': ZT(() => 0x12, 'A'),
-    'a': ZT(() => 0x14, 'a'),
-    'N': ZT(() => 0xc, 'N'),
-    'n': ZT(() => 0x17, 'n'),
-    'B': ZT(() => 0xd, 'B'),
-    'S': ZT(() => s.darkzone === 0x1 ? s.fighting === 0x1 ? 0x2f : 0x1e : 0xa, 'S'),
-    'R': ZT(() => s.flag[0x1e] === 0x1 ? 0x6 : s.fighting === 0x1 ? 0x2d : 0x1f, 'R'),
-    'L': ZT(() => s.fighting === 0x1 ? 0x2e : 0x20, 'L'),
-    'X': ZT(() => 0x28, 'X'),
-    'r': ZT(() => 0x37, 'r'),
-    'T': ZT(() => 0x7, 'T'),
-    'J': ZT(() => 0x23, 'J'),
-    'K': ZT(() => s.fighting === 0x1 ? 0x30 : s.plot < 0xeb ? 0x24 : 0x21, 'K')
-  },
-  Zy = ['snd_tv_voice_short', 'snd_tv_voice_short_2', 'snd_tv_voice_short_3', 'snd_tv_voice_short_4', 'snd_tv_voice_short_5', 'snd_tv_voice_short_6', 'snd_tv_voice_short_7', 'snd_tv_voice_short_8', 'snd_tv_voice_short_9'],
-  ZW = ['snd_flowery_voicenoise_1', 'snd_flowery_voicenoise_2', 'snd_flowery_voicenoise_3'],
-  ZA = null,
-  ZQ = {
-    'R': "#ff0000",
-    'W': "#ffffff",
-    'Y': "#ffff00",
-    'B': "#0000ff",
-    'G': "#00ff00",
-    'X': "#000000",
-    'O': "#ffa040",
-    'L': "#00c0ff",
-    'P': "#ff00ff",
-    'A': "#00ffff"
-  },
-  Zr = ['spr_btfight', 'spr_btdefend', 'spr_bttech', 'spr_btact', 'spr_btspare', 'spr_btitem'],
-  ZD = class ZX extends Z0 {
-    ["create"]() {
-      this.originalcharline = 0x21, this.charline = 0x21, this.applyTyper(s.typer), this.specfade = 0x1, this.skippable = 0x1, this.dialoguer = 0x0, this.facer = 0x0, this.autoaster = 0x1, this.drawaster = 0x1, this.sound_timer = 0x0, this.firstnoise = 0x0, this.pos = 0x1, this.halt = 0x0, this.timer = 0x0, this.stringno = 0x0, this.siner = 0x0, this.skipme = 0x0, this.first = 0x0, this.xcolor = this.mycolor, this.writingx = this.x, this.writingy = this.y, this.done = !0x1, this.msg = s.msg.slice(), this.mystring = this.msg[0x0] || '\x20', this.formatted = 0x0, this.msgno = 0x0, this.stringmax = 0x0, this.linecount = 0x0, this.wxskip = 0x0, this.textalignment = '', this.specx = [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], this.specy = [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], this.reachedend = 0x0, this.automash_timer = 0x0, this.prevent_mash_buffer = 0x0;
+ZT(ZB, "registerSpeaker");
+var ZY = ZT(ZK => ZK === "0" ? {
+  typer: 4,
+  fc: 0
+} : ZO[ZK], "speakerOf");
+var Zu = {
+  0: ZT(() => s.darkzone === 1 ? s.fighting === 1 ? 4 : 6 : 5, "0"),
+  1: ZT(() => 2, "1"),
+  A: ZT(() => 18, "A"),
+  a: ZT(() => 20, "a"),
+  N: ZT(() => 12, "N"),
+  n: ZT(() => 23, "n"),
+  B: ZT(() => 13, "B"),
+  S: ZT(() => s.darkzone === 1 ? s.fighting === 1 ? 47 : 30 : 10, "S"),
+  R: ZT(() => s.flag[30] === 1 ? 6 : s.fighting === 1 ? 45 : 31, "R"),
+  L: ZT(() => s.fighting === 1 ? 46 : 32, "L"),
+  X: ZT(() => 40, "X"),
+  r: ZT(() => 55, "r"),
+  T: ZT(() => 7, "T"),
+  J: ZT(() => 35, "J"),
+  K: ZT(() => s.fighting === 1 ? 48 : s.plot < 235 ? 36 : 33, "K")
+};
+var Zy = ["snd_tv_voice_short", "snd_tv_voice_short_2", "snd_tv_voice_short_3", "snd_tv_voice_short_4", "snd_tv_voice_short_5", "snd_tv_voice_short_6", "snd_tv_voice_short_7", "snd_tv_voice_short_8", "snd_tv_voice_short_9"];
+var ZW = ["snd_flowery_voicenoise_1", "snd_flowery_voicenoise_2", "snd_flowery_voicenoise_3"];
+var ZA = null;
+var ZQ = {
+  R: "#ff0000",
+  W: "#ffffff",
+  Y: "#ffff00",
+  B: "#0000ff",
+  G: "#00ff00",
+  X: "#000000",
+  O: "#ffa040",
+  L: "#00c0ff",
+  P: "#ff00ff",
+  A: "#00ffff"
+};
+var Zr = ["spr_btfight", "spr_btdefend", "spr_bttech", "spr_btact", "spr_btspare", "spr_btitem"];
+var ZD = class ZX extends Z0 {
+  create() {
+    this.originalcharline = 33;
+    this.charline = 33;
+    this.applyTyper(s.typer);
+    this.specfade = 1;
+    this.skippable = 1;
+    this.dialoguer = 0;
+    this.facer = 0;
+    this.autoaster = 1;
+    this.drawaster = 1;
+    this.sound_timer = 0;
+    this.firstnoise = 0;
+    this.pos = 1;
+    this.halt = 0;
+    this.timer = 0;
+    this.stringno = 0;
+    this.siner = 0;
+    this.skipme = 0;
+    this.first = 0;
+    this.xcolor = this.mycolor;
+    this.writingx = this.x;
+    this.writingy = this.y;
+    this.done = false;
+    this.msg = s.msg.slice();
+    this.mystring = this.msg[0] || " ";
+    this.formatted = 0;
+    this.msgno = 0;
+    this.stringmax = 0;
+    this.linecount = 0;
+    this.wxskip = 0;
+    this.textalignment = "";
+    this.specx = [0, 0, 0, 0, 0, 0, 0];
+    this.specy = [0, 0, 0, 0, 0, 0, 0];
+    this.reachedend = 0;
+    this.automash_timer = 0;
+    this.prevent_mash_buffer = 0;
+  }
+  format() {
+    let ZK = s.darkzone === 0 ? 1 : 2;
+    if (this.dialoguer === 1) {
+      if (s.fc === 0) {
+        this.charline = this.originalcharline;
+        this.writingx = this.x;
+      } else {
+        this.charline = 26;
+        this.writingx = this.x + ZK * 58;
+      }
     }
-    ["format"]() {
-      let ZK = s.darkzone === 0x0 ? 0x1 : 0x2;
-      this.dialoguer === 0x1 && (s.fc === 0x0 ? (this.charline = this.originalcharline, this.writingx = this.x) : (this.charline = 0x1a, this.writingx = this.x + 0x3a * ZK)), this.dialoguer === 0x1 && s.fc === 0x16 && s.chapter >= 0x3 && (this.charline = 0x1e, this.vspace = 0x1e);
-      let ZV = s.chapter,
-        Ze = typeof this.mystring == 'string' ? this.mystring : String(this.mystring ?? ''),
-        Zh = T2 => T2 >= 0x1 && T2 <= Ze.length ? Ze[T2 - 0x1] : '',
-        Zf = (T2, T3) => {
-          Ze = Ze.slice(0x0, T3 - 0x1) + T2 + Ze.slice(T3 - 0x1);
-        },
-        ZN = Ze.length,
-        Zp = -0x1,
-        ZR = -0x1,
-        ZP = -0x1,
-        ZL = 0x0,
-        Zm = 0x0,
-        ZH = 0x0,
-        Zj = 0x0,
-        T0 = () => {
-          ZH === 0x1 && this.autoaster === 0x1 && (ZN += 0x2, Zf('||', Zj)), ZH === 0x2 && (ZH = 0x1);
-        },
-        T1 = ZS[ZV] || ZS[0x2];
-      for (ZV === 0x1 && (this.textalignment = ''), Zj = 0x0; Zj < ZN + 0x1; Zj++) {
-        let T2 = 0x0,
-          T3 = Zh(Zj);
-        if (ZV >= 0x2 && T3 === '`') Zj++;else {
-          if (T3 === '/' || T3 === '%') Zp > -0x1 && (Zp -= 0x1);else {
-            if (T3 === '^') Zp > -0x1 && (Zp -= 0x2);else {
-              if (T3 === '\x5c') {
-                Zp > -0x1 && (Zp -= 0x3);
-                let T4 = Zh(Zj + 0x1),
-                  T5 = Zh(Zj + 0x2);
-                if (this.dialoguer === 0x1) {
-                  if (T4 === 'E') {
-                    if (ZV === 0x1) {
-                      let T6 = "0123456789ABCDE".indexOf(T5);
-                      T5 !== '' && T6 >= 0x0 && (s.fe = T6);
-                    } else {
-                      let T7 = T5 ? T5.charCodeAt(0x0) : 0x0;
-                      T7 >= 0x30 && T7 <= 0x39 ? s.fe = T7 - 0x30 : T7 >= 0x41 && T7 <= 0x5a ? s.fe = T7 - 0x37 : T7 >= 0x61 && T7 <= 0x7a && (s.fe = T7 - 0x3d);
-                    }
-                  }
-                  ZV === 0x5 && T4 === 'M' && T5 !== '' && "0123456789".includes(T5) && (s.flag[0x14] = Number(T5)), T4 === 'F' && (T5 !== '' && T1[T5] !== void 0x0 && (s.fc = T1[T5]), s.fc === 0x0 ? (this.charline = this.originalcharline, this.writingx = this.x) : (this.charline = 0x1a, this.writingx = this.x + 0x3a * ZK)), T4 === 'W' && ZY(T5) && (s.fc = ZY(T5).fc, s.fc === 0x0 ? (this.charline = this.originalcharline, this.writingx = this.x) : (this.charline = 0x1a, this.writingx = this.x + 0x3a * ZK)), ZV >= 0x2 && T4 === 'm' && (this.drawaster = 0x0), ZV >= 0x2 && T4 === 's' && T5 === '0' && (this.skippable = 0x0);
-                }
-                ZV === 0x1 && T4 === 'a' && (this.textalignment = T5);
-              } else {
-                if (T3 === '&' || ZV >= 0x2 && T3 === '\x0a') {
-                  Zp > Zm && (Zm = Zp), ZR = -0x1, Zp = 0x0, ZL += 0x1, T2 = 0x1;
-                  let T8 = Zh(Zj + 0x1);
-                  ZH === 0x1 && this.autoaster === 0x1 && T8 !== '*' && (Zp = 0x2, ZN += 0x2, Zf('||', Zj + 0x1), Zj += 0x2);
-                }
+    if (this.dialoguer === 1 && s.fc === 22 && s.chapter >= 3) {
+      this.charline = 30;
+      this.vspace = 30;
+    }
+    let ZV = s.chapter;
+    let Ze = typeof this.mystring == "string" ? this.mystring : String(this.mystring ?? "");
+    let Zh = T2 => T2 >= 1 && T2 <= Ze.length ? Ze[T2 - 1] : "";
+    let Zf = (T2, T3) => {
+      Ze = Ze.slice(0, T3 - 1) + T2 + Ze.slice(T3 - 1);
+    };
+    let ZN = Ze.length;
+    let Zp = -1;
+    let ZR = -1;
+    let ZP = -1;
+    let ZL = 0;
+    let Zm = 0;
+    let ZH = 0;
+    let Zj = 0;
+    let T0 = () => {
+      if (ZH === 1 && this.autoaster === 1) {
+        ZN += 2;
+        Zf("||", Zj);
+      }
+      if (ZH === 2) {
+        ZH = 1;
+      }
+    };
+    let T1 = ZS[ZV] || ZS[2];
+    if (ZV === 1) {
+      this.textalignment = "";
+    }
+    Zj = 0;
+    for (; Zj < ZN + 1; Zj++) {
+      let T2 = 0;
+      let T3 = Zh(Zj);
+      if (ZV >= 2 && T3 === "`") {
+        Zj++;
+      } else if (T3 === "/" || T3 === "%") {
+        if (Zp > -1) {
+          Zp -= 1;
+        }
+      } else if (T3 === "^") {
+        if (Zp > -1) {
+          Zp -= 2;
+        }
+      } else if (T3 === "\\") {
+        if (Zp > -1) {
+          Zp -= 3;
+        }
+        let T4 = Zh(Zj + 1);
+        let T5 = Zh(Zj + 2);
+        if (this.dialoguer === 1) {
+          if (T4 === "E") {
+            if (ZV === 1) {
+              let T6 = "0123456789ABCDE".indexOf(T5);
+              if (T5 !== "" && T6 >= 0) {
+                s.fe = T6;
+              }
+            } else {
+              let T7 = T5 ? T5.charCodeAt(0) : 0;
+              if (T7 >= 48 && T7 <= 57) {
+                s.fe = T7 - 48;
+              } else if (T7 >= 65 && T7 <= 90) {
+                s.fe = T7 - 55;
+              } else if (T7 >= 97 && T7 <= 122) {
+                s.fe = T7 - 61;
               }
             }
           }
-        }
-        T2 === 0x0 && (T3 === '\x20' && (ZR = Zj, ZP = Zp), T3 === '*' && (ZH = 0x1), ZV === 0x5 && (s.typer === 0x61 && (this.charline = 0x17), Z7.exists('obj_battlecontroller') && (this.charline = 0x25), Z7.exists('obj_battlecontroller') && Z7.exists('obj_face') && s.fc !== 0x0 && (this.charline = 0x1d)), Zp >= this.charline ? ZR > 0x2 ? (Ze = Ze.slice(0x0, ZR - 0x1) + '&' + Ze.slice(ZR), Zj = ZR + 0x1, ZP > Zm && (Zm = ZP), ZR = -0x1, Zp = 0x1, ZL += 0x1, T0()) : (Zp > Zm && (Zm = Zp), Zf('&', Zj), ZN += 0x1, Zp = 0x1, ZR = -0x1, ZL += 0x1, Zj += 0x1, T0()) : Zp += 0x1);
-      }
-      ZV >= 0x2 && this.autocenter === 0x1 && (this.x = 0x140 - Zm * this.hspace / 0x2 + 0x5, this.y = 0xf0 - (this.writingy + (ZL + 0x1) * this.vspace) / 0x2 - 0xa), Zp > Zm && (Zm = Zp), this.stringmax = Zm, this.linecount = ZL, this.mystring = Ze, this.length = Ze.length, this.formatted = 0x1, this.textalignment === 'c' && (this.writingx = 0x140 - Zm * this.hspace / 0x2);
-    }
-    ["nextmsg"]() {
-      if (this.stringno++, this.mystring = this.msg[this.stringno], this.mystring === void 0x0 || this.mystring === '%%' || this.mystring === '\x20' || this.mystring === '') {
-        this.instance_destroy();
-        return;
-      }
-      this.pos = 0x1, this.halt = 0x0, this.timer = 0x0, this.formatted = 0x0, this.first = 0x0, this.msgno++;
-    }
-    ["step"]() {
-      if (this.formatted === 0x0) {
-        if (this.formatInDraw()) return;
-        this.format();
-      }
-      let ZK = this.mystring;
-      if (this.halt === 0x0 && this.pos <= this.length && (this.timer--, this.timer <= 0x0)) {
-        let Zh = !0x1;
-        for (; !Zh;) {
-          let Zf = ZK[this.pos - 0x1],
-            ZN = ZK[this.pos];
-          if (Zf === void 0x0) {
-            this.pos++;
-            break;
+          if (ZV === 5 && T4 === "M" && T5 !== "" && "0123456789".includes(T5)) {
+            s.flag[20] = Number(T5);
           }
-          if (Zf === '\x5c') {
-            this.applyCode(ZK.substr(this.pos, 0x2)), this.pos += 0x3;
-            continue;
-          }
-          if (Zf === '&' || Zf === '\x0a' && s.chapter >= 0x2) {
-            this.pos++;
-            continue;
-          }
-          if (Zf === '|') {
-            this.pos++;
-            continue;
-          }
-          if (Zf === '`' && s.chapter >= 0x2) {
-            this.pos += 0x2, this.timer = this.rate, Zh = !0x0;
-            continue;
-          }
-          if (Zf === '/') {
-            this.halt = 0x1, ZN === '%' && (this.halt = 0x2);
-            break;
-          }
-          if (Zf === '^') {
-            let Zp = {
-              0x1: 0x5,
-              0x2: 0xa,
-              0x3: 0xf,
-              0x4: 0x14,
-              0x5: 0x1e,
-              0x6: 0x28,
-              0x7: 0x3c,
-              0x8: 0x5a,
-              0x9: 0x96
-            }[ZN] || 0x0;
-            this.pos += 0x2, this.timer = this.rate + Zp, Zh = !0x0;
-            continue;
-          }
-          if (Zf === '%') {
-            ZK[this.pos] === '%' ? this.instance_destroy() : this.nextmsg();
-            return;
-          }
-          this.pos++, this.timer = this.rate, Zh = !0x0, this.textSound();
-        }
-      }
-      let [ZV, Ze] = this.buttons();
-      if (this.halt === 0x0 && Ze && this.pos < this.length && this.skippable === 0x1 && !this.disablebutton2 && (this.skipme = 0x1), this.skipme === 0x1) {
-        for (; this.pos <= this.length;) {
-          let ZR = ZK[this.pos - 0x1];
-          if (ZR === '/') {
-            this.halt = ZK[this.pos] === '%' ? 0x2 : 0x1;
-            break;
-          }
-          if (ZR === '%') {
-            this.skipme = 0x0, this.reachedend = 0x1, ZK[this.pos] === '%' ? this.instance_destroy() : this.nextmsg();
-            return;
-          }
-          if (ZR === '\x5c') {
-            this.applyCode(ZK.substr(this.pos, 0x2)), this.pos += 0x3;
-            continue;
-          }
-          this.pos++;
-        }
-        this.skipme = 0x0, this.reachedend = 0x1;
-      }
-      this.halt === 0x0 && this.pos > this.length && (this.reachedend = 0x1, ZK.endsWith('%%') && this.instance_destroy()), this.halt !== 0x0 && this.halt !== 0x5 && ZV && this.siner > 0x0 && !this.disablebutton1 && (this.halt === 0x1 ? this.nextmsg() : this.halt === 0x2 && this.instance_destroy()), this.siner++;
-    }
-    ["buttons"]() {
-      let ZK = s.chapter,
-        ZV = ZK >= 0x2 && ZK <= 0x5,
-        Ze = f(),
-        Zh = Z2();
-      return ZV && this.prevent_mash_buffer > 0x0 && (Ze = Zh = 0x0), (ZV || ZK === 0x1 && s.flag[0xa] === 0x1) && Z4() && !(this.preventcskip && !m()) && (this.automash_timer = this.automash_timer === 0x0 ? 0x1 : 0x0, ZK === 0x1 ? this.automash_timer === 0x0 && (Ze = Zh = 0x1) : (this.prevent_mash_buffer = 0x3, this.automash_timer === 0x0 ? Ze = 0x1 : Zh = 0x1)), this.prevent_mash_buffer--, [Ze, Zh];
-    }
-    ["textSound"]() {
-      let ZK = !0x0;
-      this.rate <= 0x2 && s.chapter >= 0x2 && (this.sound_timer--, ZK = this.sound_timer <= 0x0), this.firstnoise || (this.firstnoise = 0x1, ZK = !0x0), ZK && this.scr_textsound();
-    }
-    ["scr_textsound"]() {
-      let ZK = this.textsound;
-      if (!ZK || Z2() && this.skippable === 0x1) return;
-      let ZV = s.chapter,
-        Ze = this.mystring || '',
-        Zh = ZR => ZR >= 0x1 && ZR <= Ze.length ? Ze[ZR - 0x1] : '',
-        Zf = this.rate <= 0x2 ? Zh(this.pos) : Zh(this.pos - 0x1);
-      if (Zf === '&' || ZV >= 0x2 && Zf === '\x0a') {
-        if (this.rate < 0x3) Zf = Zh(this.pos + 0x1);else return;
-      }
-      if (Zf !== '' && " ^!.?,:/\\|*".includes(Zf)) return;
-      let ZN = 0.6,
-        Zp = Math.random;
-      if (this.voicePool) {
-        for (let ZR of this.voicePool) l(ZR);
-        o(this.voicePool[Math.floor(Zp() * this.voicePool.length)], {
-          'volume': ZN,
-          'pitch': 0.9 + Zp() * 0.15
-        }), this.sound_timer = 0x3;
-      } else {
-        if (ZV >= 0x2 && ZK === 'snd_txtq') l('snd_txtq_2'), o('snd_txtq_2', {
-          'volume': ZN,
-          'pitch': 0.9 + Zp() * 0.15
-        }), this.sound_timer = 0x2;else {
-          if (ZV >= 0x2 && ZK === 'snd_txtspam') l('snd_txtspam2'), o('snd_txtspam2', {
-            'volume': 0.8 * ZN,
-            'pitch': 1.2
-          }), this.sound_timer = 0x2;else {
-            if (ZV >= 0x2 && ZK === 'snd_txtsans') l('snd_txtsans'), o('snd_txtsans', {
-              'volume': ZN
-            }), this.sound_timer = 0x2;else {
-              if (ZV === 0x4 && (ZK === 'snd_txtjack_high_cute' || ZK === 'snd_txtjack_low2')) l(ZK), o(ZK, {
-                'volume': ZN,
-                'pitch': 0.75 + Zp() * 0.5
-              }), this.sound_timer = 0x3;else {
-                if (ZV === 0x4 && ZK === 'snd_txger') {
-                  let ZP = [0x1, 0x1, 0x1 - Zp() * 0.2][Math.floor(Zp() * 0x3)];
-                  l('snd_txger'), o('snd_txger', {
-                    'volume': ZN,
-                    'pitch': ZP
-                  }), this.sound_timer = 0x3;
-                } else {
-                  if (ZV === 0x5 && (ZK === 'snd_flowery_voicenoise_1' || ZK === 'snd_flowery_voicenoise_loop')) {
-                    let ZL = s.voiceclipmode | 0x0;
-                    if (ZL === 0x0 && (this.sound_timer = 0x1), ZL === 0x1 && (s.voiceclip && !(ZA && Z9(ZA)) && (ZA = o(s.voiceclip, {
-                      'volume': ZN
-                    })), this.sound_timer = 0x1), ZL === 0x2) {
-                      if (ZK === 'snd_flowery_voicenoise_1') {
-                        for (let Zm of ZW) l(Zm);
-                        o(ZW[Math.floor(Zp() * 0x3)], {
-                          'volume': ZN,
-                          'pitch': 0.9 + Zp() * 0.15
-                        });
-                      } else l(ZK), o(ZK, {
-                        'volume': ZN,
-                        'pitch': 0.94
-                      });
-                      this.sound_timer = 0x3;
-                    }
-                  } else {
-                    if (ZV === 0x5 && ZK === 'snd_txtnoe' && E.noelleVoice) E.noelleVoice(ZK, ZN);else {
-                      if (ZV >= 0x3 && ZK === 'snd_tv_voice_short') {
-                        let ZH = Math.floor(Zp() * 0x9) + 0x1;
-                        s.flag[0x41e] > 0x0 || (s.flag[0x41e] = 0x1);
-                        let Zj = (0.86 + Zp() * 0.35) * s.flag[0x41e];
-                        for (let T0 of Zy) l(T0);
-                        o(ZH >= 0x2 ? 'snd_tv_voice_short_' + ZH : 'snd_tv_voice_short', {
-                          'volume': 0.7 * ZN,
-                          'pitch': Zj
-                        }), this.sound_timer = 0x3;
-                      } else o(ZK, {
-                        'volume': ZN
-                      });
-                    }
-                  }
-                }
-              }
+          if (T4 === "F") {
+            if (T5 !== "" && T1[T5] !== undefined) {
+              s.fc = T1[T5];
+            }
+            if (s.fc === 0) {
+              this.charline = this.originalcharline;
+              this.writingx = this.x;
+            } else {
+              this.charline = 26;
+              this.writingx = this.x + ZK * 58;
             }
           }
-        }
-      }
-    }
-    ["applyTyper"](ZK) {
-      let ZV = (s.chapter >= 0x3 && Za[s.chapter] ? Za[s.chapter][ZK] : null) || Zk[ZK] || Zk[0x4];
-      [this.myfont, this.mycolor, this.rate, this.textsound, this.hspace, this.vspace] = ZV, this.special = ZV[0x6] || 0x0, this.xcolor = this.mycolor, this.charline = ZV[0x8] || 0x21, this.shake = ZV[0x7] || 0x0, this.textscale = 0x1, this.voicePool = ZV[0x9] || null;
-    }
-    ["applyCode"](ZK) {
-      let ZV = ZK[0x0],
-        Ze = ZK[0x1];
-      if (ZV === 'W') {
-        let Zh = ZY(Ze);
-        if (!Zh) return;
-        s.fc = Zh.fc, s.typer = Zh.typer, this.applyTyper(s.typer), this.dialoguer === 0x1 && (s.fc === 0x0 ? this.charline = this.originalcharline : this.wxskip = 0x1);
-        return;
-      }
-      if (s.chapter === 0x5 && ZV === 'T' && Zz[Ze]) {
-        s.typer = Zz[Ze](), this.applyTyper(s.typer), Ze === 'P' && (s.fe = 0x0), this.dialoguer === 0x1 && (s.fc === 0x0 ? this.charline = this.originalcharline : this.wxskip = 0x1);
-        return;
-      }
-      if (s.chapter === 0x3 && ZV === 'T' && Zs[Ze]) {
-        s.typer = Zs[Ze](), this.applyTyper(s.typer), this.dialoguer === 0x1 && s.fc === 0x0 && (this.charline = this.originalcharline);
-        return;
-      }
-      if (s.chapter === 0x5 && (ZV === 'E' || ZV === 'F')) {
-        let Zf = Ze ? Ze.charCodeAt(0x0) : 0x0;
-        ZV === 'E' ? Zf >= 0x30 && Zf <= 0x39 ? s.fe = Zf - 0x30 : Zf >= 0x41 && Zf <= 0x5a ? s.fe = Zf - 0x37 : Zf >= 0x61 && Zf <= 0x7a && (s.fe = Zf - 0x3d) : Zc[Ze] !== void 0x0 && (s.fc = Zc[Ze]);
-        return;
-      }
-      if (ZV === 'E') {
-        let ZN = Ze ? Ze.charCodeAt(0x0) : 0x0;
-        if (s.chapter <= 0x1) {
-          let Zp = "0123456789ABCDE".indexOf(Ze);
-          Ze && Zp >= 0x0 && (s.fe = Zp);
-        } else ZN >= 0x30 && ZN <= 0x39 ? s.fe = ZN - 0x30 : ZN >= 0x41 && ZN <= 0x5a ? s.fe = ZN - 0x37 : ZN >= 0x61 && ZN <= 0x7a && (s.fe = ZN - 0x3d);
-      } else {
-        if (ZV === 'F' && s.chapter >= 0x2) {
-          let ZR = (ZS[s.chapter] || Zg)[Ze];
-          ZR !== void 0x0 && (s.fc = ZR), ZR !== void 0x0 && this.dialoguer === 0x1 && (s.fc === 0x0 ? (this.charline = this.originalcharline, this.writingx = this.x) : (this.charline = 0x1a, this.writingx = this.x + 0x3a * (s.darkzone === 0x0 ? 0x1 : 0x2)));
-        } else {
-          if (ZV === 'c') this.xcolor = ZQ[Ze] || this.mycolor;else {
-            if (ZV === 'M' && s.chapter >= 0x1) Ze && "0123456789".includes(Ze) && (s.flag[0x14] = Number(Ze));else {
-              if (ZV === 'T') {
-                let ZP = Zu[Ze];
-                ZP && (s.typer = ZP(), this.applyTyper(s.typer));
-              } else ZV === 's' ? this.skippable = Ze === '0' ? 0x0 : 0x1 : ZV === 'a' ? this.textalignment = Ze : ZV === 'C' && (Ze === '2' || Ze === '3' || Ze === '4' ? (v(Zb) || (this.choicer = c(0x0, 0x0, E.roomChoicer || Zb), this.choicer.choicetotal = Number(Ze) - 0x1), this.halt = 0x5) : Ze === '1' && (this.halt = 0x5));
+          if (T4 === "W" && ZY(T5)) {
+            s.fc = ZY(T5).fc;
+            if (s.fc === 0) {
+              this.charline = this.originalcharline;
+              this.writingx = this.x;
+            } else {
+              this.charline = 26;
+              this.writingx = this.x + ZK * 58;
             }
           }
+          if (ZV >= 2 && T4 === "m") {
+            this.drawaster = 0;
+          }
+          if (ZV >= 2 && T4 === "s" && T5 === "0") {
+            this.skippable = 0;
+          }
+        }
+        if (ZV === 1 && T4 === "a") {
+          this.textalignment = T5;
+        }
+      } else if (T3 === "&" || ZV >= 2 && T3 === "\n") {
+        if (Zp > Zm) {
+          Zm = Zp;
+        }
+        ZR = -1;
+        Zp = 0;
+        ZL += 1;
+        T2 = 1;
+        let T8 = Zh(Zj + 1);
+        if (ZH === 1 && this.autoaster === 1 && T8 !== "*") {
+          Zp = 2;
+          ZN += 2;
+          Zf("||", Zj + 1);
+          Zj += 2;
         }
       }
-    }
-    ["formatInDraw"]() {
-      return s.darkzone === 0x0 && this.dialoguer === 0x1;
-    }
-    ["draw"](ZK) {
-      this.formatted === 0x0 && this.formatInDraw() && this.format();
-      let ZV = s.chapter === 0x5 && E.chapterWriterOffset ? E.chapterWriterOffset(this) : null;
-      if (ZV) {
-        ZK.ctx.save(), ZK.ctx.translate(ZV[0x0], ZV[0x1]);
-        try {
-          this.drawText(ZK);
-        } finally {
-          ZK.ctx.restore();
+      if (T2 === 0) {
+        if (T3 === " ") {
+          ZR = Zj;
+          ZP = Zp;
         }
-        return;
-      }
-      this.drawText(ZK);
-    }
-    ["drawText"](ZK) {
-      let ZV = this.mystring,
-        Ze = this.writingx,
-        Zh = this.writingy,
-        Zf = this.mycolor;
-      ZK.draw_set_font(this.myfont);
-      let ZN = this.shake || 0x0,
-        Zp = this.textscale === void 0x0 ? 0x1 : this.textscale;
-      for (let ZR = 0x1; ZR < this.pos && ZR <= ZV.length; ZR++) {
-        let ZP = ZV[ZR - 0x1],
-          ZL = ZP === '`' && s.chapter >= 0x2;
-        if (ZL && (ZR++, ZP = ZV[ZR - 0x1], ZP === void 0x0)) break;
-        if (!ZL && (ZP === '&' || ZP === '\x0a' && s.chapter >= 0x2)) {
-          Ze = this.wxskip === 0x1 ? this.writingx + 0x3a : this.writingx, Zh += this.vspace;
-          continue;
+        if (T3 === "*") {
+          ZH = 1;
         }
-        if (!ZL && ZP === '#' && s.chapter >= 0x2) {
-          Ze += this.hspace;
-          continue;
+        if (ZV === 5) {
+          if (s.typer === 97) {
+            this.charline = 23;
+          }
+          if (Z7.exists("obj_battlecontroller")) {
+            this.charline = 37;
+          }
+          if (Z7.exists("obj_battlecontroller") && Z7.exists("obj_face") && s.fc !== 0) {
+            this.charline = 29;
+          }
         }
-        if (!ZL && ZP === '*' && this.drawaster === 0x0) {
-          Ze += this.hspace;
-          continue;
-        }
-        if (!ZL && ZP === '|') {
-          Ze += this.hspace;
-          continue;
-        }
-        if (!ZL && ZP === '^') {
-          ZR++;
-          continue;
-        }
-        if (!ZL && ZP === '\x5c') {
-          let Zj = ZV.substr(ZR, 0x2);
-          if (Zj[0x0] === 'c' && (Zf = ZQ[Zj[0x1]] || this.mycolor), Zj[0x0] === 'I') {
-            let T0 = s.chapter === 0x5 && Array.isArray(s.writerimg) ? s.writerimg[parseInt(Zj[0x1])] : void 0x0;
-            if (typeof T0 == 'string' && T0) ZK.draw_sprite(T0, 0x0, Ze, Zh + 0x4);else {
-              let T1 = Zr[parseInt(Zj[0x1])];
-              T1 && ZK.draw_sprite(T1, 0x0, Ze, Zh - 0x4);
+        if (Zp >= this.charline) {
+          if (ZR > 2) {
+            Ze = Ze.slice(0, ZR - 1) + "&" + Ze.slice(ZR);
+            Zj = ZR + 1;
+            if (ZP > Zm) {
+              Zm = ZP;
             }
-          }
-          ZR += 0x2;
-          continue;
-        }
-        if (!ZL && (ZP === '/' || ZP === '%')) continue;
-        let Zm = ZN ? p(ZN) : 0x0,
-          ZH = ZN ? p(ZN) : 0x0;
-        if (this.special === 0x1) {
-          let T2 = Zf === h.white || Zf === "#ffffff" || Zf === h.black || Zf === "#000000",
-            T3 = ZK.halign,
-            T4 = ZK.valign;
-          ZK.halign = 'left', ZK.valign = 'top';
-          try {
-            T2 ? (ZK.draw_text_colour(Ze + Zm + 0x1, Zh + ZH + 0x1, ZP, h.dkgray, h.dkgray, h.navy, h.navy, 0x1), ZK.draw_char(this.myfont, ZP, Ze + Zm, Zh + ZH, Zf, Zp, Zp, 0x1)) : (ZK.draw_text_colour(Ze + Zm + 0x1, Zh + ZH + 0x1, ZP, Zf, Zf, Zf, Zf, 0.3), ZK.draw_text_colour(Ze + Zm, Zh + ZH, ZP, h.white, h.white, Zf, Zf, 0x1));
-          } finally {
-            ZK.halign = T3, ZK.valign = T4;
-          }
-        } else {
-          if (this.special === 0x2) {
-            let T5 = this.specfade,
-              T6 = this.siner;
-            ZK.draw_char(this.myfont, ZP, Ze, Zh, Zf, Zp, Zp, T5);
-            let T7 = (0.3 + g(T6 / 0xe) * 0.1) * T5;
-            for (let [T9, TZ] of [[0x1, 0x0], [-0x1, 0x0], [0x0, 0x1], [0x0, -0x1]]) ZK.draw_char(this.myfont, ZP, Ze + T9, Zh + TZ, Zf, Zp, Zp, T7);
-            let T8 = (0.08 + g(T6 / 0xe) * 0.04) * T5;
-            for (let [TT, Tx] of [[0x1, 0x1], [-0x1, -0x1], [-0x1, 0x1], [0x1, -0x1]]) ZK.draw_char(this.myfont, ZP, Ze + TT, Zh + Tx, Zf, Zp, Zp, T8);
+            ZR = -1;
+            Zp = 1;
+            ZL += 1;
+            T0();
           } else {
-            if (this.special === 0x3) {
-              let Tw = this.siner;
-              ZK.draw_char(this.myfont, ZP, Ze + g(Tw / 0x4), Zh + S(Tw / 0x4), h.white, Zp, Zp, 0x1);
-              for (let Tk of [0x5, 0x7, 0x9]) ZK.draw_char(this.myfont, ZP, Ze + g(Tw / Tk), Zh + S(Tw / Tk), h.white, Zp, Zp, 0.5);
-              for (let Ta = 0x0; Ta < 0x7; Ta++) {
-                let TO = 0x13b + p(0xf);
-                ZR === 0x1 && (this.specx[Ta] += Z3(0x2, TO), this.specy[Ta] += Z5(0x2, TO), this.specx[Ta] >= 0x28 && (this.specx[Ta] = 0x0, this.specy[Ta] = 0x0)), ZK.draw_char(this.myfont, ZP, Ze + this.specx[Ta], Zh + this.specy[Ta], h.white, Zp, Zp, (0x28 - this.specx[Ta]) / 0x28 * 0.7);
-              }
-            } else ZK.draw_char(this.myfont, ZP, Ze + Zm, Zh + ZH, Zf, Zp, Zp, 0x1);
+            if (Zp > Zm) {
+              Zm = Zp;
+            }
+            Zf("&", Zj);
+            ZN += 1;
+            Zp = 1;
+            ZR = -1;
+            ZL += 1;
+            Zj += 1;
+            T0();
           }
+        } else {
+          Zp += 1;
         }
+      }
+    }
+    if (ZV >= 2 && this.autocenter === 1) {
+      this.x = 320 - Zm * this.hspace / 2 + 5;
+      this.y = 240 - (this.writingy + (ZL + 1) * this.vspace) / 2 - 10;
+    }
+    if (Zp > Zm) {
+      Zm = Zp;
+    }
+    this.stringmax = Zm;
+    this.linecount = ZL;
+    this.mystring = Ze;
+    this.length = Ze.length;
+    this.formatted = 1;
+    if (this.textalignment === "c") {
+      this.writingx = 320 - Zm * this.hspace / 2;
+    }
+  }
+  nextmsg() {
+    this.stringno++;
+    this.mystring = this.msg[this.stringno];
+    if (this.mystring === undefined || this.mystring === "%%" || this.mystring === " " || this.mystring === "") {
+      this.instance_destroy();
+      return;
+    }
+    this.pos = 1;
+    this.halt = 0;
+    this.timer = 0;
+    this.formatted = 0;
+    this.first = 0;
+    this.msgno++;
+  }
+  step() {
+    if (this.formatted === 0) {
+      if (this.formatInDraw()) {
+        return;
+      }
+      this.format();
+    }
+    let ZK = this.mystring;
+    if (this.halt === 0 && this.pos <= this.length && (this.timer--, this.timer <= 0)) {
+      let Zh = false;
+      while (!Zh) {
+        let Zf = ZK[this.pos - 1];
+        let ZN = ZK[this.pos];
+        if (Zf === undefined) {
+          this.pos++;
+          break;
+        }
+        if (Zf === "\\") {
+          this.applyCode(ZK.substr(this.pos, 2));
+          this.pos += 3;
+          continue;
+        }
+        if (Zf === "&" || Zf === "\n" && s.chapter >= 2) {
+          this.pos++;
+          continue;
+        }
+        if (Zf === "|") {
+          this.pos++;
+          continue;
+        }
+        if (Zf === "`" && s.chapter >= 2) {
+          this.pos += 2;
+          this.timer = this.rate;
+          Zh = true;
+          continue;
+        }
+        if (Zf === "/") {
+          this.halt = 1;
+          if (ZN === "%") {
+            this.halt = 2;
+          }
+          break;
+        }
+        if (Zf === "^") {
+          let Zp = {
+            1: 5,
+            2: 10,
+            3: 15,
+            4: 20,
+            5: 30,
+            6: 40,
+            7: 60,
+            8: 90,
+            9: 150
+          }[ZN] || 0;
+          this.pos += 2;
+          this.timer = this.rate + Zp;
+          Zh = true;
+          continue;
+        }
+        if (Zf === "%") {
+          if (ZK[this.pos] === "%") {
+            this.instance_destroy();
+          } else {
+            this.nextmsg();
+          }
+          return;
+        }
+        this.pos++;
+        this.timer = this.rate;
+        Zh = true;
+        this.textSound();
+      }
+    }
+    let [ZV, Ze] = this.buttons();
+    if (this.halt === 0 && Ze && this.pos < this.length && this.skippable === 1 && !this.disablebutton2) {
+      this.skipme = 1;
+    }
+    if (this.skipme === 1) {
+      while (this.pos <= this.length) {
+        let ZR = ZK[this.pos - 1];
+        if (ZR === "/") {
+          this.halt = ZK[this.pos] === "%" ? 2 : 1;
+          break;
+        }
+        if (ZR === "%") {
+          this.skipme = 0;
+          this.reachedend = 1;
+          if (ZK[this.pos] === "%") {
+            this.instance_destroy();
+          } else {
+            this.nextmsg();
+          }
+          return;
+        }
+        if (ZR === "\\") {
+          this.applyCode(ZK.substr(this.pos, 2));
+          this.pos += 3;
+          continue;
+        }
+        this.pos++;
+      }
+      this.skipme = 0;
+      this.reachedend = 1;
+    }
+    if (this.halt === 0 && this.pos > this.length) {
+      this.reachedend = 1;
+      if (ZK.endsWith("%%")) {
+        this.instance_destroy();
+      }
+    }
+    if (this.halt !== 0 && this.halt !== 5 && ZV && this.siner > 0 && !this.disablebutton1) {
+      if (this.halt === 1) {
+        this.nextmsg();
+      } else if (this.halt === 2) {
+        this.instance_destroy();
+      }
+    }
+    this.siner++;
+  }
+  buttons() {
+    let ZK = s.chapter;
+    let ZV = ZK >= 2 && ZK <= 5;
+    let Ze = f();
+    let Zh = Z2();
+    if (ZV && this.prevent_mash_buffer > 0) {
+      Ze = Zh = 0;
+    }
+    if ((ZV || ZK === 1 && s.flag[10] === 1) && Z4() && (!this.preventcskip || !!m())) {
+      this.automash_timer = this.automash_timer === 0 ? 1 : 0;
+      if (ZK === 1) {
+        if (this.automash_timer === 0) {
+          Ze = Zh = 1;
+        }
+      } else {
+        this.prevent_mash_buffer = 3;
+        if (this.automash_timer === 0) {
+          Ze = 1;
+        } else {
+          Zh = 1;
+        }
+      }
+    }
+    this.prevent_mash_buffer--;
+    return [Ze, Zh];
+  }
+  textSound() {
+    let ZK = true;
+    if (this.rate <= 2 && s.chapter >= 2) {
+      this.sound_timer--;
+      ZK = this.sound_timer <= 0;
+    }
+    if (!this.firstnoise) {
+      this.firstnoise = 1;
+      ZK = true;
+    }
+    if (ZK) {
+      this.scr_textsound();
+    }
+  }
+  scr_textsound() {
+    let ZK = this.textsound;
+    if (!ZK || Z2() && this.skippable === 1) {
+      return;
+    }
+    let ZV = s.chapter;
+    let Ze = this.mystring || "";
+    let Zh = ZR => ZR >= 1 && ZR <= Ze.length ? Ze[ZR - 1] : "";
+    let Zf = this.rate <= 2 ? Zh(this.pos) : Zh(this.pos - 1);
+    if (Zf === "&" || ZV >= 2 && Zf === "\n") {
+      if (this.rate < 3) {
+        Zf = Zh(this.pos + 1);
+      } else {
+        return;
+      }
+    }
+    if (Zf !== "" && " ^!.?,:/\\|*".includes(Zf)) {
+      return;
+    }
+    let ZN = 0.6;
+    let Zp = Math.random;
+    if (this.voicePool) {
+      for (let ZR of this.voicePool) {
+        l(ZR);
+      }
+      o(this.voicePool[Math.floor(Zp() * this.voicePool.length)], {
+        volume: ZN,
+        pitch: 0.9 + Zp() * 0.15
+      });
+      this.sound_timer = 3;
+    } else if (ZV >= 2 && ZK === "snd_txtq") {
+      l("snd_txtq_2");
+      o("snd_txtq_2", {
+        volume: ZN,
+        pitch: 0.9 + Zp() * 0.15
+      });
+      this.sound_timer = 2;
+    } else if (ZV >= 2 && ZK === "snd_txtspam") {
+      l("snd_txtspam2");
+      o("snd_txtspam2", {
+        volume: ZN * 0.8,
+        pitch: 1.2
+      });
+      this.sound_timer = 2;
+    } else if (ZV >= 2 && ZK === "snd_txtsans") {
+      l("snd_txtsans");
+      o("snd_txtsans", {
+        volume: ZN
+      });
+      this.sound_timer = 2;
+    } else if (ZV === 4 && (ZK === "snd_txtjack_high_cute" || ZK === "snd_txtjack_low2")) {
+      l(ZK);
+      o(ZK, {
+        volume: ZN,
+        pitch: 0.75 + Zp() * 0.5
+      });
+      this.sound_timer = 3;
+    } else if (ZV === 4 && ZK === "snd_txger") {
+      let ZP = [1, 1, 1 - Zp() * 0.2][Math.floor(Zp() * 3)];
+      l("snd_txger");
+      o("snd_txger", {
+        volume: ZN,
+        pitch: ZP
+      });
+      this.sound_timer = 3;
+    } else if (ZV === 5 && (ZK === "snd_flowery_voicenoise_1" || ZK === "snd_flowery_voicenoise_loop")) {
+      let ZL = s.voiceclipmode | 0;
+      if (ZL === 0) {
+        this.sound_timer = 1;
+      }
+      if (ZL === 1) {
+        if (s.voiceclip && (!ZA || !Z9(ZA))) {
+          ZA = o(s.voiceclip, {
+            volume: ZN
+          });
+        }
+        this.sound_timer = 1;
+      }
+      if (ZL === 2) {
+        if (ZK === "snd_flowery_voicenoise_1") {
+          for (let Zm of ZW) {
+            l(Zm);
+          }
+          o(ZW[Math.floor(Zp() * 3)], {
+            volume: ZN,
+            pitch: 0.9 + Zp() * 0.15
+          });
+        } else {
+          l(ZK);
+          o(ZK, {
+            volume: ZN,
+            pitch: 0.94
+          });
+        }
+        this.sound_timer = 3;
+      }
+    } else if (ZV === 5 && ZK === "snd_txtnoe" && E.noelleVoice) {
+      E.noelleVoice(ZK, ZN);
+    } else if (ZV >= 3 && ZK === "snd_tv_voice_short") {
+      let ZH = Math.floor(Zp() * 9) + 1;
+      if (!(s.flag[1054] > 0)) {
+        s.flag[1054] = 1;
+      }
+      let Zj = (0.86 + Zp() * 0.35) * s.flag[1054];
+      for (let T0 of Zy) {
+        l(T0);
+      }
+      o(ZH >= 2 ? "snd_tv_voice_short_" + ZH : "snd_tv_voice_short", {
+        volume: ZN * 0.7,
+        pitch: Zj
+      });
+      this.sound_timer = 3;
+    } else {
+      o(ZK, {
+        volume: ZN
+      });
+    }
+  }
+  applyTyper(ZK) {
+    let ZV = (s.chapter >= 3 && Za[s.chapter] ? Za[s.chapter][ZK] : null) || Zk[ZK] || Zk[4];
+    [this.myfont, this.mycolor, this.rate, this.textsound, this.hspace, this.vspace] = ZV;
+    this.special = ZV[6] || 0;
+    this.xcolor = this.mycolor;
+    this.charline = ZV[8] || 33;
+    this.shake = ZV[7] || 0;
+    this.textscale = 1;
+    this.voicePool = ZV[9] || null;
+  }
+  applyCode(ZK) {
+    let ZV = ZK[0];
+    let Ze = ZK[1];
+    if (ZV === "W") {
+      let Zh = ZY(Ze);
+      if (!Zh) {
+        return;
+      }
+      s.fc = Zh.fc;
+      s.typer = Zh.typer;
+      this.applyTyper(s.typer);
+      if (this.dialoguer === 1) {
+        if (s.fc === 0) {
+          this.charline = this.originalcharline;
+        } else {
+          this.wxskip = 1;
+        }
+      }
+      return;
+    }
+    if (s.chapter === 5 && ZV === "T" && Zz[Ze]) {
+      s.typer = Zz[Ze]();
+      this.applyTyper(s.typer);
+      if (Ze === "P") {
+        s.fe = 0;
+      }
+      if (this.dialoguer === 1) {
+        if (s.fc === 0) {
+          this.charline = this.originalcharline;
+        } else {
+          this.wxskip = 1;
+        }
+      }
+      return;
+    }
+    if (s.chapter === 3 && ZV === "T" && Zs[Ze]) {
+      s.typer = Zs[Ze]();
+      this.applyTyper(s.typer);
+      if (this.dialoguer === 1 && s.fc === 0) {
+        this.charline = this.originalcharline;
+      }
+      return;
+    }
+    if (s.chapter === 5 && (ZV === "E" || ZV === "F")) {
+      let Zf = Ze ? Ze.charCodeAt(0) : 0;
+      if (ZV === "E") {
+        if (Zf >= 48 && Zf <= 57) {
+          s.fe = Zf - 48;
+        } else if (Zf >= 65 && Zf <= 90) {
+          s.fe = Zf - 55;
+        } else if (Zf >= 97 && Zf <= 122) {
+          s.fe = Zf - 61;
+        }
+      } else if (Zc[Ze] !== undefined) {
+        s.fc = Zc[Ze];
+      }
+      return;
+    }
+    if (ZV === "E") {
+      let ZN = Ze ? Ze.charCodeAt(0) : 0;
+      if (s.chapter <= 1) {
+        let Zp = "0123456789ABCDE".indexOf(Ze);
+        if (Ze && Zp >= 0) {
+          s.fe = Zp;
+        }
+      } else if (ZN >= 48 && ZN <= 57) {
+        s.fe = ZN - 48;
+      } else if (ZN >= 65 && ZN <= 90) {
+        s.fe = ZN - 55;
+      } else if (ZN >= 97 && ZN <= 122) {
+        s.fe = ZN - 61;
+      }
+    } else if (ZV === "F" && s.chapter >= 2) {
+      let ZR = (ZS[s.chapter] || Zg)[Ze];
+      if (ZR !== undefined) {
+        s.fc = ZR;
+      }
+      if (ZR !== undefined && this.dialoguer === 1) {
+        if (s.fc === 0) {
+          this.charline = this.originalcharline;
+          this.writingx = this.x;
+        } else {
+          this.charline = 26;
+          this.writingx = this.x + (s.darkzone === 0 ? 1 : 2) * 58;
+        }
+      }
+    } else if (ZV === "c") {
+      this.xcolor = ZQ[Ze] || this.mycolor;
+    } else if (ZV === "M" && s.chapter >= 1) {
+      if (Ze && "0123456789".includes(Ze)) {
+        s.flag[20] = Number(Ze);
+      }
+    } else if (ZV === "T") {
+      let ZP = Zu[Ze];
+      if (ZP) {
+        s.typer = ZP();
+        this.applyTyper(s.typer);
+      }
+    } else if (ZV === "s") {
+      this.skippable = Ze === "0" ? 0 : 1;
+    } else if (ZV === "a") {
+      this.textalignment = Ze;
+    } else if (ZV === "C") {
+      if (Ze === "2" || Ze === "3" || Ze === "4") {
+        if (!v(Zb)) {
+          this.choicer = c(0, 0, E.roomChoicer || Zb);
+          this.choicer.choicetotal = Number(Ze) - 1;
+        }
+        this.halt = 5;
+      } else if (Ze === "1") {
+        this.halt = 5;
+      }
+    }
+  }
+  formatInDraw() {
+    return s.darkzone === 0 && this.dialoguer === 1;
+  }
+  draw(ZK) {
+    if (this.formatted === 0 && this.formatInDraw()) {
+      this.format();
+    }
+    let ZV = s.chapter === 5 && E.chapterWriterOffset ? E.chapterWriterOffset(this) : null;
+    if (ZV) {
+      ZK.ctx.save();
+      ZK.ctx.translate(ZV[0], ZV[1]);
+      try {
+        this.drawText(ZK);
+      } finally {
+        ZK.ctx.restore();
+      }
+      return;
+    }
+    this.drawText(ZK);
+  }
+  drawText(ZK) {
+    let ZV = this.mystring;
+    let Ze = this.writingx;
+    let Zh = this.writingy;
+    let Zf = this.mycolor;
+    ZK.draw_set_font(this.myfont);
+    let ZN = this.shake || 0;
+    let Zp = this.textscale === undefined ? 1 : this.textscale;
+    for (let ZR = 1; ZR < this.pos && ZR <= ZV.length; ZR++) {
+      let ZP = ZV[ZR - 1];
+      let ZL = ZP === "`" && s.chapter >= 2;
+      if (ZL && (ZR++, ZP = ZV[ZR - 1], ZP === undefined)) {
+        break;
+      }
+      if (!ZL && (ZP === "&" || ZP === "\n" && s.chapter >= 2)) {
+        Ze = this.wxskip === 1 ? this.writingx + 58 : this.writingx;
+        Zh += this.vspace;
+        continue;
+      }
+      if (!ZL && ZP === "#" && s.chapter >= 2) {
         Ze += this.hspace;
+        continue;
       }
-    }
-  };
-ZT(ZD, 'obj_writer'), Zx(ZD, 'kinds', Z1('obj_writer', Z0)), Zx(ZD, 'defaultDepth', 0x0);
-var ZE = ZD,
-  ZF = ZT(() => s.darkzone === 0x1, 'dz'),
-  ZG = ZT(() => s.fighting === 0x1, 'fi'),
-  Zz = {
-    0x0: ZT(() => ZF() ? 0x6 : 0x5, '0'),
-    0x1: ZT(() => 0x2, '1'),
-    'A': ZT(() => ZF() ? 0x59 : 0x12, 'A'),
-    'a': ZT(() => 0x14, 'a'),
-    'N': ZT(() => ZG() ? 0x3b : ZF() ? 0x38 : 0xc, 'N'),
-    'n': ZT(() => 0x17, 'n'),
-    'B': ZT(() => ZG() ? 0x4d : ZF() ? 0x39 : 0xd, 'B'),
-    'S': ZT(() => ZF() ? ZG() ? 0x2f : 0x1e : 0xa, 'S'),
-    'R': ZT(() => s.flag[0x1e] === 0x1 ? 0x6 : ZG() ? 0x2d : 0x1f, 'R'),
-    'L': ZT(() => ZG() ? 0x2e : 0x20, 'L'),
-    'X': ZT(() => 0x28, 'X'),
-    'r': ZT(() => 0x37, 'r'),
-    'T': ZT(() => 0x7, 'T'),
-    'J': ZT(() => 0x23, 'J'),
-    'K': ZT(() => ZG() ? 0x30 : 0x21, 'K'),
-    'q': ZT(() => 0x3e, 'q'),
-    'Q': ZT(() => 0x3a, 'Q'),
-    's': ZT(() => 0xe, 's'),
-    'U': ZT(() => 0x11, 'U'),
-    'p': ZT(() => 0x43, 'p'),
-    'C': ZT(() => 0x57, 'C'),
-    'f': ZT(() => 0x53, 'f'),
-    'v': ZT(() => 0x54, 'v'),
-    'j': ZT(() => 0x5, 'j'),
-    'y': ZT(() => 0x5, 'y'),
-    'i': ZT(() => 0x5, 'i'),
-    'k': ZT(() => 0x5, 'k'),
-    'F': ZT(() => 0x58, 'F'),
-    'h': ZT(() => 0x56, 'h'),
-    '+': ZT(() => 0x24, '+'),
-    0x4: ZT(() => 0x5a, '4'),
-    0x5: ZT(() => 0x5b, '5'),
-    0x6: ZT(() => 0x5c, '6'),
-    0x7: ZT(() => 0x5d, '7'),
-    0x8: ZT(() => 0x5e, '8'),
-    0x9: ZT(() => 0x5f, '9'),
-    'P': ZT(() => 0x61, 'P'),
-    'O': ZT(() => 0x62, 'O')
-  },
-  Zs = {
-    0x0: ZT(() => ZF() ? 0x6 : 0x5, '0'),
-    0x1: ZT(() => 0x2, '1'),
-    'A': ZT(() => 0x12, 'A'),
-    'a': ZT(() => 0x14, 'a'),
-    'N': ZT(() => ZG() ? 0x3b : ZF() ? 0x38 : 0xc, 'N'),
-    'n': ZT(() => 0x17, 'n'),
-    'B': ZT(() => ZG() ? 0x4d : ZF() ? 0x39 : 0xd, 'B'),
-    'S': ZT(() => ZF() ? ZG() ? 0x2f : 0x1e : 0xa, 'S'),
-    'R': ZT(() => s.flag[0x1e] === 0x1 ? 0x6 : ZG() ? 0x2d : 0x1f, 'R'),
-    'L': ZT(() => ZG() ? 0x2e : 0x20, 'L'),
-    'X': ZT(() => 0x28, 'X'),
-    'r': ZT(() => 0x37, 'r'),
-    'T': ZT(() => 0x7, 'T'),
-    'J': ZT(() => 0x23, 'J'),
-    'K': ZT(() => ZG() ? 0x30 : s.plot < 0xeb ? 0x24 : 0x21, 'K'),
-    'q': ZT(() => 0x3e, 'q'),
-    'Q': ZT(() => 0x3a, 'Q'),
-    's': ZT(() => 0xe, 's'),
-    'U': ZT(() => 0x11, 'U'),
-    'p': ZT(() => 0x43, 'p'),
-    'v': ZT(() => ZG() ? 0x51 : 0x50, 'v')
-  },
-  Zd = {
-    0x0: 0x0,
-    'S': 0x1,
-    'R': 0x2,
-    'N': 0x3,
-    'T': 0x4,
-    'L': 0x5,
-    'A': 0xa,
-    'a': 0xb,
-    'B': 0xc,
-    'r': 0xf,
-    'u': 0x12,
-    'K': 0x14
-  },
-  Zg = {
-    0x0: 0x0,
-    'S': 0x1,
-    'R': 0x2,
-    'N': 0x3,
-    'T': 0x4,
-    'L': 0x5,
-    's': 0x6,
-    'U': 0x9,
-    'A': 0xa,
-    'a': 0xb,
-    'B': 0xc,
-    'r': 0xf,
-    'u': 0x12,
-    'K': 0x14,
-    'Q': 0x15
-  },
-  ZS = {
-    0x1: Zd,
-    0x2: Zg,
-    0x3: Zg,
-    0x4: Zg,
-    0x5: {
-      ...Zg,
-      '◘': 0x19
-    }
-  },
-  Zc = {
-    0x0: 0x0,
-    'S': 0x1,
-    'R': 0x2,
-    'N': 0x3,
-    'T': 0x4,
-    'L': 0x5,
-    's': 0x6,
-    'U': 0x9,
-    'A': 0xa,
-    'a': 0xb,
-    'B': 0xc,
-    'i': 0xd,
-    'J': 0xe,
-    'r': 0xf,
-    'k': 0x10,
-    'y': 0x11,
-    'u': 0x12,
-    'b': 0x13,
-    'K': 0x14,
-    'Q': 0x15,
-    'C': 0x16,
-    'F': 0x17,
-    'f': 0x18
-  },
-  ZI = class Ti extends Z0 {
-    ["create"]() {
-      this.nowface = s.fc, this.battletimer = 0x0, s.chapter === 0x5 && E.chapterFace && E.chapterFace.create.call(this);
-    }
-    ["step"]() {
-      this.battletimer++, s.chapter === 0x5 && E.chapterFace && E.chapterFace.step.call(this), Z7.exists('obj_writer') || this.instance_destroy();
-    }
-    ["draw"](ZK) {
-      let ZV = Zi[s.fc];
-      if (ZV) {
-        this.cfacechange = (this.cfacechange ?? 0x2) - 0x1, this.nowface !== s.fc && (this.cfacechange = 0x3, this.nowface = s.fc), this.cfacechange <= 0x0 && ZK.draw_sprite_ext(ZV.sprite, s.fe, this.x + ZV.dx, this.y + ZV.dy, 0x2, 0x2, 0x0, h.white, 0x1);
-        return;
+      if (!ZL && ZP === "*" && this.drawaster === 0) {
+        Ze += this.hspace;
+        continue;
       }
-      if (s.chapter === 0x5 && E.chapterFace) {
-        E.chapterFace.draw.call(this, ZK);
-        return;
+      if (!ZL && ZP === "|") {
+        Ze += this.hspace;
+        continue;
       }
-      let Ze = this.x,
-        Zh = this.y,
-        Zf = 0x2;
-      if (this.facechange = (this.facechange ?? 0x2) - 0x1, this.nowface !== s.fc && (this.facechange = 0x3, this.nowface = s.fc), this.facechange > 0x0) return;
-      s.fc === 0x1 && s.chapter <= 0x4 && (s.chapter <= 0x1 ? ZK.draw_sprite_ext('spr_face_s' + ("0123456789ABCD"[s.fe] || '0'), 0x0, Ze - 0x5, Zh, Zf, Zf, 0x0, h.white, 0x1) : ZK.draw_sprite_ext('spr_face_susie_alt', s.fe, Ze - 0x5, Zh, Zf, Zf, 0x0, h.white, 0x1)), s.fc === 0x2 && ZK.draw_sprite_ext(s.chapter > 0x1 ? 'spr_face_r_nohat' : 'spr_face_r_dark', s.fe, Ze - 0xf, Zh - 0xa, Zf, Zf, 0x0, h.white, 0x1), s.fc === 0x3 && s.chapter <= 0x4 && ZK.draw_sprite_ext('spr_face_n_matome', s.fe, Ze - 0xc, Zh - 0xa, Zf, Zf, 0x0, h.white, 0x1), s.fc === 0x5 && s.chapter <= 0x4 && ZK.draw_sprite_ext('spr_face_l0', s.fe, Ze - 0xf, Zh - 0xa, Zf, Zf, 0x0, h.white, 0x1);
-      let ZN = {
-        0xc: ['spr_face_berdly_dark', -0xa, 0x0],
-        0x12: ['spr_face_rurus', -0xa, 0x0],
-        0x14: ['spr_face_king', -0x5, -0x5],
-        0x15: ['spr_face_queen', 0x0, 0x0]
-      }[s.fc];
-      if (ZN && s.chapter <= 0x4 && (s.fc !== 0x15 || s.chapter >= 0x2) && ZK.draw_sprite_ext(ZN[0x0], s.fe, Ze + ZN[0x1], Zh + ZN[0x2], Zf, Zf, 0x0, h.white, 0x1), s.fc === 0x16 && s.chapter >= 0x3) {
-        let Zp = this.battletimer,
-          ZR = Math.min(0x1, Math.max(0x0, Zp / 0xa)),
-          ZP = 0x1b8 + -0xd8 * (ZR * ZR);
-        ZK.draw_sprite_ext('spr_tenna_point_up', 0x0, 0x56, 0x17c + ZP, 0x2, 0x2, g(Zp / 0x2) * 0x2, h.white, 0x1);
+      if (!ZL && ZP === "^") {
+        ZR++;
+        continue;
       }
-    }
-  };
-ZT(ZI, 'obj_face'), Zx(ZI, 'kinds', Z1('obj_face', Z0)), Zx(ZI, 'defaultDepth', 0x0);
-var ZJ = ZI,
-  Zv = class TB extends Z0 {
-    ["create"]() {
-      this.alarm[0x1] = 0x3, this.canchoose = 0x0, this.dar = s.darkzone + 0x1, s.flag[0x21] = 0x0, this.fighting = 0x0, s.fighting === 0x1 && Z7.exists('obj_battlecontroller') && (this.fighting = 0x1), this.image_xscale = this.dar, this.image_yscale = this.dar, this.remfc = s.fc, s.fc = 0x0, this.xx = 0x0, this.yy = 0x0;
-      let ZK = -0x1;
-      this.fighting === 0x1 && (ZK = 0x1), this.d_add = 0x0, ZK !== -0x1 && ZK !== 0x0 && (this.d_add = 0x9b), this.chx = 0x8c * this.dar + this.xx, this.chy = (0x24 + this.d_add) * this.dar + this.yy + this.fighting * 0x1e, this.hx = this.chx, this.hy = this.chy, this.mychoice = -0x1, s.choice = -0x1, this.choiced = 0x0, this.choicetotal = 0x3, this.heartposx = [0x0, 0x0, 0x0, 0x0], this.heartposy = [0x0, 0x0, 0x0, 0x0], this.textposx = [0x0, 0x0, 0x0, 0x0], this.textposy = [0x0, 0x0, 0x0, 0x0], this.textinit = 0x0;
-    }
-    ["alarmEvent"](ZK) {
-      if (ZK === 0x1) this.canchoose = 0x1, s.darkzone === 0x1 && this.choicetotal === 0x2 && (this.hy += 0x27, this.hx += 0x1f);else {
-        if (ZK === 0x0) {
-          if (this.fighting === 0x1) {
-            for (let ZV of Z7.all('obj_writer')) ZV.instance_destroy();
+      if (!ZL && ZP === "\\") {
+        let Zj = ZV.substr(ZR, 2);
+        if (Zj[0] === "c") {
+          Zf = ZQ[Zj[1]] || this.mycolor;
+        }
+        if (Zj[0] === "I") {
+          let T0 = s.chapter === 5 && Array.isArray(s.writerimg) ? s.writerimg[parseInt(Zj[1])] : undefined;
+          if (typeof T0 == "string" && T0) {
+            ZK.draw_sprite(T0, 0, Ze, Zh + 4);
+          } else {
+            let T1 = Zr[parseInt(Zj[1])];
+            if (T1) {
+              ZK.draw_sprite(T1, 0, Ze, Zh - 4);
+            }
           }
-          for (let Ze of Z7.all('obj_choicer_neo')) Ze.instance_destroy();
         }
+        ZR += 2;
+        continue;
       }
-    }
-    ["userEvent"](ZK) {
-      ZK === 0x0 && this.canchoose === 0x1 && this.choiced === 0x0 && (this.choiced = 0x1, s.choice = this.mychoice, this.alarm[0x0] = 0x1);
-    }
-    ["step"]() {
-      s.flag[0x21] += 0x1, this.textinit === 0x0 && (this.choicetotal === 0x1 && (s.darkzone === 0x0 && (this.yy -= 0x2), s.darkzone === 0x1 && (this.yy -= 0x3)), this.textinit = 0x1), this.canchoose === 0x1 && (this.mychoice >= 0x0 && f() && this.userEvent(0x0), this.choiced === 0x0 && (Z6() && (this.mychoice = 0x0), this.choicetotal >= 0x1 && Z8() && (this.mychoice = 0x1), this.choicetotal >= 0x2 && ZZ() && (this.mychoice = 0x2), this.choicetotal >= 0x3 && d() && (this.mychoice = 0x3)));
-      let ZK = this.dar,
-        ZV = this.xx,
-        Ze = this.yy,
-        Zh = this.d_add,
-        Zf = this.fighting * 0x1e,
-        ZN = Zp => Zo(s.choicemsg[Zp]);
-      if (this.heartposx[0x0] = ZV + 0x1e * ZK, this.heartposy[0x0] = Ze + (0x22 + Zh) * ZK + Zf, this.textposx[0x0] = this.heartposx[0x0] + 0x10 * ZK, this.textposy[0x0] = Ze + (0xd + Zh) * ZK + Zf, this.choicetotal >= 0x1 && (this.heartposx[0x1] = ZV + 0x114 * ZK - Zl(ZN(0x1), ZK), this.heartposy[0x1] = Ze + (0x22 + Zh) * ZK + Zf, this.textposx[0x1] = this.heartposx[0x1] + 0x10 * ZK, this.textposy[0x1] = Ze + (0xd + Zh) * ZK + Zf), this.choicetotal >= 0x2) {
-        let Zp = this.heartposx[0x0] + 0x10 * ZK + Zl(ZN(0x0), ZK),
-          ZR = this.heartposx[0x1],
-          ZP = Zl(ZN(0x2), ZK) + 0x10 * ZK;
-        if (this.choicetotal === 0x3) {
-          let ZL = Zl(ZN(0x3), ZK) + 0x10 * ZK;
-          ZL > ZP && (ZP = ZL);
+      if (!ZL && (ZP === "/" || ZP === "%")) {
+        continue;
+      }
+      let Zm = ZN ? p(ZN) : 0;
+      let ZH = ZN ? p(ZN) : 0;
+      if (this.special === 1) {
+        let T2 = Zf === h.white || Zf === "#ffffff" || Zf === h.black || Zf === "#000000";
+        let T3 = ZK.halign;
+        let T4 = ZK.valign;
+        ZK.halign = "left";
+        ZK.valign = "top";
+        try {
+          if (T2) {
+            ZK.draw_text_colour(Ze + Zm + 1, Zh + ZH + 1, ZP, h.dkgray, h.dkgray, h.navy, h.navy, 1);
+            ZK.draw_char(this.myfont, ZP, Ze + Zm, Zh + ZH, Zf, Zp, Zp, 1);
+          } else {
+            ZK.draw_text_colour(Ze + Zm + 1, Zh + ZH + 1, ZP, Zf, Zf, Zf, Zf, 0.3);
+            ZK.draw_text_colour(Ze + Zm, Zh + ZH, ZP, h.white, h.white, Zf, Zf, 1);
+          }
+        } finally {
+          ZK.halign = T3;
+          ZK.valign = T4;
         }
-        this.heartposx[0x2] = Zp + (ZR - Zp) / 0x2 - ZP / 0x2, this.heartposy[0x2] = Ze + (0x10 + Zh) * ZK + Zf, this.textposx[0x2] = this.heartposx[0x2] + 0x10 * ZK, this.textposy[0x2] = Ze + (0xd + Zh) * ZK + Zf;
+      } else if (this.special === 2) {
+        let T5 = this.specfade;
+        let T6 = this.siner;
+        ZK.draw_char(this.myfont, ZP, Ze, Zh, Zf, Zp, Zp, T5);
+        let T7 = (0.3 + g(T6 / 14) * 0.1) * T5;
+        for (let [T9, TZ] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+          ZK.draw_char(this.myfont, ZP, Ze + T9, Zh + TZ, Zf, Zp, Zp, T7);
+        }
+        let T8 = (0.08 + g(T6 / 14) * 0.04) * T5;
+        for (let [TT, Tx] of [[1, 1], [-1, -1], [-1, 1], [1, -1]]) {
+          ZK.draw_char(this.myfont, ZP, Ze + TT, Zh + Tx, Zf, Zp, Zp, T8);
+        }
+      } else if (this.special === 3) {
+        let Tw = this.siner;
+        ZK.draw_char(this.myfont, ZP, Ze + g(Tw / 4), Zh + S(Tw / 4), h.white, Zp, Zp, 1);
+        for (let Tk of [5, 7, 9]) {
+          ZK.draw_char(this.myfont, ZP, Ze + g(Tw / Tk), Zh + S(Tw / Tk), h.white, Zp, Zp, 0.5);
+        }
+        for (let Ta = 0; Ta < 7; Ta++) {
+          let TO = 315 + p(15);
+          if (ZR === 1) {
+            this.specx[Ta] += Z3(2, TO);
+            this.specy[Ta] += Z5(2, TO);
+            if (this.specx[Ta] >= 40) {
+              this.specx[Ta] = 0;
+              this.specy[Ta] = 0;
+            }
+          }
+          ZK.draw_char(this.myfont, ZP, Ze + this.specx[Ta], Zh + this.specy[Ta], h.white, Zp, Zp, (40 - this.specx[Ta]) / 40 * 0.7);
+        }
+      } else {
+        ZK.draw_char(this.myfont, ZP, Ze + Zm, Zh + ZH, Zf, Zp, Zp, 1);
       }
-      this.choicetotal >= 0x3 && (this.heartposx[0x3] = this.heartposx[0x2], this.heartposy[0x3] = Ze + (0x3c + Zh) * ZK + Zf, this.textposx[0x3] = this.heartposx[0x3] + 0x10 * ZK, this.textposy[0x3] = Ze + (0x38 + Zh) * ZK + Zf), this.mychoice >= 0x0 && (this.hx = this.heartposx[this.mychoice], this.hy = this.heartposy[this.mychoice]);
+      Ze += this.hspace;
     }
-    ["draw"](ZK) {
-      if (this.canchoose === 0x1) {
-        ZK.draw_set_font(this.dar === 0x1 ? 'fnt_main' : 'fnt_mainbig');
-        for (let ZV = 0x0; ZV < this.choicetotal + 0x1; ZV++) ZK.draw_text(this.textposx[ZV], this.textposy[ZV], Zo(s.choicemsg[ZV]), this.mychoice === ZV ? h.yellow : h.white);
-        ZK.draw_sprite_ext('spr_heartsmall', 0x0, this.hx, this.hy, this.image_xscale, this.image_yscale, 0x0, h.white, 0x1);
-      }
-    }
-  };
-ZT(Zv, 'obj_choicer_neo'), Zx(Zv, 'kinds', Z1('obj_choicer_neo', Z0)), Zx(Zv, 'defaultDepth', -0x258);
-var Zb = Zv,
-  Zo = ZT(ZK => String(ZK === void 0x0 ? '' : ZK).split('#').join('\x0a'), 'hash2nl');
-function Zl(ZK, ZV) {
-  return e ? e.string_width(ZK, ZV === 0x1 ? 'fnt_main' : 'fnt_mainbig') : 0x0;
-}
-ZT(Zl, 'strwidth');
-function ZM() {
-  let ZK = c(0x1e, 0x178, ZE);
-  ZK.dialoguer = 0x1, ZK.facer = 0x1, s.fc === 0x0 && ZK.originalcharline === 0x21 && (ZK.charline = 0x1a), ZK.formatted = 0x0;
-  let ZV = s.chapter === 0x3 ? Z7.first('obj_tennabattleconvo_controller') : null;
-  return ZV && (ZV.chattedduringbulletphase === !0x0 || ZV.introcon >= 0.1 && ZV.introcon <= 0x2) || (s.chapter === 0x5 && E.chapterFace ? c(0x1a, 0x17c, ZJ) : s.fc !== 0x0 && c(0x1a, 0x17c, ZJ)), ZK;
-}
-ZT(ZM, 'scr_battletext');
-function Zq() {
-  return s.fc = 0x0, s.typer = 0x4, ZM();
-}
-ZT(Zq, 'scr_battletext_default');
-var Zt = class TY extends Z0 {
-  ["create"]() {
-    this.sprite_index = 'spr_battleblcon', this.mywriter = c(this.x + 0x5, this.y + 0x5, ZE), this.mywriter.depth = s.chapter >= 0x2 ? 0x98967f : this.depth - 0x5, this.auto_length = 0x0, this.side = 0x1, this.xoffset = 0x0, this.init = 0x0, this.reformatted = 0x0, this.remx = this.x, this.remy = this.y, this.remmsgno = -0x1, this.initwritingx = -0x1, this.initwritingy = -0x1, this.writingx = 0x0, this.writingy = 0x0, this.stringmax = 0x0, this.linecount = 0x0, this.hspace = 0x0, this.vspace = 0x0, this.balloonwidth = 0x0, this.balloonheight = 0x0, this.blconscale = 0x1, s.chapter >= 0x4 && (this.mywriter.y = this.y + 0x3, this.creator = -0x1);
-  }
-  ["step"]() {
-    Z7.exists(this.mywriter) || this.instance_destroy();
-  }
-  ["draw"](ZK) {
-    let ZV = this.mywriter;
-    if (!Z7.exists(ZV)) return;
-    ZV.depth = this.depth - 0x5;
-    let Ze = Z7.first('obj_writer');
-    if (this.remmsgno !== (Ze ? Ze.msgno : void 0x0) && (this.reformatted = 0x0), this.auto_length === 0x0 && (this.init = 0x1, this.reformatted = 0x1), s.chapter >= 0x4) {
-      let Zh = this.creator;
-      Zh && typeof Zh == 'object' && Zh.constructor && Zh.constructor.name === 'obj_mizzle_enemy' && (this.initwritingy = this.y + 0x4, this.y = Zh.y + 0x28), this.reformatted === 0x0 && ZV.formatted === 0x0 && typeof ZV.format == 'function' && ZV.format();
-    }
-    this.reformatted === 0x0 && ZV.formatted === 0x1 && (this.init === 0x0 && (this.initwritingx = ZV.writingx, this.initwritingy = ZV.writingy, this.init = 0x1), this.writingx = ZV.writingx, this.writingy = ZV.writingy, this.stringmax = ZV.stringmax, this.hspace = ZV.hspace, this.vspace = ZV.vspace, this.linecount = ZV.linecount, this.balloonwidth = this.stringmax * this.hspace + 0xa, this.balloonheight = (this.linecount + 0x1) * this.vspace + 0x5, this.side === 0x1 && (ZV.writingx = this.initwritingx - (this.balloonwidth + 0x14), ZV.writingy = this.initwritingy - this.balloonheight / 0x2, this.writingx = ZV.writingx, this.writingy = ZV.writingy), this.side === -0x1 && (this.xoffset = 0x14, ZV.writingx = this.initwritingx, ZV.writingy = this.initwritingy - this.balloonheight / 0x2, this.writingx = ZV.writingx, this.writingy = ZV.writingy)), this.auto_length === 0x0 && this.draw_self(ZK), this.auto_length === 0x1 && this.init === 0x1 && (this.blconscale = this.balloonheight < 0x28 ? 0.5 : 0x1, this.side === 0x1 && ZK.draw_sprite_ext('spr_battleblcon_parts', 0x4, this.x, this.y, 0x1, this.blconscale, 0x0, h.white, 0x1), this.side === -0x1 && ZK.draw_sprite_ext('spr_battleblcon_parts', 0x4, this.x - this.xoffset, this.y, -0x1, this.blconscale, 0x0, h.white, 0x1), this.side === 0x2 && s.chapter >= 0x4 && ZK.draw_sprite_ext('spr_battleblcon_parts', 0x6, this.writingx - 0x6 + this.balloonwidth / 0x2, this.writingy + this.balloonheight + 0x6, 0x1, this.blconscale, 0x0, h.white, 0x1), ZK.draw_set_color(h.white), ZK.draw_rectangle(this.writingx - 0xa, this.writingy - 0x5, this.writingx + this.balloonwidth, this.writingy + this.balloonheight - 0x5, !0x1), ZK.draw_rectangle(this.writingx - 0x5, this.writingy - 0xa, this.writingx + this.balloonwidth - 0x5, this.writingy + this.balloonheight, !0x1)), this.remmsgno = ZV.msgno;
   }
 };
-ZT(Zt, 'obj_battleblcon'), Zx(Zt, 'kinds', Z1('obj_battleblcon', Z0)), Zx(Zt, 'defaultDepth', 0x0);
-var ZU = Zt,
-  Zn = {
-    0x1: ['spr_battleblcon', null],
-    0x2: ['spr_battleblcon_v', null],
-    0x3: ['spr_battleblcon_long', null],
-    0x4: ['spr_battleblcon_clubs', 0x0],
-    0x5: ['spr_battleblcon_clubs', 0x1],
-    0x6: ['spr_battleblcon_clubs', 0x2],
-    0x7: ['spr_battleblcon_long_r', 0x2],
-    0x8: ['spr_battleblcon_long_tall', null],
-    0xa: ['spr_battleblcon_long', null]
-  };
-function ZC(ZK, ZV, Ze) {
-  if (Ze === 0x0) return c(ZK, ZV, ZE);
-  let Zh = Zn[Ze];
-  if (!Zh) return;
-  let Zf = c(ZK, ZV, ZU);
-  return Zf.sprite_index = Zh[0x0], Zh[0x1] !== null && (Zf.image_index = Zh[0x1], Zf.image_speed = 0x0), Ze === 0xa && (Zf.auto_length = 0x1), Zf;
+ZT(ZD, "obj_writer");
+Zx(ZD, "kinds", Z1("obj_writer", Z0));
+Zx(ZD, "defaultDepth", 0);
+var ZE = ZD;
+var ZF = ZT(() => s.darkzone === 1, "dz");
+var ZG = ZT(() => s.fighting === 1, "fi");
+var Zz = {
+  0: ZT(() => ZF() ? 6 : 5, "0"),
+  1: ZT(() => 2, "1"),
+  A: ZT(() => ZF() ? 89 : 18, "A"),
+  a: ZT(() => 20, "a"),
+  N: ZT(() => ZG() ? 59 : ZF() ? 56 : 12, "N"),
+  n: ZT(() => 23, "n"),
+  B: ZT(() => ZG() ? 77 : ZF() ? 57 : 13, "B"),
+  S: ZT(() => ZF() ? ZG() ? 47 : 30 : 10, "S"),
+  R: ZT(() => s.flag[30] === 1 ? 6 : ZG() ? 45 : 31, "R"),
+  L: ZT(() => ZG() ? 46 : 32, "L"),
+  X: ZT(() => 40, "X"),
+  r: ZT(() => 55, "r"),
+  T: ZT(() => 7, "T"),
+  J: ZT(() => 35, "J"),
+  K: ZT(() => ZG() ? 48 : 33, "K"),
+  q: ZT(() => 62, "q"),
+  Q: ZT(() => 58, "Q"),
+  s: ZT(() => 14, "s"),
+  U: ZT(() => 17, "U"),
+  p: ZT(() => 67, "p"),
+  C: ZT(() => 87, "C"),
+  f: ZT(() => 83, "f"),
+  v: ZT(() => 84, "v"),
+  j: ZT(() => 5, "j"),
+  y: ZT(() => 5, "y"),
+  i: ZT(() => 5, "i"),
+  k: ZT(() => 5, "k"),
+  F: ZT(() => 88, "F"),
+  h: ZT(() => 86, "h"),
+  "+": ZT(() => 36, "+"),
+  4: ZT(() => 90, "4"),
+  5: ZT(() => 91, "5"),
+  6: ZT(() => 92, "6"),
+  7: ZT(() => 93, "7"),
+  8: ZT(() => 94, "8"),
+  9: ZT(() => 95, "9"),
+  P: ZT(() => 97, "P"),
+  O: ZT(() => 98, "O")
+};
+var Zs = {
+  0: ZT(() => ZF() ? 6 : 5, "0"),
+  1: ZT(() => 2, "1"),
+  A: ZT(() => 18, "A"),
+  a: ZT(() => 20, "a"),
+  N: ZT(() => ZG() ? 59 : ZF() ? 56 : 12, "N"),
+  n: ZT(() => 23, "n"),
+  B: ZT(() => ZG() ? 77 : ZF() ? 57 : 13, "B"),
+  S: ZT(() => ZF() ? ZG() ? 47 : 30 : 10, "S"),
+  R: ZT(() => s.flag[30] === 1 ? 6 : ZG() ? 45 : 31, "R"),
+  L: ZT(() => ZG() ? 46 : 32, "L"),
+  X: ZT(() => 40, "X"),
+  r: ZT(() => 55, "r"),
+  T: ZT(() => 7, "T"),
+  J: ZT(() => 35, "J"),
+  K: ZT(() => ZG() ? 48 : s.plot < 235 ? 36 : 33, "K"),
+  q: ZT(() => 62, "q"),
+  Q: ZT(() => 58, "Q"),
+  s: ZT(() => 14, "s"),
+  U: ZT(() => 17, "U"),
+  p: ZT(() => 67, "p"),
+  v: ZT(() => ZG() ? 81 : 80, "v")
+};
+var Zd = {
+  0: 0,
+  S: 1,
+  R: 2,
+  N: 3,
+  T: 4,
+  L: 5,
+  A: 10,
+  a: 11,
+  B: 12,
+  r: 15,
+  u: 18,
+  K: 20
+};
+var Zg = {
+  0: 0,
+  S: 1,
+  R: 2,
+  N: 3,
+  T: 4,
+  L: 5,
+  s: 6,
+  U: 9,
+  A: 10,
+  a: 11,
+  B: 12,
+  r: 15,
+  u: 18,
+  K: 20,
+  Q: 21
+};
+var ZS = {
+  1: Zd,
+  2: Zg,
+  3: Zg,
+  4: Zg,
+  5: {
+    ...Zg,
+    "◘": 25
+  }
+};
+var Zc = {
+  0: 0,
+  S: 1,
+  R: 2,
+  N: 3,
+  T: 4,
+  L: 5,
+  s: 6,
+  U: 9,
+  A: 10,
+  a: 11,
+  B: 12,
+  i: 13,
+  J: 14,
+  r: 15,
+  k: 16,
+  y: 17,
+  u: 18,
+  b: 19,
+  K: 20,
+  Q: 21,
+  C: 22,
+  F: 23,
+  f: 24
+};
+var ZI = class Ti extends Z0 {
+  create() {
+    this.nowface = s.fc;
+    this.battletimer = 0;
+    if (s.chapter === 5 && E.chapterFace) {
+      E.chapterFace.create.call(this);
+    }
+  }
+  step() {
+    this.battletimer++;
+    if (s.chapter === 5 && E.chapterFace) {
+      E.chapterFace.step.call(this);
+    }
+    if (!Z7.exists("obj_writer")) {
+      this.instance_destroy();
+    }
+  }
+  draw(ZK) {
+    let ZV = Zi[s.fc];
+    if (ZV) {
+      this.cfacechange = (this.cfacechange ?? 2) - 1;
+      if (this.nowface !== s.fc) {
+        this.cfacechange = 3;
+        this.nowface = s.fc;
+      }
+      if (this.cfacechange <= 0) {
+        ZK.draw_sprite_ext(ZV.sprite, s.fe, this.x + ZV.dx, this.y + ZV.dy, 2, 2, 0, h.white, 1);
+      }
+      return;
+    }
+    if (s.chapter === 5 && E.chapterFace) {
+      E.chapterFace.draw.call(this, ZK);
+      return;
+    }
+    let Ze = this.x;
+    let Zh = this.y;
+    let Zf = 2;
+    this.facechange = (this.facechange ?? 2) - 1;
+    if (this.nowface !== s.fc) {
+      this.facechange = 3;
+      this.nowface = s.fc;
+    }
+    if (this.facechange > 0) {
+      return;
+    }
+    if (s.fc === 1 && s.chapter <= 4) {
+      if (s.chapter <= 1) {
+        ZK.draw_sprite_ext("spr_face_s" + ("0123456789ABCD"[s.fe] || "0"), 0, Ze - 5, Zh, Zf, Zf, 0, h.white, 1);
+      } else {
+        ZK.draw_sprite_ext("spr_face_susie_alt", s.fe, Ze - 5, Zh, Zf, Zf, 0, h.white, 1);
+      }
+    }
+    if (s.fc === 2) {
+      ZK.draw_sprite_ext(s.chapter > 1 ? "spr_face_r_nohat" : "spr_face_r_dark", s.fe, Ze - 15, Zh - 10, Zf, Zf, 0, h.white, 1);
+    }
+    if (s.fc === 3 && s.chapter <= 4) {
+      ZK.draw_sprite_ext("spr_face_n_matome", s.fe, Ze - 12, Zh - 10, Zf, Zf, 0, h.white, 1);
+    }
+    if (s.fc === 5 && s.chapter <= 4) {
+      ZK.draw_sprite_ext("spr_face_l0", s.fe, Ze - 15, Zh - 10, Zf, Zf, 0, h.white, 1);
+    }
+    let ZN = {
+      12: ["spr_face_berdly_dark", -10, 0],
+      18: ["spr_face_rurus", -10, 0],
+      20: ["spr_face_king", -5, -5],
+      21: ["spr_face_queen", 0, 0]
+    }[s.fc];
+    if (ZN && s.chapter <= 4 && (s.fc !== 21 || s.chapter >= 2)) {
+      ZK.draw_sprite_ext(ZN[0], s.fe, Ze + ZN[1], Zh + ZN[2], Zf, Zf, 0, h.white, 1);
+    }
+    if (s.fc === 22 && s.chapter >= 3) {
+      let Zp = this.battletimer;
+      let ZR = Math.min(1, Math.max(0, Zp / 10));
+      let ZP = 440 + ZR * ZR * -216;
+      ZK.draw_sprite_ext("spr_tenna_point_up", 0, 86, 380 + ZP, 2, 2, g(Zp / 2) * 2, h.white, 1);
+    }
+  }
+};
+ZT(ZI, "obj_face");
+Zx(ZI, "kinds", Z1("obj_face", Z0));
+Zx(ZI, "defaultDepth", 0);
+var ZJ = ZI;
+var Zv = class TB extends Z0 {
+  create() {
+    this.alarm[1] = 3;
+    this.canchoose = 0;
+    this.dar = s.darkzone + 1;
+    s.flag[33] = 0;
+    this.fighting = 0;
+    if (s.fighting === 1 && Z7.exists("obj_battlecontroller")) {
+      this.fighting = 1;
+    }
+    this.image_xscale = this.dar;
+    this.image_yscale = this.dar;
+    this.remfc = s.fc;
+    s.fc = 0;
+    this.xx = 0;
+    this.yy = 0;
+    let ZK = -1;
+    if (this.fighting === 1) {
+      ZK = 1;
+    }
+    this.d_add = 0;
+    if (ZK !== -1 && ZK !== 0) {
+      this.d_add = 155;
+    }
+    this.chx = this.dar * 140 + this.xx;
+    this.chy = (36 + this.d_add) * this.dar + this.yy + this.fighting * 30;
+    this.hx = this.chx;
+    this.hy = this.chy;
+    this.mychoice = -1;
+    s.choice = -1;
+    this.choiced = 0;
+    this.choicetotal = 3;
+    this.heartposx = [0, 0, 0, 0];
+    this.heartposy = [0, 0, 0, 0];
+    this.textposx = [0, 0, 0, 0];
+    this.textposy = [0, 0, 0, 0];
+    this.textinit = 0;
+  }
+  alarmEvent(ZK) {
+    if (ZK === 1) {
+      this.canchoose = 1;
+      if (s.darkzone === 1 && this.choicetotal === 2) {
+        this.hy += 39;
+        this.hx += 31;
+      }
+    } else if (ZK === 0) {
+      if (this.fighting === 1) {
+        for (let ZV of Z7.all("obj_writer")) {
+          ZV.instance_destroy();
+        }
+      }
+      for (let Ze of Z7.all("obj_choicer_neo")) {
+        Ze.instance_destroy();
+      }
+    }
+  }
+  userEvent(ZK) {
+    if (ZK === 0 && this.canchoose === 1 && this.choiced === 0) {
+      this.choiced = 1;
+      s.choice = this.mychoice;
+      this.alarm[0] = 1;
+    }
+  }
+  step() {
+    s.flag[33] += 1;
+    if (this.textinit === 0) {
+      if (this.choicetotal === 1) {
+        if (s.darkzone === 0) {
+          this.yy -= 2;
+        }
+        if (s.darkzone === 1) {
+          this.yy -= 3;
+        }
+      }
+      this.textinit = 1;
+    }
+    if (this.canchoose === 1) {
+      if (this.mychoice >= 0 && f()) {
+        this.userEvent(0);
+      }
+      if (this.choiced === 0) {
+        if (Z6()) {
+          this.mychoice = 0;
+        }
+        if (this.choicetotal >= 1 && Z8()) {
+          this.mychoice = 1;
+        }
+        if (this.choicetotal >= 2 && ZZ()) {
+          this.mychoice = 2;
+        }
+        if (this.choicetotal >= 3 && d()) {
+          this.mychoice = 3;
+        }
+      }
+    }
+    let ZK = this.dar;
+    let ZV = this.xx;
+    let Ze = this.yy;
+    let Zh = this.d_add;
+    let Zf = this.fighting * 30;
+    let ZN = Zp => Zo(s.choicemsg[Zp]);
+    this.heartposx[0] = ZV + ZK * 30;
+    this.heartposy[0] = Ze + (34 + Zh) * ZK + Zf;
+    this.textposx[0] = this.heartposx[0] + ZK * 16;
+    this.textposy[0] = Ze + (13 + Zh) * ZK + Zf;
+    if (this.choicetotal >= 1) {
+      this.heartposx[1] = ZV + ZK * 276 - Zl(ZN(1), ZK);
+      this.heartposy[1] = Ze + (34 + Zh) * ZK + Zf;
+      this.textposx[1] = this.heartposx[1] + ZK * 16;
+      this.textposy[1] = Ze + (13 + Zh) * ZK + Zf;
+    }
+    if (this.choicetotal >= 2) {
+      let Zp = this.heartposx[0] + ZK * 16 + Zl(ZN(0), ZK);
+      let ZR = this.heartposx[1];
+      let ZP = Zl(ZN(2), ZK) + ZK * 16;
+      if (this.choicetotal === 3) {
+        let ZL = Zl(ZN(3), ZK) + ZK * 16;
+        if (ZL > ZP) {
+          ZP = ZL;
+        }
+      }
+      this.heartposx[2] = Zp + (ZR - Zp) / 2 - ZP / 2;
+      this.heartposy[2] = Ze + (16 + Zh) * ZK + Zf;
+      this.textposx[2] = this.heartposx[2] + ZK * 16;
+      this.textposy[2] = Ze + (13 + Zh) * ZK + Zf;
+    }
+    if (this.choicetotal >= 3) {
+      this.heartposx[3] = this.heartposx[2];
+      this.heartposy[3] = Ze + (60 + Zh) * ZK + Zf;
+      this.textposx[3] = this.heartposx[3] + ZK * 16;
+      this.textposy[3] = Ze + (56 + Zh) * ZK + Zf;
+    }
+    if (this.mychoice >= 0) {
+      this.hx = this.heartposx[this.mychoice];
+      this.hy = this.heartposy[this.mychoice];
+    }
+  }
+  draw(ZK) {
+    if (this.canchoose === 1) {
+      ZK.draw_set_font(this.dar === 1 ? "fnt_main" : "fnt_mainbig");
+      for (let ZV = 0; ZV < this.choicetotal + 1; ZV++) {
+        ZK.draw_text(this.textposx[ZV], this.textposy[ZV], Zo(s.choicemsg[ZV]), this.mychoice === ZV ? h.yellow : h.white);
+      }
+      ZK.draw_sprite_ext("spr_heartsmall", 0, this.hx, this.hy, this.image_xscale, this.image_yscale, 0, h.white, 1);
+    }
+  }
+};
+ZT(Zv, "obj_choicer_neo");
+Zx(Zv, "kinds", Z1("obj_choicer_neo", Z0));
+Zx(Zv, "defaultDepth", -600);
+var Zb = Zv;
+var Zo = ZT(ZK => String(ZK === undefined ? "" : ZK).split("#").join("\n"), "hash2nl");
+function Zl(ZK, ZV) {
+  if (e) {
+    return e.string_width(ZK, ZV === 1 ? "fnt_main" : "fnt_mainbig");
+  } else {
+    return 0;
+  }
 }
-ZT(ZC, 'scr_enemyblcon');
+ZT(Zl, "strwidth");
+function ZM() {
+  let ZK = c(30, 376, ZE);
+  ZK.dialoguer = 1;
+  ZK.facer = 1;
+  if (s.fc === 0 && ZK.originalcharline === 33) {
+    ZK.charline = 26;
+  }
+  ZK.formatted = 0;
+  let ZV = s.chapter === 3 ? Z7.first("obj_tennabattleconvo_controller") : null;
+  if (!ZV || ZV.chattedduringbulletphase !== true && (!(ZV.introcon >= 0.1) || !(ZV.introcon <= 2))) {
+    if (s.chapter === 5 && E.chapterFace) {
+      c(26, 380, ZJ);
+    } else if (s.fc !== 0) {
+      c(26, 380, ZJ);
+    }
+  }
+  return ZK;
+}
+ZT(ZM, "scr_battletext");
+function Zq() {
+  s.fc = 0;
+  s.typer = 4;
+  return ZM();
+}
+ZT(Zq, "scr_battletext_default");
+var Zt = class TY extends Z0 {
+  create() {
+    this.sprite_index = "spr_battleblcon";
+    this.mywriter = c(this.x + 5, this.y + 5, ZE);
+    this.mywriter.depth = s.chapter >= 2 ? 9999999 : this.depth - 5;
+    this.auto_length = 0;
+    this.side = 1;
+    this.xoffset = 0;
+    this.init = 0;
+    this.reformatted = 0;
+    this.remx = this.x;
+    this.remy = this.y;
+    this.remmsgno = -1;
+    this.initwritingx = -1;
+    this.initwritingy = -1;
+    this.writingx = 0;
+    this.writingy = 0;
+    this.stringmax = 0;
+    this.linecount = 0;
+    this.hspace = 0;
+    this.vspace = 0;
+    this.balloonwidth = 0;
+    this.balloonheight = 0;
+    this.blconscale = 1;
+    if (s.chapter >= 4) {
+      this.mywriter.y = this.y + 3;
+      this.creator = -1;
+    }
+  }
+  step() {
+    if (!Z7.exists(this.mywriter)) {
+      this.instance_destroy();
+    }
+  }
+  draw(ZK) {
+    let ZV = this.mywriter;
+    if (!Z7.exists(ZV)) {
+      return;
+    }
+    ZV.depth = this.depth - 5;
+    let Ze = Z7.first("obj_writer");
+    if (this.remmsgno !== (Ze ? Ze.msgno : undefined)) {
+      this.reformatted = 0;
+    }
+    if (this.auto_length === 0) {
+      this.init = 1;
+      this.reformatted = 1;
+    }
+    if (s.chapter >= 4) {
+      let Zh = this.creator;
+      if (Zh && typeof Zh == "object" && Zh.constructor && Zh.constructor.name === "obj_mizzle_enemy") {
+        this.initwritingy = this.y + 4;
+        this.y = Zh.y + 40;
+      }
+      if (this.reformatted === 0 && ZV.formatted === 0 && typeof ZV.format == "function") {
+        ZV.format();
+      }
+    }
+    if (this.reformatted === 0 && ZV.formatted === 1) {
+      if (this.init === 0) {
+        this.initwritingx = ZV.writingx;
+        this.initwritingy = ZV.writingy;
+        this.init = 1;
+      }
+      this.writingx = ZV.writingx;
+      this.writingy = ZV.writingy;
+      this.stringmax = ZV.stringmax;
+      this.hspace = ZV.hspace;
+      this.vspace = ZV.vspace;
+      this.linecount = ZV.linecount;
+      this.balloonwidth = this.stringmax * this.hspace + 10;
+      this.balloonheight = (this.linecount + 1) * this.vspace + 5;
+      if (this.side === 1) {
+        ZV.writingx = this.initwritingx - (this.balloonwidth + 20);
+        ZV.writingy = this.initwritingy - this.balloonheight / 2;
+        this.writingx = ZV.writingx;
+        this.writingy = ZV.writingy;
+      }
+      if (this.side === -1) {
+        this.xoffset = 20;
+        ZV.writingx = this.initwritingx;
+        ZV.writingy = this.initwritingy - this.balloonheight / 2;
+        this.writingx = ZV.writingx;
+        this.writingy = ZV.writingy;
+      }
+    }
+    if (this.auto_length === 0) {
+      this.draw_self(ZK);
+    }
+    if (this.auto_length === 1 && this.init === 1) {
+      this.blconscale = this.balloonheight < 40 ? 0.5 : 1;
+      if (this.side === 1) {
+        ZK.draw_sprite_ext("spr_battleblcon_parts", 4, this.x, this.y, 1, this.blconscale, 0, h.white, 1);
+      }
+      if (this.side === -1) {
+        ZK.draw_sprite_ext("spr_battleblcon_parts", 4, this.x - this.xoffset, this.y, -1, this.blconscale, 0, h.white, 1);
+      }
+      if (this.side === 2 && s.chapter >= 4) {
+        ZK.draw_sprite_ext("spr_battleblcon_parts", 6, this.writingx - 6 + this.balloonwidth / 2, this.writingy + this.balloonheight + 6, 1, this.blconscale, 0, h.white, 1);
+      }
+      ZK.draw_set_color(h.white);
+      ZK.draw_rectangle(this.writingx - 10, this.writingy - 5, this.writingx + this.balloonwidth, this.writingy + this.balloonheight - 5, false);
+      ZK.draw_rectangle(this.writingx - 5, this.writingy - 10, this.writingx + this.balloonwidth - 5, this.writingy + this.balloonheight, false);
+    }
+    this.remmsgno = ZV.msgno;
+  }
+};
+ZT(Zt, "obj_battleblcon");
+Zx(Zt, "kinds", Z1("obj_battleblcon", Z0));
+Zx(Zt, "defaultDepth", 0);
+var ZU = Zt;
+var Zn = {
+  1: ["spr_battleblcon", null],
+  2: ["spr_battleblcon_v", null],
+  3: ["spr_battleblcon_long", null],
+  4: ["spr_battleblcon_clubs", 0],
+  5: ["spr_battleblcon_clubs", 1],
+  6: ["spr_battleblcon_clubs", 2],
+  7: ["spr_battleblcon_long_r", 2],
+  8: ["spr_battleblcon_long_tall", null],
+  10: ["spr_battleblcon_long", null]
+};
+function ZC(ZK, ZV, Ze) {
+  if (Ze === 0) {
+    return c(ZK, ZV, ZE);
+  }
+  let Zh = Zn[Ze];
+  if (!Zh) {
+    return;
+  }
+  let Zf = c(ZK, ZV, ZU);
+  Zf.sprite_index = Zh[0];
+  if (Zh[1] !== null) {
+    Zf.image_index = Zh[1];
+    Zf.image_speed = 0;
+  }
+  if (Ze === 10) {
+    Zf.auto_length = 1;
+  }
+  return Zf;
+}
+ZT(ZC, "scr_enemyblcon");
 export { Za as a, ZB as b, ZE as c, ZJ as d, Zb as e, ZM as f, Zq as g, ZU as h, ZC as i };

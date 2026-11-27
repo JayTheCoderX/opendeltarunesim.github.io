@@ -1,33 +1,16 @@
-var Z = function () {
-    var t = true;
-    return function (Q, C) {
-      var P = t ? function () {
-        if (C) {
-          var X = C.apply(Q, arguments);
-          return C = null, X;
-        }
-      } : function () {};
-      return t = false, P;
-    };
-  }(),
-  H = Z(this, function () {
-    if (H.bind().toString().indexOf('\x0a') !== -0x1) return;
-    return H.toString().search(".*").toString().constructor(H).search(".*");
-  });
-H();
-import { a, b, c, d, e, f, g, h, i, j } from './c-TW2FVSA5.js';
-import './c-O567UJ4Y.js';
-import './c-QFDZPUX2.js';
-import './c-VWTE3AY2.js';
-import './c-PWNRTD7X.js';
-import './c-DTW63MWW.js';
-import './c-HUDNK55W.js';
-import './c-IKEEXWRQ.js';
-import './c-SUMRYW3E.js';
-import './c-3ELH3LBH.js';
-import './c-OYFOJ3BV.js';
-import './c-MYK6C3LF.js';
-import './c-ZQQWH6UG.js';
-import './c-PBMEVLU6.js';
-import './c-XSSGDLV7.js';
+import { a, b, c, d, e, f, g, h, i, j } from "./c-TW2FVSA5.js";
+import "./c-O567UJ4Y.js";
+import "./c-QFDZPUX2.js";
+import "./c-VWTE3AY2.js";
+import "./c-PWNRTD7X.js";
+import "./c-DTW63MWW.js";
+import "./c-HUDNK55W.js";
+import "./c-IKEEXWRQ.js";
+import "./c-SUMRYW3E.js";
+import "./c-3ELH3LBH.js";
+import "./c-OYFOJ3BV.js";
+import "./c-MYK6C3LF.js";
+import "./c-ZQQWH6UG.js";
+import "./c-PBMEVLU6.js";
+import "./c-XSSGDLV7.js";
 export { j as FIGHTS, b as SOUNDS, a as SPRITES, d as obj_defeatanim, h as obj_jigsawbullet, i as obj_jigsawryenemy, f as obj_spareanim, e as scr_defeatrun, g as scr_spareanim, c as setupStats };

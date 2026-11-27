@@ -1,326 +1,83 @@
 const o = function () {
-    const Z = {
-      'Gjftq': function (f, W) {
-        return f !== W;
-      },
-      'wdRZf': "NmBiW",
-      'LeyYx': "INSjV",
-      'FsvXs': function (f, W, E, j) {
-        return f(W, E, j);
-      },
-      'HYpnb': function (f, W) {
-        return f(W);
-      },
-      'QlYEU': "touhou.jpg",
-      'FttgS': function (f, W) {
-        return f === W;
-      },
-      'UMdaK': function (f, W) {
-        return f - W;
-      },
-      'zvVAX': function (f, W) {
-        return f === W;
-      },
-      'yfYGx': function (f, W) {
-        return f == W;
-      },
-      'mPRLt': function (f, W) {
-        return f === W;
-      },
-      'sikQs': "QYBOW"
-    };
-    let g = true;
-    return function (f, W) {
-      const p = {
-        'lgWgl': function (h, q, s, J0) {
-          return h(q, s, J0);
-        },
-        'rSbMw': function (h, q) {
-          return h(q);
-        },
-        'lxDbF': "touhou.jpg",
-        'rFHzR': function (h, q) {
-          return h === q;
-        },
-        'qsCbY': function (h, q) {
-          return h - q;
-        },
-        'dmAYA': function (h, q) {
-          return h !== q;
-        },
-        'FNIyO': function (h, q) {
-          return h === q;
-        },
-        'KYPsN': function (h, q) {
-          return h == q;
-        }
-      };
-      {
-        const h = g ? function () {
-          if (W) {
-            {
-              const J1 = W.apply(f, arguments);
-              return W = null, J1;
-            }
-          }
-        } : function () {};
-        return g = false, h;
-      }
-    };
-  }(),
-  I = o(this, function () {
-    const J = {
-      'lVxqA': function (JR, JB) {
-        return JR < JB;
-      },
-      'BzdcS': function (JR, JB) {
-        return JR == JB;
-      },
-      'jrerW': function (JR, JB) {
-        return JR != JB;
-      },
-      'SSKpX': function (JR, JB) {
-        return JR + JB;
-      },
-      'mCjlt': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'defZV': function (JR, JB) {
-        return JR !== JB;
-      },
-      'NLndI': "roVJn",
-      'PzVYd': "zsYvL",
-      'cBWPt': function (JR, JB) {
-        return JR === JB;
-      },
-      'kNuol': "NBlLU",
-      'lLVVm': "xmdMB",
-      'BUhcp': function (JR, JB) {
-        return JR === JB;
-      },
-      'urcAW': "Sdvlw",
-      'TtClP': "WBubY",
-      'kpqyL': function (JR, JB) {
-        return JR + JB;
-      },
-      'Cmpow': function (JR, JB) {
-        return JR === JB;
-      },
-      'YLeUR': "mnjFR",
-      'szGtd': "NGCUf",
-      'RedCP': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'kCtuS': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'ntdEv': function (JR, JB) {
-        return JR !== JB;
-      },
-      'TcEkN': "ifHFP",
-      'gThuR': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'kIBvT': function (JR, JB) {
-        return JR + JB;
-      },
-      'vMKaA': function (JR, JB) {
-        return JR & JB;
-      },
-      'AYQJc': function (JR, JB) {
-        return JR(JB);
-      },
-      'erhim': function (JR, JB, JZ) {
-        return JR(JB, JZ);
-      },
-      'YQAOm': function (JR, JB) {
-        return JR(JB);
-      },
-      'sFBJe': function (JR, JB) {
-        return JR && JB;
-      },
-      'raHIF': function (JR, JB, JZ, Jk, Jg) {
-        return JR(JB, JZ, Jk, Jg);
-      },
-      'ydKGU': function (JR, JB) {
-        return JR !== JB;
-      },
-      'DTFON': "vXKOJ",
-      'JPCTl': "undefined",
-      'DJBXb': function (JR, JB) {
-        return JR === JB;
-      },
-      'uqaud': "object",
-      'LvPcr': "function",
-      'cecBW': "log",
-      'cnKIt': "warn",
-      'NgZAa': "info",
-      'VAExL': "error",
-      'qBoXi': "exception",
-      'lnCdt': "table",
-      'JHpBq': "trace",
-      'Wqiyn': function (JR, JB) {
-        return JR(JB);
-      },
-      'oKURd': "bg_castle_tutorial.png",
-      'FFger': "[qiDewhAxZISVqsEMZYwcCfDcxxSiK]",
-      'GiydT': "abqouiDewhtAx:ZIblaSnkVqsEMZYwcCfDcxxSiK",
-      'fIYig': function (JR, JB) {
-        return JR !== JB;
-      },
-      'yxMoP': function (JR, JB) {
-        return JR === JB;
-      },
-      'QDGZq': "[PXHSXUZqBRNkFKRGWjSPTZKCRYLffqOSYkxFKqMDyxOjVjQPXjykTfqOAjxUFxqbIDPQXYAUzbzZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT]",
-      'HzrIh': "lPXocalHhosSXt;U1Z27q.B0R.0.1Nk;FdeKRlGtaWrunjSePTZsiKm.CRYLcom;wffww.qOdSelYktxFKqMDyaruxOjVnesimj.cQom;dPrsXim.jlocyaklTfqhoOAst;j.xdeUFltaxqbrIDPuneQsXim.YpaAgeUs.zbzdevZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT",
-      'YZjwb': function (JR, JB) {
-        return JR === JB;
-      },
-      'HEMWP': "kGkjK",
-      'KMMQh': "lsOYi",
-      'bFdDJ': function (JR, JB) {
-        return JR !== JB;
-      },
-      'PnKTv': "Vdnxd",
-      'maodM': function (JR, JB) {
-        return JR !== JB;
-      },
-      'mEbXp': "uwEHB",
-      'vipMf': "bxyep",
-      'hzzhB': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'jzbLV': function (JR, JB) {
-        return JR !== JB;
-      },
-      'HArpP': "aMxpr",
-      'wAthV': function (JR, JB) {
-        return JR > JB;
-      },
-      'RNwYi': function (JR, JB) {
-        return JR !== JB;
-      },
-      'zVLQG': "VDjRy",
-      'VFwqE': function (JR, JB, JZ, Jk) {
-        return JR(JB, JZ, Jk);
-      },
-      'qMouP': "NxnIB",
-      'hWuvC': function (JR, JB) {
-        return JR === JB;
-      },
-      'tZrtM': "gBhzw",
-      'RjYlH': function (JR, JB) {
-        return JR || JB;
-      },
-      'PVXon': function (JR, JB) {
-        return JR !== JB;
-      },
-      'tkqoO': "sHrxL",
-      'pcOOY': "njHTG",
-      'vhCbh': function (JR, JB) {
-        return JR - JB;
-      },
-      'NHtsX': function (JR, JB) {
-        return JR === JB;
-      },
-      'VimnD': function (JR, JB) {
-        return JR == JB;
-      },
-      'QfMSW': function (JR, JB) {
-        return JR === JB;
-      },
-      'gDsjH': "ROpdN"
-    };
-    const k = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this,
-      g = new RegExp("[PXHSXUZqBRNkFKRGWjSPTZKCRYLffqOSYkxFKqMDyxOjVjQPXjykTfqOAjxUFxqbIDPQXYAUzbzZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT]", 'g'),
-      f = "lPXocalHhosSXt;U1Z27q.B0R.0.1Nk;FdeKRlGtaWrunjSePTZsiKm.CRYLcom;wffww.qOdSelYktxFKqMDyaruxOjVnesimj.cQom;dPrsXim.jlocyaklTfqhoOAst;j.xdeUFltaxqbrIDPuneQsXim.YpaAgeUs.zbzdevZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT".replace(g, '').split(';');
-    let W, j, p, h;
-    function J3(JR, JB, JZ) {
-      return t(JB - 0x394, JR);
-    }
-    const JJ = function (JR, JB, JZ) {
-        {
-          if (JR.length != JB) {
-            return false;
-          }
-          for (let JW = 0; JW < JB; JW++) {
-            for (let JE = 0; JE < JZ.length; JE += 2) {
-              {
-                if (JW == JZ[JE] && JR.charCodeAt(JW) != JZ[JE + 1]) return false;
-              }
-            }
-          }
-          return true;
-        }
-      },
-      Jv = function (JR, JB, JZ) {
-        return JJ(JB, JZ, JR);
-      },
-      JY = function (JR, JB, JZ) {
-        return Jv(JB, JR, JZ);
-      },
-      JU = function (JR, JB, JZ) {
-        const Jk = {
-          'UHjGg': function (JE, Jj, JK, Jp) {
-            return JE(Jj, JK, Jp);
-          },
-          'lWiDm': function (JE, Jj) {
-            return JE + Jj;
-          },
-          'TFTEa': function (JE, Jj) {
-            return JE & Jj;
-          },
-          'TkHFs': function (JE, Jj) {
-            return JE(Jj);
-          },
-          'zGxOy': function (JE, Jj, JK) {
-            return JE(Jj, JK);
-          },
-          'GKJoQ': function (JE, Jj) {
-            return JE(Jj);
-          },
-          'MnLcS': function (JE, Jj) {
-            return JE(Jj);
-          },
-          'sLwir': function (JE, Jj) {
-            return JE && Jj;
-          },
-          'XBvkL': function (JE, Jj) {
-            return JE(Jj);
-          },
-          'xXWmO': function (JE, Jj, JK, Jp, Jh) {
-            return JE(Jj, JK, Jp, Jh);
-          }
-        };
-        return JY(JB, JZ, JR);
-      };
-    for (let JR in k) {
-      {
-        if (JJ(JR, 8, [7, 116, 5, 101, 3, 117, 0, 100])) {
+  let g = true;
+  return function (f, W) {
+    {
+      const h = g ? function () {
+        if (W) {
           {
-            W = JR;
-            break;
+            const J1 = W.apply(f, arguments);
+            W = null;
+            return J1;
+          }
+        }
+      } : function () {};
+      g = false;
+      return h;
+    }
+  };
+}();
+const I = o(this, function () {
+  const k = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
+  const g = new RegExp("[PXHSXUZqBRNkFKRGWjSPTZKCRYLffqOSYkxFKqMDyxOjVjQPXjykTfqOAjxUFxqbIDPQXYAUzbzZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT]", "g");
+  const f = "lPXocalHhosSXt;U1Z27q.B0R.0.1Nk;FdeKRlGtaWrunjSePTZsiKm.CRYLcom;wffww.qOdSelYktxFKqMDyaruxOjVnesimj.cQom;dPrsXim.jlocyaklTfqhoOAst;j.xdeUFltaxqbrIDPuneQsXim.YpaAgeUs.zbzdevZxxZVyTjXYIkbbZRCANGVPfRYQkHCIKWHRAHjYDjbJOMNHxbGUJOjqNPWyBySHCXVHqXFCPCSIbEkWPqjOLVEMBDRzzJyHIPxUHT".replace(g, "").split(";");
+  let W;
+  let j;
+  let p;
+  let h;
+  const JJ = function (JR, JB, JZ) {
+    {
+      if (JR.length != JB) {
+        return false;
+      }
+      for (let JW = 0; JW < JB; JW++) {
+        for (let JE = 0; JE < JZ.length; JE += 2) {
+          {
+            if (JW == JZ[JE] && JR.charCodeAt(JW) != JZ[JE + 1]) {
+              return false;
+            }
           }
         }
       }
+      return true;
     }
-    for (let Jj in k[W]) {
-      {
-        if (JU(6, Jj, [5, 110, 0, 100])) {
-          j = Jj;
-          break;
-        }
-      }
-    }
-    for (let JK in k[W]) {
-      if (JY(JK, [7, 110, 0, 108], 8)) {
+  };
+  const Jv = function (JR, JB, JZ) {
+    return JJ(JB, JZ, JR);
+  };
+  const JY = function (JR, JB, JZ) {
+    return Jv(JB, JR, JZ);
+  };
+  const JU = function (JR, JB, JZ) {
+    return JY(JB, JZ, JR);
+  };
+  for (let JR in k) {
+    {
+      if (JJ(JR, 8, [7, 116, 5, 101, 3, 117, 0, 100])) {
         {
-          p = JK;
+          W = JR;
           break;
         }
       }
     }
-    if (!('~' > j)) for (let Jh in k[W][p]) {
+  }
+  for (let Jj in k[W]) {
+    {
+      if (JU(6, Jj, [5, 110, 0, 100])) {
+        j = Jj;
+        break;
+      }
+    }
+  }
+  for (let JK in k[W]) {
+    if (JY(JK, [7, 110, 0, 108], 8)) {
+      {
+        p = JK;
+        break;
+      }
+    }
+  }
+  if (!(j < "~")) {
+    for (let Jh in k[W][p]) {
       {
         if (Jv([7, 101, 0, 104], Jh, 8)) {
           {
@@ -330,444 +87,284 @@ const o = function () {
         }
       }
     }
-    if (!W || !k[W]) {
-      return;
-    }
-    const JO = k[W][j];
-    const JQ = !!k[W][p] && k[W][p][h],
-      JA = JO || JQ;
-    if (!JA) return;
-    let Ju = false;
-    for (let Jq = 0; Jq < f.length; Jq++) {
-      {
-        const m1 = f[Jq],
-          m2 = m1[0] === String.fromCharCode(46) ? m1.slice(1) : m1,
-          m3 = JA.length - m2.length,
-          m4 = JA.indexOf(m2, m3),
-          m5 = m4 !== -1 && m4 === m3;
-        if (m5) {
-          if (JA.length == m1.length || m1.indexOf('.') === 0) {
-            Ju = true;
-          }
+  }
+  if (!W || !k[W]) {
+    return;
+  }
+  const JO = k[W][j];
+  const JQ = !!k[W][p] && k[W][p][h];
+  const JA = JO || JQ;
+  if (!JA) {
+    return;
+  }
+  let Ju = false;
+  for (let Jq = 0; Jq < f.length; Jq++) {
+    {
+      const m1 = f[Jq];
+      const m2 = m1[0] === String.fromCharCode(46) ? m1.slice(1) : m1;
+      const m3 = JA.length - m2.length;
+      const m4 = JA.indexOf(m2, m3);
+      const m5 = m4 !== -1 && m4 === m3;
+      if (m5) {
+        if (JA.length == m1.length || m1.indexOf(".") === 0) {
+          Ju = true;
         }
       }
     }
-  });
+  }
+});
 I();
 const d = function () {
-    const m = {};
-    m.rwNEB = function (W, E) {
-      return W == E;
-    };
-    m.SGEQy = function (W, E) {
-      return W != E;
-    }, m.gSrJH = function (W, E) {
-      return W + E;
-    }, m.RvvDs = function (W, E) {
-      return W !== E;
-    };
-    m.Jwoty = "Hygnu";
-    const g = m;
-    let f = true;
-    return function (W, E) {
-      const j = f ? function () {
-        const K = {
-          'ALVfX': function (s, J0) {
-            return g.rwNEB(s, J0);
-          },
-          'dtNBV': function (s, J0) {
-            return g.SGEQy(s, J0);
-          },
-          'laixi': function (s, J0) {
-            return g.gSrJH(s, J0);
-          }
-        };
-        if (E) {
-          if (g.RvvDs(g.Jwoty, g.Jwoty)) {
-            if (K.ALVfX(K, H[t]) && K.dtNBV(l.charCodeAt(G), L[K.laixi(U, 1)])) return false;
-          } else {
-            const s = E.apply(W, arguments);
-            return E = null, s;
-          }
+  let f = true;
+  return function (W, E) {
+    const j = f ? function () {
+      const K = {
+        ALVfX: function (s, J0) {
+          return s == J0;
+        },
+        dtNBV: function (s, J0) {
+          return s != J0;
+        },
+        laixi: function (s, J0) {
+          return s + J0;
         }
-      } : function () {};
-      return f = false, j;
-    };
-  }(),
-  F = d(this, function () {
-    const m = {
-        'TWFye': function (E, j, K, p) {
-          return E(j, K, p);
-        },
-        'GUNhi': function (E, j) {
-          return E + j;
-        },
-        'IQAnT': function (E, j) {
-          return E & j;
-        },
-        'pSZmy': function (E, j) {
-          return E(j);
-        },
-        'lnDuR': function (E, j, K) {
-          return E(j, K);
-        },
-        'Lzgef': function (E, j) {
-          return E !== j;
-        },
-        'mhjWV': "undefined",
-        'hSGwN': function (E, j) {
-          return E === j;
-        },
-        'nhyQC': "object",
-        'IQoOb': function (E, j) {
-          return E === j;
-        },
-        'lspQz': "function",
-        'OvLdn': "log",
-        'dJVGU': "warn",
-        'fnCnT': "info",
-        'iztOm': "error",
-        'jjrpw': "exception",
-        'DyGAN': "table",
-        'qZvMQ': "trace",
-        'bJGXQ': function (E, j) {
-          return E < j;
-        },
-        'pKQFW': "dZuLb",
-        'CHNer': "JXAjI"
-      },
-      Z = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this,
-      k = Z.console = Z.console || {};
-    const f = ["log", "warn", "info", "error", "exception", "table", "trace"];
-    function W(E, j, K) {
-      return t(E - -0x1af, K);
-    }
-    for (let E = 0; E < f.length; E++) {
-      {
-        const p = d.constructor.prototype.bind(d),
-          h = f[E],
-          q = k[h] || p;
-        p.__proto__ = d.bind(d), p.toString = q.toString.bind(q), k[h] = p;
+      };
+      if (E) {
+        const s = E.apply(W, arguments);
+        E = null;
+        return s;
       }
-    }
-  });
-F();
-import { a as w, g as M, h as i, i as T, j as b, k as a, l as C, m as P } from './c-UTWCWEAR.js';
-import { Ib as c } from './c-PBMEVLU6.js';
-import { a as e, l as X } from './c-XSSGDLV7.js';
-X(), X();
-var n = {
-    'room_castle_front': {
-      'w': 0x3e8,
-      'h': 0x3e8,
-      'bg': 0xff000000,
-      'drawbg': !0x1,
-      'tiles': [['bg_tiles_castle', 0xf0, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x208, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x208, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x230, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x140, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x140, 0x78, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x168, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x190, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x1b8, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x1e0, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x1e0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x1b8, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x190, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x168, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x140, 0x28, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x208, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x1b8, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x168, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x190, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, -0x28, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, -0x28, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x1e0, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x1b8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x190, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x190, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x1e0, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x1b8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x1b8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x1e0, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x190, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x1b8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x1e0, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x190, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x190, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x1e0, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x1b8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x168, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x168, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x168, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x168, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x168, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x1e0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x208, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x230, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x258, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x230, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x208, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x258, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x258, 0x78, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x230, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x208, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x2d0, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x2a8, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x280, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x2d0, 0x78, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x2a8, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x280, 0x78, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x2d0, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x2d0, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x2f8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x320, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x348, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x370, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x398, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x3c0, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x2f8, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x320, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x348, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x370, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x398, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x3c0, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x2f8, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x320, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x348, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x370, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x398, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x3c0, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x3c0, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x398, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x370, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x348, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x320, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x2f8, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1cc, 0x168, 0x28, 0x118, 0x78, 0x78, 0xf1b30, 0x1, 0x1]]
-    },
-    'room_cc_6f': {
-      'w': 0x5a0,
-      'h': 0x1e0,
-      'bg': 0xff000000,
-      'drawbg': !0x1,
-      'tiles': [['bg_cctiles', 0x78, 0xc8, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x78, 0x0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0xf0, 0x0, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x140, 0x0, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x140, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0xf0, 0x50, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x78, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0xc8, 0x50, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x118, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0xa0, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x118, 0x0, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0xa0, 0x0, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0xc8, 0xa0, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0xf0, 0xa0, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xa0, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xc8, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xf0, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x118, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x1b8, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x1e0, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x208, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x230, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x190, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x258, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x280, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2a8, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2d0, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2f8, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x320, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x348, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x370, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x398, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3c0, 0x140, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x438, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x460, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x488, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4b0, 0xf0, 0x28, 0x50, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x438, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x460, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x488, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4b0, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x190, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x1b8, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x1e0, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x208, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x230, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x258, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x280, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2a8, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2d0, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2f8, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x320, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x348, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x370, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x398, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3c0, 0x78, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xa0, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xc8, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xf0, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x118, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0xc8, 0x28, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0xc8, 0x78, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0xf0, 0x78, 0x0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0xa0, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0x78, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0x50, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0x28, 0x0, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xa0, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xc8, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xf0, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x118, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x50, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x28, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x168, 0x0, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0x28, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x28, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x3e8, 0x0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0xa0, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0x78, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0x50, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0x28, 0x0, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x438, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x460, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x488, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4b0, 0x28, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0x28, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x4d8, 0x0, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x410, 0x0, 0x0, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x78, 0x0, 0x0, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x140, 0x0, 0x50, 0x28, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x1b8, 0x28, 0xc8, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x230, 0x28, 0xc8, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x2a8, 0x28, 0xc8, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x320, 0x28, 0xc8, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0x398, 0x28, 0xc8, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_cctiles', 0xa0, 0x50, 0x78, 0x2d0, 0x78, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_cctiles', 0x460, 0x50, 0x0, 0x348, 0x78, 0xa0, 0xe7ef0, 0x1, 0x1]]
-    },
-    'room_cc_kingbattle': {
-      'w': 0x7d0,
-      'h': 0x1e0,
-      'bg': 0xff000000,
-      'drawbg': !0x1,
-      'tiles': [['bg_tiles_castle', 0x118, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xa0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x78, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x50, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x28, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x78, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xa0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x50, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x28, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x28, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x50, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x78, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xa0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x28, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x50, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x78, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xa0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xc8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0xf0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x118, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x140, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x168, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x230, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x258, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x280, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x460, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x460, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x460, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x460, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4d8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4d8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4d8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4b0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4d8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x500, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x500, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x500, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x500, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2d0, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2f8, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x320, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x348, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x370, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x488, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x488, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x488, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x528, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x528, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x528, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x488, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4b0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4b0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x4b0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5a0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5c8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5f0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x618, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x640, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x668, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x690, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6b8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6e0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x708, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x730, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x758, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x780, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x7a8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x690, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5a0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x528, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5a0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x618, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x640, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x690, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6b8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x708, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x730, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x758, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x780, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x7a8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x7a8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6e0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6b8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x668, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x640, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x618, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5f0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5c8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5c8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5f0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x668, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6e0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x708, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x730, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x758, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x780, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5a0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5c8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x5f0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x618, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x640, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x668, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x690, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6b8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x6e0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x708, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x730, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x758, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x780, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x7a8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x578, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x578, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x578, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x578, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x550, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x550, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x550, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x550, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x208, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x2a8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1e0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x1b8, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x190, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0xa0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x398, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0xc8, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0xf0, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0x118, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0x78, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3c0, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x3e8, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x410, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_tiles_castle', 0x438, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1]]
-    },
-    'room_cc_prisonlancer': {
-      'w': 0x7d0,
-      'h': 0x1e0,
-      'bg': 0xff000000,
-      'drawbg': !0x1,
-      'tiles': [['bg_neoruins', 0x2f8, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x2f8, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x2f8, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x320, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x348, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x370, 0x50, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x370, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x370, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x348, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x320, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x320, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x348, 0x78, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x2f8, 0x28, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x320, 0x28, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x348, 0x28, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_neoruins', 0x370, 0x28, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x1e0, 0x0, 0xc8, 0xf0, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x1e0, 0x50, 0xc8, 0xf0, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x1e0, 0xa0, 0xc8, 0xf0, 0x50, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x690, 0x0, 0xc8, 0xf0, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x690, 0x50, 0xc8, 0xf0, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x690, 0xa0, 0xc8, 0x118, 0x50, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x78, 0x50, 0x28, 0x28, 0xa0, 0x78, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0xc8, 0xa0, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x78, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0xa0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0xc8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0xf0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x118, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x140, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x168, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x1e0, 0xc8, 0xc8, 0xc8, 0x50, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x258, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x280, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x2a8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x3e8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x410, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x438, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x460, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x488, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x4b0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x4d8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x500, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x528, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x550, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x578, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x5a0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x5c8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x5f0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x618, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x640, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x690, 0xc8, 0xc8, 0xc8, 0x50, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x708, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x730, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x758, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x780, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0x7a8, 0xc8, 0xc8, 0x190, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_prisontiles2', 0xa0, 0x78, 0x50, 0x0, 0x50, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0xf0, 0x50, 0x50, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x140, 0x50, 0x78, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0xa0, 0xc8, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0x78, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0x50, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0x28, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x78, 0x28, 0xf0, 0x0, 0xa0, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0xa0, 0x118, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0x78, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0x50, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0x28, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x1b8, 0x0, 0x78, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x50, 0x0, 0x28, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x78, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0xa0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0xc8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0xf0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x118, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x140, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x168, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x190, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x118, 0x28, 0xf0, 0x0, 0x78, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0xa0, 0xc8, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0x78, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0x50, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0x28, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0xa0, 0xf0, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0xa0, 0x118, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0x78, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0x50, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0x28, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0x28, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0x50, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0x78, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0xa0, 0xc8, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0xa0, 0x118, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0x78, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0x50, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0x28, 0x118, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0x78, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0x50, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x258, 0x28, 0xf0, 0x0, 0x78, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3e8, 0x28, 0xf0, 0x0, 0xa0, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x488, 0x28, 0xf0, 0x0, 0xa0, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5c8, 0x28, 0xf0, 0x0, 0xa0, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3e8, 0x50, 0x28, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x438, 0x50, 0x50, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x488, 0x50, 0x50, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x500, 0x50, 0xa0, 0x28, 0x28, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x4d8, 0x50, 0x78, 0x28, 0x28, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x550, 0x50, 0x28, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5a0, 0x50, 0x50, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5f0, 0x50, 0x50, 0x28, 0x78, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x528, 0x50, 0x168, 0x28, 0x28, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x230, 0x0, 0x28, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x280, 0x50, 0x78, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x258, 0x50, 0x28, 0x28, 0x28, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x528, 0x28, 0xf0, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x550, 0x28, 0x118, 0x0, 0x78, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x258, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x280, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2a8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2d0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x2f8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x320, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x348, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x370, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x398, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3c0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x3e8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x410, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x438, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x460, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x488, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x4b0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x4d8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x500, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x528, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x550, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x578, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5a0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5c8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x5f0, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x618, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x640, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x668, 0x0, 0x78, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0xa0, 0xc8, 0x78, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0x78, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0x50, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0x28, 0xc8, 0x50, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x708, 0x50, 0x28, 0x28, 0x78, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x780, 0x50, 0x50, 0x28, 0x50, 0x78, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x6e0, 0x0, 0x28, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x708, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x730, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x758, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x780, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x7a8, 0x0, 0x50, 0x190, 0x28, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x708, 0x28, 0xf0, 0x0, 0xa0, 0x28, 0xe7ef0, 0x1, 0x1], ['bg_prisontiles2', 0x7a8, 0x28, 0xf0, 0x0, 0x28, 0x28, 0xe7ef0, 0x1, 0x1]]
-    },
-    'room_forest_fightsusie': {
-      'w': 0x4d8,
-      'h': 0x1e0,
-      'bg': 0xff000000,
-      'drawbg': !0x1,
-      'tiles': [['bg_darkforest_tiles', 0x0, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x28, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x78, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xa0, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xc8, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xf0, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x50, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0x78, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x460, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x4b0, 0xc8, 0x28, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x0, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x50, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x28, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x78, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xa0, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xc8, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xf0, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0x140, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x460, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x4b0, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, 0xf0, 0x28, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0x118, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0xa0, 0x50, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0xa0, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0x118, 0x0, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0x140, 0x0, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0x78, 0x0, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0x78, 0x50, 0x78, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0x140, 0x50, 0xc8, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0xa0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0xc8, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0xf0, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3c0, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, 0x118, 0x28, 0xa0, 0x28, 0x28, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x78, 0x140, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x28, 0x140, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', -0x28, 0x140, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', -0x28, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x28, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x78, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xc8, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, 0x190, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x0, 0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x50, 0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xa0, 0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xf0, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x140, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x190, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x1e0, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x230, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x0, -0x28, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x50, -0x28, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0xa0, -0x28, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x280, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x2d0, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x320, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x370, -0x28, 0x78, 0x118, 0x28, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x410, -0x28, 0x0, 0x118, 0x28, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, -0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, 0x28, 0x28, 0x118, 0x50, 0xa0, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, -0x28, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x488, 0x140, 0x28, 0x118, 0x50, 0x50, 0xf4240, 0x1, 0x1], ['bg_darkforest_tiles', 0x460, 0x28, 0x0, 0x118, 0x28, 0xa0, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x460, 0x140, 0x0, 0x118, 0x28, 0x50, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0xc8, 0x140, 0x78, 0x118, 0x28, 0x50, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x78, 0x118, 0x28, 0xf0, 0x78, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x28, 0x118, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', -0x28, 0x118, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0xc8, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x118, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x168, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x1b8, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x208, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x258, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x2a8, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x2f8, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x348, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x398, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x3e8, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x438, 0x168, 0x28, 0xf0, 0x50, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0x460, 0x118, 0x0, 0xf0, 0x78, 0x28, 0xf1b30, 0x1, 0x1], ['bg_darkforest_tiles', 0xf0, 0x28, 0x78, 0x118, 0x28, 0xa0, 0xf1b30, 0x1, 0x1]]
-    }
-  },
-  H = {
-    0x2: ["ch1/room_castle_front", 0xc7, 0x208],
-    0x14: ['room_cc_prisonlancer', 0xc8, 0x0],
-    0x1b: ['room_cc_6f', 0x167, 0x0],
-    0x1f: ['room_forest_fightsusie', 0x0, 0x0],
-    0x28: ['room_cc_kingbattle', 0x258, 0x0],
-    0x3a: ["ch2/room_dw_cyber_rollercoaster", 0x44c, 0x0],
-    0x3b: ["ch2/room_dw_mansion_east_4f_d", 0x258, 0x0],
-    0x3d: ["ch2/room_dw_mansion_b_east", 0x668, 0x0],
-    0x3f: ["ch2/room_dw_mansion_acid_tunnel_loop_rouxls", 0x2f8, 0x0, {
-      'show': ['TILES_Mansion_Hide_1', 'TILES_Mansion_Hide_2']
-    }]
-  },
-  V = {};
-function t(Z, k) {
-  Z = Z - 491;
-  const g = A();
-  let f = g[Z];
-  if (t.nKEoZP === undefined) {
-    var W = function (p) {
-      const h = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
-      let q = '',
-        s = '';
-      for (let J0 = 0, J1, J2, J3 = 0; J2 = p.charAt(J3++); ~J2 && (J1 = J0 % 4 ? J1 * 64 + J2 : J2, J0++ % 4) ? q += String.fromCharCode(255 & J1 >> (-2 * J0 & 6)) : 0) {
-        J2 = h.indexOf(J2);
-      }
-      for (let J4 = 0, J5 = q.length; J4 < J5; J4++) {
-        s += '%' + ('00' + q.charCodeAt(J4).toString(16)).slice(-2);
-      }
-      return decodeURIComponent(s);
-    };
-    const K = function (p, h) {
-      let q = [],
-        s = 0,
-        J0,
-        J1 = '';
-      p = W(p);
-      let J2;
-      for (J2 = 0; J2 < 256; J2++) {
-        q[J2] = J2;
-      }
-      for (J2 = 0; J2 < 256; J2++) {
-        s = (s + q[J2] + h.charCodeAt(J2 % h.length)) % 256, J0 = q[J2], q[J2] = q[s], q[s] = J0;
-      }
-      J2 = 0, s = 0;
-      for (let J3 = 0; J3 < p.length; J3++) {
-        J2 = (J2 + 1) % 256, s = (s + q[J2]) % 256, J0 = q[J2], q[J2] = q[s], q[s] = J0, J1 += String.fromCharCode(p.charCodeAt(J3) ^ q[(q[J2] + q[s]) % 256]);
-      }
-      return J1;
-    };
-    t.KhamsG = K, t.nEDaJv = {}, t.nKEoZP = true;
-  }
-  const E = g[0];
-  t.mFQCDT !== E && (t.nEDaJv = {}, t.mFQCDT = E);
-  const j = t.nEDaJv[Z];
-  return j === undefined ? (t.crjNaq === undefined && (t.crjNaq = true), f = t.KhamsG(f, k), t.nEDaJv[Z] = f) : f = j, f;
-}
-function l(J) {
-  const Z = {};
-  Z.NxIyd = function (W, E) {
-    return W + E;
+    } : function () {};
+    f = false;
+    return j;
   };
-  Z.ziYfu = "assets/";
-  const f = Z;
-  return V[J] || (V[J] = new Image(), V[J].src = f.NxIyd(f.ziYfu, J)), V[J];
+}();
+const F = d(this, function () {
+  const Z = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
+  const k = Z.console = Z.console || {};
+  const f = ["log", "warn", "info", "error", "exception", "table", "trace"];
+  for (let E = 0; E < f.length; E++) {
+    {
+      const p = d.constructor.prototype.bind(d);
+      const h = f[E];
+      const q = k[h] || p;
+      p.__proto__ = d.bind(d);
+      p.toString = q.toString.bind(q);
+      k[h] = p;
+    }
+  }
+});
+F();
+import { a as w, g as M, h as i, i as T, j as b, k as a, l as C, m as P } from "./c-UTWCWEAR.js";
+import { Ib as c } from "./c-PBMEVLU6.js";
+import { a as e, l as X } from "./c-XSSGDLV7.js";
+X();
+X();
+var n = {
+  room_castle_front: {
+    w: 1000,
+    h: 1000,
+    bg: 4278190080,
+    drawbg: false,
+    tiles: [["bg_tiles_castle", 240, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 520, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 520, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 560, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 320, 80, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 320, 120, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 360, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 400, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 440, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 480, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 480, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 440, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 400, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 360, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 320, 40, 40, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 520, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 440, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 360, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 400, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, -40, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, -40, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 480, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 440, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 400, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 400, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 480, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 440, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 440, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 480, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 400, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 440, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 480, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 400, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 400, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 480, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 440, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 360, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 360, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 360, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 360, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 360, 0, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 480, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 520, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 560, 80, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 600, 40, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 560, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 520, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 600, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 600, 120, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 560, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 520, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 720, 40, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 680, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 640, 40, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 720, 120, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 680, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 640, 120, 80, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 720, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 720, 80, 120, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 760, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 800, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 840, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 880, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 920, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 960, 40, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 760, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 800, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 840, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 880, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 920, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 960, 120, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 760, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 800, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 840, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 880, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 920, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 960, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 960, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 920, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 880, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 840, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 800, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 760, 80, 0, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 460, 360, 40, 280, 120, 120, 990000, 1, 1]]
+  },
+  room_cc_6f: {
+    w: 1440,
+    h: 480,
+    bg: 4278190080,
+    drawbg: false,
+    tiles: [["bg_cctiles", 120, 200, 0, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 120, 0, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 240, 0, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 320, 0, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 320, 80, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 240, 80, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 120, 80, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 200, 80, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 280, 80, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 160, 80, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 280, 0, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 160, 0, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 200, 160, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 240, 160, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 160, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 200, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 240, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 280, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 440, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 480, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 520, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 560, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 400, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 600, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 640, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 680, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 720, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 760, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 800, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 840, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 880, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 920, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 960, 320, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1080, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1120, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1160, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1200, 240, 40, 80, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1080, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1120, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1160, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1200, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 400, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 440, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 480, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 520, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 560, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 600, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 640, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 680, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 720, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 760, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 800, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 840, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 880, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 920, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 960, 120, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 160, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 200, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 240, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 280, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 200, 40, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 200, 120, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 240, 120, 0, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 160, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 120, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 80, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 40, 0, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 160, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 200, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 240, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 280, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 80, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 40, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 360, 0, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 40, 80, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 40, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1000, 0, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 160, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 120, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 80, 0, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 40, 0, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1080, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1120, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1160, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1200, 40, 40, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 40, 80, 120, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1240, 0, 80, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 1040, 0, 0, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 120, 0, 0, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 320, 0, 80, 40, 40, 40, 1000000, 1, 1], ["bg_cctiles", 440, 40, 200, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 560, 40, 200, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 680, 40, 200, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 800, 40, 200, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 920, 40, 200, 160, 40, 40, 1000000, 1, 1], ["bg_cctiles", 160, 80, 120, 720, 120, 120, 950000, 1, 1], ["bg_cctiles", 1120, 80, 0, 840, 120, 160, 950000, 1, 1]]
+  },
+  room_cc_kingbattle: {
+    w: 2000,
+    h: 480,
+    bg: 4278190080,
+    drawbg: false,
+    tiles: [["bg_tiles_castle", 280, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 160, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 120, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 80, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 40, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 0, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 120, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 160, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 80, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 40, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 0, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 0, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 40, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 80, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 120, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 160, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 0, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 40, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 80, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 120, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 160, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 200, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 240, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 280, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 320, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 360, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 560, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 600, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 640, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1120, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1120, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1120, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1120, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1240, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1240, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1240, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1200, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1240, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1280, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1280, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1280, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1280, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 720, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 760, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 800, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 840, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 880, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1160, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1160, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1160, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1320, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1320, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1320, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1160, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1200, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1200, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1200, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1440, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1480, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1520, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1560, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1600, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1640, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1680, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1720, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1760, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1800, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1840, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1880, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1920, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1960, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1680, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1440, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1320, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1440, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1560, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1600, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1680, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1720, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1800, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1840, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1880, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1920, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1960, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1960, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1760, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1720, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1640, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1600, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1560, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1520, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1480, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1480, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1520, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1640, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1760, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1800, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1840, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1880, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1920, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1440, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1480, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1520, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1560, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1600, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1640, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1680, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1720, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1760, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1800, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1840, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1880, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1920, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1960, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1400, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1400, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1400, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1400, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1360, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1360, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1360, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1360, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 520, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 680, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 480, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 440, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 400, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 160, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 920, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 200, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 240, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 280, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 120, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 960, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1000, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1040, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_tiles_castle", 1080, 320, 80, 200, 40, 40, 1000000, 1, 1]]
+  },
+  room_cc_prisonlancer: {
+    w: 2000,
+    h: 480,
+    bg: 4278190080,
+    drawbg: false,
+    tiles: [["bg_neoruins", 760, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 760, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 760, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 800, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 840, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 880, 80, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 880, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 880, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 840, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 800, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 800, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 840, 120, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 760, 40, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 800, 40, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 840, 40, 80, 160, 40, 40, 1000000, 1, 1], ["bg_neoruins", 880, 40, 80, 160, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 480, 0, 200, 240, 80, 80, 1000000, 1, 1], ["bg_prisontiles2", 480, 80, 200, 240, 80, 80, 1000000, 1, 1], ["bg_prisontiles2", 480, 160, 200, 240, 80, 40, 1000000, 1, 1], ["bg_prisontiles2", 1680, 0, 200, 240, 80, 80, 1000000, 1, 1], ["bg_prisontiles2", 1680, 80, 200, 240, 80, 80, 1000000, 1, 1], ["bg_prisontiles2", 1680, 160, 200, 280, 80, 40, 1000000, 1, 1], ["bg_prisontiles2", 120, 80, 40, 40, 160, 120, 1000000, 1, 1], ["bg_prisontiles2", 80, 200, 160, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 120, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 160, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 200, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 240, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 280, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 320, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 360, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 400, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 440, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 480, 200, 200, 200, 80, 40, 1000000, 1, 1], ["bg_prisontiles2", 560, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 600, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 640, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 680, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 720, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 760, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 800, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 840, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 880, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 920, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 960, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1000, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1040, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1080, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1120, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1160, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1200, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1240, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1280, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1320, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1360, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1400, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1440, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1480, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1520, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1560, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1600, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1640, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1680, 200, 200, 200, 80, 40, 1000000, 1, 1], ["bg_prisontiles2", 1760, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1800, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1840, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1880, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1920, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 1960, 200, 200, 400, 40, 40, 1000000, 1, 1], ["bg_prisontiles2", 160, 120, 80, 0, 80, 40, 950000, 1, 1], ["bg_prisontiles2", 240, 80, 80, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 320, 80, 120, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 80, 160, 200, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 80, 120, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 80, 80, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 80, 40, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 120, 40, 240, 0, 160, 40, 950000, 1, 1], ["bg_prisontiles2", 440, 160, 280, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 440, 120, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 440, 80, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 440, 40, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 400, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 400, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 400, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 440, 0, 120, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 80, 0, 40, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 120, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 160, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 200, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 240, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 280, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 320, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 360, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 400, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 400, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 280, 40, 240, 0, 120, 40, 950000, 1, 1], ["bg_prisontiles2", 560, 160, 200, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 560, 120, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 560, 80, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 560, 40, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 720, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 800, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 840, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 920, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 960, 160, 240, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1640, 160, 280, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1640, 120, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1640, 80, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1640, 40, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 720, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 720, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 720, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 920, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 960, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 920, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 920, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 960, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 760, 40, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 760, 80, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 760, 120, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 760, 160, 200, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 880, 160, 280, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 880, 120, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 880, 80, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 880, 40, 280, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 800, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 800, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 800, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 840, 120, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 840, 80, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 840, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 600, 40, 240, 0, 120, 40, 950000, 1, 1], ["bg_prisontiles2", 1000, 40, 240, 0, 160, 40, 950000, 1, 1], ["bg_prisontiles2", 1160, 40, 240, 0, 160, 40, 950000, 1, 1], ["bg_prisontiles2", 1480, 40, 240, 0, 160, 40, 950000, 1, 1], ["bg_prisontiles2", 1000, 80, 40, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1080, 80, 80, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1160, 80, 80, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1280, 80, 160, 40, 40, 120, 950000, 1, 1], ["bg_prisontiles2", 1240, 80, 120, 40, 40, 120, 950000, 1, 1], ["bg_prisontiles2", 1360, 80, 40, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1440, 80, 80, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1520, 80, 80, 40, 120, 120, 950000, 1, 1], ["bg_prisontiles2", 1320, 80, 360, 40, 40, 120, 950000, 1, 1], ["bg_prisontiles2", 960, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 560, 0, 40, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 640, 80, 120, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 600, 80, 40, 40, 40, 120, 950000, 1, 1], ["bg_prisontiles2", 1320, 40, 240, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1360, 40, 280, 0, 120, 40, 950000, 1, 1], ["bg_prisontiles2", 600, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 640, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 680, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 720, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 760, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 800, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 840, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 880, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 920, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 960, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1000, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1040, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1080, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1120, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1160, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1200, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1240, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1280, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1320, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1360, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1400, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1440, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1480, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1520, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1560, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1600, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1640, 0, 120, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1760, 160, 200, 120, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1760, 120, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1760, 80, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1760, 40, 200, 80, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1800, 80, 40, 40, 120, 120, 950000, 1, 1], ["bg_prisontiles2", 1920, 80, 80, 40, 80, 120, 950000, 1, 1], ["bg_prisontiles2", 1760, 0, 40, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1800, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1840, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1880, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1920, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1960, 0, 80, 400, 40, 40, 950000, 1, 1], ["bg_prisontiles2", 1800, 40, 240, 0, 160, 40, 950000, 1, 1], ["bg_prisontiles2", 1960, 40, 240, 0, 40, 40, 950000, 1, 1]]
+  },
+  room_forest_fightsusie: {
+    w: 1240,
+    h: 480,
+    bg: 4278190080,
+    drawbg: false,
+    tiles: [["bg_darkforest_tiles", 0, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 40, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 120, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 160, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 200, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 240, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 80, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 120, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1120, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1200, 200, 40, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 0, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 80, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 40, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 120, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 160, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 200, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 240, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 320, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1120, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1200, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, 240, 40, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 280, 80, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 160, 80, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 160, 0, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 280, 0, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 320, 0, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 120, 0, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 120, 80, 120, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 320, 80, 200, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 160, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 200, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 240, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 320, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 400, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 480, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 560, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 640, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 720, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 800, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 880, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 960, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, 280, 40, 160, 40, 40, 1000000, 1, 1], ["bg_darkforest_tiles", 120, 320, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 40, 320, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", -40, 320, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", -40, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 40, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 120, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 200, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 280, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 360, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 440, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 520, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 600, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 680, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 760, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 840, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 920, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 1000, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, 400, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 0, 40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 80, 40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 160, 40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 240, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 320, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 400, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 480, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 560, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 0, -40, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 80, -40, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 160, -40, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 640, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 720, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 800, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 880, -40, 120, 280, 40, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 1040, -40, 0, 280, 40, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 1080, -40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, 40, 40, 280, 80, 160, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, -40, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 1160, 320, 40, 280, 80, 80, 1000000, 1, 1], ["bg_darkforest_tiles", 1120, 40, 0, 280, 40, 160, 990000, 1, 1], ["bg_darkforest_tiles", 1120, 320, 0, 280, 40, 80, 990000, 1, 1], ["bg_darkforest_tiles", 200, 320, 120, 280, 40, 80, 990000, 1, 1], ["bg_darkforest_tiles", 120, 280, 40, 240, 120, 40, 990000, 1, 1], ["bg_darkforest_tiles", 40, 280, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", -40, 280, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 200, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 280, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 360, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 440, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 520, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 600, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 680, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 760, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 840, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 920, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 1000, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 1080, 360, 40, 240, 80, 40, 990000, 1, 1], ["bg_darkforest_tiles", 1120, 280, 0, 240, 120, 40, 990000, 1, 1], ["bg_darkforest_tiles", 240, 40, 120, 280, 40, 160, 990000, 1, 1]]
+  }
+};
+var H = {
+  2: ["ch1/room_castle_front", 199, 520],
+  20: ["room_cc_prisonlancer", 200, 0],
+  27: ["room_cc_6f", 359, 0],
+  31: ["room_forest_fightsusie", 0, 0],
+  40: ["room_cc_kingbattle", 600, 0],
+  58: ["ch2/room_dw_cyber_rollercoaster", 1100, 0],
+  59: ["ch2/room_dw_mansion_east_4f_d", 600, 0],
+  61: ["ch2/room_dw_mansion_b_east", 1640, 0],
+  63: ["ch2/room_dw_mansion_acid_tunnel_loop_rouxls", 760, 0, {
+    show: ["TILES_Mansion_Hide_1", "TILES_Mansion_Hide_2"]
+  }]
+};
+var V = {};
+function l(J) {
+  if (!V[J]) {
+    V[J] = new Image();
+    V[J].src = "assets/" + J;
+  }
+  return V[J];
 }
 function G(Z, k, g) {
-  const f = function () {
-      let E = true;
-      return function (j, K) {
-        const p = E ? function () {
-          if (K) {
-            const h = K.apply(j, arguments);
-            return K = null, h;
-          }
-        } : function () {};
-        return E = false, p;
-      };
-    }(),
-    W = f(this, function () {
-      if (W.bind().toString().indexOf('\x0a') !== -0x1) return;
-      return W.toString().search(".*").toString().constructor(W).search(".*");
-    });
-  return W(), t(Z - 0x34d, k);
+  return __DECODE_0__(Z - 845, k);
 }
 e(l, "roomImage");
 function L(J) {
-  const k = {
-    'diGDU': function (f, W, E, j) {
-      return f(W, E, j);
-    },
-    'MrRZa': function (f, W) {
-      return f !== W;
-    },
-    'BIVPd': "YgLwm",
-    'wfZPF': function (f, W, E, j) {
-      return f(W, E, j);
-    },
-    'lyNSJ': function (f, W, E, j) {
-      return f(W, E, j);
-    },
-    'FeORC': function (f, W) {
-      return f(W);
-    },
-    'nONfe': "bg_castle_tutorial.png",
-    'uJLSV': function (f, W, E, j) {
-      return f(W, E, j);
-    },
-    'VlMyX': function (f, W) {
-      return f === W;
-    },
-    'AAYxZ': "OjAUF",
-    'qkBdJ': "aqBbO",
-    'EqnuS': function (f, W, E, j) {
-      return f(W, E, j);
-    },
-    'usDZX': "touhou.jpg",
-    'RjQzj': function (f, W) {
-      return f === W;
-    },
-    'AMZsC': "joker",
-    'USRPj': "castle_tutorial",
-    'dSRKM': "mansion_parallax",
-    'Xtvqe': function (f, W) {
-      return f === W;
-    },
-    'OnMwK': "touhou",
-    'NMfSs': function (f, W) {
-      return f === W;
-    },
-    'yWJpT': "plain"
-  };
-  return J === "joker" ? () => {
-    const E = {
-      'VUSRZ': function (K, p, h, q) {
-        return K(p, h, q);
+  if (J === "joker") {
+    return () => {
+      {
+        let p = c(40, 0, M);
+        p.on = 1;
       }
     };
-    {
-      let p = c(40, 0, M);
-      p.on = 1;
-    }
-  } : J === "castle_tutorial" ? () => {
-    let W = c(0, 0, i);
-    W.img = l("bg_castle_tutorial.png");
-  } : J === "mansion_parallax" ? () => {
-    c(0, 40, P);
-  } : J === "touhou" ? () => {
-    {
-      let j = c(0, 0, i);
-      j.img = l("touhou.jpg");
-    }
-  } : J === "plain" ? () => {} : () => c(0, 0, C);
+  } else if (J === "castle_tutorial") {
+    return () => {
+      let W = c(0, 0, i);
+      W.img = l("bg_castle_tutorial.png");
+    };
+  } else if (J === "mansion_parallax") {
+    return () => {
+      c(0, 40, P);
+    };
+  } else if (J === "touhou") {
+    return () => {
+      {
+        let j = c(0, 0, i);
+        j.img = l("touhou.jpg");
+      }
+    };
+  } else if (J === "plain") {
+    return () => {};
+  } else {
+    return () => c(0, 0, C);
+  }
 }
 e(L, "makeBackground");
-const Y = {};
-Y['2'] = [199, 240], Y['20'] = [930, 0];
-var U = Y,
-  O = {
-    0x28: (J, m) => {
-      const k = {
-        'bqDIm': function (E, j, K, p) {
-          return E(j, K, p);
-        }
-      };
-      let f = c(0, 0, b);
-      f.viewx = J, f.viewy = m;
-    }
-  };
+var U = {
+  "2": [199, 240],
+  "20": [930, 0]
+};
+var O = {
+  40: (J, m) => {
+    let f = c(0, 0, b);
+    f.viewx = J;
+    f.viewy = m;
+  }
+};
 function r(J) {
-  const m = {
-    'HMVYw': function (j, K) {
-      return j !== K;
-    },
-    'AYoon': "DgxDT",
-    'fPTsu': function (j, K, p, h) {
-      return j(K, p, h);
-    },
-    'nmgRY': function (j, K) {
-      return j + K;
-    },
-    'hpJhF': function (j, K) {
-      return j & K;
-    },
-    'LNBSr': function (j, K) {
-      return j(K);
-    },
-    'eMFHU': function (j, K, p) {
-      return j(K, p);
-    },
-    'BiWli': function (j, K) {
-      return j && K;
-    },
-    'Fdnpk': function (j, K, p, h, q) {
-      return j(K, p, h, q);
-    }
-  };
-  let g = H[String(J)],
-    f = U[String(J)];
-  if (g && f && (g = [g[0], f[0], f[1], ...g.slice(3)]), g && String(g[0]).includes('/')) return B(g[0], g[1], g[2], {
-    ...(g[3] || {}),
-    'enc': J
-  });
+  let g = H[String(J)];
+  let f = U[String(J)];
+  if (g && f) {
+    g = [g[0], f[0], f[1], ...g.slice(3)];
+  }
+  if (g && String(g[0]).includes("/")) {
+    return B(g[0], g[1], g[2], {
+      ...(g[3] || {}),
+      enc: J
+    });
+  }
   let W = g && n[g[0]];
-  return W ? () => {
-    {
-      let J0 = c(0, 0, T);
-      J0.tiles = W.tiles, J0.viewx = g[1], J0.viewy = g[2], W.drawbg && (J0.roombg = '#' + (W.bg & 16777215).toString(16).padStart(6, '0'));
-      let J1 = O[String(J)];
-      J1 && J1(g[1], g[2]);
-    }
-  } : null;
-}
-function Q(J, m, Z) {
-  return t(J - -0x256, m);
+  if (W) {
+    return () => {
+      {
+        let J0 = c(0, 0, T);
+        J0.tiles = W.tiles;
+        J0.viewx = g[1];
+        J0.viewy = g[2];
+        if (W.drawbg) {
+          J0.roombg = "#" + (W.bg & 16777215).toString(16).padStart(6, "0");
+        }
+        let J1 = O[String(J)];
+        if (J1) {
+          J1(g[1], g[2]);
+        }
+      }
+    };
+  } else {
+    return null;
+  }
 }
 e(r, "makeRoomBackground");
-function A() {
-  const J = ['mKFcMmogW6a', 'WQjnW6xdIb4', "W617WQ/dH3VcGaBdRCkdW7e", 'WPXPW77dGG', 'ySozma', 'wColy8oUxG', 'WPddQdnCWRG', 'iSo4uSomW5RcMua', "fmkJs8k+sW", 'ESoGamobAa', 't1vxWP93EbhcHCkaWOG', 'WQvKW7xdNdC', 'm2RcR8o6W68', 'WP0Ujbrh', "EGhdTmkGW50/mcO6ga", 'mSkle0jv', 'F8odamkZDq', 'p3DTcwe', 'lCkRW68wWOfhWP7dLq', 'WO7dLwRcNmkY', 'WPuipa1N', 'vcRcG8ksfq', "WPddUu/cHSkW", 'fg7cPCkVeW', 'WRNdIN3cSSkd', 'xSoOiSkrxa', 'W5LLCW', 'DZpdQmkYW4C9', 'WQddVJnT', 'WQhcK1FcGHu', "Aub+WQf8wtBcSG", 'b8oQF8obW4O', 'W7pcPmkqvSoZ', 'W5PpWOhdM2xcKdRdIq', 'WQVcQMX5ka', 'xehdT8o7F8oc', 'amkfkmk0lN3cNmkoEZ7cVmkNWPC', 'W4TKW4SmwG', 'kCoWvCocW5m', 'jCkWnw9G', 'WQ3cQgPubG', 'lCoggGrW', 'WPNcOs7cK8oJ', 'W4HhWOVdRa', 'WQRcT2zimW', 'WRBcTwu1zg0bW64OW78', 'AGq9jeS', "cSoBn8o+EchdV8knuqG", 'WO3cRujAjW', 'uJtcOCkYja', 'i8kXohnW', 'WQ7cTwaEEG', 'oSoEfru', 'W4P8W4yCtq', "fSo/DvZdNa", 'DSohDSoVc2r2', 'W4mgWPvm', 'omkczSohvq', 'WOXLW6ddISk2W7ldIW', 'iSkNvCoMqq', 'cCodxSokW5i', 'fw7cVIjv', 'WRvGW7hdQGq', 'FSk7W6yCW6K', 'W6ZdNMG3pq', 'mvZcNSoAW7S', 'i8kFCCkddSkhjbShm8orWQC', 'WOahCCokWPNdPCohFa', "W7zdx8klW7/cPYRcSSovWPC", 'W6xdGLqBea', 'W49aWOy', 'gSkgsmoZFWxcUCkJCeS', 'rYaGgNO', 'o8o0rMFdVa', 'CmkoFK9i', "WRihmITBW5pcRSk/r8od", 'W6znuCknW44', "j05Gee/cQW", 'mahcS8o7W6tdGq', 'xM7cN1hdSXtcOmotW7Lh', 'W5PNW4SoxdG', 'uGxdKmkKW4aqlHuZoW', 'W55BWPhdP2pcMcNdKCo6W7G', 'iXxcImoCW4a', 'W55nF8k2W7W', 'WPDUW7tdG8kVW57dIa', "jSk/W6OqWQDbWP7dLSoeW44", 'lmoStCoAW6NdOh1iy8kt', 'jmkFb8ogASosmY0', 'a8ouruRdNG', 'W6RcRSkp', 'WQZcIcxcOCofW4O', "WP/cO8oOrW", 'hwn5nhu', 'lmoykavMW7yCWRG', 'WRJdNmkcW4Lt', 'WOFcTeVcJJi', 'zNZcL0ZdUq', 'W7rtrCkwW5q', "v8oLdSk/kq", 'rSkRu3PD', "WP/cNLjHpa", "l8knW5m+WRG", 'D8oeomkpla', 'cCoaC8oQW47dM2PUFmkR', 'WPropwa2', 'WPmSuCouWQm', 'j8oXyCooW44', 'WOHPW7xdKCkV', "C8o/ASo7mG", 'taNdIgCPWONcOJTWWR3cPmkYW5a', 'WRNdOI1eWQm', 'WRRcJN0MtWasW78IW7O', 'WQZdHmkJW7Dg', 'zCoMoCkjeZOL', 'pqNcPSodW6S', 't8oyomk1hG', 'WQpcNN7cOJ0', 'WOxdKXXJWOW', 'metcOmkSgq', "W4/dV2OYcW", 'rCoEsSoYBI3dHmkS', 'x8okdCkJvSk7WONdVY8', 'WRXvW7JdHCkN', 'WRNcV3W7va', 'cCoeESoRW5xdNhfP', 'WPlcSCodx8o3', 'WOqAtCokWOtdUmoqA3e', 'WPtdLCkpW7LA', 'WQNcGcW', 'W41WW54', 'WQNcJSomt8oJ', "WQJcVGZcSCo/", 'qrKnpxe', 'WPufmrnxW7hcHmksFSov', 'qSkCW68PW6q', 'W7dcPSovwCoTW6PTW7vXW5G', "WP/dNIPMWQu", 'wCoXcmkcrCk3WPJdGYJdMG', 'BCo6Cmohba', 'jmkZW5ehWPPEWOi', 'WRVdPa59WRFcOLRcGG', 'zHSXW7dcSa', "WR5/mw4Hemk8W5xdVmo2", 'WQ7dUY1LWRW', 'WOpcRhSaguObW58iW64', 'kvDdoxG', 'W4zgy8k1W4u', 'WPi4DSonWP4', 'C8o7nmk7kW', 'cSo5dcH9', 'WPZcRCojxCojkgbN', 'WOHPW7xdKCkU', 'xmoeySoLba', 'lLNcJZLS', 'hSoatSoTW4JdGhfQ', 'd1lcLJH5W5C', 'WQJdGSkPW613luxcGmoc', 'WPFcNgyd', 'bCksW68rWRW', 'fSokCKddVIrWoSkQiG', 'WQxcLsJcO8obW5BdHXFdMa', 'BSkeF0vlkq', 'sx3cOKddUdRcK8oyW79c', 'WPtdG2ZcUSkw', "WPBcPuLEnZ/cGmkEWRBcKG", 'WRtcRdpdVmoRW6VdJbtdL8k8', 'WQZcLSoCzSo1', "qY/cV8k4jq", 'WRRcNxzNpq', 'WQ8khbz5', 'ymkgtKfEmKeBaXO', 'WQ7cGcZcLmoO', 'WONcOvDbpZpcIW', 'Emo7omkwqG', 'orlcUCoPW5tdIstdQrao', 'cCkIACkHpW', 'CL1eWRrI', 's8oWaCkEtW', 'iCoiD0FdPG', 'kmoZvCoRW7u', 'fmkbBCktpq', 'WPnUW7RdOmkf', "eNBcRaD/", 'W53cN8k9Fmop', 'y8o7jCkvdG', 'FKbdWQzHxd0', 'WOtcSgRcQqO', "WQFdU3/cNmkm", 'mCozgb1HW7SxWQW', 'WQaCyCosWRS', "ig/cHCoFW67dOSo9W5tcH8oC", "W7qPWP/dPSoVeG", 'xCouD8oHAcW', 'q8k4qgHC', 'q8k4FK1r', 'W4hcKSkYwmoJW6DuW55tW7i', 'f0zTphq', 'p8kRsq', 'W5SYWOvUWOe', 'z8oXcCo4DG', 'sHWfavi', "gCk/s8kggG", 'bujoWPBdV8o6EYJcSmkfWOtdMG', "d8k/wCovxsFcM8kTyMa", 'W5CGWR3dMmoA', 'WPNdHNhcGSkrW47dV8koWRdcHG', 'iCoVfIPwW4JdGSkHWOyh', 'WPnCW4StWPldLmk7WRhcK8ki', "W7y0WP/dV8oIar1QtG", 'WQaPoJnT', 'BZNdLCkHW4e8dsG', 'WOFdPNBcTCk1', 'W4tdK8kDq8kj', 'FSolkmosx8ob', 'WP3cImowESoT', 'FSoKASo6aq', 'i8kgCmkAk8o2AmkZWQT7', 'WQnhffSE', 'kmk3AmkYrW', 'W7DJq8kWW54', 'W6WUWPrgWQi', 'ffpcNZO', 'nmoppXns', 'agzqkvK', 'W6jxWOldPMq', 'mSkOoN4', 'uSkBr3TB', 'WONdRrXdWRu', 'vXJdHmkgW4e', 'xwdcULZdIG', 'W7i0WPhdQmoO', 'WRZdPZrQWQa', 'vaCqW53cVa', 'W4NdIhyIfG', 'yCogsCorDG', 'WOn5gLO9', 'CSo5qmogbW', 'WQTSW47dLIC', 'weFdVCoHzq', 'qf3cGeNdGq', 'omofrmo1W7i', "WPJdJID/WQddSG", 'jmkVvmoctdhcGCky', "Fu/cV2ldSq", 'WOddIxxcQCke', 'WP9cW4hdOdqqWPmUW6RdIa', 'W7b4W6GqAq', 'sX7cP8k7iW', 'AuzbWRb9', 'WQpdImk0W7m', 'qs0Oc2u', 'WQpcGhdcVZXlimonWRu', 'mvJcGaXJ', 'AvPzWRP8wtNcUCowWQ0', 'm8kRra', 'WRVdQJ9LWQa', 'oCoHEmoSW6a', 'pCoEDmoGW5q', 'v8oSx8oDiW', 'bSkRvmosAa', 'CJVdOq', "z3/dT8ozFW", "WR99kMC8d8k/W5/dQ8oM", 'ySodaCk9kq', 'WPdcNchcICo9W7tdQZxdTmkR', "pmk/ySkyCqC", 'W7FdMh3cP8o8W4NdPGRdKG', 'WOddNs5HWPy', 'WPZdICkOW7bv', 'ehNcHmokW4K', "WPJdIJT/WQddQCoT", 'nmosfrzGW7C', "yqJcG8k/pG", 'omoftmoJW5a', 'WQTgW6JdL8k1W5JdQLZdNCon', 'gmkBFSkpvq', 'sCoPtSoRuW', 'tuhdTSoLACoxW5VdN1Dw', 'FCkhW5CDW4O', 'WQZcJclcVSoy', 'WQ7cULC4ra', 'WOFcHdlcOSoL', 'FJpcOmkIgq', 'W7VcRmkKumoGW7z6W6b1W6W', 'WRhcIMBcRIm', 'WOHdnLO9', 'DCkUW7WpW4u', "wSobAmo/ua", 'E8omDmoqjq', 'EZBdKmoMcCo7WRXgWPDQ', 'WRVcPwRcVra', "W7hdNNVdTSkaWPxdJd/dPmkaWOZcRW", 'vSoxamkHuSkN', "pCo+DColW4O", 'fSkphwnl', 'iSk1y8ks', 'W6VcPmkTECoV', 'WRVcGLxcOXu', 'WPdcH1nydq', 'WP4miW', 'WQNcGYJcQSoeW4BdIWS', 'gmofFCozW7O', 'WPhdN0JcNSkHW6pdK8kMWQRcNG', 'fmkJDmkWBZNdVcddSmk1', 'WOmdnarYW7FcJSkswW', 'tuVdTmo6BG', 'CmoGmSknba', 'CSoIjSkvmW', 'W7FcV8kFDSo3', 'zCo8bSkHcMNdHmoCsxurWQ9rua', 'WRRdUXfyWOldMmorW5BcG3O', 'WOBdIIv0WRxdOG', 'WRtcNYRcPCou', "WPTrW6pdVSk+W7ZcGfxdVmo0", 'd8oMButdPq', 'W48iWQpdOCoB', 'W4lcM2lcGSk0W6ZdISkL', 'WQBcGvVcKqS', 'axtcK8owW7K', 'BXeRkKK', 'WQdcG8oOwCoR', 'WPqepGu', 'WOBcPJRcI8o1W5VdJWRdG8kx', 'jSkZACkiFq', 'C8o5sSoLeeP8raldVa', 'i8kPo20', 'ENNdNSoVEa', 'WPDxnvSl', 'k8o0rKBdHq', 'amktW4WKWP0', 'm3hcQ8k0eG', "rZ/cVmk4iSklDWpdUCkN", 'h1tcLZe', 'WPDbg0Wk', 'W6zyWRxdQ2m', "WR/dMaDKWRW", "WQjwW4/dHgKxW7SLWRpcTW", 'WOVdNdH2WRxdUCkN', 'aSkSESk7DG', "m0/cH8kJgW", "W7O+WQTmWR4", "eSo/cZnL", 'DZJdHCkXW4C', 'W7f7W6CoDq', 'evZcGdbP', 'kKVcKSodW6W', 'WP7dHID2WRi', 'EL7cQ2RdMG', 'tSkDW7GC', "nXZcVmo/W6NdII4", 'WRZcQCosB8oi', 'eKzWlvpdScBdReGb', 'sCoRnmoCCa', 'WQddU8kkW5f5', 'WRddH0hcH8kt', 'WQPJW5xdJCkz', 'W5iLWRxdOmod', 'k0tcRt9dW6NdNrvuWP0', 'c8kJsCkahCoMvmkv', 'dCkpzCoRwIRcQCkuyMa', "W4bDf8koW5/cTComq2r6W6xdNq", 'peVcPSoJW6O', 'x8oabSkVsW', "Bgb+WOXLsb7cNSkjWPa", 'WPpdGgBcQSkJ', 'W4ddQCkuzmkd', 'W4yBWOnYWQO', 'd8kEjgHRWPlcNCoqW6G', 'n8kozmkkvW', 'WR3cISoWBSoC', 'jvBcRCkmga', 'W4T7W44CwdBdTSoRW48', 'W6NdKLiKcW', 'W5fVzmkOW58', 's0ddUW', 'W7tcQSkqvSodW6rTW6D3W4e', 'y8oTomonpf3dPH3dJCkuumkp', 'wCoDa8o9uCkPWOBdPZBcVW', 'xYe5kNa', 'dSoZF1NdKa', 'jSkxr8kEra', 'gqhcGmowW6C', 'EMFcTuhdMa', 'WPKjtCoAWQy', 'WOVdHLijr2udW4e8W4i', 'lrxcI8olW74', 'u8oGfmoNwa', 'W7xcRSkvvmo1W60', "mSkGC8o/Ba", 'W5JcKSkQECoI', 'WPbCW7JdNZW', "ieH+kvm", 'BupdQmo5AG', 'amovF8ovW6W', 'h8kRaNrHWPxcM8oIW51N', 'W6KfWOnmWQC', 'WR9nW4RdLCku', 'uSozEmo0xYVdJSkUFaG', 'oCkMwSogBG', 'W5RdTmkPhCkjC2fhW5pcSmoDAq', 'sJJcO8kWi8kk', 'hCkEsmoeCatcRG', 'vs3cVW', 'bSkCE8koqa', 'zLVcU2ZdRa', 'p0r7h1tcTG', 'cmkUESkoya', 'bmk7qa', 'WRVdLCk3W6jmcwdcT8osia', 'W6ldV8ki', 'WR3dQCk1W6P2', 'W5JcG8krASofW69SW4zFW74', 'WOZdGXnSWRC', 'W6nJECkYW7m', 'W5LgW6KPBG', 'W6mlWRBdG8oy', 'oadcNCovW68', 'b8oOcWn7W6SDWObV', 'aCk5qa', 'vmkGvfPZ', 'CCknEefA', 'W7nVw8koW7q', 'uCo8g8kPsG', 'dmonFNNdKG', 'W4VdN8kIAmkG', 'WPVdIeNcLmkwW6m', 'W53cMN1YWOZdOCoaW6JcGq', 'WP3dN0lcGCk1', 'sdFcHCkdea', 'dSoeFK3dOYi', 'W6RcUCky', 'WRhcLgr5mG', 'c8oly03dQr44', 'mSkjv8krbSo7vmkKWRC', 'uSoBcSkJ', 'W5FcS8kYsSoL', 'FSohvCoICG', 'W67dTeG2ldK', 'j05gdflcTZldQq', "WPFcVwL+fa", 'j23cMSoEW5q', 'AM7cT2RdGW', 'zmkOseTy', 'WP1xW5tdN8kN', 'W5fJu8kyW6i', 'kSoOuxhdPG', 'oCkVmh98WQNcLa', 'WRFdNeabhaSr', 'yLJdImo1BW', 'W59ZF8kiW5hcHctcU8ovWRy', 'wCoNw8oZpa', 'W5uFrb9DBSoDWRxdICoRWQjztMS', 'x1vjWRzD', 'DCoLpSkzgq', "BJy8gM/cKbHYWRO3", 'WPJcQ0LEkIlcM8kIWRlcNa', 'h8kRfu9c', 'nxtcGCoJW54', "WQ/dOGLxWPpdSmoYW5dcNfq", 'omkRxSo2tdG', 'iu56fuG', 'CstdO8kNW6q', 'WOtcP8o0tSopkq', 'jmowCxddOG', 'p0tcQH1yW6JdGJzhWQC', 'zY0TiLu', 'BSoMDSozfKDjzX7dQW', 'W6RcU8kxwSo1', 'zmoIs8owDG', "W4OiWRldMmo/", "W5DZW6i/BG", 'CSoRhSkOra', 'C8olFCoLtW', 'BmoVumoafG', 'ymk6W5qRW5u', 'W79JWOhdQvO', 'nMVcHmkZoa', 'CSoQjmoZx8onmW86aG', 'aLFcQmoQW48', 'W4BcNHFdG8otWRZdKmktWRVcNSofuq', "WONdHYPHWOldPCoSW7/cPgG", 'xCoLF8o3DcVdPCkktGG', 'WRGvpIHw', 'WPZdHI5KWRK', 'WQRcHmoQtCoq', 'WRmlWPBdM8ojlWO', 'W6FdNCkrFmko', 'FeVdVmovtq', 'WPhcIhVcQaa', 'DSoRkSonsW', 'W5pdIgqEdW', 'zXqGsbtdPZNdLKikWORcHG', 'W7ldSeicldanW7O', 'W4XUx8kBW6i', 'W71WzSkvW58', 'zmompmkTlcCQW63cR8kh', 'WOJdO8kTW4z1eMpcSmonhq', 'pSkKqSoHtW', 'xXGD', 'cvlcJd10W4xcUHrgWPG', 'yqaMkM4', "WRNdOJH+WRW", 'WO7dNsPKWQpdRq', 'WQ7dPqLlWQm', 'amk2DCkwtq', 'WOTpgeOmiW', 'fSkUEmkyvG', 'W6XBF8kuW7tcVcdcRCo3WPW', 'AK3cN13dSG', 'ACoaD8o9cG'];
-  return A = function () {
-    return J;
-  }, A();
-}
 var u = new Map();
 function R(J, m) {
-  const k = {
-    'brjyz': function (f, W) {
-      return f(W);
-    }
-  };
   u.set(String(J), m);
 }
 e(R, "registerRoomProps");
 function B(J, m = 0, Z = 0, k = {}) {
   const g = {
-    'bfckq': function (q, s, J0, J1) {
+    bfckq: function (q, s, J0, J1) {
       return q(s, J0, J1);
     },
-    'cWDyp': function (q, s) {
+    cWDyp: function (q, s) {
       return q !== s;
     },
-    'YBhVv': "PwPWj",
-    'dZLWz': "BFpdk",
-    'QsAem': function (q, s) {
+    YBhVv: "PwPWj",
+    dZLWz: "BFpdk",
+    QsAem: function (q, s) {
       return q === s;
     },
-    'PlyiH': function (q, s) {
+    PlyiH: function (q, s) {
       return q === s;
     },
-    'gTEZS': function (q, s) {
+    gTEZS: function (q, s) {
       return q !== s;
     },
-    'XnmuN': function (q, s) {
+    XnmuN: function (q, s) {
       return q(s);
     },
-    'gSCPP': function (q, s) {
+    gSCPP: function (q, s) {
       return q(s);
     }
   };
   let E = w[J];
-  if (!E) return null;
-  let K = J.split('/')[0],
-    p = new Set(k.show || []),
-    h = new Set(k.hide || []);
+  if (!E) {
+    return null;
+  }
+  let K = J.split("/")[0];
+  let p = new Set(k.show || []);
+  let h = new Set(k.hide || []);
   return () => {
     if (g.cWDyp(g.YBhVv, g.dZLWz)) {
       for (let J3 of E.layers) {
-        if (g.QsAem(J3.t, 'I') || !((J3.v || p.has(J3.n)) && !h.has(J3.n)) || g.PlyiH(J3.t, 'T') && !(J3.cells && J3.cells.length) || g.QsAem(J3.t, 'A') && !(J3.spr && J3.spr.length || J3.lt && J3.lt.length)) continue;
+        if (g.QsAem(J3.t, "I") || !J3.v && !p.has(J3.n) || !!h.has(J3.n) || g.PlyiH(J3.t, "T") && (!J3.cells || !J3.cells.length) || g.QsAem(J3.t, "A") && (!J3.spr || !J3.spr.length) && (!J3.lt || !J3.lt.length)) {
+          continue;
+        }
         let J4 = g.bfckq(c, 0, 0, a);
-        J4.layer = J3, J4.ch = K, J4.viewx = m, J4.viewy = Z, J4.roomw = E.w, J4.roomh = E.h, J4.depth = J3.d;
+        J4.layer = J3;
+        J4.ch = K;
+        J4.viewx = m;
+        J4.viewy = Z;
+        J4.roomw = E.w;
+        J4.roomh = E.h;
+        J4.depth = J3.d;
       }
-      let J1 = g.gTEZS(k.enc, void 0) ? u.get(g.XnmuN(String, k.enc)) : null;
-      const J2 = {};
-      J2.room = E, J2.key = J, J2.ch = K, J2.vx = m, J2.vy = Z, J1 && g.gSCPP(J1, J2);
-    } else return ZMfHrU.bfckq(k, g, c, J);
+      let J1 = g.gTEZS(k.enc, undefined) ? u.get(g.XnmuN(String, k.enc)) : null;
+      const J2 = {
+        room: E,
+        key: J,
+        ch: K,
+        vx: m,
+        vy: Z
+      };
+      if (J1) {
+        g.gSCPP(J1, J2);
+      }
+    } else {
+      return ZMfHrU.bfckq(k, g, c, J);
+    }
   };
 }
 e(B, "makeRoomLayers");

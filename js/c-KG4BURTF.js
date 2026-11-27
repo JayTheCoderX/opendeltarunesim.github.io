@@ -1,542 +1,526 @@
-var K = function () {
-    var n = true;
-    return function (G, k) {
-      var u = n ? function () {
-        if (k) {
-          var D = k.apply(G, arguments);
-          return k = null, D;
-        }
-      } : function () {};
-      return n = false, u;
-    };
-  }(),
-  y = K(this, function () {
-    if (y.bind().toString().indexOf('\x0a') !== -0x1) return;
-    return y.toString().search(".*").toString().constructor(y).search(".*");
-  });
-y();
-import { _F as d } from './c-E335QRCA.js';
-import { Ma as H } from './c-NHPC5UGW.js';
-import './c-IXEDCLR4.js';
-import './c-O567UJ4Y.js';
-import './c-UTWCWEAR.js';
-import './c-QFDZPUX2.js';
-import './c-VWTE3AY2.js';
-import { Sh as S } from './c-PWNRTD7X.js';
-import './c-DTW63MWW.js';
-import './c-HUDNK55W.js';
-import './c-IKEEXWRQ.js';
-import './c-SUMRYW3E.js';
-import './c-3ELH3LBH.js';
-import './c-OYFOJ3BV.js';
-import './c-MYK6C3LF.js';
-import './c-E7FVSW52.js';
-import './c-ZQQWH6UG.js';
-import './c-PBMEVLU6.js';
-import { a as W, l } from './c-XSSGDLV7.js';
+import { _F as d } from "./c-E335QRCA.js";
+import { Ma as H } from "./c-NHPC5UGW.js";
+import "./c-IXEDCLR4.js";
+import "./c-O567UJ4Y.js";
+import "./c-UTWCWEAR.js";
+import "./c-QFDZPUX2.js";
+import "./c-VWTE3AY2.js";
+import { Sh as S } from "./c-PWNRTD7X.js";
+import "./c-DTW63MWW.js";
+import "./c-HUDNK55W.js";
+import "./c-IKEEXWRQ.js";
+import "./c-SUMRYW3E.js";
+import "./c-3ELH3LBH.js";
+import "./c-OYFOJ3BV.js";
+import "./c-MYK6C3LF.js";
+import "./c-E7FVSW52.js";
+import "./c-ZQQWH6UG.js";
+import "./c-PBMEVLU6.js";
+import { a as W, l } from "./c-XSSGDLV7.js";
 l();
 var {
-    AR: L,
-    FIRST: U,
-    SETALL: I
-  } = S,
-  O = new Proxy({}, {
-    'get': W((n, G) => d[G] || H[G], 'get')
-  }),
-  e = {
-    'name': 'room_board_postshadowmantle',
-    'w': 0x280,
-    'h': 0x1e0,
-    'color': 0x0,
-    'drawColor': !0x1,
-    'speed': 0x0,
-    'views': [{
-      'x': 0x0,
-      'y': 0x0,
-      'w': 0x280,
-      'h': 0x1e0,
-      'follow': null,
-      'bx': 0x0,
-      'by': 0x0
+  AR: L,
+  FIRST: U,
+  SETALL: I
+} = S;
+var O = new Proxy({}, {
+  get: W((n, G) => d[G] || H[G], "get")
+});
+var e = {
+  name: "room_board_postshadowmantle",
+  w: 640,
+  h: 480,
+  color: 0,
+  drawColor: false,
+  speed: 0,
+  views: [{
+    x: 0,
+    y: 0,
+    w: 640,
+    h: 480,
+    follow: null,
+    bx: 0,
+    by: 0
+  }],
+  rcc: null,
+  layers: [{
+    name: "BoardAreaReferences",
+    type: "Assets",
+    depth: 0,
+    visible: true,
+    x: 0,
+    y: 0,
+    hs: 0,
+    vs: 0,
+    sprites: [{
+      spr: "spr_whitepixel",
+      x: 128,
+      y: 64,
+      xs: 384,
+      ys: 256,
+      color: 0,
+      alpha: 0.1255,
+      frame: 0,
+      speed: 1,
+      rot: 0,
+      id: "graphic_62DBDC26_1_1_1"
     }],
-    'rcc': null,
-    'layers': [{
-      'name': 'BoardAreaReferences',
-      'type': 'Assets',
-      'depth': 0x0,
-      'visible': !0x0,
-      'x': 0x0,
-      'y': 0x0,
-      'hs': 0x0,
-      'vs': 0x0,
-      'sprites': [{
-        'spr': 'spr_whitepixel',
-        'x': 0x80,
-        'y': 0x40,
-        'xs': 0x180,
-        'ys': 0x100,
-        'color': 0x0,
-        'alpha': 0.1255,
-        'frame': 0x0,
-        'speed': 0x1,
-        'rot': 0x0,
-        'id': 'graphic_62DBDC26_1_1_1'
-      }],
-      'instances': []
+    instances: []
+  }, {
+    name: "GAMESHOW_Instances",
+    type: "Instances",
+    depth: 100,
+    visible: true,
+    x: 0,
+    y: 0,
+    hs: 0,
+    vs: 0,
+    instances: [{
+      obj: "obj_gameshow_swordroute",
+      x: -64,
+      y: 0,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103886,
+      pre: null,
+      cc: null
     }, {
-      'name': 'GAMESHOW_Instances',
-      'type': 'Instances',
-      'depth': 0x64,
-      'visible': !0x0,
-      'x': 0x0,
-      'y': 0x0,
-      'hs': 0x0,
-      'vs': 0x0,
-      'instances': [{
-        'obj': 'obj_gameshow_swordroute',
-        'x': -0x40,
-        'y': 0x0,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195ce,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': 0x0,
-        'y': 0x179,
-        'xs': 16.2,
-        'ys': 2.6,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195cf,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': 0xe0,
-        'y': 0xde,
-        'xs': 8.8,
-        'ys': 3.15,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d0,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': -0x8,
-        'y': -0xa,
-        'xs': 4.2,
-        'ys': 8.95,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d1,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': 0x80,
-        'y': 0x0,
-        'xs': 13.35,
-        'ys': 4.8,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d2,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': 0x266,
-        'y': 0xc0,
-        'xs': 0x1,
-        'ys': 3.9,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d3,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_bpush2_stucktrigger',
-        'x': 0xa0,
-        'y': 0x40,
-        'xs': 0x16,
-        'ys': 17.75,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d4,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_solidblocksized',
-        'x': -0x8,
-        'y': 0x157,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d5,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_treasure_room',
-        'x': 0xb0,
-        'y': 0x80,
-        'xs': 0x2,
-        'ys': 0x2,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d6,
-        'pre': null,
-        'cc': W(function () {
-          this.sprite_index = 'spr_board_chest', this.depth = 0xf422c;
-        }, 'cc')
-      }, {
-        'obj': 'obj_doorAny',
-        'x': 0x27a,
-        'y': 0x158,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d7,
-        'pre': W(function () {
-          this.doorRoom = 'room_dw_console_room';
-        }, 'pre'),
-        'cc': null
-      }]
+      obj: "obj_solidblocksized",
+      x: 0,
+      y: 377,
+      xs: 16.2,
+      ys: 2.6,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103887,
+      pre: null,
+      cc: null
     }, {
-      'name': 'BOARD_Instances',
-      'type': 'Instances',
-      'depth': 0xdbba0,
-      'visible': !0x0,
-      'x': 0x0,
-      'y': 0x0,
-      'hs': 0x0,
-      'vs': 0x0,
-      'instances': [{
-        'obj': 'obj_darkcontroller',
-        'x': -0x20,
-        'y': 0x0,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d8,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_controller',
-        'x': -0x20,
-        'y': 0x60,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195d9,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_camera',
-        'x': -0x20,
-        'y': 0x80,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195da,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_mainchara',
-        'x': -0xe0,
-        'y': 0xc0,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195db,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_mainchara_board',
-        'x': 0xb0,
-        'y': 0x120,
-        'xs': 0x2,
-        'ys': 0x2,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195dc,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0xe0,
-        'y': 0xe0,
-        'xs': 0xb,
-        'ys': 4.28125,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195dd,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0xa0,
-        'y': 0x140,
-        'xs': 0x2,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xaaaaaa,
-        'alpha': 0x1,
-        'id': 0x195de,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0xa0,
-        'y': 0x0,
-        'xs': 0xf,
-        'ys': 0x6,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195df,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0x260,
-        'y': 0x20,
-        'xs': 0x1,
-        'ys': 0xa,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e0,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0x0,
-        'y': 0x179,
-        'xs': 0x14,
-        'ys': 3.25,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e1,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_solid',
-        'x': 0x0,
-        'y': 0x0,
-        'xs': 0x5,
-        'ys': 0xb,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e2,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_swordroute_event_leavescreen',
-        'x': 0x80,
-        'y': 0x160,
-        'xs': 0x1,
-        'ys': 0x1,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e3,
-        'pre': null,
-        'cc': null
-      }, {
-        'obj': 'obj_board_trigger',
-        'x': 0x21e,
-        'y': 0xc0,
-        'xs': 0x2,
-        'ys': 0x2,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e4,
-        'pre': W(function () {
-          this.extflag = '1';
-        }, 'pre'),
-        'cc': null
-      }, {
-        'obj': 'obj_board_trigger',
-        'x': 0x240,
-        'y': 0x100,
-        'xs': 0x2,
-        'ys': 0x2,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e5,
-        'pre': W(function () {
-          this.extflag = '2';
-        }, 'pre'),
-        'cc': null
-      }, {
-        'obj': 'obj_board_trigger',
-        'x': 0x240,
-        'y': 0x173,
-        'xs': 0x2,
-        'ys': 0.4,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e6,
-        'pre': W(function () {
-          this.extflag = '3';
-        }, 'pre'),
-        'cc': null
-      }, {
-        'obj': 'obj_board_trigger',
-        'x': 0x260,
-        'y': 0x15f,
-        'xs': 0x2,
-        'ys': 1.65,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e7,
-        'pre': W(function () {
-          this.extflag = '3';
-        }, 'pre'),
-        'cc': null
-      }, {
-        'obj': 'obj_board_npc',
-        'x': 0xb0,
-        'y': 0xa0,
-        'xs': 0x2,
-        'ys': 0x2,
-        'rot': 0x0,
-        'frame': 0x0,
-        'speed': 0x1,
-        'color': 0xffffff,
-        'alpha': 0x1,
-        'id': 0x195e8,
-        'pre': null,
-        'cc': null
-      }]
+      obj: "obj_solidblocksized",
+      x: 224,
+      y: 222,
+      xs: 8.8,
+      ys: 3.15,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103888,
+      pre: null,
+      cc: null
     }, {
-      'name': 'BOARD_Tiles',
-      'type': 'Tiles',
-      'depth': 0xf4240,
-      'visible': !0x0,
-      'x': 0x0,
-      'y': 0x0,
-      'hs': 0x0,
-      'vs': 0x0,
-      'tileset': {
-        'bg': 'bg_board_adventure_tileset',
-        'tw': 0x20,
-        'th': 0x20,
-        'bx': 0x2,
-        'by': 0x2,
-        'cols': 0x1e
-      },
-      'tilesX': 0x14,
-      'tilesY': 0xf,
-      'data': [[0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x160, 0x160, 0x160, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x161, 0x161, 0x160, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x161, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x161, 0x161, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x160, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x161, 0x161, 0x160, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x160, 0x161, 0x163, 0x160, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x195, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0], [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0]],
-      'instances': []
+      obj: "obj_solidblocksized",
+      x: -8,
+      y: -10,
+      xs: 4.2,
+      ys: 8.95,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103889,
+      pre: null,
+      cc: null
     }, {
-      'name': 'Compatibility_Colour',
-      'type': 'Background',
-      'depth': 0x7fffffd0,
-      'visible': !0x0,
-      'x': 0x0,
-      'y': 0x0,
-      'hs': 0x0,
-      'vs': 0x0,
-      'bg': {
-        'spr': null,
-        'visible': !0x0,
-        'fore': !0x1,
-        'htile': !0x1,
-        'vtile': !0x1,
-        'stretch': !0x1,
-        'color': 0x666666,
-        'alpha': 0x1,
-        'frame': 0x0,
-        'speed': 0xf
-      },
-      'instances': []
+      obj: "obj_solidblocksized",
+      x: 128,
+      y: 0,
+      xs: 13.35,
+      ys: 4.8,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103890,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_solidblocksized",
+      x: 614,
+      y: 192,
+      xs: 1,
+      ys: 3.9,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103891,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_bpush2_stucktrigger",
+      x: 160,
+      y: 64,
+      xs: 22,
+      ys: 17.75,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103892,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_solidblocksized",
+      x: -8,
+      y: 343,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103893,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_treasure_room",
+      x: 176,
+      y: 128,
+      xs: 2,
+      ys: 2,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103894,
+      pre: null,
+      cc: W(function () {
+        this.sprite_index = "spr_board_chest";
+        this.depth = 999980;
+      }, "cc")
+    }, {
+      obj: "obj_doorAny",
+      x: 634,
+      y: 344,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103895,
+      pre: W(function () {
+        this.doorRoom = "room_dw_console_room";
+      }, "pre"),
+      cc: null
     }]
-  };
-e.ginst = [0x195db, 0x195d8, 0x195da, 0x195dc, 0x195ce, 0x195dd, 0x195de, 0x195df, 0x195e0, 0x195e1, 0x195e2, 0x195e3, 0x195e4, 0x195d9, 0x195d6, 0x195e5, 0x195e6, 0x195cf, 0x195d0, 0x195d1, 0x195d2, 0x195d3, 0x195d4, 0x195d5, 0x195e7, 0x195e8, 0x195d7];
+  }, {
+    name: "BOARD_Instances",
+    type: "Instances",
+    depth: 900000,
+    visible: true,
+    x: 0,
+    y: 0,
+    hs: 0,
+    vs: 0,
+    instances: [{
+      obj: "obj_darkcontroller",
+      x: -32,
+      y: 0,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103896,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_controller",
+      x: -32,
+      y: 96,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103897,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_camera",
+      x: -32,
+      y: 128,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103898,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_mainchara",
+      x: -224,
+      y: 192,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103899,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_mainchara_board",
+      x: 176,
+      y: 288,
+      xs: 2,
+      ys: 2,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103900,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 224,
+      y: 224,
+      xs: 11,
+      ys: 4.28125,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103901,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 160,
+      y: 320,
+      xs: 2,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 11184810,
+      alpha: 1,
+      id: 103902,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 160,
+      y: 0,
+      xs: 15,
+      ys: 6,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103903,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 608,
+      y: 32,
+      xs: 1,
+      ys: 10,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103904,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 0,
+      y: 377,
+      xs: 20,
+      ys: 3.25,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103905,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_solid",
+      x: 0,
+      y: 0,
+      xs: 5,
+      ys: 11,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103906,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_swordroute_event_leavescreen",
+      x: 128,
+      y: 352,
+      xs: 1,
+      ys: 1,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103907,
+      pre: null,
+      cc: null
+    }, {
+      obj: "obj_board_trigger",
+      x: 542,
+      y: 192,
+      xs: 2,
+      ys: 2,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103908,
+      pre: W(function () {
+        this.extflag = "1";
+      }, "pre"),
+      cc: null
+    }, {
+      obj: "obj_board_trigger",
+      x: 576,
+      y: 256,
+      xs: 2,
+      ys: 2,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103909,
+      pre: W(function () {
+        this.extflag = "2";
+      }, "pre"),
+      cc: null
+    }, {
+      obj: "obj_board_trigger",
+      x: 576,
+      y: 371,
+      xs: 2,
+      ys: 0.4,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103910,
+      pre: W(function () {
+        this.extflag = "3";
+      }, "pre"),
+      cc: null
+    }, {
+      obj: "obj_board_trigger",
+      x: 608,
+      y: 351,
+      xs: 2,
+      ys: 1.65,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103911,
+      pre: W(function () {
+        this.extflag = "3";
+      }, "pre"),
+      cc: null
+    }, {
+      obj: "obj_board_npc",
+      x: 176,
+      y: 160,
+      xs: 2,
+      ys: 2,
+      rot: 0,
+      frame: 0,
+      speed: 1,
+      color: 16777215,
+      alpha: 1,
+      id: 103912,
+      pre: null,
+      cc: null
+    }]
+  }, {
+    name: "BOARD_Tiles",
+    type: "Tiles",
+    depth: 1000000,
+    visible: true,
+    x: 0,
+    y: 0,
+    hs: 0,
+    vs: 0,
+    tileset: {
+      bg: "bg_board_adventure_tileset",
+      tw: 32,
+      th: 32,
+      bx: 2,
+      by: 2,
+      cols: 30
+    },
+    tilesX: 20,
+    tilesY: 15,
+    data: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 352, 352, 352, 352, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 352, 353, 353, 352, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 352, 352, 352, 352, 352, 352, 352, 352, 352, 352, 352, 352, 0, 0, 0, 0], [0, 0, 0, 0, 352, 353, 353, 353, 353, 353, 353, 353, 353, 353, 353, 353, 0, 0, 0, 0], [0, 0, 0, 0, 352, 353, 353, 352, 352, 352, 352, 352, 352, 352, 352, 352, 0, 0, 0, 0], [0, 0, 0, 0, 352, 353, 353, 352, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 352, 353, 355, 352, 405, 405, 405, 405, 405, 405, 405, 405, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    instances: []
+  }, {
+    name: "Compatibility_Colour",
+    type: "Background",
+    depth: 2147483600,
+    visible: true,
+    x: 0,
+    y: 0,
+    hs: 0,
+    vs: 0,
+    bg: {
+      spr: null,
+      visible: true,
+      fore: false,
+      htile: false,
+      vtile: false,
+      stretch: false,
+      color: 6710886,
+      alpha: 1,
+      frame: 0,
+      speed: 15
+    },
+    instances: []
+  }]
+};
+e.ginst = [103899, 103896, 103898, 103900, 103886, 103901, 103902, 103903, 103904, 103905, 103906, 103907, 103908, 103897, 103894, 103909, 103910, 103887, 103888, 103889, 103890, 103891, 103892, 103893, 103911, 103912, 103895];
 export { e as ROOM };

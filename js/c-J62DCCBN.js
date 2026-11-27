@@ -1,33 +1,16 @@
-var z = function () {
-    var Z = true;
-    return function (Y, Q) {
-      var s = Z ? function () {
-        if (Q) {
-          var J = Q.apply(Y, arguments);
-          return Q = null, J;
-        }
-      } : function () {};
-      return Z = false, s;
-    };
-  }(),
-  X = z(this, function () {
-    if (X.bind().toString().indexOf('\x0a') !== -0x1) return;
-    return X.toString().search(".*").toString().constructor(X).search(".*");
-  });
-X();
-import { a, b, c, d, e, f, g, h, i, j, k, l, m, n } from './c-E3FAV6Z4.js';
-import './c-O567UJ4Y.js';
-import './c-QFDZPUX2.js';
-import './c-VWTE3AY2.js';
-import './c-PWNRTD7X.js';
-import './c-DTW63MWW.js';
-import './c-HUDNK55W.js';
-import './c-IKEEXWRQ.js';
-import './c-SUMRYW3E.js';
-import './c-3ELH3LBH.js';
-import './c-OYFOJ3BV.js';
-import './c-MYK6C3LF.js';
-import './c-ZQQWH6UG.js';
-import './c-PBMEVLU6.js';
-import './c-XSSGDLV7.js';
+import { a, b, c, d, e, f, g, h, i, j, k, l, m, n } from "./c-E3FAV6Z4.js";
+import "./c-O567UJ4Y.js";
+import "./c-QFDZPUX2.js";
+import "./c-VWTE3AY2.js";
+import "./c-PWNRTD7X.js";
+import "./c-DTW63MWW.js";
+import "./c-HUDNK55W.js";
+import "./c-IKEEXWRQ.js";
+import "./c-SUMRYW3E.js";
+import "./c-3ELH3LBH.js";
+import "./c-OYFOJ3BV.js";
+import "./c-MYK6C3LF.js";
+import "./c-ZQQWH6UG.js";
+import "./c-PBMEVLU6.js";
+import "./c-XSSGDLV7.js";
 export { n as FIGHTS, b as SOUNDS, a as SPRITES, h as obj_defeatanim, m as obj_hathyfightevent, l as obj_headhathy, f as obj_heartblcon, k as obj_heartenemy, j as obj_heartshaper, g as obj_spareanim, i as obj_spinheart, d as setupHathyStats, e as setupHeadHathyStats, c as setupStats };
